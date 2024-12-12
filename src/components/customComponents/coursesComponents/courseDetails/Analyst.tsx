@@ -1,8 +1,12 @@
-"use client"
+
+
+
+
+"use client";
 
 import { useState } from "react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { BriefcaseIcon } from "lucide-react";
 import ChartComponent from "./ChartComponent"; // Assuming the chart component is in the same folder
 
@@ -21,10 +25,29 @@ const data: Record<string, TabData> = {
     demand: 45,
   },
   scientist: {
-    salary: { label: "Max (15L)", values: [1500, 3000, 160] },
+    salary: { label: "Max (15L)", values: [1500, 3000, 1600] },
     companies: ["Zoho", "Wipro", "TCS", "Syfe", "Searce", "Deloitte", "Redhat", "PwC"],
     demand: 55,
   },
+};
+
+// Mapping for company logos
+const companyLogos: Record<string, string> = {
+  Citibank: "/assets/companyLogo/citibank.png",
+  Dell: "/assets/companyLogo/dell.png",
+  Deloitte: "/assets/companyLogo/deloitte.png",
+  Google: "/assets/companyLogo/google.png",
+  IBM: "/assets/companyLogo/ibm.png",
+  Infosys: "/assets/companyLogo/infosys.png",
+  Intel: "/assets/companyLogo/intel.png",
+  JPMorgan: "/assets/companyLogo/jpmorgan.png",
+  Zoho: "/assets/companyLogo/zoho.png",
+  Wipro: "/assets/companyLogo/wipro.png",
+  TCS: "/assets/companyLogo/tcs.png",
+  Syfe: "/assets/companyLogo/syfe.png",
+  Searce: "/assets/companyLogo/searce.png",
+  Redhat: "/assets/companyLogo/redhat.png",
+  PwC: "/assets/companyLogo/pwc.png",
 };
 
 const Analyst: React.FC = () => {
@@ -34,7 +57,6 @@ const Analyst: React.FC = () => {
   // Get the corresponding data for the active tab
   const { salary, companies, demand } = data[activeTab];
 
-  // Format data for chart (salary data, companies, demand)
   const chartData = {
     salaryData: salary.values,
     companiesData: companies,
@@ -96,57 +118,56 @@ const Analyst: React.FC = () => {
         {/* Main Content */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Salary Chart */}
-          <Card className="p-6 sm:p-6 h-72">
-            <h3 className="font-semibold mb-6 text-base sm:text-lg">
-              Annual Average Salaries
-            </h3>
-            <div className="space-y-4">
+          <Card className="h-72">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">
+              Average Salaries
+            </span>
+            <div className="space-y-4 p-4">
               <div className="text-xs sm:text-sm text-gray-600">
                 No. of Learners
               </div>
               <div className="relative sm:h-64">
                 {/* Bar Chart for Salary */}
-                <ChartComponent data={chartData.salaryData} label={salary.label}  />
+                <ChartComponent data={chartData.salaryData} label={salary.label} />
               </div>
-              {/* <div className="text-xs sm:text-sm text-gray-600 mt-4 sm:mt-8">Salary</div> */}
             </div>
           </Card>
 
           {/* Companies */}
-          <Card className="p-4 sm:p-6 h-72">
-            <h3 className="font-semibold mb-6 text-base sm:text-lg">Top Companies Hiring</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-6">
-              {companies.map((company) => (
-                <img
-                  key={company}
-                  src={`/assets/landingPage/companyLogo/${company}.png`}
-                  alt={company}
-                  className="h-6 sm:h-8 object-contain"
-                />
-              ))}
+          <Card className="h-72">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">Companies Hiring</span>
+            <div className="grid grid-cols-2 p-4 sm:grid-cols-3 gap-4 pt-10  sm:gap-6">
+              {companies.map((company) => {
+                const logoPath = companyLogos[company];
+                return (
+                  <img
+                    key={company}
+                    src={logoPath.toString()}
+                    alt={company}
+                    className="h-6 sm:h-8 object-contain "
+                  />
+                );
+              })}
             </div>
           </Card>
 
           {/* Demand */}
           <div className="flex flex-col space-y-2">
             <Card className="p-4 sm:p-6 h-40 sm:h-48 md:h-72">
-              
               <CardContent className="flex flex-col items-center text-center justify-center h-full">
-              <div className="bg-red-50 rounded-full p-4">
-                    <BriefcaseIcon className="w-10 h-10 sm:w-12 sm:h-12 text-red-500" />
-                  </div>
+                <div className="bg-red-50 rounded-full p-4">
+                  <BriefcaseIcon className="w-10 h-10 sm:w-12 sm:h-12 text-red-500" />
+                </div>
                 <div className="text-center">
-                  
                   <div className="text-3xl sm:text-4xl font-bold">{demand}%</div>
                   <p className="text-xs sm:text-sm text-gray-600">
-                    Year-On-Year<br />
+                    Year-On-Year
+                    <br />
                     Growth in Job Postings
                   </p>
                 </div>
               </CardContent>
             </Card>
-
-        
           </div>
         </div>
 
@@ -159,6 +180,6 @@ const Analyst: React.FC = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Analyst;

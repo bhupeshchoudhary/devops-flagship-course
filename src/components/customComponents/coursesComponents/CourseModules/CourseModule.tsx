@@ -14,8 +14,8 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className="min-h-screen bg-[#003B28] p-6">
-      <div className="mx-auto max-w-6xl">
+    <div className=" bg-gray-800 p-6">
+      <div className="mx-auto max-w-5xl">
         <div className="relative mb-6">
           {/* <div className="absolute -left-3 -top-3 flex h-12 w-12 items-center justify-center bg-emerald-500">
             <span className="text-xl font-bold text-white">1</span>
@@ -28,14 +28,14 @@ export default function CourseCurriculumModule() {
               </p>
             </div>
             <Badge variant="secondary" className="h-6">
-              3 Months
+              6 Months
             </Badge>
           </div>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-[300px,1fr]">
+        <div className="grid gap-6 md:grid-cols-[300px,1fr] ">
           <Card className="bg-white">
-            <ScrollArea className="h-[500px]">
+            <ScrollArea className="h-[400px]">
               {modules.map((module) => (
                 <button
                   key={module.id}

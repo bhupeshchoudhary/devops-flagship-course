@@ -14,7 +14,6 @@ import Projects from "@/components/customComponents/coursesComponents/courseDeta
 import ExampleCard2 from "@/components/customComponents/coursesComponents/courseDetails/ExampleCard2";
 import ProgramHighlights from "@/components/customComponents/coursesComponents/courseDetails/ProgramHighlights";
 import MentorProfile from "@/components/customComponents/coursesComponents/courseDetails/Mentor";
-import WhoisthisProgramFor from "@/components/customComponents/coursesComponents/courseDetails/WhoisthisProgramFor";
 import KeyOutcomes from "@/components/customComponents/coursesComponents/courseDetails/KeyOutcomes";
 import CourseTestimonials from "@/components/customComponents/coursesComponents/courseDetails/CourseTestimonials"
 import CoursePricingSection from "@/components/customComponents/coursesComponents/courseDetails/CoursePricingSection";
@@ -26,6 +25,8 @@ import CertificateCarousel from "@/components/customComponents/coursesComponents
 import PlacementProgramCard from "@/components/customComponents/coursesComponents/courseDetails/PlacementProgramCard";
 import DevOpsCourseOverview from "@/components/customComponents/coursesComponents/courseDetails/DevopsCourseOverview";
 import CourseCurriculumModule from "@/components/customComponents/coursesComponents/CourseModules/CourseModule";
+import MentorFeatured from "@/components/customComponents/coursesComponents/courseDetails/MentorFeatured";
+import CompaniesCarousel from "@/components/customComponents/coursesComponents/courseDetails/CompaniesCarousel";
 const CourseDetail = ()=>{
     const params = useParams ();
     const {pid}  = params;
@@ -35,6 +36,8 @@ const CourseDetail = ()=>{
         <Navbar />
 
         <CourseDetailHero></CourseDetailHero>
+        <CompaniesCarousel/>
+        
         <PlacementProgramCard />
         <CertificateCarousel />
         <CareerTransformation />
@@ -45,7 +48,7 @@ const CourseDetail = ()=>{
      <Tools></Tools> 
      <Projects></Projects>
      <MentorProfile></MentorProfile>
-     <WhoisthisProgramFor></WhoisthisProgramFor>
+     
      <Analyst></Analyst>
      <Faq></Faq>
      <CardStack></CardStack>
