@@ -4,19 +4,19 @@ import { Card } from "@/components/ui/card";
 const ProgramHighlights = () => {
   const highlights = [
     {
-      number: "10+",
+      number: "15+",
       description: "Modules"
     },
     {
-      number: "40+",
+      number: "300+",
       description: "Hours of learning"
     },
     {
-      number: "10+",
+      number: "15+",
       description: "Programming Tools"
     },
     {
-        number:"15+",
+        number:"10+",
         description:"Capstone Projects"
     }
   ];

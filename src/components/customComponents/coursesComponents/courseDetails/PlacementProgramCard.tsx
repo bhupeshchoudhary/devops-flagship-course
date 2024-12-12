@@ -1,60 +1,53 @@
-import React from 'react';
-import { Button } from "@/components/ui/button";
-import { Badge } from '@/components/ui/badge';
-import { Card, CardContent, CardTitle, CardDescription } from '@/components/ui/card';
+"use client"
 
-const PlacementProgramCard: React.FC = () => {
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+import { Check } from 'lucide-react'
+import CourseBanner4 from "../../../../../public/assets/cources/Course-banner4.jpg"
+
+export default function PlacementGuaranteeProgram() {
   return (
-    <div className="flex justify-center items-center py-10">
-      <Card className="w-full md:w-1/2 bg-white shadow-lg rounded-xl overflow-hidden">
-        <CardContent className="flex flex-col p-6">
-          <div className="flex items-center mb-4">
-            <img
-              src="https://example.com/logo.png"
-              alt="Placement Program"
-              className="w-24 h-24 object-cover"
-            />
-            <div className="ml-4">
-              <h2 className="text-xl font-semibold text-gray-800">Placement Guarantee Program</h2>
-              <p className="text-sm text-gray-600">Full Stack Development - MERN Stack</p>
+    <div className="w-full bg-white py-12 max-w-5xl mx-auto">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-bold text-gray-900 mb-8">Placement Guarantee Program</h2>
+        
+        <div className="flex flex-col lg:flex-row gap-8">
+          <Card className="flex-1 bg-[#070736] text-white overflow-hidden">
+            <div className="p-6">
+             
+              
+              <div className="relative w-full h-48 ">
+                <Image
+                  src={CourseBanner4}
+                  alt="Full Stack Development Illustration"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </div>
-          </div> 
-          <CardTitle className="text-lg font-semibold mb-2">Key Features:</CardTitle>
-          <div className="space-y-2">
-            <div className="flex items-center">
-              <Badge variant="outline" color="green" className="mr-2" />
-              <span className="text-sm text-gray-700">CTC upto 25 LPA</span>
-            </div>
-            <div className="flex items-center">
-              <Badge variant="outline" color="green" className="mr-2" />
-              <span className="text-sm text-gray-700">Direct access to our 6000+ partner companies</span>
-            </div>
-            <div className="flex items-center">
-              <Badge variant="outline" color="green" className="mr-2" />
-              <span className="text-sm text-gray-700">200+ hrs of learning</span>
-            </div>
-            <div className="flex items-center">
-              <Badge variant="outline" color="red" className="mr-2" />
-              <span className="text-sm text-gray-700">Daily LIVE Mentor Interaction</span>
-            </div>
-            <div className="flex items-center">
-              <Badge variant="outline" color="green" className="mr-2" />
-              <span className="text-sm text-gray-700">DSA + Interview Prep + Resume building</span>
-            </div>
-          </div>
-          <Button
-            // variant="solid"
-            color="blue"
-            size="lg"
-            className="mt-6 self-center"
-            onClick={() => window.location.href = '/details'}
-          >
-            View Details
-          </Button>
-        </CardContent>
-      </Card>
-    </div>
-  );
-};
+          </Card>
 
-export default PlacementProgramCard;
+          <div className="flex-1 space-y-6 ml-10 font-semibold">
+            {[
+              "CTC upto 25 LPA",
+              "Direct access to our 6000 + partner companies",
+              "200+ hrs of learning",
+              "Daily LIVE Mentor Interaction",
+              "DSA + Interview Prep + Resume building"
+            ].map((feature, index) => (
+              <div key={index} className="flex items-center space-x-3">
+                <Check className="h-5 w-5 text-green-500" />
+                <span className="text-gray-700">{feature}</span>
+              </div>
+            ))}
+            <Button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6">
+              View Details
+            </Button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+

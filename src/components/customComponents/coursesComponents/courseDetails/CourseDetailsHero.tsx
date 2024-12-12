@@ -11,22 +11,15 @@ const CourseDetailHero = ()=>{
 
     return (
         <>
-<div className="container mx-auto bg-gray-50 p-6 max-w-7xl px-6 lg:px-8">
+        <div className="bg-gray-50"></div>
+<div className="container mx-auto  p-6 max-w-7xl px-6 lg:px-8">
       <Card className="max-w-6xl mx-auto rounded-[32px] overflow-hidden shadow-lg">
         <CardContent className="p-0">
           <div className="flex flex-col md:flex-row">
             {/* Left Column - Program Information */}
             <div className="flex-1 p-12">
               {/* Share Button */}
-              {/* <div className="flex justify-end mb-8">
-                <Button 
-                  variant="ghost" 
-                  size="icon"
-                  className="hover:bg-transparent"
-                >
-                  <Share className="h-6 w-6 text-gray-600" />
-                </Button>
-              </div> */}
+        
 
               {/* Title Section */}
               <div className="mb-12">

@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Share } from "lucide-react";
 import CourseDetailHero from "@/components/customComponents/coursesComponents/courseDetails/CourseDetailsHero";
 import Tools from "@/components/customComponents/coursesComponents/Tools"
-import Analyst from "@/components/customComponents/coursesComponents/Analyst";
+import Analyst from "@/components/customComponents/coursesComponents/courseDetails/Analyst";
 import Faq from "@/components/customComponents/coursesComponents/Faq";
 import ExampleCard from "@/components/customComponents/coursesComponents/courseDetails/ExampleCard";
 import CardStack from "@/components/customComponents/coursesComponents/CardStack";
@@ -24,6 +24,7 @@ import Footer from "@/components/customComponents/Footer";
 import CareerTransformation from "@/components/customComponents/coursesComponents/courseDetails/CareerTransformation";
 import CertificateCarousel from "@/components/customComponents/coursesComponents/courseDetails/CertificateCarousel";
 import PlacementProgramCard from "@/components/customComponents/coursesComponents/courseDetails/PlacementProgramCard";
+import DevOpsCourseOverview from "@/components/customComponents/coursesComponents/courseDetails/DevopsCourseOverview";
 
 const CourseDetail = ()=>{
     const params = useParams ();
@@ -38,6 +39,7 @@ const CourseDetail = ()=>{
         <CertificateCarousel />
         <CareerTransformation />
         <ProgramHighlights></ProgramHighlights>
+        <DevOpsCourseOverview />
      <Tools></Tools> 
      <Projects></Projects>
      <MentorProfile></MentorProfile>
