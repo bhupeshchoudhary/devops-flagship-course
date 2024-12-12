@@ -9,36 +9,70 @@ import TCS from "../../../../../public/assets/companyLogo/tcs.png";
 
 const peopleData = [
   {
-    name: "Kishore PS",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHXkuvnF5Zm7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724997745281?e=1736380800&v=beta&t=tvAlORqrjV22gAuI7g_OrtINGRbGnNQXkCUegqFyPow",
+    name: "Anmol Roop Rai",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQGQcSKFn4S8QQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698426492355?e=1739404800&v=beta&t=3Sw7zO6e1a_hzbNmxyrKB8pR6EYl1hfx24jeWQ7UEjI",
     testimonial:
-      "Grateful for StarAgile's transformative training, which not only helped me acquire essential skills but also played a decisive role in securing a job tailored to my career aspirations.",
+      "Till now, my journey with ARTH and LW has been awesome and, it is still going on. I got to know about Vimal sir and LW through my friend and that day and this day there is a huge upward curve in my technical knowledge & passion for learning new technologies and integrating them which boosts my confidence and through ARTH and INIT platform I got DevOps internship with all that knowledge and sir blessings. Thanks a lot to Vimal Sir, Preeti mam, and the whole LinuxWorld Team for providing such great opportunities. ",
     hike: "85% Hike",
-    beforeRole: "Automation Engineer",
+    beforeRole: "Arya College of Engineering and IT",
     beforeLogo: TCS,
-    afterRole: "DevSecOps Engineer",
+    afterRole: "DevOps Intern",
     afterLogo: Redhat,
   },
   {
-    name: "Kishore",
+    name: "Disha Bajaj",
     image: "https://media.licdn.com/dms/image/v2/D4D03AQHXkuvnF5Zm7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724997745281?e=1736380800&v=beta&t=tvAlORqrjV22gAuI7g_OrtINGRbGnNQXkCUegqFyPow",
     testimonial:
-      "Grateful for StarAgile's transformative training, which not only helped me acquire essential skills but also played a decisive role in securing a job tailored to my career aspirations.",
+      "Before ARTH, I had applied for several internships through my college's Internship drive but never got selected by any of the companies. Finally, I got two offers in March as I brushed up my technical skills and worked on my resume and presentation skills through the many workshops provided by ARTH. Today, my confidence has grown, and do not shy away from working with new technologies, which has become my USP.",
     hike: "85% Hike",
-    beforeRole: "Automation Engineer",
+    beforeRole: "Dr. Vishwanath Karad MIT World Peace University Pune",
     beforeLogo: TCS,
-    afterRole: "DevSecOps Engineer",
+    afterRole: "Cloud DevOps and React Intern",
     afterLogo: Redhat,
   },
   {
-    name: "Kishore PS",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHXkuvnF5Zm7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724997745281?e=1736380800&v=beta&t=tvAlORqrjV22gAuI7g_OrtINGRbGnNQXkCUegqFyPow",
+    name: "Chetna",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQHwuLc1BHCq8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725440239539?e=1739404800&v=beta&t=v2LC7PCyLPOT3g5qRrU0jOFTX9MWt1kiQJOeNTFcWFo",
     testimonial:
-      "Grateful for StarAgile's transformative training, which not only helped me acquire essential skills but also played a decisive role in securing a job tailored to my career aspirations.",
+      "Being a part of ARTH transformed me entirely. I learned so many industry trending technologies that I ha only heard about and gained quality practical exposure. My interest in Automation technologies grew, and this was all thanks to Vimal Sir. I was actually enjoying working with technologies.",
     hike: "85% Hike",
-    beforeRole: "Automation Engineer",
+    beforeRole: "IGNOU, NEW DELHI",
     beforeLogo: TCS,
-    afterRole: "DevSecOps Engineer",
+    afterRole: "Quality Engineer Intern",
+    afterLogo: Redhat,
+  },
+  {
+    name: "Harishankar Dubey",
+    image: "https://media.licdn.com/dms/image/v2/D4D35AQHj5Xn6AH4Otg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1733389351846?e=1734616800&v=beta&t=zYrN6sURG-m5zISgMD6CZBZGOTL0qYMWX2JPqt-M3e0",
+    testimonial:
+      "Learning from Vimal sir, I understood that it doesn't matter if you have zero knowledge about the subject but with dedication, determination, and perseverance, we can achieve whatever we aim for. Similarly, I started learning and working on the task given by Vimal Sir. In those tasks, I failed multiple times. Every time I failed I learned something new and then my creativity developed in the topics I learned. Now I am much more confident and I am ready to face any issue, sooner or later, I'll surely find its solution..",
+    hike: "85% Hike",
+    beforeRole: "RTM Nagpur University",
+    beforeLogo: TCS,
+    afterRole: "DevOps Engineer ",
+    afterLogo: Redhat,
+  },
+
+  {
+    name: "Pankaj Kumar Sharma", 
+    image: "https://media.licdn.com/dms/image/v2/C5103AQFNrakAM4hGZg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517238637504?e=1739404800&v=beta&t=JucvTVGyo-TDH6Xk2oJ8-F1C1SgqBkNccDntFbbHEY4",
+    testimonial:
+      "Linux World is not just an organization, it's a family having head Preeti Ma'am and Vimal Sir. In this family the children are being grown with all the aspects, not just education, by spiritual, learning the things and share the things by providing a large platform, developed the leadership skills, enable all the learners to be active, disciplined and confident. Thanks a lot to LW Team.",
+    hike: "85% Hike",
+    beforeRole: "Technocrats Institute of Technology Bhopal",
+    beforeLogo: TCS,
+    afterRole: "Blue Planet Solutions",
+    afterLogo: Redhat,
+  },
+  {
+    name: "MANALI JAIN", 
+    image: "https://media.licdn.com/dms/image/v2/C5103AQFNrakAM4hGZg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517238637504?e=1739404800&v=beta&t=JucvTVGyo-TDH6Xk2oJ8-F1C1SgqBkNccDntFbbHEY4",
+    testimonial:
+      "Linux World is not just an organization, it's a family having head Preeti Ma'am and Vimal Sir. In this family the children are being grown with all the aspects, not just education, by spiritual, learning the things and share the things by providing a large platform, developed the leadership skills, enable all the learners to be active, disciplined and confident. Thanks a lot to LW Team.",
+    hike: "85% Hike",
+    beforeRole: "Technocrats Institute of Technology Bhopal",
+    beforeLogo: TCS,
+    afterRole: "Blue Planet Solutions",
     afterLogo: Redhat,
   },
   // Add more people here
@@ -93,7 +127,7 @@ export default function CareerTransformation() {
 
                 <div className="flex-1 space-y-4">
                   <h2 className="text-2xl font-bold">{person.name}</h2>
-                  <p className="text-gray-600">{person.testimonial}</p>
+                  <p className="text-gray-600">{person.testimonial.slice(0,183)}...</p>
                   <Button className="bg-purple-500 hover:bg-purple-600 text-white flex items-center gap-2">
                     <PlayCircle className="w-4 h-4" />
                     Hear My Story
