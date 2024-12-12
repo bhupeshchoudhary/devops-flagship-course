@@ -71,6 +71,36 @@ const MentorFeatured = () => {
             </div>
           ))}
         </div>
+        <div className="inline-flex items-center animate-scroll w-max">
+          {logos.map((logo, index) => (
+            <div key={index} className="mx-4 w-32 flex-shrink-0">
+              <div className="w-28 h-16 flex items-center justify-center">
+                <Image 
+                  src={logo.src} 
+                  alt={logo.alt} 
+                  width={112}   
+                  height={64} 
+                  style={{ objectFit: "contain" }} // Use inline styles instead of the objectFit prop
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="inline-flex items-center animate-scroll w-max">
+          {logos.map((logo, index) => (
+            <div key={index} className="mx-4 w-32 flex-shrink-0">
+              <div className="w-28 h-16 flex items-center justify-center">
+                <Image 
+                  src={logo.src} 
+                  alt={logo.alt} 
+                  width={112}   
+                  height={64} 
+                  style={{ objectFit: "contain" }} // Use inline styles instead of the objectFit prop
+                />
+              </div>
+            </div>
+          ))}
+        </div>
         {/* Duplicate list for seamless scrolling */}
         <div className="inline-flex items-center animate-scroll w-max" aria-hidden="true">
           {logos.map((logo, index) => (
