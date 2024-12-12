@@ -22,6 +22,8 @@ import CertificateDisplay from "@/components/customComponents/coursesComponents/
 import Navbar from "@/components/customComponents/Navbar";
 import Footer from "@/components/customComponents/Footer";
 import CareerTransformation from "@/components/customComponents/coursesComponents/courseDetails/CareerTransformation";
+import CertificateCarousel from "@/components/customComponents/coursesComponents/courseDetails/CertificateCarousel";
+import PlacementProgramCard from "@/components/customComponents/coursesComponents/courseDetails/PlacementProgramCard";
 
 const CourseDetail = ()=>{
     const params = useParams ();
@@ -30,7 +32,10 @@ const CourseDetail = ()=>{
     return (
         <>
         <Navbar />
+
         <CourseDetailHero></CourseDetailHero>
+        <PlacementProgramCard />
+        <CertificateCarousel />
         <CareerTransformation />
         <ProgramHighlights></ProgramHighlights>
      <Tools></Tools> 
