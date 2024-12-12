@@ -21,6 +21,7 @@ import CoursePricingSection from "@/components/customComponents/coursesComponent
 import CertificateDisplay from "@/components/customComponents/coursesComponents/courseDetails/CertificateDetails";
 import Navbar from "@/components/customComponents/Navbar";
 import Footer from "@/components/customComponents/Footer";
+import CareerTransformation from "@/components/customComponents/coursesComponents/courseDetails/CareerTransformation";
 
 const CourseDetail = ()=>{
     const params = useParams ();
@@ -30,6 +31,7 @@ const CourseDetail = ()=>{
         <>
         <Navbar />
         <CourseDetailHero></CourseDetailHero>
+        <CareerTransformation />
         <ProgramHighlights></ProgramHighlights>
      <Tools></Tools> 
      <Projects></Projects>
