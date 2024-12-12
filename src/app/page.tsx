@@ -25,7 +25,7 @@ import CareerTransformation from "@/components/customComponents/coursesComponent
 import CertificateCarousel from "@/components/customComponents/coursesComponents/courseDetails/CertificateCarousel";
 import PlacementProgramCard from "@/components/customComponents/coursesComponents/courseDetails/PlacementProgramCard";
 import DevOpsCourseOverview from "@/components/customComponents/coursesComponents/courseDetails/DevopsCourseOverview";
-
+import CourseCurriculumModule from "@/components/customComponents/coursesComponents/CourseModules/CourseModule";
 const CourseDetail = ()=>{
     const params = useParams ();
     const {pid}  = params;
@@ -39,7 +39,9 @@ const CourseDetail = ()=>{
         <CertificateCarousel />
         <CareerTransformation />
         <ProgramHighlights></ProgramHighlights>
+        <CourseCurriculumModule></CourseCurriculumModule>
         <DevOpsCourseOverview />
+  
      <Tools></Tools> 
      <Projects></Projects>
      <MentorProfile></MentorProfile>
