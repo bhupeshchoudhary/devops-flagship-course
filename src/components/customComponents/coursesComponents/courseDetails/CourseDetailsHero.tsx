@@ -24,14 +24,16 @@ const CourseDetailHero = ()=>{
               {/* Title Section */}
               <div className="mb-6">
                 <h1 className="text-3xl font-bold leading-tight  mb-2">
-                  <span className="text-[#ff0000]">Doctorate of Business Administration</span>
-                  <span className="text-black"> (DBA) from</span>
-                  <div className="text-black">ESGCI', Paris</div>
+
+                Placement Oriented
+                  
+                  <span className="text-[#ff0000]">  Specialisation </span>
+                  <span className="text-black">in DevOps Program</span>
+                  <div className="text-black"></div>
                 </h1>
                 <p className="text-gray-600 text-sm font-bold leading-relaxed">
-                  Enroll in this unique DBA program, designed for leaders to reach their potential. 
-                  Focused on leadership, global immersion, & personalized guidance, it equips you 
-                  with skills to thrive in today's dynamic business...
+                Industry Relevant & Recognized Training | Gain HandsOn Experience | Best-In-Class Content | Industry Use-Cases
+                ...
                 </p>
               </div>
 
