@@ -102,7 +102,7 @@ export default function CareerTransformation() {
           </h1>
 
           <div className="grid lg:grid-cols-2 gap-6 items-center">
-            <Card className="p-6 relative">
+            <Card className="p-6 relative mb-8">
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="relative w-full md:w-1/3">
                   <Image
@@ -136,10 +136,10 @@ export default function CareerTransformation() {
               </div>
             </Card>
 
-            <div className="flex flex-col items-center justify-center gap-4 h-64">
+            <div className="flex flex-col items-center justify-center gap-4 h-64 ">
               <div className="relative pl-60">
-                <Card className="p-4 border-1 border border-green-500">
-                  <div className="space-y-2">
+                <Card className="p-4 border-1 border border-green-500 ">
+                  <div className="space-y-2 ">
                     <p className="text-xs font-medium">{person.afterRole}</p>
                     <Image
                       src={person.afterLogo}
@@ -155,17 +155,19 @@ export default function CareerTransformation() {
                 </Card>
               </div>
 
+              {/* roadmap image */}
+                      <div className="sm:ml-18">
               <div className="relative w-full lg:w-auto">
                 <Image
                   src={Roadmap}
                   alt="Roadmap Image"
-                  className="rounded-lg object-contain sm:pl-20"
+                  className="rounded-lg object-contain"
                   priority
                   width={72}
                   height={72}
                 />
               </div>
-
+              </div>
               <div className="relative pr-60">
                 <Card className="p-4 border border-blue-400">
                   <div className="space-y-2">
@@ -186,7 +188,7 @@ export default function CareerTransformation() {
             </div>
           </div>
 
-          <div className="flex justify-between mt-8">
+          <div className="flex justify-between mt-12">
             <Button
               onClick={handlePrevious}
               className="bg-gray-200 hover:bg-gray-300 text-gray-800"
