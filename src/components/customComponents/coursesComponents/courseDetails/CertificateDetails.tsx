@@ -2,6 +2,7 @@ import React from "react";
 import { FaCertificate, FaShareAlt, FaUserTie, FaSuitcase } from "react-icons/fa"; // Example icons
 import Image from "next/image"; // If using Next.js for optimized image loading
 import certificateimage from "../../../../../public/assets/cources/courseDetails/certificateimage.png";
+import CertificateCarousel from "./CertificateCarousel";
 
 const CertificateDisplay: React.FC = () => {
   return (
@@ -78,13 +79,17 @@ const CertificateDisplay: React.FC = () => {
         {/* Certificate Image */}
         <div className="lg:w-1/3 flex justify-center lg:justify-end mt-8 lg:mt-0">
           <div className="border border-gray-200 rounded-lg overflow-hidden shadow-lg">
-            <Image
+            {/* <Image
               src={certificateimage}
               alt="Certificate Example"
               width={400}
               height={500}
               className="object-cover"
-            />
+            /> */}
+
+                  <CertificateCarousel />
+
+
           </div>
         </div>
       </div>

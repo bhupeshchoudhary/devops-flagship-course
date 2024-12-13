@@ -13,7 +13,7 @@ const CourseDetailHero = ()=>{
         <>
         <div className="bg-gray-50"></div>
 <div className="container mx-auto  p-6 max-w-7xl px-6 lg:px-8">
-      <Card className="max-w-6xl mx-auto rounded-[32px] overflow-hidden shadow-lg">
+      <Card className="max-w-6xl  mx-auto rounded-[32px] overflow-hidden shadow-lg">
         <CardContent className="p-0">
           <div className="flex flex-col md:flex-row">
             {/* Left Column - Program Information */}
@@ -60,7 +60,7 @@ const CourseDetailHero = ()=>{
                   Download Brochure
                 </Button>
                 <Button 
-                  className="flex-1 h-12 text-sm font-medium rounded-full bg-[#ff0000] hover:bg-red-600 shadow-md transition-colors"
+                  className="flex-1 h-12 text-sm font-medium rounded-full bg-[#ff0000] hover:shadow-md hover:shadow-black hover:bg-[#ff0000] shadow-md transition-colors"
                 >
                   Apply Now
                 </Button>

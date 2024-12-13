@@ -94,11 +94,11 @@ export default function CareerTransformation() {
   const person = peopleData[currentIndex];
 
   return (
-    <div className="w-full bg-gradient-to-r from-purple-50 to-green-50">
+    <div className="w-full bg-gradient-to-r from-gray-50 to-red-50">
       <section className="max-w-6xl mx-auto py-12">
         <div className="container px-4 md:px-6">
           <h1 className="text-3xl font-bold tracking-tighter mb-8">
-            Career Transformation
+            Career <span className="text-[#ff0000]">Transformation</span>
           </h1>
 
           <div className="grid lg:grid-cols-2 gap-6 items-center">

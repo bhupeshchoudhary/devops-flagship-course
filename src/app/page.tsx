@@ -39,7 +39,7 @@ const CourseDetail = ()=>{
         <CompaniesCarousel/>
         
         <PlacementProgramCard />
-        <CertificateCarousel />
+        {/* <CertificateCarousel /> */}
         <CareerTransformation />
         <ProgramHighlights></ProgramHighlights>
         <CourseCurriculumModule></CourseCurriculumModule>

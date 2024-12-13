@@ -153,17 +153,20 @@ const Analyst: React.FC = () => {
 
           {/* Demand */}
           <div className="flex flex-col space-y-2">
-            <Card className="p-4 sm:p-6 h-40 sm:h-48 md:h-72">
+            <Card className="h-40 sm:h-48 md:h-72">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">
+              Average Salaries
+            </span>
               <CardContent className="flex flex-col items-center text-center justify-center h-full">
                 <div className="bg-red-50 rounded-full p-4">
                   <BriefcaseIcon className="w-10 h-10 sm:w-12 sm:h-12 text-red-500" />
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl sm:text-4xl font-bold">{demand}%</div>
+                  <div className="text-3xl sm:text-4xl font-bold pt-4">{demand}%</div>
                   <p className="text-xs sm:text-sm text-gray-600">
-                    Year-On-Year
+                    Total jobs found online <br/>for <span className="font-bold">DevOps</span>
                     <br />
-                    Growth in Job Postings
+                   
                   </p>
                 </div>
               </CardContent>

@@ -10,7 +10,7 @@ export default function PlacementGuaranteeProgram() {
   return (
     <div className="w-full bg-white py-12 max-w-5xl mx-auto">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8">Placement Guarantee Program</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-8"><span className="text-[#ff0000]">Placement </span>Guarantee Program</h2>
         
         <div className="flex flex-col lg:flex-row gap-8">
           <Card className="flex-1 bg-[#070736] text-white overflow-hidden">
@@ -41,7 +41,7 @@ export default function PlacementGuaranteeProgram() {
                 <span className="text-gray-700">{feature}</span>
               </div>
             ))}
-            <Button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6">
+            <Button className=" ml-8 w-full sm:w-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white font-semibold py-2 px-6">
               View Details
             </Button>
           </div>

@@ -34,7 +34,7 @@ export default function CertificateCarousel() {
     <div className="bg-gray-50  w-full">
     <div className="w-full py-12  max-w-6xl mx-auto">
       <div className="container px-4 md:px-6">
-        <h2 className="text-2xl font-bold mb-8">DevOps Course Certificate</h2>
+        {/* <h2 className="text-2xl font-bold mb-8">DevOps Course Certificate</h2> */}
 
         <div className="relative max-w-3xl mx-auto">
           <Tabs defaultValue="internship" className="w-full mb-6">
@@ -46,12 +46,14 @@ export default function CertificateCarousel() {
 
           <div className="relative">
             <Card className="overflow-hidden bg-white rounded-lg shadow-lg">
-              <div className="relative aspect-[3/2] w-full">
+              <div className="relative h-80  ">
                 <Image
                   src={certificates[currentIndex].imageUrl}
                   alt={`Certificate ${currentIndex + 1}`}
                   fill
                   className="object-contain"
+                 
+
                   priority
                 />
               </div>

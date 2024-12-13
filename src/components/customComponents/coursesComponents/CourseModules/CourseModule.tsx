@@ -17,9 +17,7 @@ export default function CourseCurriculumModule() {
     <div className=" bg-gray-800 p-6">
       <div className="mx-auto max-w-5xl">
         <div className="relative mb-6">
-          {/* <div className="absolute -left-3 -top-3 flex h-12 w-12 items-center justify-center bg-emerald-500">
-            <span className="text-xl font-bold text-white">1</span>
-          </div> */}
+        
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-white">Course Curriculum</h1>

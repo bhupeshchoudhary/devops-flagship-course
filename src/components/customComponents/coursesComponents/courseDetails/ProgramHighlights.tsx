@@ -22,7 +22,8 @@ const ProgramHighlights = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto p-6 lg:px-8">
+    <div className=' bg-gradient-to-r from-gray-50 to-red-50'>
+    <div className="p-6 lg:px-8 max-w-5xl mx-auto ">
       {/* Title */}
       <h2 className="text-gray-700 text-sm font-semibold mb-2">
         MSc AI & Data Science: Your Pathway To AI Career
@@ -41,10 +42,10 @@ const ProgramHighlights = () => {
               key={index} 
               className="text-center"
             >
-              <div className="text-[#ff0000] text-4xl font-bold mb-2">
+              <div className="text-[#ff0000] text-3xl font-bold mb-2">
                 {item.number}
               </div>
-              <div className="text-gray-600 text-lg">
+              <div className="text-gray-600 text-md">
                 {item.description}
               </div>
             </div>
@@ -52,6 +53,7 @@ const ProgramHighlights = () => {
         </div>
       </Card>
     </div>
+     </div>
   );
 };
 
