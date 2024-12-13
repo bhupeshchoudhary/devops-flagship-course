@@ -189,7 +189,7 @@ I'm really looking forward to applying these insights!
       <div className="max-w-[920px] mx-auto">
         <h2 className="text-black text-sm sm:text-md">HEAR IT FROM THEM</h2>
         <h2 className="text-black text-2xl sm:text-3xl font-bold mb-6 sm:mb-10 mt-2">
-          Ambitious People ❤️ <span className="text-[#ebff00]">TGS</span>
+          Ambitious People ❤️ <span className="text-[#ff0000]">Linux World</span>
         </h2>
 
         {/* Displaying testimonials in masonry layout */}

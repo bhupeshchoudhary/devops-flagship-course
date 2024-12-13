@@ -128,10 +128,10 @@ export default function CareerTransformation() {
                 <div className="flex-1 space-y-4">
                   <h2 className="text-2xl font-bold">{person.name}</h2>
                   <p className="text-gray-600">{person.testimonial.slice(0,183)}...</p>
-                  <Button className="bg-purple-500 hover:bg-purple-600 text-white flex items-center gap-2">
+                  {/* <Button className="bg-purple-500 hover:bg-purple-600 text-white flex items-center gap-2">
                     <PlayCircle className="w-4 h-4" />
                     Hear My Story
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
             </Card>
@@ -159,7 +159,7 @@ export default function CareerTransformation() {
                 <Image
                   src={Roadmap}
                   alt="Roadmap Image"
-                  className="rounded-lg object-contain"
+                  className="rounded-lg object-contain sm:pl-20"
                   priority
                   width={72}
                   height={72}

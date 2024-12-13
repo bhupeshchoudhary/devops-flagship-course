@@ -17,7 +17,7 @@ type TabData = {
 const data: Record<string, TabData> = {
   analyst: {
     salary: { label: "Max (10L)", values: [1200, 2500, 1300] },
-    companies: ["Citibank", "Dell", "Deloitte", "Google", "IBM", "Infosys", "Intel", "JPMorgan", "Redhat", ""],
+    companies: ["Citibank", "Dell", "Deloitte", "Google", "IBM", "Infosys", "Intel", "JPMorgan", "Redhat"],
     demand: 45,
   },
 };
@@ -34,6 +34,7 @@ const companyLogos: Record<string, string> = {
   JPMorgan: "/assets/companyLogo/jpmorgan.png",
   Redhat: "/assets/companyLogo/redhat.png",
   
+  edhat: "/assets/companyLogo/redhat.png"
 };
 
 const Analyst: React.FC = () => {
