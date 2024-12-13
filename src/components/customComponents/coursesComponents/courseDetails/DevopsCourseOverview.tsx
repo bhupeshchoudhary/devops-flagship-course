@@ -9,23 +9,62 @@ import {
 
 export default function DevOpsCourseOverview() {
   const courseDetails = [
-    "DevOps Certification Course: 4.5-month comprehensive training at StarAgile, covering DevOps methodologies.",
-    "Extensive Curriculum: Includes Linux basics, cloud technologies (AWS, Azure, GCP), CI/CD pipelines, Git, Docker, and continuous testing.",
-    "Practical Orientation: DevOps course offers real-world projects across various sectors, ensuring practical learning.",
-    "StarX Placement Program: Bridges education with career readiness, offering services like profile enhancement, portfolio development, resume crafting, and interview preparation.",
-    "Assistance in Job Placement: Minimum salary range of INR 5-25 LPA, with a commitment to career success and a six-month internship certificate post-training.",
-    "Assistance in Job Placement: Minimum salary range of INR 5-25 LPA, with a commitment to career success and a six-month internship certificate post-training.",
-    "Assistance in Job Placement: Minimum salary range of INR 5-25 LPA, with a commitment to career success and a six-month internship certificate post-training.",
-    "Assistance in Job Placement: Minimum salary range of INR 5-25 LPA, with a commitment to career success and a six-month internship certificate post-training.",
-    "Assistance in Job Placement: Minimum salary range of INR 5-25 LPA, with a commitment to career success and a six-month internship certificate post-training.",
-    "Professional Development Roadmap: DevOps training blends technical skills with soft skills, leading to comprehensive professional development and certification."
+    "Understand and implement DevOps methodologies in real-world scenarios.",
+
+    "Efficiently use industry-standard DevOps tools like Docker, Git, Kubernetes, Jenkins, and more.",
+    "Automate and optimize the software development and deployment lifecycle..",
+
+    "Automate and optimize the software development and deployment lifecycle.",
+
+    "Integrate CI/CD pipelines and continuous integration/deployment in real-world workflows.",
+
+    "Apply security best practices throughout the DevOps pipeline.",
+
+
+    "Utilize cloud resources effectively in your DevOps initiatives (AWS, Azure, GCP).",
+
+    "Increase job prospects by mastering job-relevant skills for top MNCs.",
+
+
+    "Become proficient in Infrastructure as Code (IaC) practices using tools like Terraform and Ansible.",
+
+    "Module 1: Introduction to DevOps",
+
+    "Module 2: Git & Github",
+
+    "Module 3: DCA- Docker Certified Associate",
+
+    "Module 4: Kubernetes",
+
+    "Module 5: CI/CD with Jenkins",
+
+    "Module 6 : Prometheus & Grafana",
+
+    "Module 6 : Ansible",
+
+    "Module 8: Terraform ",
+
+    "Module 9: Linux ",
+
+    "Module 10: AWS DevOps Services ",
+
+    "Module 11: Azure & GCP Cloud",
+
+    "Module 12: Gitlab ",
+
+    "Module 13: Shell Scripting",
+
+    "Module 14: Integration of DevOps Tools Or CapeStone Projects "
+
+
   ]
 
   return (
     <div className="w-full py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50 p-6 ">
       <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 p-12 rounded-xl">
         <div className="flex justify-between items-start mb-6">
-          <h2 className="text-2xl font-bold text-gray-900 ">DevOps Course Overview</h2>
+          <h2 className="text-2xl font-bold text-gray-900 ">Course Learning Objectives
+          </h2>
           <div className="relative w-16 h-16">
             <Image
               src="/placeholder.svg?height=64&width=64"
