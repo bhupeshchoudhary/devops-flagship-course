@@ -28,6 +28,7 @@ import CourseCurriculumModule from "@/components/customComponents/coursesCompone
 import MentorFeatured from "@/components/customComponents/coursesComponents/courseDetails/MentorFeatured";
 import CompaniesCarousel from "@/components/customComponents/coursesComponents/courseDetails/CompaniesCarousel";
 import CourseCarrrerModule from "@/components/customComponents/coursesComponents/courseDetails/carrerSection/Carrer";
+import TestimonialsSection from "@/components/customComponents/coursesComponents/courseDetails/Testimonials";
 const CourseDetail = ()=>{
     const params = useParams ();
     const {pid}  = params;
@@ -49,7 +50,7 @@ const CourseDetail = ()=>{
 
         <CourseCarrrerModule ></CourseCarrrerModule>
         <DevOpsCourseOverview />
-  
+  <TestimonialsSection />
      <MentorProfile></MentorProfile>
      
      <Analyst></Analyst>
