@@ -20,7 +20,8 @@ export default function CourseCurriculumModule() {
         
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-black">Course <span className="text-[#ff0000]">Curriculum</span></h1>
+              <h1 className="text-2xl font-bold text-black">DevOps Course 
+              <span className="text-[#ff0000]"> Modules</span></h1>
               <p className="mt-2 max-w-3xl text-black">
                 Our course is designed by industry experts for excellent academic and industrial experience. We have a balanced combination of theoretical, technical, and practical knowledge for you to get the best training experience for everyone regardless of their background.
               </p>
