@@ -119,7 +119,7 @@ const Analyst: React.FC = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Salary Chart */}
           <Card className="h-72">
-            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
               Average Salaries
             </span>
             <div className="space-y-4 p-4">
@@ -135,7 +135,7 @@ const Analyst: React.FC = () => {
 
           {/* Companies */}
           <Card className="h-72">
-            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">Companies Hiring</span>
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">Companies Hiring</span>
             <div className="grid grid-cols-2 p-4 sm:grid-cols-3 gap-4 pt-10  sm:gap-6">
               {companies.map((company) => {
                 const logoPath = companyLogos[company];
@@ -154,7 +154,7 @@ const Analyst: React.FC = () => {
           {/* Demand */}
           <div className="flex flex-col space-y-2">
             <Card className="h-40 sm:h-48 md:h-72">
-            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
               Average Salaries
             </span>
               <CardContent className="flex flex-col items-center text-center justify-center h-full">

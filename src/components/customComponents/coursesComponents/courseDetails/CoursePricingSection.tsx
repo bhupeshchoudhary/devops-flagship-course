@@ -2,9 +2,9 @@ import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Check } from 'lucide-react'
 
-export default function CoursePricingSection() {
+export default function   CoursePricingSection() {
   return (
-    <div className=" bg-pink-50 p-6">
+    <div className=" bg-gradient-to-r from-gray-50 via-white-50 to-red-50 p-6">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
           Book your spot ! We will be increasing the price soon...
