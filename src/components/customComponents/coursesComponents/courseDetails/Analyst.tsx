@@ -1,7 +1,3 @@
-
-
-
-
 "use client";
 
 import { useState } from "react";
@@ -17,17 +13,12 @@ type TabData = {
   demand: number;
 };
 
-// Define the structure of the data for both "analyst" and "scientist" tabs
+// Define the structure of the data for the "analyst" tab
 const data: Record<string, TabData> = {
   analyst: {
     salary: { label: "Max (10L)", values: [1200, 2500, 1300] },
-    companies: ["Citibank", "Dell", "Deloitte", "Google", "IBM", "Infosys", "Intel", "JPMorgan"],
+    companies: ["Citibank", "Dell", "Deloitte", "Google", "IBM", "Infosys", "Intel", "JPMorgan", "Redhat", ""],
     demand: 45,
-  },
-  scientist: {
-    salary: { label: "Max (15L)", values: [1500, 3000, 1600] },
-    companies: ["Zoho", "Wipro", "TCS", "Syfe", "Searce", "Deloitte", "Redhat", "PwC"],
-    demand: 55,
   },
 };
 
@@ -41,18 +32,13 @@ const companyLogos: Record<string, string> = {
   Infosys: "/assets/companyLogo/infosys.png",
   Intel: "/assets/companyLogo/intel.png",
   JPMorgan: "/assets/companyLogo/jpmorgan.png",
-  Zoho: "/assets/companyLogo/zoho.png",
-  Wipro: "/assets/companyLogo/wipro.png",
-  TCS: "/assets/companyLogo/tcs.png",
-  Syfe: "/assets/companyLogo/syfe.png",
-  Searce: "/assets/companyLogo/searce.png",
   Redhat: "/assets/companyLogo/redhat.png",
-  PwC: "/assets/companyLogo/pwc.png",
+  
 };
 
 const Analyst: React.FC = () => {
   // Use state to manage the active tab
-  const [activeTab, setActiveTab] = useState<"analyst" | "scientist">("analyst");
+  const [activeTab, setActiveTab] = useState<"analyst">("analyst");
 
   // Get the corresponding data for the active tab
   const { salary, companies, demand } = data[activeTab];
@@ -86,31 +72,10 @@ const Analyst: React.FC = () => {
           <TabsList className="h-auto p-0 bg-transparent flex space-x-4 sm:space-x-8">
             <TabsTrigger
               value="analyst"
-              className={`relative h-auto pb-2 bg-transparent transition duration-300 ${
-                activeTab === "analyst" ? "text-red-500" : "text-gray-600"
-              }`}
-              onClick={() => setActiveTab("analyst")}
+              className={`relative h-auto pb-2 bg-transparent transition duration-300 text-red-500`}
             >
-              <span className="text-sm sm:text-base">Data Analyst</span>
-              <span
-                className={`absolute bottom-0 left-0 w-full h-0.5 ${
-                  activeTab === "analyst" ? "bg-red-500" : "opacity-0"
-                }`}
-              />
-            </TabsTrigger>
-            <TabsTrigger
-              value="scientist"
-              className={`relative h-auto pb-2 bg-transparent transition duration-300 ${
-                activeTab === "scientist" ? "text-red-500" : "text-gray-600"
-              }`}
-              onClick={() => setActiveTab("scientist")}
-            >
-              <span className="text-sm sm:text-base">Data Scientist</span>
-              <span
-                className={`absolute bottom-0 left-0 w-full h-0.5 ${
-                  activeTab === "scientist" ? "bg-red-500" : "opacity-0"
-                }`}
-              />
+              <span className="text-sm sm:text-base">DevOps Role</span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-red-500" />
             </TabsTrigger>
           </TabsList>
         </Tabs>
@@ -119,13 +84,11 @@ const Analyst: React.FC = () => {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {/* Salary Chart */}
           <Card className="h-72">
-            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
               Average Salaries
             </span>
             <div className="space-y-4 p-4">
-              <div className="text-xs sm:text-sm text-gray-600">
-                No. of Learners
-              </div>
+              <div className="text-xs sm:text-sm text-gray-600">No. of Learners</div>
               <div className="relative sm:h-64">
                 {/* Bar Chart for Salary */}
                 <ChartComponent data={chartData.salaryData} label={salary.label} />
@@ -135,8 +98,10 @@ const Analyst: React.FC = () => {
 
           {/* Companies */}
           <Card className="h-72">
-            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">Companies Hiring</span>
-            <div className="grid grid-cols-2 p-4 sm:grid-cols-3 gap-4 pt-10  sm:gap-6">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
+              Companies Hiring
+            </span>
+            <div className="grid grid-cols-2 p-4 sm:grid-cols-3 gap-4 pt-10 sm:gap-6">
               {companies.map((company) => {
                 const logoPath = companyLogos[company];
                 return (
@@ -154,9 +119,9 @@ const Analyst: React.FC = () => {
           {/* Demand */}
           <div className="flex flex-col space-y-2">
             <Card className="h-40 sm:h-48 md:h-72">
-            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-blue-200 border-blue-200">
-              Average Salaries
-            </span>
+              <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
+                Demand for DevOps Roles
+              </span>
               <CardContent className="flex flex-col items-center text-center justify-center h-full">
                 <div className="bg-red-50 rounded-full p-4">
                   <BriefcaseIcon className="w-10 h-10 sm:w-12 sm:h-12 text-red-500" />
@@ -164,9 +129,8 @@ const Analyst: React.FC = () => {
                 <div className="text-center">
                   <div className="text-3xl sm:text-4xl font-bold pt-4">{demand}%</div>
                   <p className="text-xs sm:text-sm text-gray-600">
-                    Total jobs found online <br/>for <span className="font-bold">DevOps</span>
+                    Total jobs found online <br />for <span className="font-bold">DevOps Roles</span>
                     <br />
-                   
                   </p>
                 </div>
               </CardContent>

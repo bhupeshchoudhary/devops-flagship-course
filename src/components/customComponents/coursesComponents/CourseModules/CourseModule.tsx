@@ -14,14 +14,14 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className=" bg-gray-800 p-6">
+    <div className=" bg-gray-200 p-6">
       <div className="mx-auto max-w-5xl">
         <div className="relative mb-6">
         
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-white">Course Curriculum</h1>
-              <p className="mt-2 max-w-3xl text-gray-300">
+              <h1 className="text-2xl font-bold text-black">Course <span className="text-[#ff0000]">Curriculum</span></h1>
+              <p className="mt-2 max-w-3xl text-black">
                 Our course is designed by industry experts for excellent academic and industrial experience. We have a balanced combination of theoretical, technical, and practical knowledge for you to get the best training experience for everyone regardless of their background.
               </p>
             </div>

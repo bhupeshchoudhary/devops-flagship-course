@@ -22,7 +22,7 @@ export default function DevOpsCourseOverview() {
   ]
 
   return (
-    <div className="w-full py-12 bg-gradient-to-br from-purple-50 via-green-50 to-blue-50 p-6 ">
+    <div className="w-full py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50 p-6 ">
       <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 p-12 rounded-xl">
         <div className="flex justify-between items-start mb-6">
           <h2 className="text-2xl font-bold text-gray-900 ">DevOps Course Overview</h2>

@@ -44,9 +44,9 @@ export default function CertificateCarousel() {
             </TabsList>
           </Tabs>
 
-          <div className="relative">
-            <Card className="overflow-hidden bg-white rounded-lg shadow-lg">
-              <div className="relative h-80  ">
+          <div className="relative pl-10">
+            <Card className="overflow-hidden bg-white rounded-lg shadow-lg w-[226px] ">
+              <div className="relative h-80  mx-auto">
                 <Image
                   src={certificates[currentIndex].imageUrl}
                   alt={`Certificate ${currentIndex + 1}`}
