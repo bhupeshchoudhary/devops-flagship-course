@@ -15,7 +15,7 @@ export default function CourseCarrrerModule() {
 
   return (
 
-    <div className="pt-8 w-full  flex ">
+    <div className="pt-8 w-full pb-8 flex ">
     <div className=" bg-gray-800 p-6 max-w-7xl px-12  mx-auto rounded-lg ">
       <div className="mx-auto max-w-5xl">
         <div className="relative mb-6">
