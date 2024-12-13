@@ -41,7 +41,7 @@ export default function PlacementGuaranteeProgram() {
                 <span className="text-gray-700">{feature}</span>
               </div>
             ))}
-            <Button className=" ml-8 w-full sm:w-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white font-semibold py-2 px-6">
+            <Button className=" w-full sm:w-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white font-semibold py-2 px-6">
               View Details
             </Button>
           </div>
