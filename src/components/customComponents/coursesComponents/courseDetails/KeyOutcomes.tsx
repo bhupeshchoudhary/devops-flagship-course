@@ -130,7 +130,7 @@ export default function KeyOutcomes() {
             <Checkbox id="terms" className="border-emerald-600 data-[state=checked]:bg-emerald-600" />
            
           </div> */}
-          <Button className="w-full h-12 bg-[#ff0000] hover:bg-[#7340FF]">
+          <Button className="w-full h-12 bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black">
             Submit <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
           {/* <div className="mt-6 flex items-center justify-center gap-2 text-sm text-muted-foreground">

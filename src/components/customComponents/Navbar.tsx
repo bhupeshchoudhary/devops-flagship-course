@@ -84,12 +84,12 @@ const Navbar: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="#contact" className="text-gray-900 hover:text-[#ff0000]">
+              <a href="#contact" className="text-black hover:text-[#ff0000]">
                 Contact
               </a>
             </li>
             <li>
-              <a href="#contact" className="text-white hover:text-[#ff0000]">
+              <a href="#contact" className="text-black hover:text-[#ff0000]">
                 Inquire Now
               </a>
             </li>
@@ -107,7 +107,7 @@ const Navbar: React.FC = () => {
         {/* Call to Action Button */}
         <a
           href="#buy-tickets"
-          className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-white hover:shadow-md"
+          className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
         >
           Participate Now
         </a>
@@ -124,7 +124,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#hero"
-            className="block hover:text-blue-600"
+            className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
             Home
@@ -133,7 +133,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#schedule"
-            className="block hover:text-blue-600"
+            className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
             Agenda
@@ -142,7 +142,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#venue"
-            className="block hover:text-blue-600"
+            className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
             Cities on Tour
@@ -151,7 +151,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#gallery"
-            className="block hover:text-blue-600"
+            className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
             Gallery
@@ -160,7 +160,7 @@ const Navbar: React.FC = () => {
         <li>
           <a
             href="#contact"
-            className="block hover:text-blue-600"
+            className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
             Contact
