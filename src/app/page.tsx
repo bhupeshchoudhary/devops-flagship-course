@@ -35,11 +35,13 @@ const CourseDetail = ()=>{
     return (
         <>
         <Navbar />
-
         <CourseDetailHero></CourseDetailHero>
         <CompaniesCarousel/>
-        
         <PlacementProgramCard />
+
+        
+     <Tools></Tools> 
+     <Projects></Projects>
         {/* <CertificateCarousel /> */}
         <CareerTransformation />
         <ProgramHighlights></ProgramHighlights>
@@ -48,8 +50,6 @@ const CourseDetail = ()=>{
         <CourseCarrrerModule ></CourseCarrrerModule>
         <DevOpsCourseOverview />
   
-     <Tools></Tools> 
-     <Projects></Projects>
      <MentorProfile></MentorProfile>
      
      <Analyst></Analyst>

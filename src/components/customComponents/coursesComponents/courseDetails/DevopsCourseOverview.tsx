@@ -6,6 +6,8 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion"
+import Certificate from "../../../../../public/assets/cources/certficatepng.png"
+
 
 export default function DevOpsCourseOverview() {
   const courseDetails = [
@@ -25,10 +27,10 @@ export default function DevOpsCourseOverview() {
     <div className="w-full py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50 p-6 ">
       <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 p-12 rounded-xl">
         <div className="flex justify-between items-start mb-6">
-          <h2 className="text-2xl font-bold text-gray-900 ">DevOps Course Overview</h2>
+          <h2 className="text-3xl font-bold text-gray-900 "><span className="text-[#ff0000]">DevOps Course </span>Overview</h2>
           <div className="relative w-16 h-16">
             <Image
-              src="/placeholder.svg?height=64&width=64"
+              src={Certificate}
               alt="Certificate icon"
               width={64}
               height={64}

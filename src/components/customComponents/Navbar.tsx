@@ -43,11 +43,11 @@ const Navbar: React.FC = () => {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full bg-black transition-colors duration-300",
-        scrolled ? "bg-black " : "bg-black"
+        "sticky top-0 z-50 w-full bg-white transition-colors duration-300",
+        scrolled ? "bg-white " : "bg-white"
       )}
     >
-      <div className="container  mx-auto flex bg-black bg-opacity-100  items-center justify-between py-4 px-6">
+      <div className="container  mx-auto flex bg-white bg-opacity-100  items-center justify-between py-4 px-6">
         {/* Logo */}
         <a href="/" className="flex items-center space-x-2">
           <Image
@@ -64,32 +64,32 @@ const Navbar: React.FC = () => {
         <nav className="hidden lg:flex space-x-6">
           <ul className="flex space-x-4">
             <li>
-              <a href="#hero" className="text-white hover:text-blue-600">
+              <a href="#hero" className="text-black hover:text-[#ff0000]">
                 Home
               </a>
             </li>
             <li>
-              <a href="#schedule" className="text-white hover:text-blue-600">
+              <a href="#schedule" className="text-black hover:text-[#ff0000]">
                 Agenda
               </a>
             </li>
             <li>
-              <a href="#venue" className="text-white hover:text-blue-600">
+              <a href="#venue" className="text-black hover:text-[#ff0000]">
                 Cities on Tour
               </a>
             </li>
             <li>
-              <a href="#gallery" className="text-white hover:text-blue-600">
+              <a href="#gallery" className="text-black hover:text-[#ff0000]">
                 Gallery
               </a>
             </li>
             <li>
-              <a href="#contact" className="text-white hover:text-blue-600">
+              <a href="#contact" className="text-gray-900 hover:text-[#ff0000]">
                 Contact
               </a>
             </li>
             <li>
-              <a href="#contact" className="text-white hover:text-blue-600">
+              <a href="#contact" className="text-white hover:text-[#ff0000]">
                 Inquire Now
               </a>
             </li>
@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
           onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
         >
           <List className="h-6 w-6" />
-        </button>
+        </button> 
 
         {/* Call to Action Button */}
         <a

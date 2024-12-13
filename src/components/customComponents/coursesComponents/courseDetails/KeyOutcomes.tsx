@@ -69,7 +69,8 @@ export default function KeyOutcomes() {
   const LinuxWorldUrl = "https://media.licdn.com/dms/image/v2/C4E0BAQER-Sage-ex_A/company-logo_200_200/company-logo_200_200/0/1639050566015/linuxworld_informatics_pvt_ltd_logo?e=1739404800&v=beta&t=7LaZjwQW277ZW-ooZe19e_aWSS1uQzZULZzYC7t1JHY";
 
   return (
-    <div className="flex flex-col lg:flex-row mt-4 max-w-6xl mx-auto pt-2">
+    <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50'>
+    <div className="flex flex-col lg:flex-row pt-8 max-w-6xl mx-auto pt-2">
       {/* Left Section */}
       <div className="lg:w-2/3 pt-6 h-full w-full">
       
@@ -235,6 +236,7 @@ export default function KeyOutcomes() {
             </div>
           </Card>
         </div>
+      </div>
       </div>
     </div>
   )

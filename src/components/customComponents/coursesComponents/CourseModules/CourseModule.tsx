@@ -14,7 +14,7 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className=" bg-gray-200 p-6">
+    <div className=" bg-gradient-to-br from-gray-50 via-black-50 to-red-50 p-6">
       <div className="mx-auto max-w-5xl">
         <div className="relative mb-6">
         

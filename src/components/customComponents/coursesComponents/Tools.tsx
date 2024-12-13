@@ -27,7 +27,8 @@ const Section: React.FC<SectionProps> = ({ icon, title, description }) => {
 // Main DataScienceTools Component
 const Tools: React.FC = () => {
   return (
-    <div className="flex flex-col mt-4 lg:flex-row items-center max-w-6xl justify-between bg-white p-4 sm:p-6 lg:p-8 mx-auto">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="flex flex-col  lg:flex-row items-center max-w-6xl justify-between  p-4 sm:p-6 lg:p-8 mx-auto">
       {/* Left Text Content */}
       <div className="lg:w-1/2 space-y-6 sm:space-y-8">
         <h2 className="text-gray-700 text-sm font-semibold">
@@ -66,6 +67,7 @@ const Tools: React.FC = () => {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 };

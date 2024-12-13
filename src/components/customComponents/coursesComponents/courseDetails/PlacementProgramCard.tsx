@@ -8,7 +8,8 @@ import CourseBanner4 from "../../../../../public/assets/cources/Course-banner4.j
 
 export default function PlacementGuaranteeProgram() {
   return (
-    <div className="w-full bg-white py-12 max-w-5xl mx-auto">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="w-full  py-12 max-w-5xl mx-auto">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-gray-900 mb-8"><span className="text-[#ff0000]">Placement </span>Guarantee Program</h2>
         
@@ -47,6 +48,7 @@ export default function PlacementGuaranteeProgram() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

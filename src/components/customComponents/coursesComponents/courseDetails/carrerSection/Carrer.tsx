@@ -15,16 +15,16 @@ export default function CourseCarrrerModule() {
 
   return (
 
-    <div className="pt-8 w-full pb-8 flex ">
-    <div className=" bg-gray-800 p-6 max-w-7xl px-12  mx-auto rounded-lg ">
-      <div className="mx-auto max-w-5xl">
+    <div className="pt-8 w-full pb-8 flex bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 p-12 rounded-xl">
+      <div className="mx-auto ">
         <div className="relative mb-6">
         
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-white">
+              <h1 className="text-2xl font-bold text-black">
               Career Track</h1>
-              <p className="mt-2 max-w-3xl text-gray-300">
+              <p className="mt-2 max-w-3xl text-gray-900">
               Once you have enrolled for the program then you will have access to a wide range of resources which will help you in becoming a Job-Ready Candidate. We have a dedicated placement team of professionals who excel in their individual domains committed to assist you in our journey.
               </p>
             </div>

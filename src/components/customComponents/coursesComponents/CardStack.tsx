@@ -120,7 +120,7 @@ export default function CardStack() {
 
 
   return (
-    <div className="w-full overflow-x-hidden">
+    <div className="w-full overflow-x-hidden ">
         <div className="flex col-2"></div>
     </div>
   );

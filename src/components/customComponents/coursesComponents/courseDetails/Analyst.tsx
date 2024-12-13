@@ -51,7 +51,8 @@ const Analyst: React.FC = () => {
   };
 
   return (
-    <div className="bg-white px-4 py-8 sm:px-6 lg:px-8">
+
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 px-4 py-8 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-8">
         {/* Header */}
         <div className="space-y-2">

@@ -54,7 +54,8 @@ export default function Faq() {
   const [selectedItem, setSelectedItem] = useState<keyof typeof faqContent>("curriculum");
 
   return (
-    <div className="container mx-auto max-w-6xl px-4 py-12">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="container mx-auto max-w-6xl px-4 py-12 ">
       {/* Header */}
       <h1 className="sm:text-2xl lg:text-3xl font-bold mb-8 sm:mb-12 text-center sm:text-left">
         Frequently Asked <span className="text-[#ff0000]">Questions</span>
@@ -99,6 +100,7 @@ export default function Faq() {
             </AccordionItem>
           ))}
         </Accordion>
+      </div>
       </div>
     </div>
   );

@@ -43,6 +43,7 @@ const projectData = [
 
 export default function Projects() {
   return (
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
     <div className="w-full max-w-6xl mx-auto p-6 lg:px-8">
       <div className="space-y-6">
         <div>
@@ -113,6 +114,7 @@ export default function Projects() {
             
         </div>
       </div>
+    </div>
     </div>
   );
 }

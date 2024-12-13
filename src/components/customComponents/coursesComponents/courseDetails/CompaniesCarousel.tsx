@@ -72,7 +72,8 @@ const CompaniesCarousel = () => {
   }, []);
 
   return (
-    <div className="relative bg-white overflow-hidden max-w-7xl mx-auto">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="relative  overflow-hidden max-w-7xl mx-auto ">
       <div className="text-3xl font-bold mx-auto text-center pt-12">
         1300+ leading companies hire through <br />{" "}
         <span className="text-[#ff0000]">Linux World</span> 🤝
@@ -108,6 +109,7 @@ const CompaniesCarousel = () => {
             </div>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );

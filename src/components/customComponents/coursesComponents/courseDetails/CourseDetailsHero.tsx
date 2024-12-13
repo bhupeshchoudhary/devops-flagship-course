@@ -11,7 +11,7 @@ const CourseDetailHero = ()=>{
 
     return (
         <>
-        <div className="bg-gray-50"></div>
+        <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
 <div className="container mx-auto  p-6 max-w-6xl px-6 lg:px-8">
       <Card className="max-w-6xl  mx-auto rounded-[32px] overflow-hidden shadow-lg">
         <CardContent className="p-0">
@@ -98,8 +98,7 @@ const CourseDetailHero = ()=>{
           </div>
         </CardContent>
       </Card>
-     
-     
+    </div>
     </div>
         </>
     )
