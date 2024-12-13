@@ -23,7 +23,7 @@ export default function CourseCarrrerModule() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-black">
-              Career Track</h1>
+              Career <span className="text-[#ff0000]">Track</span></h1>
               <p className="mt-2 max-w-3xl text-gray-900">
               Once you have enrolled for the program then you will have access to a wide range of resources which will help you in becoming a Job-Ready Candidate. We have a dedicated placement team of professionals who excel in their individual domains committed to assist you in our journey.
               </p>

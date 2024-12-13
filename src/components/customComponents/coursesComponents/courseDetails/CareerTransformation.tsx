@@ -113,7 +113,7 @@ export default function CareerTransformation() {
                     className="rounded-lg object-cover"
                     priority
                   />
-                  <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium flex items-center gap-2">
+                  <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4  rounded-full text-sm font-medium flex items-center gap-2">
                     <svg
                       viewBox="0 0 24 24"
                       fill="currentColor"

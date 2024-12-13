@@ -6,7 +6,7 @@ export default function   CoursePricingSection() {
   return (
     <div className=" bg-gradient-to-r from-gray-50 via-white-50 to-red-50 p-6">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
+        <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
           Book your spot ! We will be increasing the price soon...
         </h1>
         
@@ -39,7 +39,7 @@ export default function   CoursePricingSection() {
               </div>
             </div>
 <div className=" flex w-full mx-auto">
-            <Button className="w-1/2 mx-auto bg-red-600 hover:bg-red-700 text-white py-6">
+            <Button className="w-1/2 mx-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white py-6">
               Yes! I want this insane deal for
               <br />₹ 980 + taxes
               
@@ -53,7 +53,7 @@ export default function   CoursePricingSection() {
           {/* Right Column - Features */}
           <div className="flex-1 space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-red-500 mb-4">
+              <h3 className="text-2xl font-bold text-gray-700 mb-4">
                 What you'll learn...
               </h3>
               <div className="space-y-3">
@@ -74,7 +74,7 @@ export default function   CoursePricingSection() {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-red-500 mb-4">
+              <h3 className="text-2xl font-bold text-gray-700 mb-4">
                 And bonuses too...
               </h3>
               <div className="space-y-3">
