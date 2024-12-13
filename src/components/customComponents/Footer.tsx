@@ -1,87 +1,93 @@
-"use client"
 
-import React from 'react';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
-import Image from 'next/image'; // Use next/image if you're using Next.js
-import logo from "../../../public/assets/Asset 1.svg"
+import hash13 from "../../../public/assets/logohash13.svg";
+import lwlogo from "../../../public/assets/LW-white.png";
+import { FaLinkedin, FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react-icons/fa";
 
-const Footer = () => {
+export default function Footer() {
+  // Cloudinary video URL
+  const cloudinaryVideoUrl = "https://res.cloudinary.com/dmbxrhtoj/video/upload/v1732112346/Square_Root_Of_PI_%CF%80_2022_-_Knowledge_Oneness_rlx7zq.mp4"; 
+
   return (
-    <footer className="bg-black px-6 lg:px-14 overflow-hidden text-white py-16">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Left Section */}
+    <footer className="bg-black text-white py-8">
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {/* Column 1: Brand Info with Logos */}
         <div>
-          {/* Logo instead of #13 */}
-          <Image src={logo} alt="Logo" width={100} height={100} className="mb-4" />
-     
-          
-          <p className="text-gray-400 mb-6">
-            Lorem ipsum amet, consectetur adipiscing elit. Suspendis varius enim eros elementum tristique. Duis cursus.
+          <h2 className="text-xl font-bold text-red-500">
+            TGS<span className="text-white"> - The Growth String Initiative </span>
+          </h2>
+          <p className="text-lg text-blue-400 mt-2 leading-relaxed text-cyan-400">
+            “Empowering Growth, Redefining Technical Training”
           </p>
-          <div className="flex space-x-4">
-            <a href="#" className="bg-gray-700 p-3 rounded">
-              <FaLinkedinIn />
+
+          <p className="text-sm text-gray-400 font-italic mt-6">Powered By:</p>
+          {/* Logos */}
+          <div className="mt-4 flex gap-4 mx-auto">
+          <span>  <img src={lwlogo.src.toString()} width={110} height={48} alt="Logo" /></span>
+            <div className="flex items-center justify-center">
+              <span className="text-4xl text-[#ff0000]" style={{ height: '80px', borderLeft: '2px solid #ff0000' }}></span> {/* Pipe with larger height */}
+            </div>
+           <span> <img src={hash13.src.toString()} width={96} height={48} alt="Logo" /></span>
+          </div>
+        
+
+        <div className="mt-6 flex gap-6 justify-start items-center">
+            <a
+              href="https://www.linkedin.com/company/linuxworld-informatics-pvt-ltd/?originalSubdomain=in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 text-2xl hover:text-blue-800"
+            >
+              <FaLinkedin />
             </a>
-            <a href="#" className="bg-gray-700 p-3 rounded">
+            <a
+              href="https://www.instagram.com/linuxworld.india/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pink-500 text-2xl hover:text-pink-700"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://www.youtube.com/@IIECconnect"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-red-600 text-2xl hover:text-red-800"
+            >
+              <FaYoutube />
+            </a>
+            <a
+              href="https://www.facebook.com/LinuxWorld.India/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 text-2xl hover:text-blue-700"
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://x.com/Linuxworldindia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sky-400 text-2xl hover:text-sky-600"
+            >
               <FaTwitter />
             </a>
-            <a href="#" className="bg-gray-700 p-3 rounded">
-    <FaInstagram />
-  </a>
-            <a href="#" className="bg-gray-700 p-3 rounded">
-              <FaFacebookF />
-            </a>
-          </div>
+            </div>
         </div>
 
-        {/* Links Section */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4">Links</h3>
-          <ul className="space-y-2">
-            <li><a href="#" className="text-gray-400 hover:text-white">Home</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">About Us</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Registration</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Courses</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Contact Us</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Blog</a></li>
-          </ul>
-        </div>
 
-        {/* Legal Section */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4">Legal</h3>
-          <ul className="space-y-2">
-            <li><a href="#" className="text-gray-400 hover:text-white">Terms of Use</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Terms & Condition</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Payment Method</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a></li>
-            <li><a href="#" className="text-gray-400 hover:text-white">Licensing</a></li>
-          </ul>
-        </div>
-
-        {/* Newsletter Section */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4">Newsletter</h3>
-          <p className="text-gray-400 mb-4">
-            Join over <span className="text-[#ff0000]">68,000</span> people getting our emails. Lorem ipsum dolor sit amet.
-          </p>
-          <form className="flex flex-col">
-            <input
-              type="email"
-              placeholder="Enter your mail"
-              className="p-3 rounded mb-4 text-black"
-            />
-            <button className="bg-[#ff0000] hover:bg-red-700 text-white py-3 px-6 rounded">
-              Subscribe Now
-            </button>
-          </form>
+        {/* Column 2: Cloudinary Video Stream */}
+        <div className="flex justify-center items-center">
+          <video autoPlay loop muted controls className="rounded-lg w-[300px] h-[200px]">
+            <source src={cloudinaryVideoUrl} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
-      <div className="container mx-auto mt-16 text-center text-gray-400">
-        <p>© Copyright 2024 #13 | Designed & Developed with ❤️ by LinuxWorld | All Rights Reserved</p>
+
+      {/* Footer Bottom */}
+      <div className="text-center mt-8 text-white text-sm">
+        © Copyright 2024 TGS | Designed & Developed with ❤️ by LinuxWorld | All Rights Reserved
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}

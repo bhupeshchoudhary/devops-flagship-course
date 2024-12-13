@@ -12,7 +12,7 @@ const CourseDetailHero = ()=>{
     return (
         <>
         <div className="bg-gray-50"></div>
-<div className="container mx-auto  p-6 max-w-7xl px-6 lg:px-8">
+<div className="container mx-auto  p-6 max-w-6xl px-6 lg:px-8">
       <Card className="max-w-6xl  mx-auto rounded-[32px] overflow-hidden shadow-lg">
         <CardContent className="p-0">
           <div className="flex flex-col md:flex-row">
@@ -22,8 +22,8 @@ const CourseDetailHero = ()=>{
         
 
               {/* Title Section */}
-              <div className="mb-12">
-                <h1 className="text-[2.5rem] font-bold leading-tight  mb-6">
+              <div className="mb-6">
+                <h1 className="text-3xl font-bold leading-tight  mb-2">
                   <span className="text-[#ff0000]">Doctorate of Business Administration</span>
                   <span className="text-black"> (DBA) from</span>
                   <div className="text-black">ESGCI', Paris</div>
@@ -36,7 +36,7 @@ const CourseDetailHero = ()=>{
               </div>
 
               {/* Program Details */}
-              <div className="grid grid-cols-3 gap-8 mb-12">
+              <div className="grid grid-cols-3 gap-8 mb-4">
                 <div className="space-y-1">
                   <p className="text-gray-500 text-sm">Type</p>
                   <p className="text-[#ff0000] font-medium text-base">Doctorate</p>
@@ -52,7 +52,7 @@ const CourseDetailHero = ()=>{
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 mb-8">
+              <div className="flex flex-col sm:flex-row gap-4 mb-6">
                 <Button 
                   variant="outline" 
                   className="flex-1 h-12 text-sm font-medium rounded-full border hover:bg-transparent hover:text-black transition-colors"

@@ -75,9 +75,9 @@ const CompaniesCarousel = () => {
     <div className="relative bg-white overflow-hidden max-w-7xl mx-auto">
       <div className="text-3xl font-bold mx-auto text-center pt-12">
         1300+ leading companies hire through <br />{" "}
-        <span className="text-[#ff0000]">Linux World</span> Heading Icon 🤝
+        <span className="text-[#ff0000]">Linux World</span> 🤝
       </div>
-      <div className="text-md text-center text-blue-400 pt-4 pb-8">
+      <div className="text-md text-center text-gray-800 pt-4 pb-8">
         Get an opportunity to learn from industry leaders
       </div>
       <div className="w-full overflow-hidden">
