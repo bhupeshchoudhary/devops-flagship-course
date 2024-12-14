@@ -6,7 +6,12 @@ import { useState } from "react";
 import Roadmap from "../../../../../public/assets/cources/roadmap.png";
 import Redhat from "../../../../../public/assets/companyLogo/redhat.png";
 import TCS from "../../../../../public/assets/companyLogo/tcs.png";
-
+import AryaCollage from "../../../../../public/assets/companyLogo/aryaCollage.svg";
+import bluePlanet from "../../../../../public/assets/companyLogo/bluePlanet.jpeg"
+import ignoLogo from "../../../../../public/assets/companyLogo/ignouLogo.png"
+import NagpurUniversityLogo from "../../../../../public/assets/companyLogo/NagpurLogo.png"
+import ShyenaTechLogo from "../../../../../public/assets/companyLogo/shyenaTechLogo.png"
+import TtiLogo from "../../../../../public/assets/companyLogo/TtiLogo.png"
 const peopleData = [
   {
     name: "Anmol Roop Rai",
@@ -15,9 +20,9 @@ const peopleData = [
       "Till now, my journey with ARTH and LW has been awesome and, it is still going on. I got to know about Vimal sir and LW through my friend and that day and this day there is a huge upward curve in my technical knowledge & passion for learning new technologies and integrating them which boosts my confidence and through ARTH and INIT platform I got DevOps internship with all that knowledge and sir blessings. Thanks a lot to Vimal Sir, Preeti mam, and the whole LinuxWorld Team for providing such great opportunities. ",
     hike: "85% Hike",
     beforeRole: "Arya College of Engineering and IT",
-    beforeLogo: TCS,
+    beforeLogo: AryaCollage,
     afterRole: "DevOps Intern",
-    afterLogo: Redhat,
+    afterLogo: bluePlanet,
   },
   {
     name: "Disha Bajaj",
@@ -37,7 +42,7 @@ const peopleData = [
       "Being a part of ARTH transformed me entirely. I learned so many industry trending technologies that I ha only heard about and gained quality practical exposure. My interest in Automation technologies grew, and this was all thanks to Vimal Sir. I was actually enjoying working with technologies.",
     hike: "85% Hike",
     beforeRole: "IGNOU, NEW DELHI",
-    beforeLogo: TCS,
+    beforeLogo: ignoLogo,
     afterRole: "Quality Engineer Intern",
     afterLogo: Redhat,
   },
@@ -48,9 +53,9 @@ const peopleData = [
       "Learning from Vimal sir, I understood that it doesn't matter if you have zero knowledge about the subject but with dedication, determination, and perseverance, we can achieve whatever we aim for. Similarly, I started learning and working on the task given by Vimal Sir. In those tasks, I failed multiple times. Every time I failed I learned something new and then my creativity developed in the topics I learned. Now I am much more confident and I am ready to face any issue, sooner or later, I'll surely find its solution..",
     hike: "85% Hike",
     beforeRole: "RTM Nagpur University",
-    beforeLogo: TCS,
+    beforeLogo: NagpurUniversityLogo,
     afterRole: "DevOps Engineer ",
-    afterLogo: Redhat,
+    afterLogo: ShyenaTechLogo,
   },
 
   {
@@ -60,9 +65,9 @@ const peopleData = [
       "Linux World is not just an organization, it's a family having head Preeti Ma'am and Vimal Sir. In this family the children are being grown with all the aspects, not just education, by spiritual, learning the things and share the things by providing a large platform, developed the leadership skills, enable all the learners to be active, disciplined and confident. Thanks a lot to LW Team.",
     hike: "85% Hike",
     beforeRole: "Technocrats Institute of Technology Bhopal",
-    beforeLogo: TCS,
+    beforeLogo: TtiLogo,
     afterRole: "Blue Planet Solutions",
-    afterLogo: Redhat,
+    afterLogo: bluePlanet,
   },
   {
     name: "MANALI JAIN", 
@@ -70,7 +75,7 @@ const peopleData = [
     testimonial:
       "Linux World is not just an organization, it's a family having head Preeti Ma'am and Vimal Sir. In this family the children are being grown with all the aspects, not just education, by spiritual, learning the things and share the things by providing a large platform, developed the leadership skills, enable all the learners to be active, disciplined and confident. Thanks a lot to LW Team.",
     hike: "85% Hike",
-    beforeRole: "Technocrats Institute of Technology Bhopal",
+    beforeRole: "Teerthanker Mahaveer University",
     beforeLogo: TCS,
     afterRole: "Blue Planet Solutions",
     afterLogo: Redhat,
