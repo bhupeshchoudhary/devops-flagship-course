@@ -75,12 +75,14 @@ export default function Projects() {
             </h2>
             <div className="flex items-center gap-2 mt-2">
               <h2 className="text-black px-3 py-1 text-3xl font-bold">
-                Learn by <span className="text-[#ff0000] text-2xl font-bold">Doing</span>
+ 
+
+ Learn by Doing : <span className="text-[#ff0000]  font-bold">10 Industry Level Projects </span>
               </h2>
             </div>
           </div>
 
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center">
                 <svg
@@ -105,7 +107,7 @@ export default function Projects() {
                 <p className="text-muted-foreground">Industry Projects</p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="relative">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">

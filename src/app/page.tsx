@@ -41,7 +41,7 @@ const CourseDetail = ()=>{
         <CourseDetailHero></CourseDetailHero>
         <JobSkills />
         <CompaniesCarousel/>
-        <PlacementProgramCard />
+        {/* <PlacementProgramCard /> */}
         <ProgramCohorts></ProgramCohorts>
         
      <Tools></Tools> 
