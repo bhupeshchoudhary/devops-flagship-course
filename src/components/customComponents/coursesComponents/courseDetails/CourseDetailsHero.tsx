@@ -40,7 +40,7 @@ const CourseDetailHero = ()=>{
                     
 
                 
-        <ul className="space-y-4">
+        <ul className="space-y-2">
           <li className="flex gap-3">
             <span className="text-emerald-500 shrink-0">
               <Star  size={18} className="text-[#ff0000]"/>
@@ -87,39 +87,8 @@ const CourseDetailHero = ()=>{
                 </div>
               </div>
 
-              {/* Program Details */}
-              {/* <div className="grid grid-cols-3 gap-8 mb-4">
-                <div className="space-y-1">
-                  <p className="text-gray-500 text-sm">Type</p>
-                  <p className="text-[#ff0000] font-medium text-base">Doctorate</p>
-                </div>
-                <div className="space-y-1">
-                  <p className="text-gray-500 text-sm">Start Date</p>
-                  <p className="text-[#ff0000] font-medium text-base">Nov 14, 2024</p>
-                </div>
-                <div className="space-y-1">
-                  <p className="text-gray-500 text-sm">Duration</p>
-                  <p className="text-[#ff0000] font-medium text-base">36 Months</p>
-                </div>
-              </div> */}
-
-              {/* CTA Buttons */}
-              {/* <div className="flex flex-col sm:flex-row gap-4 mb-6">
-                <Button 
-                  variant="outline" 
-                  className="flex-1 h-12 text-sm font-medium rounded-full border hover:bg-transparent hover:text-black transition-colors"
-                >
-                  Download Brochure
-                </Button>
-                <Button 
-                  className="flex-1 h-12 text-sm font-medium rounded-full bg-[#ff0000] hover:shadow-md hover:shadow-black hover:bg-[#ff0000] shadow-md transition-colors"
-                >
-                  Apply Now
-                </Button>
-              </div> */}
-
-              {/* Contact Information */}
-              <div className="flex items-center gap-2 text-gray-600  pt-4">
+               
+              <div className="flex items-center gap-2 text-gray-600  ">
                 <svg 
                   viewBox="0 0 24 24" 
                   className="w-5 h-5" 

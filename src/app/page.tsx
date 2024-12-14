@@ -55,10 +55,7 @@ const CourseDetail = ()=>{
 
 
 
-<<<<<<< HEAD
         
-=======
->>>>>>> 5780742017a11bcbffeb32d027767127ce5f9561
         <DevOpsCourseOverview />
   <TestimonialsSection />
      <MentorProfile></MentorProfile>
