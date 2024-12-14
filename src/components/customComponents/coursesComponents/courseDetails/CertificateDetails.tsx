@@ -12,7 +12,7 @@ const CertificateDisplay: React.FC = () => {
         {/* Text Section */}
         <div className="lg:w-2/3 space-y-6">
           <div className="mb-6">
-            <h1 className="text-3xl font-bold mb-2">Get <span className="text-[#ff0000]">Certified</span></h1>
+            <h1 className="text-3xl font-bold mb-2">Get Certified: <span className="text-[#ff0000]"> Training & Internship</span></h1>
             <p className="text-lg">
               Yes! You will be{" "}
               <span className="text-red-500 font-semibold">certified</span> for

@@ -5,6 +5,7 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent } from "@/components/ui/card";
 import { BriefcaseIcon } from "lucide-react";
 import ChartComponent from "./ChartComponent"; // Assuming the chart component is in the same folder
+import { Search, User } from "lucide-react";
 
 // Define the types for your tab data
 type TabData = {
@@ -33,8 +34,6 @@ const companyLogos: Record<string, string> = {
   Intel: "/assets/companyLogo/intel.png",
   JPMorgan: "/assets/companyLogo/jpmorgan.png",
   Redhat: "/assets/companyLogo/redhat.png",
-  
-  edhat: "/assets/companyLogo/redhat.png"
 };
 
 const Analyst: React.FC = () => {
@@ -51,7 +50,6 @@ const Analyst: React.FC = () => {
   };
 
   return (
-
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 px-4 py-8 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-8">
         {/* Header */}
@@ -68,19 +66,6 @@ const Analyst: React.FC = () => {
             </div>
           </h1>
         </div>
-
-        {/* Tabs */}
-        <Tabs defaultValue="analyst" className="w-full">
-          <TabsList className="h-auto p-0 bg-transparent flex space-x-4 sm:space-x-8">
-            <TabsTrigger
-              value="analyst"
-              className={`relative h-auto pb-2 bg-transparent transition duration-300 text-red-500`}
-            >
-              <span className="text-sm sm:text-base">DevOps Role</span>
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-red-500" />
-            </TabsTrigger>
-          </TabsList>
-        </Tabs>
 
         {/* Main Content */}
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -111,33 +96,68 @@ const Analyst: React.FC = () => {
                     key={company}
                     src={logoPath.toString()}
                     alt={company}
-                    className="h-6 sm:h-8 object-contain "
+                    className="h-6 sm:h-8 object-contain"
                   />
                 );
               })}
             </div>
           </Card>
 
-          {/* Demand */}
-          <div className="flex flex-col space-y-2">
-            <Card className="h-40 sm:h-48 md:h-72">
-              <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
-                Demand for DevOps Roles
-              </span>
-              <CardContent className="flex flex-col items-center text-center justify-center h-full">
-                <div className="bg-red-50 rounded-full p-4">
-                  <BriefcaseIcon className="w-10 h-10 sm:w-12 sm:h-12 text-red-500" />
+          {/* Updated Jobs Card */}
+          <Card className="w-full max-w-sm  bg-white">
+            <div className="space-y-6">
+            <span className="font-semibold mb-6 text-base sm:text-md border-2 rounded-br-lg rounded-tl-lg pr-4 pl-4 bg-red-200 border-red-200">
+              Available Jobs
+            </span>
+
+              {/* Icons Row */}
+              <div className="flex justify-center items-center gap-2 relative">
+                {/* Left side icons */}
+                {[...Array(3)].map((_, i) => (
+                  <div
+                    key={`left-${i}`}
+                    className="w-8 h-8 rounded-full border-2 border-gray-100 bg-gray-50 flex items-center justify-center"
+                  >
+                    <User className="w-4 h-4 text-gray-400" />
+                  </div>
+                ))}
+
+                {/* Center search icon */}
+                <div className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center relative z-10">
+                  <Search className="w-5 h-5 text-emerald-500" />
                 </div>
-                <div className="text-center">
-                  <div className="text-3xl sm:text-4xl font-bold pt-4">{demand}%</div>
-                  <p className="text-xs sm:text-sm text-gray-600">
-                    Total jobs found online <br />for <span className="font-bold">DevOps Roles</span>
+
+                {/* Right side icons */}
+                {[...Array(3)].map((_, i) => (
+                  <div
+                    key={`right-${i}`}
+                    className="w-8 h-8 rounded-full border-2 border-gray-100 bg-gray-50 flex items-center justify-center"
+                  >
+                    <User className="w-4 h-4 text-gray-400" />
+                  </div>
+                ))}
+              </div>
+
+              {/* Stats Section with Curved Background */}
+              <div className="relative pt-8">
+                <div
+                  className="absolute inset-x-0  top-0 h-40 bg-red-50 rounded-full scale-[1.3]"
+                  style={{
+                    borderRadius: "200%/400% 400% 0 0",
+                    transform: "scaleX(0.9)",
+                  }}
+                />  
+                <div className="relative text-center  space-y-2 ">
+                  <h2 className="text-4xl font-bold text-gray-900">15,000+</h2>
+                  <p className="text-gray-600">
+                    Total jobs found online
                     <br />
+                    for <span className="font-medium">DevOps</span>
                   </p>
                 </div>
-              </CardContent>
-            </Card>
-          </div>
+              </div>
+            </div>
+          </Card>
         </div>
 
         {/* Footer Text */}

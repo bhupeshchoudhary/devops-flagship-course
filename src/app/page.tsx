@@ -51,6 +51,10 @@ const CourseDetail = ()=>{
         <CourseCurriculumModule></CourseCurriculumModule>
 
         <CourseCarrrerModule ></CourseCarrrerModule>
+
+
+
+        
         <DevOpsCourseOverview />
   <TestimonialsSection />
      <MentorProfile></MentorProfile>
