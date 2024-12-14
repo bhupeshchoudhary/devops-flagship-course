@@ -70,27 +70,29 @@ const Navbar: React.FC = () => {
             </li>
             <li>
               <a href="#schedule" className="text-black hover:text-[#ff0000]">
-                Agenda
+              About Us 
+
               </a>
             </li>
             <li>
               <a href="#venue" className="text-black hover:text-[#ff0000]">
-                Cities on Tour
+              Training Content
               </a>
             </li>
             <li>
               <a href="#gallery" className="text-black hover:text-[#ff0000]">
-                Gallery
+              Projects
               </a>
             </li>
             <li>
               <a href="#contact" className="text-black hover:text-[#ff0000]">
-                Contact
+              Placements 
               </a>
             </li>
             <li>
               <a href="#contact" className="text-black hover:text-[#ff0000]">
-                Inquire Now
+              Career Transition
+
               </a>
             </li>
           </ul>

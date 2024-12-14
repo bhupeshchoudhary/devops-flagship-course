@@ -75,11 +75,16 @@ const CompaniesCarousel = () => {
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
     <div className="relative  overflow-hidden max-w-7xl mx-auto ">
       <div className="text-3xl font-bold mx-auto text-center pt-12">
-        1300+ leading companies hire through <br />{" "}
-        <span className="text-[#ff0000]">Linux World</span> 🤝
+
+      1356+ Leading companies hire 
+
+        {/* 1300+ leading companies hire through */}
+        
+         <br />{" "}
+        <span className="text-[#ff0000]">LinuxWorld Students </span> 🤝
       </div>
       <div className="text-md text-center text-gray-800 pt-4 pb-8">
-        Get an opportunity to learn from industry leaders
+      Get an opportunity to learn from the World Record Holder - <span className="text-[#ff0000]">Mr Vimal Daga</span>
       </div>
       <div className="w-full overflow-hidden">
         {chunkedLogos.map((lineLogos, rowIndex) => (

@@ -30,6 +30,7 @@ import CompaniesCarousel from "@/components/customComponents/coursesComponents/c
 import CourseCarrrerModule from "@/components/customComponents/coursesComponents/courseDetails/carrerSection/Carrer";
 import TestimonialsSection from "@/components/customComponents/coursesComponents/courseDetails/Testimonials";
 import JobSkills from "@/components/customComponents/coursesComponents/courseDetails/JobSkills";
+import ProgramCohorts from "@/components/customComponents/coursesComponents/ProgramDetails";
 const CourseDetail = ()=>{
     const params = useParams ();
     const {pid}  = params;
@@ -41,7 +42,7 @@ const CourseDetail = ()=>{
         <JobSkills />
         <CompaniesCarousel/>
         <PlacementProgramCard />
-
+        <ProgramCohorts></ProgramCohorts>
         
      <Tools></Tools> 
      <Projects></Projects>
@@ -54,7 +55,10 @@ const CourseDetail = ()=>{
 
 
 
+<<<<<<< HEAD
         
+=======
+>>>>>>> 5780742017a11bcbffeb32d027767127ce5f9561
         <DevOpsCourseOverview />
   <TestimonialsSection />
      <MentorProfile></MentorProfile>
