@@ -32,10 +32,13 @@ const Tools: React.FC = () => {
       {/* Left Text Content */}
       <div className="lg:w-1/2 space-y-6 sm:space-y-8">
         <h2 className="text-gray-700 text-sm font-semibold">
-          Most Hands-On Data Program
+          Most Hands-On DevOps Program
         </h2>
+
+         
+
         <h1 className="text-2xl sm:text-2xl lg:text-3xl font-bold text-gray-900">
-          Master 15+ Cutting-Edge <span className="text-[#ff0000]">Data Science Tools</span>
+        Master 15+ Industry Required DevOps <span className="text-[#ff0000]">Tools & Technologies</span>
         </h1>
 
         {/* Tool Sections */}
