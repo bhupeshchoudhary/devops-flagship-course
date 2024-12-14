@@ -14,24 +14,26 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className=" bg-gradient-to-br from-gray-50 via-black-50 to-red-50 p-6">
-      <div className="mx-auto max-w-5xl">
+    <div className="pt-8 w-full pb-8 flex bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 p-12 rounded-xl">
+      <div className="mx-auto ">
         <div className="relative mb-6">
         
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-black">DevOps Course 
-              <span className="text-[#ff0000]"> Modules</span></h1>
+              <span className="text-[#ff0000]"> Modules</span>
+              </h1>
               <p className="mt-2 max-w-3xl text-black">
                 Our course is designed by industry experts for excellent academic and industrial experience. We have a balanced combination of theoretical, technical, and practical knowledge for you to get the best training experience for everyone regardless of their background.
               </p>
-            </div>
+           </div>
+
             <Badge variant="secondary" className="h-6">
               6 Months
             </Badge>
           </div>
         </div>
-
         <div className="grid gap-6 md:grid-cols-[300px,1fr] ">
           <Card className="bg-white">
             <ScrollArea className="h-[400px]">
@@ -81,7 +83,9 @@ export default function CourseCurriculumModule() {
           </Card>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
+    
   )
 }
 

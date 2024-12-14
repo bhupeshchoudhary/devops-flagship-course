@@ -123,8 +123,8 @@ const Analyst: React.FC = () => {
                 ))}
 
                 {/* Center search icon */}
-                <div className="w-12 h-12 rounded-full bg-emerald-100 flex items-center justify-center relative z-10">
-                  <Search className="w-5 h-5 text-emerald-500" />
+                <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center relative z-10">
+                  <Search className="w-5 h-5 text-red-500" />
                 </div>
 
                 {/* Right side icons */}
