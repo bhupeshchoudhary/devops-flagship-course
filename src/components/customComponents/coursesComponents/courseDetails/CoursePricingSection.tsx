@@ -4,10 +4,10 @@ import { Check } from 'lucide-react'
 
 export default function   CoursePricingSection() {
   return (
-    <div className=" bg-gradient-to-r from-gray-50 via-white-50 to-red-50 p-6">
-      <div className="max-w-6xl mx-auto">
+    <div className=" mx-auto bg-gradient-to-r from-gray-50 via-white-50 to-red-50 ">
+      <div className="max-w-6xl mx-auto p-6">
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
-          Book your spot ! We will be increasing the price soon...
+        <span className="text-[#ff0000]" >Invest today </span>& get a return of 5 lpa 
         </h1>
         
         <div className="flex flex-col md:flex-row gap-8">

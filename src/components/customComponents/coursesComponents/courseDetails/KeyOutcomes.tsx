@@ -1,18 +1,17 @@
 'use client'
 
-import React, { useState, useEffect, useRef } from 'react'
-import Image from 'next/image'
-import { motion } from 'framer-motion'
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Check } from "lucide-react"
-import DisplayCourseContent from './subComponents/DisplayCourseContent'
-
-
-import { ArrowRight } from 'lucide-react'
-//import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { zodResolver } from "@hookform/resolvers/zod"
+import { Users, ArrowUpRight, Globe } from 'lucide-react'
+import { useForm } from "react-hook-form"
+import * as z from "zod"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Checkbox } from "@/components/ui/checkbox"
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormMessage,
+} from "@/components/ui/form"
 import {
   Select,
   SelectContent,
@@ -20,224 +19,176 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
-//import Image from "next/image"
-import ConsultantForm from '../Contact/ContactForm'
-// Define types for learner data
-interface Learner {
-  name: string
-  company: string
-}
+import { Input } from "@/components/ui/input"
+import { Checkbox } from "@/components/ui/checkbox"
 
-export default function KeyOutcomes() {
-  const [isSticky, setIsSticky] = useState<boolean>(false)
+const formSchema = z.object({
+  fullName: z.string().min(2, "Name must be at least 2 characters"),
+  email: z.string().email("Invalid email address"),
+  phoneNumber: z.string().min(10, "Invalid phone number"),
+  course: z.string().min(1, "Please select a course"),
+  terms: z.boolean().refine((val) => val === true, "You must accept the terms"),
+})
 
-  const rightSectionRef = useRef<HTMLDivElement | null>(null)
+export default function QueryForm() {
+  const form = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      terms: false,
+    },
+  })
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (rightSectionRef.current) {
-        const scrollPosition = window.scrollY
-        const rightSectionTop = rightSectionRef.current.getBoundingClientRect().top
-        const windowHeight = window.innerHeight
-
-        if (scrollPosition >= rightSectionTop - windowHeight) {
-          setIsSticky(true)
-        } else {
-          setIsSticky(false)
-        }
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  const learners: Learner[] = [
-    { name: "ShareChat Learner", company: "ShareChat" },
-    { name: "Google Learner", company: "Google" },
-    { name: "Apna Learner", company: "Apna" },
-    { name: "Capgemini Learner", company: "Capgemini" },
-  ]
-
-  const benefits: string[] = [
-    "Stay ahead in your field by mastering industry relevant skills through our online sessions",
-    "Dive into real challenges from today's businesses, gaining hands-on experience",
-    "Tap into a wealth of career opportunities through our established network",
-  ]
-
-  const defaultLearnerImg = "https://media.licdn.com/dms/image/v2/D4D03AQHXkuvnF5Zm7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724997745281?e=1736380800&v=beta&t=tvAlORqrjV22gAuI7g_OrtINGRbGnNQXkCUegqFyPow"
-  const LinuxWorldUrl = "https://media.licdn.com/dms/image/v2/C4E0BAQER-Sage-ex_A/company-logo_200_200/company-logo_200_200/0/1639050566015/linuxworld_informatics_pvt_ltd_logo?e=1739404800&v=beta&t=7LaZjwQW277ZW-ooZe19e_aWSS1uQzZULZzYC7t1JHY";
+  async function onSubmit(values: z.infer<typeof formSchema>) {
+    console.log(values)
+  }
 
   return (
-    <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50'>
-    <div className="flex flex-col lg:flex-row pt-8 max-w-6xl mx-auto pt-2">
-      {/* Left Section */}
-      <div className="lg:w-2/3 pt-6 h-full w-full">
-      
-
-        {/* <DisplayCourseContent /> */}
-        <div className="flex min-h-full items-center justify-center bg-gray-50/50">
-      <Card className="w-full max-w-[380px] shadow-lg">
-        <CardHeader className="space-y-1 pb-4">
-          <CardTitle className="text-xl">
-            Talk to a{" "}
-            <span className="text-[#ff0000]">Consultant</span>
-          </CardTitle>
-          <p className="text-sm text-muted-foreground">
-            Fill in the details to get started
-          </p>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <div className="space-y-4">
-            <Input
-              type="text"
-              placeholder="Full Name*"
-              className="h-12"
-            />
-            <Input
-              type="email"
-              placeholder="Email Id*"
-              className="h-12"
-            />
-            <div className="flex gap-2">
-              <Select defaultValue="+91">
-                <SelectTrigger className="w-[90px] h-12">
-                  <SelectValue placeholder="+91" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="+91">
-                    <span className="flex items-center gap-2">
-                      <Image
-                        src="/placeholder.svg"
-                        alt="IN"
-                        width={16}
-                        height={16}
-                        className="rounded-sm"
-                      />
-                      +91
-                    </span>
-                  </SelectItem>
-                </SelectContent>
-              </Select>
-              <Input
-                type="tel"
-                placeholder="Phone Number*"
-                className="h-12"
-              />
+    <div className=" mx-auto p-6 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="flex  max-w-5xl mx-auto flex-col lg:flex-row w-full gap-8 bg-gradient-to-br from-red-900 to-red-800 p-8 rounded-lg">
+      {/* Stats Section */}
+      <div className="flex-1 space-y-8">
+        <h2 className="text-4xl font-bold text-white">
+          We have successfully served
+        </h2>
+        
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
+            <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
+              <Users className="w-6 h-6 text-white" />
             </div>
+            <div className="text-3xl font-bold text-white">3,00,000+</div>
+            <div className="text-white/80">Professionals Trained</div>
           </div>
-          {/* <div className="flex items-center space-x-2">
-            <Checkbox id="terms" className="border-emerald-600 data-[state=checked]:bg-emerald-600" />
-           
-          </div> */}
-          <Button className="w-full h-12 bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black">
-            Submit <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
-          {/* <div className="mt-6 flex items-center justify-center gap-2 text-sm text-muted-foreground">
-            <span>In Collaboration with -</span>
-            <Image
-              src="/placeholder.svg"
-              alt="IBM Logo"
-              width={60}
-              height={24}
-              className="dark:invert"
-            />
-          </div> */}
-        </CardContent>
-      </Card>
-    </div>
-      </div>
 
-      {/* Right Section */}
-      <div className="lg:w-1/2 p-6">
-        {/* Sticky Card 1 */}
-        <div
-          ref={rightSectionRef}
-          className={`sticky top-4 transition-all duration-300 ${isSticky ? "opacity-100" : "opacity-0"}`}
-        >
-          <Card className="mb-6 ">
-            <CardHeader className="pb-4">
-              <CardTitle className="text-2xl font-bold">5.4M+ Learners</CardTitle>
-              <p className="text-muted-foreground">have reaped benefits from our programs</p>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="overflow-hidden">
-                <motion.div
-                  animate={{ x: ["0%", "-50%"] }}
-                  transition={{
-                    x: {
-                      repeat: Infinity,
-                      repeatType: "loop",
-                      duration: 5,
-                      ease: "linear",
-                    },
-                  }}
-                  className="flex gap-4"
-                >
-                  {[...learners, ...learners].map((learner, index) => (
-                    <div key={index} className="flex flex-col items-center flex-shrink-0">
-                      <div className="w-16 h-16 rounded-full overflow-hidden mb-2">
-                        <Image
-                          src={defaultLearnerImg}
-                          alt={learner.name}
-                          width={64}
-                          height={64}
-                          className="object-cover"
-                        />
-                      </div>
-                      <Image
-                        src={`/placeholder.svg?text=${learner.company}`}
-                        alt={learner.company}
-                        width={64}
-                        height={20}
-                        className="h-5 w-auto object-contain"
-                      />
-                    </div>
-                  ))}
-                </motion.div>
-              </div>
-
-              <ul className="space-y-4">
-                {benefits.map((benefit, index) => (
-                  <li key={index} className="flex items-start gap-2">
-                    <Check className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
-                    <span className="text-muted-foreground">{benefit}</span>
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-
-          <Card className="p-4 ">
-            {/* <CardHeader> */}
-              <h2 className="text-xl font-semibold"> <span className='text-[#ff0000]'>LinuxWorld </span>Accreditation</h2>
-            {/* </CardHeader> */}
-            <div className="flex items-center gap-4">
-              <Image
-                src={LinuxWorldUrl}
-                alt="Linux World"
-                width={200}
-                height={60}
-                className="h-15 w-auto"
-              />
-              <div className="flex items-center gap-2">
-                <Image
-                  src="https://d3kl8zsmmx4oop.cloudfront.net/linkedin_symbol_svg_1_087168127b.svg"
-                  alt="LinkedIn"
-                  width={24}
-                  height={24}
-                  className="h-6 w-6 grayscale"
-                />
-                <div className="flex flex-col">
-                  <span className="text-sm text-muted-foreground">LinkedIn</span>
-                  <span className="text-sm font-semibold">Top Startup India 2023</span>
-                </div>
-              </div>
+          <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
+            <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
+              <ArrowUpRight className="w-6 h-6 text-white" />
             </div>
-          </Card>
+            <div className="text-3xl font-bold text-white">100%</div>
+            <div className="text-white/80">Success Rate</div>
+          </div>
+
+          <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
+            <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
+              <Globe className="w-6 h-6 text-white" />
+            </div>
+            <div className="text-3xl font-bold text-white">100+</div>
+            <div className="text-white/80">Countries</div>
+          </div>
         </div>
       </div>
+
+      {/* Form Section */}
+      <div className="w-full lg:w-[400px] bg-white p-8 rounded-lg">
+        <h3 className="text-2xl font-semibold mb-6">Let’s get <span className="text-[#ff0000]">connected</span></h3>
+        <Form {...form}>
+          <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+            <FormField
+              control={form.control}
+              name="fullName"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <Input placeholder="Full Name*" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <FormField
+              control={form.control}
+              name="email"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <Input placeholder="Email Id*" type="email" {...field} />
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <FormField
+              control={form.control}
+              name="phoneNumber"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <div className="flex">
+                      <div className="flex items-center px-3 border rounded-l-md border-r-0 bg-muted">
+                        <img
+                          src="/placeholder.svg?height=20&width=28"
+                          alt="IN"
+                          className="w-7 h-5 object-cover"
+                        />
+                        <span className="ml-2 text-sm">+91</span>
+                      </div>
+                      <Input 
+                        placeholder="Phone Number*" 
+                        className="rounded-l-none" 
+                        type="tel"
+                        {...field}
+                      />
+                    </div>
+                  </FormControl>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <FormField
+              control={form.control}
+              name="course"
+              render={({ field }) => (
+                <FormItem>
+                  <Select onValueChange={field.onChange} defaultValue={field.value}>
+                    <FormControl>
+                      <SelectTrigger>
+                        <SelectValue placeholder="Course*" />
+                      </SelectTrigger>
+                    </FormControl>
+                    <SelectContent>
+                      <SelectItem value="react">React Development</SelectItem>
+                      <SelectItem value="node">Node.js Development</SelectItem>
+                      <SelectItem value="fullstack">Full Stack Development</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <FormField
+              control={form.control}
+              name="terms"
+              render={({ field }) => (
+                <FormItem className="flex items-start space-x-2 space-y-0">
+                  <FormControl>
+                    <Checkbox
+                      checked={field.value}
+                      onCheckedChange={field.onChange}
+                    />
+                  </FormControl>
+                  <div className="text-sm leading-none pt-1">
+                    I agree to StarAgile's{" "}
+                    <a href="#" className="text-red-600 hover:underline">
+                      Terms & Conditions
+                    </a>
+                    .
+                  </div>
+                  <FormMessage />
+                </FormItem>
+              )}
+            />
+
+            <Button type="submit" className="w-full bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black">
+              Submit →
+            </Button>
+          </form>
+        </Form>
       </div>
+    </div>
     </div>
   )
 }
