@@ -31,6 +31,7 @@ import CourseCarrrerModule from "@/components/customComponents/coursesComponents
 import TestimonialsSection from "@/components/customComponents/coursesComponents/courseDetails/Testimonials";
 import JobSkills from "@/components/customComponents/coursesComponents/courseDetails/JobSkills";
 import ProgramCohorts from "@/components/customComponents/coursesComponents/ProgramDetails";
+import CourseCarousel from "@/components/customComponents/coursesComponents/courseDetails/CourseCarousel";
 const CourseDetail = ()=>{
     const params = useParams ();
     const {pid}  = params;
@@ -52,6 +53,7 @@ const CourseDetail = ()=>{
         <CourseCurriculumModule></CourseCurriculumModule>
 
         <CourseCarrrerModule ></CourseCarrrerModule>
+        <CourseCarousel />
 
 
 
