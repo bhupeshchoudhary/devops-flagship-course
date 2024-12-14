@@ -5,18 +5,18 @@ import { FaLinkedin, FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react
 
 export default function Footer() {
   // Cloudinary video URL
-  const cloudinaryVideoUrl = "https://res.cloudinary.com/dmbxrhtoj/video/upload/v1732112346/Square_Root_Of_PI_%CF%80_2022_-_Knowledge_Oneness_rlx7zq.mp4"; 
+  const cloudinaryVideoUrl = "https://www.youtube.com/embed/F0eRuiXQNx4?start=59"; 
 
   return (
     <footer className="bg-black text-white py-8">
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Column 1: Brand Info with Logos */}
         <div>
-          <h2 className="text-xl font-bold text-red-500">
-            TGS<span className="text-white"> - The Growth String Initiative </span>
+          <h2 className="text-xl font-bold text-white">
+          Job Oriented Global :<span className="text-[#ff0000]">  DevOps Program </span>
           </h2>
           <p className="text-lg text-blue-400 mt-2 leading-relaxed text-cyan-400">
-            “Empowering Growth, Redefining Technical Training”
+            “Making India (put India Flag here) Future Ready"
           </p>
 
           <p className="text-sm text-gray-400 font-italic mt-6">Powered By:</p>
@@ -77,10 +77,15 @@ export default function Footer() {
 
         {/* Column 2: Cloudinary Video Stream */}
         <div className="flex justify-center items-center">
-          <video autoPlay loop muted controls className="rounded-lg w-[300px] h-[200px]">
-            <source src={cloudinaryVideoUrl} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+        <iframe
+    width="420"
+    height="250"
+    src="https://www.youtube.com/embed/F0eRuiXQNx4?start=59&autoplay=1&mute=1"
+    title="YouTube video player"
+    
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+></iframe>
+
         </div>
       </div>
 
