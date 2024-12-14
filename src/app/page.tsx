@@ -29,6 +29,7 @@ import MentorFeatured from "@/components/customComponents/coursesComponents/cour
 import CompaniesCarousel from "@/components/customComponents/coursesComponents/courseDetails/CompaniesCarousel";
 import CourseCarrrerModule from "@/components/customComponents/coursesComponents/courseDetails/carrerSection/Carrer";
 import TestimonialsSection from "@/components/customComponents/coursesComponents/courseDetails/Testimonials";
+import JobSkills from "@/components/customComponents/coursesComponents/courseDetails/JobSkills";
 const CourseDetail = ()=>{
     const params = useParams ();
     const {pid}  = params;
@@ -37,6 +38,7 @@ const CourseDetail = ()=>{
         <>
         <Navbar />
         <CourseDetailHero></CourseDetailHero>
+        <JobSkills />
         <CompaniesCarousel/>
         <PlacementProgramCard />
 
