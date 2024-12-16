@@ -2,6 +2,7 @@
 import hash13 from "../../../public/assets/logohash13.svg";
 import lwlogo from "../../../public/assets/LW-white.png";
 import { FaLinkedin, FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react-icons/fa";
+import Image from "next/image"
 
 export default function Footer() {
   // Cloudinary video URL
@@ -16,8 +17,19 @@ export default function Footer() {
           Job Oriented Global :<span className="text-[#ff0000]">  DevOps Program </span>
           </h2>
           <p className="text-lg text-blue-400 mt-2 leading-relaxed text-cyan-400">
-            “Making India (put India Flag here) Future Ready"
-          </p>
+  “Making India 
+  <span>
+    <Image 
+      src="/assets/flag.png" 
+      alt="Indian Flag" 
+      width={20} 
+      height={14} 
+      style={{ display: 'inline-block', marginLeft: '4px', verticalAlign: 'middle' }} 
+    />
+   &nbsp; </span> 
+   Future Ready"
+</p>
+
 
           <p className="text-sm text-gray-400 font-italic mt-6">Powered By:</p>
           {/* Logos */}
