@@ -2,52 +2,57 @@
 import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { ChevronRight, Globe, BrainCircuit, ShoppingCart, Container } from "lucide-react";
+import k8s from "../../../../../public/assets/Projects/k8s.png"
+import containerLogo from "../../../../../public/assets/Projects/container.png"
+import dockerLogo from "../../../../../public/assets/Projects/docker.png"
+import gitLogo from "../../../../../public/assets/Projects/git.png"
+import jenkinsLogo from "../../../../../public/assets/Projects/jenkins.svg"
 
 const projectData = [
   {
-    icon: ShoppingCart,
+    icon: "/assets/Projects/container.png",
     title: "Setting up a Multi-Tier Application in Containers",
     description:
       "Containerize a multi-tier application with frontend, backend, and database components. Using Docker to create and manage containers.",
     skills: ["Docker", "Kubernetes", "DevOps", "Frontend", "Backend", "Database Management"],
   },
   {
-    icon: BrainCircuit,
+    icon: "/assets/Projects/docker.png",
     title: "Integrating Docker files with Docker Compose",
     description:
       "Create Dockerfiles for different application components. Using Docker Compose to manage multi-container Docker applications.",
     skills: ["Docker", "Docker Compose", "Microservices", "Networking", "Container Management"],
   },
   {
-    icon: Globe,
+    icon: "/assets/Projects/k8s.png",
     title: "Integrating Kubernetes with Docker",
     description:
       "Deploying containerized applications using Kubernetes. Use Kubernetes to manage container orchestration and scaling.",
     skills: ["Kubernetes", "Container Orchestration", "Docker", "Scaling", "Cluster Management"],
   },
   {
-    icon: Globe,
+    icon: "/assets/Projects/jenkins.svg",
     title: "Configuring Jenkins Master-Slave Architecture in Docker",
     description:
       "Setting up Jenkins master and slave nodes in Docker containers. Implementing distributed builds using Jenkins agents.",
     skills: ["Jenkins", "Docker", "Distributed Builds", "CI/CD", "Automation"],
   },
   {
-    icon: Globe,
+    icon: "/assets/Projects/prometheus.svg",
     title: "Integrating Prometheus with Grafana",
     description:
       "Setting up Prometheus for monitoring application metrics. Visualize metrics with Grafana dashboards.",
     skills: ["Prometheus", "Grafana", "Monitoring", "Visualization", "Metrics Management"],
   },
   {
-    icon: Globe,
+    icon: "/assets/Projects/git.png",
     title: "Integrating GitLab with Kubernetes",
     description:
       "Using GitLab CI/CD for continuous integration and deployment. Deploying applications to Kubernetes clusters from GitLab.",
     skills: ["GitLab", "CI/CD", "Kubernetes", "DevOps", "Automation"],
   },
   {
-    icon: Globe,
+    icon: "/assets/Projects/terraform.svg",
     title: "Infrastructure as Code (IaC)",
     description:
       "Using Terraform to define and provision infrastructure. Managing infrastructure changes through version control.",
@@ -60,11 +65,41 @@ const projectData = [
       "Implementing a continuous integration and deployment pipeline using Jenkins or GitLab CI. Automating testing, building, and deployment processes.",
     skills: ["CI/CD", "Jenkins", "GitLab", "Automation", "Testing"],
   },
+  {
+    icon: "/assets/Projects/aws.svg",
+    title: "AWS DevOps Services",
+    description:
+      "Master AWS DevOps: CI/CD pipelines, IaC, serverless, monitoring, containerization, security, and cost optimization.",
+    skills: ["CDK", "EKS", "CloudWatch", "CloudTrail", "Beanstalk","Fargate","IAM"],
+  },
+  {
+    icon: Globe,
+    title: "Azure & GCP Cloud",
+    description:
+      "Master Azure and GCP: compute, storage, networking, security, serverless, and hands-on cloud platform comparisons.",
+    skills: ["GCP", "GKE", "AAD", "CosmosDB", "VNet","CosmosDB","RBAC"],
+  },
+
+  {
+    icon: Globe,
+    title: "Gitlab ",
+    description:
+      "Master GitLab DevOps: CI/CD pipelines, automation, GitOps, IaC, security, scaling, and high-availability setups..",
+    skills: ["Git", "workflows", "conflicts", "GitHub", "Bitbucket","merging "],
+  },
+
+  {
+    icon: "/assets/Projects/bash.svg",
+    title: "Shell Scripting",
+    description:
+      "Master Shell Scripting: automation, APIs, debugging, CI/CD tasks, cloud resources, and performance optimization.",
+    skills: ["Bash", "Zsh", "Fish", "stderr","CI/CD"],
+  },
 ];
 
 export default function Projects() {
   const [expanded, setExpanded] = useState(null);
-
+  console.log(dockerLogo)
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
       <div className="w-full max-w-6xl mx-auto p-6 lg:px-8">
@@ -77,7 +112,7 @@ export default function Projects() {
               <h2 className="text-black px-3 py-1 text-3xl font-bold">
  
 
- Learn by Doing : <span className="text-[#ff0000]  font-bold">10 Industry Level Projects </span>
+ Learn by Doing : <span className="text-[#ff0000]  font-bold">20+ Industry Level Projects </span>
               </h2>
             </div>
           </div>
@@ -125,7 +160,8 @@ export default function Projects() {
                   >
                     <CardHeader>
                       <div className="w-12 h-12 bg-zinc-100 rounded-lg flex items-center justify-center mb-4">
-                        <project.icon className="w-6 h-6" />
+                        {/* <project.icon className="w-6 h-6" /> */}
+                        <img src={project.icon.toString()}></img>
                       </div>
                       <h3 className="text-xl font-bold">{project.title}</h3>
                       <p className="text-muted-foreground">{project.description}</p>

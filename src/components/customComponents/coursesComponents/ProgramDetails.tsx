@@ -9,7 +9,7 @@ export default function ProgramCohorts() {
         {/* Headers */}
         <div className="space-y-2">
           <h1 className="text-lg sm:text-2xl font-semibold text-black">
-            Winter Industrial{" "}
+            DevOps Industrial{" "}
             <span className="text-[#ff0000]">Training Program Details</span>
           </h1>
           <h2 className="text-sm sm:text-lg text-black">
@@ -25,7 +25,7 @@ export default function ProgramCohorts() {
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
               <h3 className="text-sm sm:text-lg text-black ">
-                LW Winter Industrial Training Program 2024
+                LW DevOps Industrial Training Program 2024
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
                 Limited Seats available
@@ -124,7 +124,7 @@ export default function ProgramCohorts() {
             <h3 className="text-lg font-medium mb-4 text-black">Deliverables</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                "Get Winter Industrial Training Certificate from LW Informatics Pvt Ltd",
+                "Get DevOps Industrial Training Certificate from LW Informatics Pvt Ltd",
                 "Industry Recognised Project Certificate signed by Mr Vimal Daga",
                 "Learn from The World Record Holder, Mr Vimal Daga",
               ].map((role, index) => (

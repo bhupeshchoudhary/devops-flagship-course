@@ -18,7 +18,7 @@ const Section: React.FC<SectionProps> = ({ icon, title, description }) => {
       {/* Text Content */}
       <div>
         <h3 className="text-lg sm:text-xl font-medium text-gray-800">{title}</h3>
-        <p className="text-sm sm:text-base text-gray-600">{description}</p>
+       {/* <p className="text-sm sm:text-base text-gray-600">{description}</p> */}
       </div>
     </div>
   );
@@ -44,17 +44,36 @@ const Tools: React.FC = () => {
         {/* Tool Sections */}
         <Section
           icon={<TrendingUp size={24} color="white " />}
-          title="Data Management and Development Tools"
+          title="Infrastructure & Automation: Terraform, Ansible, AWS CloudFormation"
           description="Tools: Python, SQL"
         />
         <Section
           icon={<BarChart size={24} color="white" />}
-          title="Data Analysis and Visualization"
+          title="CI/CD: Jenkins &  GitLab CI
+"
           description="Tools: Excel, Power BI, Tableau, Matplotlib, Seaborn, NumPy, Pandas"
         />
         <Section
           icon={<Cpu size={24} color="white" />}
-          title="Machine Learning and AI Frameworks"
+          title="Containers & Orchestration: Docker, Kubernetes"
+          description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
+        />
+
+<Section
+          icon={<TrendingUp size={24} color="white" />}
+          title="Cloud Platforms: AWS, Azure, GCP"
+          description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
+        />
+
+<Section
+          icon={<BarChart size={24} color="white" />}
+          title="Monitoring & Logging: Prometheus, Grafana, ELK"
+          description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
+        />
+
+<Section
+          icon={<Cpu size={24} color="white" />}
+          title="Version Control: Git, GitHub"
           description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
         />
       </div>
