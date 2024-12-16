@@ -8,7 +8,12 @@ function CourseCarousel() {
     <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 p-12 rounded-xl">
       <div className="mx-auto ">
         <div className="relative mb-2">
-        
+        <div className="absolute -left-[48] -top-[48] flex h-12 w-12 items-center justify-center ">
+            <span className="text-xl font-bold text-white">
+
+              <img src="/assets/tag3.webp"></img>
+            </span>
+          </div>
           <div className="relative items-center justify-between">
       
             <h1 className='text-2xl font-bold' >Pay Career Services Fee</h1>
