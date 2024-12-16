@@ -9,7 +9,7 @@ export default function   CoursePricingSection() {
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
 
 
-        <span className="text-[#ff0000]" >        Job Oriented   </span>DevOps
+        <span className="text-[#ff0000]" > Invest today & </span> get a return of 5 lpa
         </h1>
         
         <div className="flex flex-col md:flex-row gap-8">
