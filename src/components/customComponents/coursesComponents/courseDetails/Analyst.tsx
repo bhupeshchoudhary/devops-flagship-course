@@ -54,17 +54,13 @@ const Analyst: React.FC = () => {
       <div className="max-w-6xl mx-auto space-y-8">
         {/* Header */}
         <div className="space-y-2">
-          <p className="text-xs sm:text-sm text-gray-700 font-semibold">
-            Why DS/ML/AI Industry & Why Data Science?
-          </p>
-          <h1 className="space-y-1">
+           
+          
             <div className="text-2xl sm:text-3xl font-bold text-[#ff0000]">
-              Rising Demand
+              Rising Demand <span className="text-black"> for DevOps since 2020 </span>
             </div>
-            <div className="text-2xl sm:text-3xl font-bold">
-              for analytics and AI skills
-            </div>
-          </h1>
+            
+          
         </div>
 
         {/* Main Content */}

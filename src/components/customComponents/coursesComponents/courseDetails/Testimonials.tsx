@@ -18,26 +18,36 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Kevin James",
+    name: "Manikandan Prakash",
     role: "Happy Client",
     rating: 66,
-    content: "Nemo enim ipsam voluptatem quia voluptas sit asperna aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciuntporro quisuam est, rui dolorem ipsum quia dolor sit amet, consectetur adieisci velit sed ruia.",
-    image: "/assets/About/profile1.png"
+    content: "It was very informative and 100 pratical session by vimal sir ,From that I did learn the bedrock service how to intergrate in any of our own custom requirment ,It was pretty enough to start AWS bedrock thanks for the session Vimal Daga sir. ",
+    image: "https://media.licdn.com/dms/image/v2/D4E03AQFiY07rDFiZ1A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698246875639?e=1737590400&v=beta&t=n4sQVUqx1DDJaKh2fEvBUd5l6FR5_k7JEpb1cBS_ZTk"
   },
   {
     id: 2,
-    name: "Sarah Wilson",
+    name: "Dibyaraj Datta",
     role: "Satisfied Customer",
     rating: 78,
-    content: "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    image: "/assets/About/profile2.png"
+    content: "It was truly an amazing masterclass by the one & only Mr. Vimal Daga Sir. The Wow moment for me was how he explained each and every concept in such an easy manner from basic to advance, like the use of Helm Charts to solve modern world problems with container management.    Looking forward to join more such sessions & workshops from LinuxWorld Informatics Pvt Ltd under the guidance of Vimal Daga Sir.",
+    image: ""
   },
+  {
+      id: 3,
+      name: "Rushikesh Mahindrakar",
+      role: "System Engineering",
+      rating: 88,
+     image: "https://media.licdn.com/dms/image/v2/D4D03AQGf6T3ej4bqMA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686901550352?e=1737590400&v=beta&t=bCqKfqio6arSRNKOqOgDznJav6d1OqbsHzPMZAbK_tQ",
+      
+      content: ` Your invaluable guidance in this remarkable Kubernetes training program has been truly appreciated. It's a pivotal milestone in my DevOps journey, and I'm deeply grateful for your mentorship, Vimal Daga sir. Your expertise and insights are immensely valuable, propelling my professional growth with each session. Thank you!! 😊 `,
+      
+    }
 ]
 
 const floatingAvatars = [
-  { top: "32%", left: "40%", size: 80, delay: 200, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "64%", left: "40%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "54%", left: "54%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
+  { top: "32%", left: "40%", size: 80, delay: 200, image: "https://media.licdn.com/dms/image/v2/D4E03AQFiY07rDFiZ1A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698246875639?e=1737590400&v=beta&t=n4sQVUqx1DDJaKh2fEvBUd5l6FR5_k7JEpb1cBS_ZTk" },
+  { top: "64%", left: "40%", size: 80, delay: 0, image: "https://media.licdn.com/dms/image/v2/D5603AQENeos_aDytsw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711478336339?e=1737590400&v=beta&t=eqdh3QVuz82VyuHWF78Bmif0EVec9xdh47F6VqZmmko" },
+  { top: "54%", left: "54%", size: 80, delay: 0, image: "https://media.licdn.com/dms/image/v2/D4D03AQFqtDCGoMk54g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673897788931?e=1737590400&v=beta&t=s2TDcsAQ2oqQ_DvoGT8yyUUaGvsfGDwan4Phjo1RFL0" },
   { top: "24%", left: "56%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
   { top: "4%", left: "46%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
   { top: "4%", left: "30%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
