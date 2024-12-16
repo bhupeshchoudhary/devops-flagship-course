@@ -6,7 +6,7 @@ import CertificateCarousel from "./CertificateCarousel";
 
 const CertificateDisplay: React.FC = () => {
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 p-6">
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 p-6 lg:p-12 rounded-lg shadow-lg max-w-6xl mx-auto">
       <div className="flex flex-col lg:flex-row items-center lg:items-start">
         {/* Text Section */}

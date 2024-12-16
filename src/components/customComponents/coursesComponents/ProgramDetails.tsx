@@ -4,7 +4,7 @@ import { Calendar, Clock, GraduationCap, Briefcase, Code } from 'lucide-react'
 
 export default function ProgramCohorts() {
   return (
-    <div className="bg-white pt-4" id="programcohorts">
+    <div className=" bg-gradient-to-br from-gray-50 via-black-50 to-red-50 pt-4" id="programcohorts">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
         {/* Headers */}
         <div className="space-y-2">

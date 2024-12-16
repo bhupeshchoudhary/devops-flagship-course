@@ -69,7 +69,7 @@ const CourseDetail = ()=>{
      <Faq></Faq>
      <CardStack></CardStack>
      <QueryForm />
-     
+     <CourseTestimonials />
      <CoursePricingSection></CoursePricingSection>
      <PlacedStudents />
         <CertificateDisplay></CertificateDisplay>

@@ -65,7 +65,6 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <div className='sm:py-12'>
     <section className="relative bg-[#faf7f4] overflow-hidden px-4 py-12  md:py-12">
     <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
       {/* Left Section */}
@@ -173,6 +172,6 @@ export default function TestimonialsSection() {
       }
     `}</style>
   </section>
-  </div>
+
     )
 }
