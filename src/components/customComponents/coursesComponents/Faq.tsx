@@ -14,38 +14,183 @@ type FAQItem = {
 const faqContent: Record<string, FAQItem[]> = {
   curriculum: [
     {
-      question: "What is the Master's in AI & Data Science with Linux World?",
+      question: "What is the Job-Oriented DevOps Program?",
       answer:
-        "This program is an engaging yet rigorous 12-month online program designed specifically for working professionals to develop practical knowledge and skills, establish a professional network, and accelerate entry into data science careers. The certification is awarded by JGU.",
+        "This is a specialized program designed to equip participants with in-demand DevOps skills and provide hands-on experience through real-world projects. The goal is to make participants job-ready for roles like DevOps Engineer, Site Reliability Engineer (SRE), and Cloud Engineer.",
     },
     {
-      question: "Which topics are going to be covered as part of the Master's in AI & Data Science program?",
+      question: "What skills will I gain during the program?",
       answer: (
         <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>Machine Learning Algorithms</li>
-          <li>Deep Learning and Neural Networks</li>
-          <li>Natural Language Processing</li>
-          <li>Computer Vision</li>
-          <li>Big Data Analytics</li>
-          <li>Data Visualization</li>
-          <li>Statistical Analysis</li>
-          <li>Ethical AI and Data Governance</li>
+          <li>CI/CD pipelines with tools like Jenkins and GitHub Actions</li>
+          <li>Infrastructure Automation using Terraform and Ansible.</li>
+          <li>Containerization and orchestration with Docker and Kubernetes.
+          </li>
+          <li>Monitoring and logging with Prometheus, Grafana, and ELK Stack.
+          </li>
+          <li>Best practices for cloud platforms like AWS, Azure, and GCP.
+          </li>
+
         </ul>
       ),
+    },
+    {
+      question: "What kind of projects are included in the program?",
+      answer:(
+        <ul className="list-disc list-inside mt-2 space-y-1">
+        <li>Building automated CI/CD pipelines.
+        </li>
+        <li>Setting up multi-cloud infrastructure with IaC.</li>
+        <li>Deploying containerized applications to Kubernetes.
+
+        </li>
+        <li>Implementing monitoring dashboards and alert systems.
+        
+        </li>
+        <li>Enhancing system reliability with chaos engineering.
+
+        </li>
+
+      </ul>
+      )
+      ,
+    },
+    {
+      question: " How is this program structured?",
+      answer:
+        (
+          <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Training Phase: Comprehensive, hands-on learning of DevOps tools and techniques.
+
+          </li>
+          <li>Project/Job-Oriented Phase: Solving industry-grade problems and completing projects to build a strong portfolio.
+          .</li>
+
+  
+        </ul>
+        )
+    },
+
+    {
+      question: "Who should enroll in this program?",
+      answer:
+        (
+          <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Fresh graduates or IT professionals seeking a career in DevOps.
+
+
+          </li>
+          <li>Developers, sysadmins, or QA engineers wanting to transition to DevOps.
+
+          .</li>
+          <li>Anyone interested in mastering DevOps tools and workflows.
+          </li>
+
+  
+        </ul>
+        )
     },
   ],
   timeCommitment: [
     {
-      question: "What type of learning experience should I expect?",
+      question: "Does the program include job placement assistance?",
+      answer:(
+        <ul className="list-disc list-inside mt-2 space-y-1">
+        <li>Yes, the program provides:
+
+        </li>
+        <li>Resume-building services tailored for DevOps roles.</li>
+        <li>Mock interviews with industry experts.
+
+        </li>
+        <li>Job referrals through partnerships with hiring companies for the students who has 90% Attendance 
+
+        
+        </li>
+       
+
+      </ul>
+      )
+      ,
+    },
+    {
+      question: "What kind of job roles can I apply for after completing this program?",
       answer:
-        "Students can expect a blend of theoretical knowledge and practical applications through hands-on projects, live sessions, and industry case studies.",
+        (
+          <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>You can target roles such as:
+
+
+          </li>
+          <li>DevOps Engineer.
+</li>
+
+<li>Site Reliability Engineer (SRE).
+</li>
+
+<li>Cloud Infrastructure Engineer.
+</li>
+
+<li>Build and Release Engineer.
+</li>
+
+<li>Automation Engineer.
+</li>
+
+  
+        </ul>
+        )
+    },
+
+    {
+      question: "Will I receive a certificate after completing the program?",
+      answer:
+       "If you maintain 90% attendance during the program, you will receive a Certificate of Completion and an Internship Certificate, both of which can be added to your LinkedIn profile and resume to highlight your DevOps expertise and practical experience."
+    },
+
+    
+    {
+      question: " How does the program prepare me for interviews?",
+      answer:
+(
+  <ul className="list-disc list-inside mt-2 space-y-1">
+  <li>Mock technical interviews.  
+
+  </li>
+  <li>Guidance on answering DevOps-specific questions.
+  </li>
+  <li>Training in building your projects & presenting effectively to recruiters.
+
+
+  </li>
+
+ 
+
+</ul>
+)
+    },
+
+    {
+      question: "What salary range can I expect after completing this program?",
+      answer:
+"Entry-level DevOps roles typically offer salaries ranging from $70,000 to $100,000 per year, depending on location, industry, and expertise level."
     },
   ],
   selectionCriteria: [
     {
-      question: "Is a Degree in Master's of Science granted at the end of the program?",
+      question: " How is this program structured?",
       answer:
-        "Yes, upon successful completion of all program requirements, students are awarded a Master's of Science degree in AI & Data Science.",
+        (
+          <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Training Phase: Comprehensive, hands-on learning of DevOps tools and techniques.
+
+          </li>
+          <li>Project/Job-Oriented Phase: Solving industry-grade problems and completing projects to build a strong portfolio.
+          .</li>
+
+  
+        </ul>
+        )
     },
   ],
 };
@@ -74,10 +219,10 @@ export default function Faq() {
             >
               <h2 className="text-md md:text-md font-medium">
                 {key === "curriculum"
-                  ? "Master's in AI & Data Science Course Curriculum"
+                  ? "Program Overview"
                   : key === "timeCommitment"
-                  ? "Time Commitment in Master's in AI & Data Science Program"
-                  : "Selection Criteria for MSc in AI & DS"}
+                  ? "Career Support"
+                  : "Tools and Hands-On Projects"}
               </h2>
             </div>
           ))}
