@@ -61,6 +61,9 @@ export default {
 			"extra-loose": "2",
 			"12": "3rem",
 		},
+		boxShadow: {
+			'inset-sides': 'inset 10px 0 15px -5px rgba(0, 0, 0, 0.3), inset -10px 0 15px -5px rgba(0, 0, 0, 0.3)',
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],
