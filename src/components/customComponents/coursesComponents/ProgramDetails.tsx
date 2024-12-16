@@ -98,22 +98,26 @@ export default function ProgramCohorts() {
               <div className="flex gap-3">
                 <GraduationCap className="w-5 h-5 text-orange-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  Any technical student who is undergoing a degree : BTech | BCA
-                  | MCA | MTech | BScIT
+                Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT and working professionals.
                 </p>
               </div>
               <div className="flex gap-3">
                 <Briefcase className="w-5 h-5 text-orange-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  No prior knowledge required : Learn from Basic to Advance
-                  Level
+                No prior knowledge required  learn everything from Basics to Advanced levels.
                 </p>
               </div>
               <div className="flex gap-3">
                 <Code className="w-5 h-5 text-orange-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  Curious to learn something new & build an industry level
-                  project
+                Ideal for those curious to learn new skills and work on industry-level projects.
+                </p>
+              </div>
+
+              <div className="flex gap-3">
+                <Code className="w-5 h-5 text-orange-500 flex-shrink-0" />
+                <p className="text-sm text-black">
+                Minimum 90% attendance is mandatory to qualify for the placement.
                 </p>
               </div>
             </div>
@@ -121,12 +125,13 @@ export default function ProgramCohorts() {
 
           {/* Best Suited For */}
           <Card className="p-6 bg-white">
-            <h3 className="text-lg font-medium mb-4 text-black">Deliverables</h3>
+            <h3 className="text-lg font-medium mb-4 text-black">What You'll Receive:</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                "Get DevOps Industrial Training Certificate from LW Informatics Pvt Ltd",
-                "Industry Recognised Project Certificate signed by Mr Vimal Daga",
-                "Learn from The World Record Holder, Mr Vimal Daga",
+                "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
+                "Industry-Recognized Project Certificate signed by Mr. Vimal Daga.",
+                "6-Month Internship Certificate upon successful completion of the projects",
+                "The opportunity to learn from World Record Holder, Mr. Vimal Daga, and enhance your skills to stand out in the tech industry!"
               ].map((role, index) => (
                 <div key={index} className="flex items-center gap-2">
                   <div className="w-2 h-2 bg-orange-500 rounded-full" />
