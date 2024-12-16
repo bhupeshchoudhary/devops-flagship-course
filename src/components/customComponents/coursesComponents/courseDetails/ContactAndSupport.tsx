@@ -47,7 +47,7 @@ export default function QueryForm() {
     <div className="flex  max-w-5xl mx-auto flex-col lg:flex-row w-full gap-8 bg-gradient-to-br from-red-900 to-red-800 p-8 rounded-lg">
       {/* Stats Section */}
       <div className="flex-1 space-y-8">
-        <h2 className="text-4xl font-bold text-white">
+        <h2 className="text-3xl font-bold text-white">
           We have successfully served
         </h2>
         
@@ -56,24 +56,24 @@ export default function QueryForm() {
             <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
               <Users className="w-6 h-6 text-white" />
             </div>
-            <div className="text-3xl font-bold text-white">3,00,000+</div>
-            <div className="text-white/80">Professionals Trained</div>
+            <div className="text-2xl font-bold text-white">11,00,000+</div>
+            <div className="text-white/80">Student's Lives Changed</div>
           </div>
 
           <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
             <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
               <ArrowUpRight className="w-6 h-6 text-white" />
             </div>
-            <div className="text-3xl font-bold text-white">100%</div>
-            <div className="text-white/80">Success Rate</div>
+            <div className="text-2xl font-bold text-white">450+</div>
+            <div className="text-white/80">Companies Benefited</div>
           </div>
 
           <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
             <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
               <Globe className="w-6 h-6 text-white" />
             </div>
-            <div className="text-3xl font-bold text-white">100+</div>
-            <div className="text-white/80">Countries</div>
+            <div className="text-2xl font-bold text-white">160+ </div>
+            <div className="text-white/80">Open Source Tools & Technology Covered</div>
           </div>
         </div>
       </div>
@@ -171,7 +171,7 @@ export default function QueryForm() {
                     />
                   </FormControl>
                   <div className="text-sm leading-none pt-1">
-                    I agree to StarAgile's{" "}
+                    I agree to LinuxWorld's{" "}
                     <a href="#" className="text-red-600 hover:underline">
                       Terms & Conditions
                     </a>

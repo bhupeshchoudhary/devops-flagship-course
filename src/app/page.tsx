@@ -14,7 +14,7 @@ import Projects from "@/components/customComponents/coursesComponents/courseDeta
 import ExampleCard2 from "@/components/customComponents/coursesComponents/courseDetails/ExampleCard2";
 import ProgramHighlights from "@/components/customComponents/coursesComponents/courseDetails/ProgramHighlights";
 import MentorProfile from "@/components/customComponents/coursesComponents/courseDetails/Mentor";
-import KeyOutcomes from "@/components/customComponents/coursesComponents/courseDetails/KeyOutcomes";
+import KeyOutcomes from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
 import CourseTestimonials from "@/components/customComponents/coursesComponents/courseDetails/CourseTestimonials"
 import CoursePricingSection from "@/components/customComponents/coursesComponents/courseDetails/CoursePricingSection";
 import CertificateDisplay from "@/components/customComponents/coursesComponents/courseDetails/CertificateDetails";
@@ -32,6 +32,7 @@ import TestimonialsSection from "@/components/customComponents/coursesComponents
 import JobSkills from "@/components/customComponents/coursesComponents/courseDetails/JobSkills";
 import ProgramCohorts from "@/components/customComponents/coursesComponents/ProgramDetails";
 import CourseCarousel from "@/components/customComponents/coursesComponents/courseDetails/CourseCarousel";
+import QueryForm from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
 const CourseDetail = ()=>{
     const params = useParams ();
     const {pid}  = params;
@@ -65,7 +66,7 @@ const CourseDetail = ()=>{
      <Analyst></Analyst>
      <Faq></Faq>
      <CardStack></CardStack>
-     <KeyOutcomes></KeyOutcomes>
+     <QueryForm />
      <CoursePricingSection></CoursePricingSection>
      <CourseTestimonials></CourseTestimonials>
         <CertificateDisplay></CertificateDisplay>
