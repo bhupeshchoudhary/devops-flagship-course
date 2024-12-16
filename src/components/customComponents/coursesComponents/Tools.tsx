@@ -17,7 +17,7 @@ const Section: React.FC<SectionProps> = ({ icon, title, description }) => {
       </div>
       {/* Text Content */}
       <div>
-        <h3 className="text-lg sm:text-xl font-medium text-gray-800">{title}</h3>
+        <span className="text-md sm:text-md font-medium text-gray-800">{title}</span>
        {/* <p className="text-sm sm:text-base text-gray-600">{description}</p> */}
       </div>
     </div>
@@ -30,7 +30,7 @@ const Tools: React.FC = () => {
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
     <div className="flex flex-col  lg:flex-row items-center max-w-6xl justify-between  p-4 sm:p-6 lg:p-8 mx-auto">
       {/* Left Text Content */}
-      <div className="lg:w-1/2 space-y-6 sm:space-y-8">
+      <div className="lg:w-1/2 space-y-6 sm:space-y-4">
         <h2 className="text-gray-700 text-sm font-semibold">
           Most Hands-On DevOps Program
         </h2>
@@ -43,49 +43,49 @@ const Tools: React.FC = () => {
 
         {/* Tool Sections */}
         <Section
-          icon={<TrendingUp size={24} color="white " />}
+          icon={<TrendingUp size={18} color="white " />}
           title="Infrastructure & Automation: Terraform, Ansible, AWS CloudFormation"
           description="Tools: Python, SQL"
         />
         <Section
-          icon={<BarChart size={24} color="white" />}
+          icon={<BarChart size={18} color="white" />}
           title="CI/CD: Jenkins &  GitLab CI
 "
           description="Tools: Excel, Power BI, Tableau, Matplotlib, Seaborn, NumPy, Pandas"
         />
         <Section
-          icon={<Cpu size={24} color="white" />}
+          icon={<Cpu size={18} color="white" />}
           title="Containers & Orchestration: Docker, Kubernetes"
           description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
         />
 
 <Section
-          icon={<TrendingUp size={24} color="white" />}
+          icon={<TrendingUp size={18} color="white" />}
           title="Cloud Platforms: AWS, Azure, GCP"
           description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
         />
 
 <Section
-          icon={<BarChart size={24} color="white" />}
+          icon={<BarChart size={18} color="white" />}
           title="Monitoring & Logging: Prometheus, Grafana, ELK"
           description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
         />
 
 <Section
-          icon={<Cpu size={24} color="white" />}
+          icon={<Cpu size={18} color="white" />}
           title="Version Control: Git, GitHub"
           description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
         />
       </div>
 
       {/* Right Image Section */}
-      <div className="lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0">
+      <div className="lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0 p-6">
         <div className="relative bg-gray-100 p-4 sm:p-8 rounded-lg shadow-lg">
           {/* Replace this image tag with your actual image */}
           <img
-            src="/assets/cources/tools.png"
+            src="/assets/cources/tools.jpg"
             alt="Data Science Tools"
-            className="w-full h-auto"
+            className="w-full h-auto "
           />
         </div>
       </div>
