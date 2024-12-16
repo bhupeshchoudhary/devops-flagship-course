@@ -59,7 +59,7 @@ const projectData = [
     skills: ["Terraform", "Infrastructure as Code", "Version Control", "Cloud Infrastructure", "Automation"],
   },
   {
-    icon: Globe,
+    icon: "/assets/Projects/cicd.png",
     title: "Building a CI/CD Pipeline",
     description:
       "Implementing a continuous integration and deployment pipeline using Jenkins or GitLab CI. Automating testing, building, and deployment processes.",
@@ -73,7 +73,7 @@ const projectData = [
     skills: ["CDK", "EKS", "CloudWatch", "CloudTrail", "Beanstalk","Fargate","IAM"],
   },
   {
-    icon: Globe,
+    icon: "/assets/Projects/gcp.svg",
     title: "Azure & GCP Cloud",
     description:
       "Master Azure and GCP: compute, storage, networking, security, serverless, and hands-on cloud platform comparisons.",
@@ -81,7 +81,7 @@ const projectData = [
   },
 
   {
-    icon: Globe,
+    icon: "/assets/Projects/gitlab.png",
     title: "Gitlab ",
     description:
       "Master GitLab DevOps: CI/CD pipelines, automation, GitOps, IaC, security, scaling, and high-availability setups..",
@@ -159,7 +159,7 @@ export default function Projects() {
                     className="border-t-0 border-r-1 border-b-1 border-l-1 border-gray-100 overflow-hidden transform transition-transform duration-300 hover:scale-105"
                   >
                     <CardHeader>
-                      <div className="w-12 h-12 bg-zinc-100 rounded-lg flex items-center justify-center mb-4">
+                      <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mb-4">
                         {/* <project.icon className="w-6 h-6" /> */}
                         <img src={project.icon.toString()}></img>
                       </div>
