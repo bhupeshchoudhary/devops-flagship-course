@@ -96,9 +96,9 @@ const Analyst: React.FC = () => {
                     key={company}
                     src={logoPath.toString()}
                     alt={company}
-                    height={200}
-                    width={1200}
-                    className="h-8 sm:h-12 object-contain"
+                    height={80}
+                    width={80}
+                    className="h-6 sm:h-12 object-contain"
                   />
                 );
               })}
