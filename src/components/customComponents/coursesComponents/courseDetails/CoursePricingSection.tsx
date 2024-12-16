@@ -7,14 +7,16 @@ export default function   CoursePricingSection() {
     <div className=" mx-auto bg-gradient-to-r from-gray-50 via-white-50 to-red-50 ">
       <div className="max-w-6xl mx-auto p-6">
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
-        <span className="text-[#ff0000]" >Invest today </span>& get a return of 5 lpa 
+
+
+        <span className="text-[#ff0000]" > Invest today & </span> get a return of 5 lpa
         </h1>
         
         <div className="flex flex-col md:flex-row gap-8">
           {/* Left Column - Pricing */}
           <Card className="flex-1 p-6 bg-white">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
-              Mastering Git and Github Advanced Level Training
+            Globally Recognized Program
               <span className="block text-gray-600 text-lg mt-1">
                 (Save ₹4,020)
               </span>
@@ -54,14 +56,17 @@ export default function   CoursePricingSection() {
           <div className="flex-1 space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-700 mb-4">
-                What you'll learn...
+              What you will get...
               </h3>
               <div className="space-y-3">
                 {[
-                  "Git Basics and Git Commands",
-                  "Git Branching and Merging",
-                  "Git Rebase and Git Bisect",
-                  "Squashing Commits, Cherry-Picking and Three-Way Merges"
+                  "Master Git and GitHub - From Beginner to Advanced Level",
+                  "Automation Using Ansible",
+                  "Jenkins & Build Automation",
+                  "Monitoring Tools : Prometheus & Grafana",
+                  "Monitoring Tools : Prometheus & Grafana",
+                  "Docker, Container & Kubernetes",
+                  "And much more…"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-2">
                     <div className="bg-red-100 rounded-sm p-0.5">
@@ -79,10 +84,10 @@ export default function   CoursePricingSection() {
               </h3>
               <div className="space-y-3">
                 {[
-                  "Most Relevant Git and Github Training Tips & Tricks",
+                  "Most Relevant DevOps Tips & Tricks to become more productive",
                   "Technical Support for 90 days",
-                  "Real Industry Use Cases of Git and Github",
-                  "Premium #13 Git and Github Training Community"
+                  "Premium #13 DevOps Community Membership",
+
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-2">
                     <div className="bg-red-100 rounded-sm p-0.5">
