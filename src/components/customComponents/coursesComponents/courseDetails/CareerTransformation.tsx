@@ -12,6 +12,8 @@ import ignoLogo from "../../../../../public/assets/companyLogo/ignouLogo.png"
 import NagpurUniversityLogo from "../../../../../public/assets/companyLogo/NagpurLogo.png"
 import ShyenaTechLogo from "../../../../../public/assets/companyLogo/shyenaTechLogo.png"
 import TtiLogo from "../../../../../public/assets/companyLogo/TtiLogo.png"
+import tmuCollege from "../../../../../public/assets/tmu.png"
+import ipecCollege from "../../../../../public/assets/ipec.png"
 const peopleData = [
   {
     name: "Anmol Roop Rai",
@@ -24,28 +26,8 @@ const peopleData = [
     afterRole: "DevOps Intern",
     afterLogo: bluePlanet,
   },
-  {
-    name: "Disha Bajaj",
-    image: "https://media.licdn.com/dms/image/v2/D4D03AQHXkuvnF5Zm7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724997745281?e=1736380800&v=beta&t=tvAlORqrjV22gAuI7g_OrtINGRbGnNQXkCUegqFyPow",
-    testimonial:
-      "Before ARTH, I had applied for several internships through my college's Internship drive but never got selected by any of the companies. Finally, I got two offers in March as I brushed up my technical skills and worked on my resume and presentation skills through the many workshops provided by ARTH. Today, my confidence has grown, and do not shy away from working with new technologies, which has become my USP.",
-    hike: "85% Hike",
-    beforeRole: "Dr. Vishwanath Karad MIT World Peace University Pune",
-    beforeLogo: TCS,
-    afterRole: "Cloud DevOps and React Intern",
-    afterLogo: Redhat,
-  },
-  {
-    name: "Chetna",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQHwuLc1BHCq8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725440239539?e=1739404800&v=beta&t=v2LC7PCyLPOT3g5qRrU0jOFTX9MWt1kiQJOeNTFcWFo",
-    testimonial:
-      "Being a part of ARTH transformed me entirely. I learned so many industry trending technologies that I ha only heard about and gained quality practical exposure. My interest in Automation technologies grew, and this was all thanks to Vimal Sir. I was actually enjoying working with technologies.",
-    hike: "85% Hike",
-    beforeRole: "IGNOU, NEW DELHI",
-    beforeLogo: ignoLogo,
-    afterRole: "Quality Engineer Intern",
-    afterLogo: Redhat,
-  },
+
+  
   {
     name: "Harishankar Dubey",
     image: "https://media.licdn.com/dms/image/v2/D4D35AQHj5Xn6AH4Otg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1733389351846?e=1734616800&v=beta&t=zYrN6sURG-m5zISgMD6CZBZGOTL0qYMWX2JPqt-M3e0",
@@ -69,15 +51,64 @@ const peopleData = [
     afterRole: "Blue Planet Solutions",
     afterLogo: bluePlanet,
   },
+
+
   {
-    name: "MANALI JAIN", 
-    image: "https://media.licdn.com/dms/image/v2/C5103AQFNrakAM4hGZg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517238637504?e=1739404800&v=beta&t=JucvTVGyo-TDH6Xk2oJ8-F1C1SgqBkNccDntFbbHEY4",
+    name:"Tanumoy Deb", 
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHCbFyxr5IU9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1670882698800?e=1740009600&v=beta&t=cHegxjBevHHO7ss2HEMpkwDqFwPY-pK-gYrubtRvXzQ",
     testimonial:
-      "Linux World is not just an organization, it's a family having head Preeti Ma'am and Vimal Sir. In this family the children are being grown with all the aspects, not just education, by spiritual, learning the things and share the things by providing a large platform, developed the leadership skills, enable all the learners to be active, disciplined and confident. Thanks a lot to LW Team.",
+      "We have no exposure to many technologies, just a few languages at College, but in Linux World, I am exposed to various technologies. After understanding them, I am more interested in working with them. I gained valuable knowledge and committed time in learning, which is aiding me in my career development.",
+    hike: "85% Hike",
+    beforeRole: "ICFAI University Tripura",
+    beforeLogo: "https://iutripura.edu.in/assets/img/Logo.svg",
+    afterRole: "DevOps Engineer",
+    afterLogo: "https://media.licdn.com/dms/image/v2/C4D0BAQHgD3RQYjAIAg/company-logo_100_100/company-logo_100_100/0/1655882919953/squareops_technologies_pvt_ltd_logo?e=1742428800&v=beta&t=gnK5Rb2bLzBFo9d94WRUGRcw3hXadCdR1PtFeD6Cnr4",
+  },
+
+  {
+    name:"Manav Misra", 
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQGae73chFkmmg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725541529574?e=1740009600&v=beta&t=KuS0Buuk6UBJDAU1L4rsVpUGj2rN-dhtP6WucNOXebo",
+    testimonial:
+      "I started my Technical Journey with LinuxWorld Informatics Pvt. Ltd. ARTH program. It started in September 2020 and in this program, all the technologies like DevOps, DSA, Big Data, Cloud Computing, Database, Data Science & Operating system are being taught. I would like to thank Vimal Daga Sir for providing me the right education and path, I never thought it is so easy to work on multiple technologies together, before the ARTH program I was just aware of the name of these technologies but now I am having very good grip over multiple technologies and I can easily integrate multiple technologies. Once again I would like to thanks Mr. Vimal Daga Sir, Preeti ma'am & LinuxWorld Informatics Pvt. Ltd. for providing the right path and always supporting me.",
+    hike: "85% Hike",
+    beforeRole: "Inderprastha Engineering College",
+    beforeLogo: ipecCollege,
+    afterRole: "DevOps Engineer",
+    afterLogo: bluePlanet,
+  },
+
+  {
+    name:"Subhashis Paul", 
+    image: "https://media.licdn.com/dms/image/v2/D5603AQFIK_Ptms3H4A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705863034833?e=1740009600&v=beta&t=mmbmSAaEQY1EZ3kB6dtMQ8uV9TNc_NPCaF8IZHqubSQ",
+    testimonial:
+      "To be honest, I won't say that I didn't know anything, I just knew multiple programming languages, even didn't know the use cases of them but Vimal Daga Sir is the one, under his mentorship in ARTH, we are learning multiple technologies, moreover the real use cases of them. The three main things I learned from Vimal Daga Sir are, 1. The way to think 2. The way to integrate 3. The way to manage time. Heartily thanks to Linuxworld for giving us this opportunity to be a part of Right Education.“",
+    hike: "85% Hike",
+    beforeRole: "",
+    beforeLogo: "https://media.licdn.com/dms/image/v2/D4D0BAQFZqX6iyW7Hig/company-logo_100_100/company-logo_100_100/0/1687864194988?e=1742428800&v=beta&t=Mp0iMebC_Ke5zJGx5Yu6mwhGTgvBAY4ivqZhElvJmoE",
+    afterRole: "DevOps Engineer",
+    afterLogo: bluePlanet,
+  },
+
+  {
+    name:"Manali Jain ", 
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQFItPD7njuD_g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1705551956512?e=1740009600&v=beta&t=5tguCN4dp_jh1Zd5Ka92NaNUc2Aqwjm7aRQu9ViWYuk",
+    testimonial:
+      "Each and every training under the supervision of Mr. Vimal Daga Sir was unbelievable. Lack of awareness was my primary issue. I spent my days thinking about how can I get a job in cloud computing as each requires some experience. One day one of my friends said to me you want a job in cloud technology but what you will do in cloud? Like DevOps or MLops? And I thought I should give up but I came to know about ARTH - THE SCHOOL OF TECHNOLOGIES under the guidance of Mr. Vimal Daga Sir and I started learning multiple technologies with full dedication. GURU, I haven't met, watched, talked but changed my life. Now my new journey started and I promise to keep this motive always to share, to serve, to help.",
     hike: "85% Hike",
     beforeRole: "Teerthanker Mahaveer University",
-    beforeLogo: TCS,
-    afterRole: "Blue Planet Solutions",
+    beforeLogo: tmuCollege,
+    afterRole: "DevOps Engineer",
+    afterLogo: "https://media.licdn.com/dms/image/v2/C4D0BAQHgD3RQYjAIAg/company-logo_100_100/company-logo_100_100/0/1655882919953/squareops_technologies_pvt_ltd_logo?e=1742428800&v=beta&t=gnK5Rb2bLzBFo9d94WRUGRcw3hXadCdR1PtFeD6Cnr4",
+  },
+  {
+    name: "Chetna",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQHwuLc1BHCq8Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725440239539?e=1739404800&v=beta&t=v2LC7PCyLPOT3g5qRrU0jOFTX9MWt1kiQJOeNTFcWFo",
+    testimonial:
+      "Being a part of ARTH transformed me entirely. I learned so many industry trending technologies that I ha only heard about and gained quality practical exposure. My interest in Automation technologies grew, and this was all thanks to Vimal Sir. I was actually enjoying working with technologies.",
+    hike: "85% Hike",
+    beforeRole: "IGNOU, NEW DELHI",
+    beforeLogo: ignoLogo,
+    afterRole: "Quality Engineer Intern",
     afterLogo: Redhat,
   },
   // Add more people here
@@ -118,7 +149,7 @@ export default function CareerTransformation() {
                     className="rounded-lg object-cover"
                     priority
                   />
-                  <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4  rounded-full text-sm font-medium flex items-center gap-2">
+                  {/* <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4  rounded-full text-sm font-medium flex items-center gap-2">
                     <svg
                       viewBox="0 0 24 24"
                       fill="currentColor"
@@ -127,7 +158,7 @@ export default function CareerTransformation() {
                       <path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
                     </svg>
                     {person.hike}
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="flex-1 space-y-4">

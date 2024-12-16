@@ -54,7 +54,6 @@ const CourseDetail = ()=>{
         <CareerTransformation />
         <ProgramHighlights></ProgramHighlights>
         <CourseCurriculumModule></CourseCurriculumModule>
-
         <CourseCarrrerModule ></CourseCarrrerModule>
         <CourseCarousel />
 
