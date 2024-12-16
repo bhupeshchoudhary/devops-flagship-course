@@ -7,7 +7,7 @@ import Roadmap from "../../../../../public/assets/cources/roadmap.png";
 import Redhat from "../../../../../public/assets/companyLogo/redhat.png";
 import TCS from "../../../../../public/assets/companyLogo/tcs.png";
 import AryaCollage from "../../../../../public/assets/companyLogo/aryaCollage.svg";
-import bluePlanet from "../../../../../public/assets/companyLogo/bluePlanet.jpeg"
+import bluePlanet from "../../../../../public/assets/companyLogo/blueplanet.png"
 import ignoLogo from "../../../../../public/assets/companyLogo/ignouLogo.png"
 import NagpurUniversityLogo from "../../../../../public/assets/companyLogo/NagpurLogo.png"
 import ShyenaTechLogo from "../../../../../public/assets/companyLogo/shyenaTechLogo.png"
@@ -118,16 +118,7 @@ export default function CareerTransformation() {
                     className="rounded-lg object-cover"
                     priority
                   />
-                  <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4  rounded-full text-sm font-medium flex items-center gap-2">
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="w-4 h-4"
-                    >
-                      <path d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
-                    </svg>
-                    {person.hike}
-                  </div>
+             
                 </div>
 
                 <div className="flex-1 space-y-4">

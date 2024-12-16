@@ -25,14 +25,14 @@ const data: Record<string, TabData> = {
 
 // Mapping for company logos
 const companyLogos: Record<string, string> = {
-  Citibank: "/assets/companyLogo/citibank.png",
-  Dell: "/assets/companyLogo/dell.png",
-  Deloitte: "/assets/companyLogo/deloitte.png",
-  Google: "/assets/companyLogo/google.png",
-  IBM: "/assets/companyLogo/ibm.png",
-  Infosys: "/assets/companyLogo/infosys.png",
-  Intel: "/assets/companyLogo/intel.png",
-  JPMorgan: "/assets/companyLogo/jpmorgan.png",
+  Citibank: "/assets/companyLogo/paytm.png",
+  Dell: "/assets/companyLogo/tcs.png",
+  Deloitte: "/assets/companyLogo/searce.png",
+  Google: "/assets/companyLogo/NPCI_logo.png",
+  IBM: "/assets/companyLogo/quantfi.png",
+  Infosys: "/assets/companyLogo/accenture.png",
+  Intel: "/assets/companyLogo/dell.png",
+  JPMorgan: "/assets/companyLogo/intel.png",
   Redhat: "/assets/companyLogo/redhat.png",
 };
 
@@ -96,7 +96,9 @@ const Analyst: React.FC = () => {
                     key={company}
                     src={logoPath.toString()}
                     alt={company}
-                    className="h-6 sm:h-8 object-contain"
+                    height={200}
+                    width={1200}
+                    className="h-8 sm:h-12 object-contain"
                   />
                 );
               })}
