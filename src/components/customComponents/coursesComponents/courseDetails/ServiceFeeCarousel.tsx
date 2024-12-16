@@ -27,7 +27,7 @@ import Dell from "../../../../../public/assets/companyLogo/dell.png";
 import IBM from "../../../../../public/assets/companyLogo/ibm.png";
 
 const ServiceFeeCarousel = () => {
-  const logos = [
+  const firstRowLogos = [
     { src: Google, alt: "Google" },
     { src: TCS, alt: "TCS" },
     { src: Infosys, alt: "Infosys" },
@@ -38,6 +38,9 @@ const ServiceFeeCarousel = () => {
     { src: Wipro, alt: "Wipro" },
     { src: Zoho, alt: "Zoho" },
     { src: Oracle, alt: "Oracle" },
+  ];
+
+  const secondRowLogos = [
     { src: Searce, alt: "Searce" },
     { src: Syfe, alt: "Syfe" },
     { src: Paytm, alt: "Paytm" },
@@ -52,35 +55,47 @@ const ServiceFeeCarousel = () => {
     { src: IBM, alt: "IBM" },
   ];
 
-  // Duplicate the logos for infinite effect
-  const extendedLogos = [...logos, ...logos];
+  // Duplicate the logos for seamless infinite scrolling
+  const firstRowLogosLoop = [...firstRowLogos, ...firstRowLogos];
+  const secondRowLogosLoop = [...secondRowLogos, ...secondRowLogos];
 
   return (
     <div className="bg-gray-200">
       <div className="relative overflow-hidden max-w-7xl mx-auto">
         <div className="w-full">
-          {[0, 1].map((_, rowIndex) => (
-            <div
-              key={rowIndex}
-              className={`flex items-center my-6 whitespace-nowrap animate-${
-                rowIndex % 2 === 0 ? "move-left" : "move-right"
-              }`}
-            >
-              {extendedLogos.map((logo, index) => (
-                <div key={index} className="mx-4 flex-shrink-0">
-                  <div className="w-24 h-12 flex items-center justify-center bg-white border rounded-xl ">
-                    <Image
-                      src={logo.src}
-                      alt={logo.alt}
-                      width={60}
-                      height={60}
-                      style={{ objectFit: "contain" }}
-                    />
-                  </div>
+          {/* First row of logos */}
+          <div className="flex items-center my-6 whitespace-nowrap animate-move-left">
+            {firstRowLogosLoop.map((logo, index) => (
+              <div key={index} className="mx-4 flex-shrink-0">
+                <div className="w-24 h-12 flex items-center justify-center bg-white border rounded-xl">
+                  <Image
+                    src={logo.src}
+                    alt={logo.alt}
+                    width={60}
+                    height={60}
+                    style={{ objectFit: "contain" }}
+                  />
                 </div>
-              ))}
-            </div>
-          ))}
+              </div>
+            ))}
+          </div>
+
+          {/* Second row of logos */}
+          <div className="flex items-center my-6 whitespace-nowrap animate-move-right">
+            {secondRowLogosLoop.map((logo, index) => (
+              <div key={index} className="mx-4 flex-shrink-0">
+                <div className="w-24 h-12 flex items-center justify-center bg-white border rounded-xl">
+                  <Image
+                    src={logo.src}
+                    alt={logo.alt}
+                    width={60}
+                    height={60}
+                    style={{ objectFit: "contain" }}
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
       <style jsx>{`

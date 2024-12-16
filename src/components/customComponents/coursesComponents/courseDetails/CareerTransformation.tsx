@@ -149,7 +149,6 @@ export default function CareerTransformation() {
                     className="rounded-lg object-cover"
                     priority
                   />
-<<<<<<< HEAD
                   {/* <div className="absolute bottom-4 left-4 bg-green-500 text-white px-4  rounded-full text-sm font-medium flex items-center gap-2">
                     <svg
                       viewBox="0 0 24 24"
@@ -160,9 +159,7 @@ export default function CareerTransformation() {
                     </svg>
                     {person.hike}
                   </div> */}
-=======
              
->>>>>>> fa2d2f2d7e4cb7fee716b85923dbca8ff699b5ef
                 </div>
 
                 <div className="flex-1 space-y-4">
