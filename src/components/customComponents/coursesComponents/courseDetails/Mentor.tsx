@@ -106,6 +106,11 @@ const MentorProfile = () => {
   return (
     <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50'>
     <div ref={profileRef} className="max-w-6xl pt-12 mx-auto p-6 lg:px-8">
+    <h1 className="text-center mb-4 font-bold  text-lg sm:text-2xl text-black pb-4">
+     
+
+    Know Your Mentor : <span className="text-[#ff0000]"> The World Record Holder - Mr Vimal Daga </span>
+          </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Column - Image Carousel and Mentor Details */}
         <div className="space-y-6">
@@ -145,7 +150,7 @@ const MentorProfile = () => {
         <div className="space-y-8">
           <div className="space-y-6 -mb-3">
             <h1 className="text-3xl font-bold text-black leading-extra-tight -mb-4">
-              The Visionary Behind <span className="text-[#ff0000]">TGS</span> (The Growth String)
+              The Visionary Behind <span className="text-[#ff0000]">Globally Recognised Program </span> 
             </h1>
             <div className="space-y-4 text-black-800">
               <ul className="grid md:grid-cols-2 gap-y-2 list-disc pl-5 text-black -mb-1 list-none sm:grid-cols-1">
