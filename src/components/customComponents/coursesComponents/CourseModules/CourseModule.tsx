@@ -62,6 +62,7 @@ export default function CourseCurriculumModule() {
           </Card>
 
           <Card className="bg-white p-6">
+          <ScrollArea className="h-[400px]">
             <div className="mb-6 flex items-center justify-between">
               <h2 className="text-lg font-semibold text-gray-900">
                 {activeModule.subtitle}
@@ -72,14 +73,26 @@ export default function CourseCurriculumModule() {
               </Button>
             </div>
             <Separator className="mb-6" />
-            <div className="space-y-2">
+
+            <div className="space-y-2 ">
               <h3 className="text-sm font-medium text-gray-600">Topics-</h3>
               {activeModule.topics.map((topic, index) => (
-                <div key={index} className="text-sm text-gray-700">
-                  {topic}
+
+                <div key={index} className="text-sm text-gray-700 ">
+
+                  <span className="font-bold">{topic.title}</span>
+                  {topic.content.map((content, contentIndex) => (
+                    <div key={contentIndex} className="ml-4 ">
+                      {content}
+                    </div>
+                  ))}
+
                 </div>
+
               ))}
+
             </div>
+            </ScrollArea>
           </Card>
         </div>
       </div>
@@ -88,4 +101,3 @@ export default function CourseCurriculumModule() {
     
   )
 }
-
