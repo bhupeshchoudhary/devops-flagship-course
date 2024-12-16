@@ -33,6 +33,8 @@ import JobSkills from "@/components/customComponents/coursesComponents/courseDet
 import ProgramCohorts from "@/components/customComponents/coursesComponents/ProgramDetails";
 import CourseCarousel from "@/components/customComponents/coursesComponents/courseDetails/CourseCarousel";
 import QueryForm from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
+import EmployeeCards from "@/components/customComponents/coursesComponents/courseDetails/PlacedStudents";
+import PlacedStudents from "@/components/customComponents/coursesComponents/courseDetails/PlacedStudents";
 const CourseDetail = ()=>{
     const params = useParams ();
     const {pid}  = params;
@@ -67,8 +69,9 @@ const CourseDetail = ()=>{
      <Faq></Faq>
      <CardStack></CardStack>
      <QueryForm />
+     <CourseTestimonials />
      <CoursePricingSection></CoursePricingSection>
-     <CourseTestimonials></CourseTestimonials>
+     <PlacedStudents />
         <CertificateDisplay></CertificateDisplay>
         <Footer />
      </>

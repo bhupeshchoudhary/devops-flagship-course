@@ -9,6 +9,7 @@ function JobSkills() {
   };
 
   return (
+    <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50 font-semibold'>
     <div className="max-w-4xl mx-auto px-4 sm:px-8 py-12">
       <div className="text-center font-semibold text-gray-800 text-2xl sm:text-3xl pb-8">
         Find <span className="text-[#ff0000]">Internships/Jobs </span>
@@ -42,7 +43,7 @@ function JobSkills() {
           } hover:text-[#ff0000] cursor-pointer`}
           onClick={() => handleCategoryClick("management")}
         >
-          <div className="flex flex-wrap gap-2 items-center">
+          <div className="flex flex-wrap gap-2 items-center font-semibold">
             Management
             <span className="border text-sm md:ml-24 rounded-lg px-2 py-1 border-red-300">Digital Marketing</span>
             <span className="border text-sm rounded-lg px-2 py-1 border-red-300">BDE</span>
@@ -82,6 +83,7 @@ function JobSkills() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

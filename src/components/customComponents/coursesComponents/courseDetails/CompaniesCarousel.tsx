@@ -57,8 +57,8 @@ const CompaniesCarousel = () => {
 
   // Split the logos into chunks of 10
   const chunkedLogos = [];
-  for (let i = 0; i < logos.length; i += 12) {
-    chunkedLogos.push(logos.slice(i, i + 12));
+  for (let i = 0; i < logos.length; i += 11) {
+    chunkedLogos.push(logos.slice(i, i + 10));
   }
 
   useEffect(() => {
