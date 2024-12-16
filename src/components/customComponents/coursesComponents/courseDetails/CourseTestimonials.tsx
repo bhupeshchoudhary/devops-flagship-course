@@ -42,7 +42,7 @@ It was very informative and 100 pratical session by vimal sir ,From that I did l
     author: {
       name: "Rushikesh Mahindrakar",
       title: "System Engineering",
-      avatar: "https://media.licdn.com/dms/image/v2/D4D03AQGf6T3ej4bqMA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686901550352?e=1737590400&v=beta&t=bCqKfqio6arSRNKOqOgDznJav6d1OqbsHzPMZAbK_tQ",
+      avatar: "https://media.licdn.com/dms/image/v2/D5603AQFmIMotaZggJw/profile-displayphoto-shrink_400_400/B56ZOfunOJGoAk-/0/1733551617738?e=1740009600&v=beta&t=8Yhs14_NMJPTSdqoiq-eNcVhgbxDFV4ZZ5FQPdyj5IU",
       linkedin: "https://www.linkedin.com/in/rushikesh-mahindrakar-70b82537/"
     },
     content: `
