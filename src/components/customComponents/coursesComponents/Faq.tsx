@@ -178,19 +178,77 @@ const faqContent: Record<string, FAQItem[]> = {
   ],
   selectionCriteria: [
     {
-      question: " How is this program structured?",
+      question: "What DevOps tools will I work with during the program?",
       answer:
         (
           <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>Training Phase: Comprehensive, hands-on learning of DevOps tools and techniques.
+          <li>Version Control: Git and GitHub.
 
           </li>
-          <li>Project/Job-Oriented Phase: Solving industry-grade problems and completing projects to build a strong portfolio.
-          .</li>
+          <li>CI/CD: Jenkins, GitHub Actions, and ArgoCD.
+          </li>
+
+          <li>Containerization: Docker.
+          </li>
+
+          <li>Orchestration: Kubernetes.
+          </li>
+<li>IaC: Terraform and Ansible.
+</li>
+
+<li>Monitoring: Prometheus, Grafana, and ELK Stack.
+</li>
+  
+        </ul>
+        )
+    },
+    {
+      question: "Are the projects aligned with industry standards?",
+      answer:
+        (
+          <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Implementing blue-green deployments.
+
+
+          </li>
+          <li>Scaling applications with Kubernetes.
+
+          </li>
+
+          <li>Automating cloud infrastructure.
+
+          </li>
+
+          
+
 
   
         </ul>
         )
+    },
+
+    {
+      question: " Do I need my own system to practice?",
+      answer:
+       "Yes, you all need a laptop/PC with you."
+    },
+
+    {
+      question: " Do I need my own system to practice?",
+      answer:
+       "Yes, you all need a laptop/PC with you."
+    },
+
+    {
+      question: "Can I showcase the projects on my resume?",
+      answer:
+       "Absolutely! All projects are designed to be portfolio-worthy, demonstrating your practical DevOps skills to potential employers."
+    },
+
+    {
+      question: "Will I receive guidance during the hands-on projects?",
+      answer:
+       "Yes, our technical team will guide you throughout the projects, providing feedback and resolving doubts to ensure successful completion."
     },
   ],
 };
