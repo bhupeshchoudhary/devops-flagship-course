@@ -1,14 +1,14 @@
 import React from "react";
 import { TrendingUp, BarChart, Cpu } from "lucide-react"; // Import specific icons
-
+import Image from "next/image"
 // Section Component
 interface SectionProps {
   icon: React.ReactNode;
   title: string;
-  description: string;
+  
 }
 
-const Section: React.FC<SectionProps> = ({ icon, title, description }) => {
+const Section: React.FC<SectionProps> = ({ icon, title }) => {
   return (
     <div className="flex items-start space-x-4">
       {/* Icon with red background */}
@@ -45,36 +45,35 @@ const Tools: React.FC = () => {
         <Section
           icon={<TrendingUp size={18} color="white " />}
           title="Infrastructure & Automation: Terraform, Ansible, AWS CloudFormation"
-          description="Tools: Python, SQL"
         />
         <Section
           icon={<BarChart size={18} color="white" />}
           title="CI/CD: Jenkins &  GitLab CI
 "
-          description="Tools: Excel, Power BI, Tableau, Matplotlib, Seaborn, NumPy, Pandas"
+        
         />
         <Section
           icon={<Cpu size={18} color="white" />}
           title="Containers & Orchestration: Docker, Kubernetes"
-          description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
+        
         />
 
 <Section
           icon={<TrendingUp size={18} color="white" />}
           title="Cloud Platforms: AWS, Azure, GCP"
-          description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
+        
         />
 
 <Section
           icon={<BarChart size={18} color="white" />}
           title="Monitoring & Logging: Prometheus, Grafana, ELK"
-          description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
+        
         />
 
 <Section
           icon={<Cpu size={18} color="white" />}
           title="Version Control: Git, GitHub"
-          description="Tools: Statsmodels, Sklearn, TensorFlow, Keras, NLTK, OpenAI, MLflow"
+        
         />
       </div>
 
@@ -82,7 +81,7 @@ const Tools: React.FC = () => {
       <div className="lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0 p-6">
         <div className="relative bg-white p-4 sm:p-8 rounded-lg shadow-lg">
           {/* Replace this image tag with your actual image */}
-          <img
+          <Image
             src="/assets/cources/tools.jpg"
             alt="Data Science Tools"
             className="w-full h-auto "
