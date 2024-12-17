@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Card, CardContent } from "@/components/ui/card";
-import { BriefcaseIcon } from "lucide-react";
+//import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Card } from "@/components/ui/card";
+//import { BriefcaseIcon } from "lucide-react";
 import ChartComponent from "./ChartComponent"; // Assuming the chart component is in the same folder
 import { Search, User } from "lucide-react";
 
