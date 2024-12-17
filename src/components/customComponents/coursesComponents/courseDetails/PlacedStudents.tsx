@@ -155,7 +155,7 @@ const PlacedStudents = () => {
                 } ,
                ];
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="successstories">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="placements">
     <div className="flex flex-col items-center min-h-screen p-12 ">
       {/* Component Title */}
       <h1 className="text-lg sm:text-2xl font-semibold text-black">

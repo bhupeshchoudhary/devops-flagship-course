@@ -14,7 +14,7 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className="pt-8 w-full pb-8 flex bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="pt-8 w-full pb-8 flex bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
     <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 p-12 rounded-xl">
       <div className="mx-auto ">
         <div className="relative mb-6">

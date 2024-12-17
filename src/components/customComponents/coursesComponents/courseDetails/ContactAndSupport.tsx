@@ -100,7 +100,7 @@ export default function QueryForm() {
   };
 
   return (
-    <div className="mx-auto p-6 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="mx-auto p-6 bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="contactus">
       <div className="flex max-w-5xl mx-auto flex-col lg:flex-row w-full gap-8 bg-gradient-to-br from-red-900 to-red-800 p-8 rounded-lg">
         {/* Stats Section */}
         <div className="flex-1 space-y-8">

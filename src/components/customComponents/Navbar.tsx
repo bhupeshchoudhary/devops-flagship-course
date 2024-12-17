@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full bg-white transition-colors duration-300",
+        "sticky top-0 z-50 w-full bg-white transition-colors duration-300 ",
         scrolled ? "bg-white " : "bg-white"
       )}
     >
@@ -69,28 +69,28 @@ const Navbar: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="#schedule" className="text-black hover:text-[#ff0000]">
+              <a href="#mentor" className="text-black hover:text-[#ff0000]">
               About Us 
 
               </a>
             </li>
             <li>
-              <a href="#venue" className="text-black hover:text-[#ff0000]">
+              <a href="#trainingcontent" className="text-black hover:text-[#ff0000]">
               Training Content
               </a>
             </li>
             <li>
-              <a href="#gallery" className="text-black hover:text-[#ff0000]">
+              <a href="#projects" className="text-black hover:text-[#ff0000]">
               Projects
               </a>
             </li>
             <li>
-              <a href="#contact" className="text-black hover:text-[#ff0000]">
+              <a href="#placements" className="text-black hover:text-[#ff0000]">
               Placements 
               </a>
             </li>
             <li>
-              <a href="#contact" className="text-black hover:text-[#ff0000]">
+              <a href="#careertransformation" className="text-black hover:text-[#ff0000]">
               Career Transition
 
               </a>

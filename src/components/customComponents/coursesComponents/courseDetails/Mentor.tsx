@@ -104,7 +104,7 @@ const MentorProfile = () => {
   ];
 
   return (
-    <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50'>
+    <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50' id="mentor">
     <div ref={profileRef} className="max-w-6xl pt-12 mx-auto p-6 lg:px-8">
     <h1 className="text-center mb-4 font-bold  text-lg sm:text-3xl text-black pb-4">
      
@@ -162,10 +162,20 @@ const MentorProfile = () => {
               </ul>
 
               <p className="text-black text-md -mb-2 pl-6">
-                Mr. Vimal Daga, the driving force behind TGS, is on an exclusive India Tour, visiting cities across the country to re-invent technical training. His mission is not only to provide hands-on learning but to bring together industry expert interactions, real-world capstone projects, and valuable industry insights&mdash;all in one place
+              Mr. Vimal Daga, a visionary leader in DevOps and cutting-edge technologies, is on an exclusive India Tour to redefine how technical training is delivered. As the driving force behind TGS, he is visiting cities across the nation to empower learners and professionals with hands-on DevOps training, bridging the gap between theoretical knowledge and real-world implementation.
+
               </p>
-              <p className="text-black pl-6">
-                He firmly believes that networking and collaboration are the key to personal and professional growth, and this tour is designed to foster both. His vision of &ldquo;Making India, Future Ready&rdquo; goes beyond skills training&mdash;it&apos;s about creating a thriving ecosystem where learners and professionals can collaborate, innovate, and succeed together.
+              {/* <p className="text-black pl-6">
+               His mission includes: 
+              </p> */}
+              <p className='pl-6'><span className='font-semibold '>Industry Expert Interactions:</span> Learn directly from thought leaders who are shaping the DevOps landscape.
+              </p>
+              <p className='pl-6'>
+             <span className='font-semibold'>  Real-World Capstone Projects:</span> Gain practical experience by working on projects aligned with current industry demands.
+
+              </p>
+              <p className='pl-6'>
+              <span className='font-semibold'>Valuable Industry Insights: </span> Understand the latest DevOps trends, tools, and practices to stay ahead in the competitive tech world.
               </p>
             </div>
           </div>

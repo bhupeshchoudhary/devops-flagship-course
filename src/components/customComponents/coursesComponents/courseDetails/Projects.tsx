@@ -101,7 +101,7 @@ export default function Projects() {
   const [expanded, setExpanded] = useState<number | null>(0);
   console.log(dockerLogo)
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="projects">
       <div className="w-full max-w-6xl mx-auto p-6 lg:px-8">
         <div className="space-y-6">
           <div>
@@ -117,32 +117,7 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* <div className="flex items-center gap-4">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center">
-                <svg
-                  className="w-6 h-6 text-red-500"
-                  fill="none"
-                  height="24"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M21 8v13H3V8" />
-                  <path d="M1 3h22v5H1z" />
-                  <path d="M10 12h4" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-2xl font-bold">10+</h3>
-                <p className="text-muted-foreground">Industry Projects</p>
-              </div>
-            </div>
-          </div> */}
+        
 
           <div className="relative">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
