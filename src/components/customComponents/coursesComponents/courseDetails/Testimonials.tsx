@@ -18,48 +18,149 @@ interface Testimonial {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Manikandan Prakash",
-    role: "Happy Client",
+    name: "Darshil Shah",
+    role: "DevOps Engineer",
     rating: 66,
-    content: "It was very informative and 100 pratical session by vimal sir ,From that I did learn the bedrock service how to intergrate in any of our own custom requirment ,It was pretty enough to start AWS bedrock thanks for the session Vimal Daga sir. ",
-    image: "https://media.licdn.com/dms/image/v2/D4E03AQFiY07rDFiZ1A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698246875639?e=1737590400&v=beta&t=n4sQVUqx1DDJaKh2fEvBUd5l6FR5_k7JEpb1cBS_ZTk"
+    content: "Thank you, sir. I never had the chance to speak to you directly before, but it's an honor to do so now. From the first lecture of ARTH-1 to now being a DevOps engineer at a well-reputed company, it has been an incredible journey. I credit you for your guidance and teaching, which showed me how the thinking process of an engineer should be. Learning skills is secondary; what comes first is the mindset and how you approach problems or learning any new skill. I'm proud to be an ARTH student and grateful to have found a mentor like you.",
+    image: "/assets/learnersSayImages/darshilshah.png"
   },
   {
     id: 2,
-    name: "Dibyaraj Datta",
-    role: "Satisfied Customer",
+    name: "Ashish Mangal",
+    role: "Software Engineer",
     rating: 78,
-    content: "It was truly an amazing masterclass by the one & only Mr. Vimal Daga Sir. The Wow moment for me was how he explained each and every concept in such an easy manner from basic to advance, like the use of Helm Charts to solve modern world problems with container management.    Looking forward to join more such sessions & workshops from LinuxWorld Informatics Pvt Ltd under the guidance of Vimal Daga Sir.",
-    image: ""
+    content: "Hello sir, Thank you so much for your kind words and encouragement! I truly appreciate your support throughout my journey. Being an ARTHian has had a huge impact on my growth, and I'm excited to continue learning and exploring new technologies at Capgemini. Your blessings mean a lot to me!",
+    image: "/assets/learnersSayImages/ashishmangal.png"
   },
   {
       id: 3,
-      name: "Rushikesh Mahindrakar",
-      role: "System Engineering",
+      name: "Abhijit Mandal",
+      role: "Software Engineer",
       rating: 88,
-     image: "https://media.licdn.com/dms/image/v2/D4D03AQGf6T3ej4bqMA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1686901550352?e=1737590400&v=beta&t=bCqKfqio6arSRNKOqOgDznJav6d1OqbsHzPMZAbK_tQ",
+     image: "/assets/learnersSayImages/abhijitmandal.png",
       
-      content: ` Your invaluable guidance in this remarkable Kubernetes training program has been truly appreciated. It's a pivotal milestone in my DevOps journey, and I'm deeply grateful for your mentorship, Vimal Daga sir. Your expertise and insights are immensely valuable, propelling my professional growth with each session. Thank you!! 😊 `,
+      content: `Hi Vimal Sir,
+
+Thank you so much for your kind words and blessings! It truly means a lot, especially coming from someone who played such an instrumental role in shaping my journey. I still remember being in my 2nd year of college during the lockdown, participating in the ARTH program. While I may not be working with the same tools and technologies today, what you really instilled in me was a deep desire to learn and stay curious - a trait that has been invaluable in my path to becoming a software engineer.
+
+I'm deeply grateful for your guidance, and I hope you continue to inspire both my juniors and the rest of us. Thank you once again for everything, sir.`,
       
     }
+    ,
+    {
+      "id": 5,
+      "name": "Devesh Chitlangia",
+      "role": "Software Engineer @ GlobalLogic",
+      "rating": 88,
+      "image": "/assets/learnersSayImages/deveshchitlangia.png",
+      "content": "Thank you so much for your kind words and blessings! It means a lot coming from you. I feel fortunate to have had the opportunity to learn under your guidance in the ARTH program. Your teachings have played a huge role in shaping my journey, and I continue to draw inspiration from your passion for technology and learning. You are a great teacher, and I am truly grateful for all the knowledge and wisdom you've shared with me. I'll always carry those lessons forward as I continue to grow. Thank you once again for everything!"
+  }
+    ,
+    {
+      "id": 6,
+      "name": "Divyansh Saxena",
+      "role": "Software Engineer @ Pitney Bowes",
+      "rating": 88,
+      "image": "/assets/learnersSayImages/divyanashsaxena.png",
+      "content": "Thank you so much sir for your kind words! It means a lot to be noticed by you. Your guidance and the ARTH program has been a huge part of my career journey, and I'm grateful for everything I learned from you. It's an honor to be called an ARTHian. Your blessings and encouragement means the world."
+  }
+    ,
+    {
+      "id": 7,
+      "name": "Gargi Patel",
+      "role": "IT Engineer II @ Honeywell",
+      "rating": 88,
+      "image": "/assets/learnersSayImages/gargipatel.png",
+      "content": "Hello Vimal Sir, thank you so much! Means a lot to get this from you. I have learnt a lot from you during my internship at linux world and in the ARTH program. It has helped me a lot in my career journey so far. I actually cracked the interview at Honeywell because of the project done in linux world internship. So for me it was totally worth it."
+  }
+    ,
+    {
+      "id": 8,
+      "name": "Harshal Thakare",
+      "role": "ATSE @ Red Hat",
+      "rating": 88,
+      "image": "/assets/learnersSayImages/harshalthakre.png",
+      "content": "Hello Vimal Sir, I can't image that you messaged me. It truly feels like a dream come true! I want to take a moment to express my deepest gratitude to you. Your guidance and mentorship have meant the world to me. Without your support I wouldn't be where I am today. Your message truly touched me, and it made me reflect on how much of an impact you have had on my journey. I remember I once had the opportunity to meet you in person, but unfortunately, due to a family emergency, I couldn't make it. I deeply regret missing that chance I really want to meet you. You've shaped my path in ways that words cannot fully express. Thank you again, Sir, for everything. I look forward to the day I can meet you and express this in person."
+  }
+    ,
+    {
+      "id": 9,
+      "name": "Kaushik Denge",
+      "role": "Cloud Network Engineer @ Capgemini",
+      "rating": 88,
+      "image": "/assets/learnersSayImages/kaushikdenge.png",
+      "content": "Thank you so much for your kind words and blessings Vimal Sir! It truly means a lot to me.. ARTH was such a transformative experience and your guidance played a crucial role in shaping my journey. I'm grateful for everything I learned during that time and I carry those lessons and memories with me every day. I'll continue to strive for growth and keep pushing boundaries in the tech world. Proud to be an ARTHian!"
+  }
+    ,
+    {
+      "id": 10,
+      "name": "Mayank Agarwal",
+      "role": "Associate @ pwc",
+      "rating": 88,
+      "image": "/assets/learnersSayImages/mayankagarwal.png",
+      "content": "All the things that are taught by you help me here as well in achieving an edge over everyone. And I would also like to mention that because of the skill set I got a better offer from Deloitte and on 14th oct im joining there. And one of my college Junior Ankit talks a lot about you."
+  }
+    ,
+    {
+      "id": 11,
+      "name": "Rahul Raipurkar",
+      "role": "Senior Software Engineer @ Capgemini",
+      "rating": 88,
+      "image": "/assets/learnersSayImages/rahulraipuriya.png",
+      "content": "I am truly blessed to be part of Arth 2.0. It has given me invaluable knowledge in various technologies and their integration, giving me a competitive edge. I am also deeply grateful for the spiritual wisdom that Arth has beautifully imparted to me."
+  }
+    ,
+    {
+      "id": 12,
+      "name": "Rahul Rathod",
+      "role": "CloudOps Engineer @ Seclore",
+      "rating": 88,
+      "image": "/assets/learnersSayImages/rahulrathod.png",
+      "content": "Thank you so much, Sir! Whatever I am today is because of the foundation and knowledge I gained during the ARTH journey under your guidance. Your teachings have always been an inspiration, and I continue to apply the principles you instilled in me every day. Your blessings mean a lot to me, and I'll always strive to grow and learn, just as you taught us. Proud to be an ARTHian, and truly grateful to have had a mentor like you!"
+  },
+  {
+    "id": 13,
+    "name": "Ritwik Jha",
+    "role": "Associate Consultant @ Oracle",
+    "rating": 88,
+    "image": "/assets/learnersSayImages/ritwikjha.png",
+    "content": "Hi Vimal Sir, Thank you so much for your kind words and blessings! It truly means a lot coming from you. ARTH was such a transformative experience for me, and it has played a huge role in shaping my career. I feel grateful to have had the opportunity to learn from someone as inspiring as you. I will definitely keep learning and striving to grow, both personally and professionally as I believe that there is still a lot to learn and a lot to achieve. Thanks again for all your support and encouragement."
+},
+{
+  "id": 14,
+  "name": "Rupali Gurjar",
+  "role": "Software Engineer II @ Cvent",
+  "rating": 88,
+  "image": "/assets/learnersSayImages/rupaligurjar.png",
+  "content": "Thank you so much sir, it really means a lot! Being ARThian was one of my best decision! The core concepts that I learned from you helps me to adapt the new technologies and their integrations smoothly. You are truly inspirational!"
+},
+
+{
+  "id": 15,
+  "name": "Rohan Parab",
+  "role": "Performance Quality Engineer @ Citi",
+  "rating": 88,
+  "image": "/assets/learnersSayImages/rohanparab.png",
+  "content": "Hello Vimal Sir, Thank you so much for the appreciation. My journey in tech started with ARTH and your guidance. Every lesson since the first day has deeply impacted both my work and personal life. You didn't just teach; you helped us understand how to grow, achieve, and remain humble while uplifting others, academically and spiritually. Words can't fully express the positive influence you've had on me and countless others. Your appreciation means a great deal to me, and I'm truly grateful. Thank you again."
+}
 ]
 
 const floatingAvatars = [
-  { top: "32%", left: "40%", size: 80, delay: 200, image: "https://media.licdn.com/dms/image/v2/D4E03AQFiY07rDFiZ1A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698246875639?e=1737590400&v=beta&t=n4sQVUqx1DDJaKh2fEvBUd5l6FR5_k7JEpb1cBS_ZTk" },
-  { top: "64%", left: "40%", size: 80, delay: 0, image: "https://media.licdn.com/dms/image/v2/D5603AQENeos_aDytsw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711478336339?e=1737590400&v=beta&t=eqdh3QVuz82VyuHWF78Bmif0EVec9xdh47F6VqZmmko" },
-  { top: "54%", left: "54%", size: 80, delay: 0, image: "https://media.licdn.com/dms/image/v2/D4D03AQFqtDCGoMk54g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673897788931?e=1737590400&v=beta&t=s2TDcsAQ2oqQ_DvoGT8yyUUaGvsfGDwan4Phjo1RFL0" },
-  { top: "24%", left: "56%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "4%", left: "46%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "4%", left: "30%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "29%", left: "24%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "54%", left: "26%", size: 80, delay: 0, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "74%", left: "20%", size: 50, delay: 20, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "34%", left: "14%", size: 50, delay: 20, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "24%", left: "71%", size: 50, delay: 20, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "74%", left: "66%", size: 50, delay: 20, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "-6%", left: "59%", size: 50, delay: 20, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "-6%", left: "24%", size: 50, delay: 20, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
-  { top: "90%", left: "42%", size: 50, delay: 20, image: "/assets/cources/courseDetails/WhatWillYouLearn1.webp" },
+  { top: "32%", left: "40%", size: 80, delay: 200, image: "https://media.licdn.com/dms/image/v2/C4E0BAQER-Sage-ex_A/company-logo_200_200/company-logo_200_200/0/1639050566015/linuxworld_informatics_pvt_ltd_logo?e=1742428800&v=beta&t=FwXDlkMxgxkWqJDEhrHhA20j6BFU-FTFc218GM8MX5M" },
+  { top: "64%", left: "40%", size: 80, delay: 0, image: "/assets/learnersSayImages/gargipatel.png" },
+  { top: "54%", left: "54%", size: 80, delay: 0, image: "/assets/learnersSayImages/harshalthakre.png" },
+  { top: "24%", left: "56%", size: 80, delay: 0, image: "/assets/learnersSayImages/kaushikdenge.png" },
+  { top: "4%", left: "46%", size: 80, delay: 0, image: "/assets/learnersSayImages/mayankagarwal.png" },
+  { top: "4%", left: "30%", size: 80, delay: 0, image: "/assets/learnersSayImages/rahulraipuriya.png" },
+  { top: "29%", left: "24%", size: 80, delay: 0, image: "/assets/learnersSayImages/rahulrathod.png" },
+  { top: "54%", left: "26%", size: 80, delay: 0, image: "/assets/learnersSayImages/ritwikjha.png" },
+  { top: "74%", left: "20%", size: 50, delay: 20, image: "/assets/learnersSayImages/rohanparab.png" },
+  { top: "34%", left: "14%", size: 50, delay: 20, image: "/assets/learnersSayImages/rupaligurjar.png" },
+  { top: "24%", left: "71%", size: 50, delay: 20, image: "/assets/learnersSayImages/sheetalagarwal.png" },
+  { top: "74%", left: "66%", size: 50, delay: 20, image: "/assets/learnersSayImages/divyanashsaxena.png" },
+  { top: "-6%", left: "59%", size: 50, delay: 20, image: "/assets/learnersSayImages/abhijitmandal.png" },
+  { top: "-6%", left: "24%", size: 50, delay: 20, image: "/assets/learnersSayImages/ashishmangal.png" },
+  { top: "90%", left: "42%", size: 50, delay: 20, image: "/assets/learnersSayImages/darshilshah.png" },
 
 ]
 
@@ -119,7 +220,12 @@ export default function TestimonialsSection() {
             </p>
             <div className="flex items-center gap-4">
               <div className="flex items-center justify-center w-14 h-14 rounded-full bg-red-400 text-white font-semibold text-xl">
-                {testimonials[currentIndex].rating}
+              <Image 
+                  src={  testimonials[currentIndex].image}
+                  alt="Testimonial avatar" 
+                  width={60} 
+                  height={60}
+                />
               </div>
               <div>
                 <h4 className="font-semibold text-xl">{testimonials[currentIndex].name}</h4>

@@ -35,7 +35,7 @@ const ChartComponent: React.FC<ChartComponentProps> = ({ data, label }) => {
 
   // Define the chart data
   const chartData = {
-    labels: ['Salary Range 1', 'Salary Range 2', 'Salary Range 3'], // Example salary ranges
+    labels: ['Range 1', 'Range 2', 'Range 3'], // Example salary ranges
     datasets: [
       {
         label: 'Salary (in Rs lakh per annum)',

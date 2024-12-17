@@ -159,7 +159,7 @@ const Analyst: React.FC = () => {
         </div>
 
         {/* Footer Text */}
-        <p className="text-gray-600 text-xs sm:text-sm max-w-4xl">
+        <p className="text-gray-600 text-xs sm:text-sm max-w-6xl">
         The average salary for DevOps engineers in India has seen substantial growth over the past five years. In 2019, the average salary was ₹7 lakh per annum, and it increased to ₹18 lakh per annum by 2023. This rise in compensation reflects the growing demand for DevOps professionals, driven by the widespread adoption of cloud computing, automation, and continuous integration and delivery (CI/CD) practices across industries. With companies increasingly focusing on agile methodologies and scalable infrastructure, the value of DevOps expertise continues to grow, leading to higher salaries and better career prospects
         </p>
       </div>

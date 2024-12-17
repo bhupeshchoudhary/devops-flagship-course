@@ -106,7 +106,7 @@ const MentorProfile = () => {
   return (
     <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50'>
     <div ref={profileRef} className="max-w-6xl pt-12 mx-auto p-6 lg:px-8">
-    <h1 className="text-center mb-4 font-bold  text-lg sm:text-2xl text-black pb-4">
+    <h1 className="text-center mb-4 font-bold  text-lg sm:text-3xl text-black pb-4">
      
 
     Know Your Mentor : <span className="text-[#ff0000]"> The World Record Holder - Mr Vimal Daga </span>
@@ -149,9 +149,9 @@ const MentorProfile = () => {
         {/* Right Column - Content */}
         <div className="space-y-8">
           <div className="space-y-6 -mb-3">
-            <h1 className="text-3xl font-bold text-black leading-extra-tight -mb-4">
+            {/* <h1 className="text-3xl font-bold text-black leading-extra-tight -mb-4">
               The Visionary Behind <span className="text-[#ff0000]">Globally Recognised Program </span> 
-            </h1>
+            </h1> */}
             <div className="space-y-4 text-black-800">
               <ul className="grid md:grid-cols-2 gap-y-2 list-disc pl-5 text-black -mb-1 list-none sm:grid-cols-1">
                 <li className="leading-relaxed text-sm leading-tight"><CircleCheck className='inline text-green-400 ml-2' /> World Record Holder</li>
