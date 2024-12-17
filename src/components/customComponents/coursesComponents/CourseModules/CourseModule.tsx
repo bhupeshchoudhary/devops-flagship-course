@@ -10,6 +10,7 @@ import { Download, ChevronRight } from 'lucide-react'
 import { modules } from "./data"
 import { Module } from "./types"
 
+
 export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
@@ -21,7 +22,7 @@ export default function CourseCurriculumModule() {
         <div className="absolute -left-[48] -top-[48] flex h-12 w-12 items-center justify-center ">
             <span className="text-xl font-bold text-white">
 
-              <img src="/assets/tag1.webp"></img>
+              <img alt="numbering" src="/assets/tag1.webp" ></img>
             </span>
           </div>
 

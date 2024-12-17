@@ -6,6 +6,8 @@ export default function Component() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   // Example posts data (replace with your actual posts array)
+
+  
  
 const posts = [
  

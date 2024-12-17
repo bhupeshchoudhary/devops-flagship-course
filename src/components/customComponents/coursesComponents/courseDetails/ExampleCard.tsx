@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 import { Card } from "@/components/ui/card";
-
+import Image from "next/image"
 const courseInfo = [
   {
     title: "AWS-Certified-Solutions-Architect-(CSA)-Training",
@@ -73,7 +73,7 @@ export default function ExampleCard() {
           className="group relative overflow-hidden w-full h-[300px] cursor-pointer transition-transform hover:scale-105"
         >
           {/* Background Image */}
-          <img
+          <Image
             src={course.backgroundImage}
             alt={course.title}
             className="absolute inset-0 w-full h-full object-cover"

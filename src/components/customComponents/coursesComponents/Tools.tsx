@@ -1,6 +1,6 @@
 import React from "react";
 import { TrendingUp, BarChart, Cpu } from "lucide-react"; // Import specific icons
-import Image from "next/image"
+
 // Section Component
 interface SectionProps {
   icon: React.ReactNode;
@@ -81,7 +81,7 @@ const Tools: React.FC = () => {
       <div className="lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0 p-6">
         <div className="relative bg-white p-4 sm:p-8 rounded-lg shadow-lg">
           {/* Replace this image tag with your actual image */}
-          <Image
+          <img
             src="/assets/cources/tools.jpg"
             alt="Data Science Tools"
             className="w-full h-auto "
