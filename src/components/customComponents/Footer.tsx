@@ -5,8 +5,7 @@ import { FaLinkedin, FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react
 import Image from "next/image"
 
 export default function Footer() {
-  // Cloudinary video URL
-  const cloudinaryVideoUrl = "https://www.youtube.com/embed/F0eRuiXQNx4?start=59"; 
+  
 
   return (
     <footer className="bg-black text-white py-8">
@@ -17,7 +16,7 @@ export default function Footer() {
           Job Oriented Global :<span className="text-[#ff0000]">  DevOps Program </span>
           </h2>
           <p className="text-lg text-blue-400 mt-2 leading-relaxed text-cyan-400">
-  “Making India 
+          &quot;Making India 
   <span>
     <Image 
       src="/assets/flag.png" 
@@ -27,18 +26,18 @@ export default function Footer() {
       style={{ display: 'inline-block', marginLeft: '4px', verticalAlign: 'middle' }} 
     />
    &nbsp; </span> 
-   Future Ready"
+   Future Ready&quot;
 </p>
 
 
           <p className="text-sm text-gray-400 font-italic mt-6">Powered By:</p>
           {/* Logos */}
           <div className="mt-4 flex gap-4 mx-auto">
-          <span>  <img src={lwlogo.src.toString()} width={110} height={48} alt="Logo" /></span>
+          <span>  <Image src={lwlogo.src.toString()} width={110} height={48} alt="Logo" /></span>
             <div className="flex items-center justify-center">
               <span className="text-4xl text-[#ff0000]" style={{ height: '80px', borderLeft: '2px solid #ff0000' }}></span> {/* Pipe with larger height */}
             </div>
-           <span> <img src={hash13.src.toString()} width={96} height={48} alt="Logo" /></span>
+           <span> <Image src={hash13.src.toString()} width={96} height={48} alt="Logo" /></span>
           </div>
         
 
