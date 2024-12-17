@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
 
         {/* Call to Action Button */}
         <a
-          href="#buy-tickets"
+          href="#participatenow"
           className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
         >
           Participate Now
