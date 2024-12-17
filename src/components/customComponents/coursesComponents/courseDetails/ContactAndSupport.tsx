@@ -158,7 +158,7 @@ export default function QueryForm() {
               <div className="flex">
                 <div className="flex items-center px-3 border rounded-l-md border-r-0 bg-muted">
                   <img
-                    src="/placeholder.svg?height=20&width=28"
+                    src="/assets/flag.png"
                     alt="IN"
                     className="w-7 h-5 object-cover"
                   />
