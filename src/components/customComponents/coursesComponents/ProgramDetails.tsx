@@ -9,11 +9,13 @@ export default function ProgramCohorts() {
         {/* Headers */}
         <div className="space-y-2">
           <h1 className="text-lg sm:text-2xl font-semibold text-black">
-            DevOps Industrial{" "}
-            <span className="text-[#ff0000]">Training Program Details</span>
+
+           
+           Job Oriented{" "}
+            <span className="text-[#ff0000]">DevOps Globally Recognized Program</span>
           </h1>
           <h2 className="text-sm sm:text-lg text-black">
-            Chance to learn in person with{" "}
+            Chance to learn from DevOps Guru {" "}
             <span className="text-[#ff0000]">Mr Vimal Daga</span>
           </h2>
         </div>
@@ -25,7 +27,7 @@ export default function ProgramCohorts() {
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
               <h3 className="text-sm sm:text-lg text-black ">
-                LW DevOps Industrial Training Program 2024
+                LW Job Oriented DevOps Globally Recognized Program 2025
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
                 Limited Seats available
