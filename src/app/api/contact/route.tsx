@@ -88,7 +88,7 @@ export async function POST(request: NextRequest) {
     const mailOptions = {
       from: `"${fullName}" <${smtpUser}>`,
       to: recipientEmail,
-      subject: `New Query for Winter Training from ${fullName}`,
+      subject: `New Query for DevOps Program  from ${fullName}`,
       text: `
         You have received a new message:
 
