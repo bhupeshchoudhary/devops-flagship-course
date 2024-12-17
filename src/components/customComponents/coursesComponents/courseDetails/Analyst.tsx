@@ -17,7 +17,7 @@ type TabData = {
 // Define the structure of the data for the "analyst" tab
 const data: Record<string, TabData> = {
   analyst: {
-    salary: { label: "Max (10L)", values: [1200, 2500, 1300] },
+    salary: { label: "Jobs in DevOps", values: [700000, 1200000, 1800000] },
     companies: ["Citibank", "Dell", "Deloitte", "Google", "IBM", "Infosys", "Intel", "JPMorgan", "Redhat"],
     demand: 45,
   },
@@ -71,7 +71,7 @@ const Analyst: React.FC = () => {
               Average Salaries
             </span>
             <div className="space-y-4 p-4">
-              <div className="text-xs sm:text-sm text-gray-600">No. of Learners</div>
+              <div className="text-xs sm:text-sm text-gray-600">After 2019</div>
               <div className="relative sm:h-64">
                 {/* Bar Chart for Salary */}
                 <ChartComponent data={chartData.salaryData} label={salary.label} />
@@ -160,9 +160,7 @@ const Analyst: React.FC = () => {
 
         {/* Footer Text */}
         <p className="text-gray-600 text-xs sm:text-sm max-w-4xl">
-          Data scientists are highly valued for their ability to analyze big
-          data, generate insights, and tackle everyday challenges, enhancing
-          business profitability and improving society.
+        The average salary for DevOps engineers in India has seen substantial growth over the past five years. In 2019, the average salary was ₹7 lakh per annum, and it increased to ₹18 lakh per annum by 2023. This rise in compensation reflects the growing demand for DevOps professionals, driven by the widespread adoption of cloud computing, automation, and continuous integration and delivery (CI/CD) practices across industries. With companies increasingly focusing on agile methodologies and scalable infrastructure, the value of DevOps expertise continues to grow, leading to higher salaries and better career prospects
         </p>
       </div>
     </div>
