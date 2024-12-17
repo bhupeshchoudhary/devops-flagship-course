@@ -38,13 +38,13 @@ export default function ProgramCohorts() {
             <div className="space-y-4">
               {/* Header row - hidden on mobile, visible on desktop */}
               <div className="hidden sm:grid sm:grid-cols-4 text-sm text-black pb-2">
-                <div className="flex items-center text-sm text-black gap-2">Duration</div>
-                <div className="flex text-black items-center gap-2">Time</div>
-                <div className="text-black text-sm">Mode</div>
-                <div className="text-black text-sm">Action</div>
+                <div className="flex items-center text-sm text-black gap-2 font-bold">Duration</div>
+                <div className="flex text-black items-center gap-2 font-bold">Time</div>
+                <div className="text-black text-sm font-bold">Mode</div>
+                <div className="text-black font-bold text-sm pl-8">Action</div>
               </div>
 
-              {/* Program Induction Rows with different date ranges */}
+              
               {[
                 {
                   date: "26th Dec, 2024 - 1st Jan, 2025",
