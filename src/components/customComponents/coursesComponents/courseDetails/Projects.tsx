@@ -98,7 +98,7 @@ const projectData = [
 ];
 
 export default function Projects() {
-  const [expanded, setExpanded] = useState(null);
+  const [expanded, setExpanded] = useState<number | null>(0);
   console.log(dockerLogo)
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
