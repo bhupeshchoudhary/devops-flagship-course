@@ -178,7 +178,7 @@ export default function QueryForm() {
                   placeholder="WhatsApp Number*"
                   value={formData.whatsappNumber}
                   onChange={handleChange}
-                  className="flex-1 p-2 border rounded-r-md"
+                  className="flex-1 w-full p-2 border rounded-r-md"
                 />
               </div>
               {errors.whatsappNumber && (
