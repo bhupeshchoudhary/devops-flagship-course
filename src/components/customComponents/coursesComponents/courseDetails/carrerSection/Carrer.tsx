@@ -16,15 +16,15 @@ export default function CourseCarrrerModule() {
   return (
 
     <div className="pt-8 w-full pb-8 flex bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
-    <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 p-12 rounded-xl">
+   <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 pb-6 rounded-xl">
+
+<span className="h-12 w-12">
+<img alt="numbering" className="h-12 w-12" src="/assets/tag1.webp" ></img>
+</span>
+
       <div className="mx-auto ">
         <div className="relative mb-6">
-        <div className="absolute -left-[48] -top-[48] flex h-12 w-12 items-center justify-center ">
-            <span className="text-xl font-bold text-white">
-
-              <img src="/assets/tag2.webp"></img>
-            </span>
-          </div>
+       
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-black">
