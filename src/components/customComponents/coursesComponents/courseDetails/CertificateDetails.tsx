@@ -14,9 +14,13 @@ const CertificateDisplay: React.FC = () => {
           <div className="mb-6">
             <h1 className="text-3xl font-bold mb-2">Get Certified: <span className="text-[#ff0000]"> Training & Internship</span></h1>
             <p className="text-lg">
-              Yes! You will be{" "}
-              <span className="text-red-500 font-semibold">certified</span> for
-              this training once you submit the task given, if any.
+
+            Yes!  
+
+              Yes! Certification will be awarded{" "}
+
+
+              <span className="text-red-500 font-semibold">upon task completion</span>                (if any) and maintaining a minimum 90% attendance.
             </p>
           </div>
 
