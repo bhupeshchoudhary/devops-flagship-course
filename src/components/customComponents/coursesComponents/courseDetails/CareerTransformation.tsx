@@ -14,6 +14,7 @@ import ShyenaTechLogo from "../../../../../public/assets/companyLogo/shyenaTechL
 import TtiLogo from "../../../../../public/assets/companyLogo/TtiLogo.png"
 import tmuCollege from "../../../../../public/assets/tmu.png"
 import ipecCollege from "../../../../../public/assets/ipec.png"
+import defaultcollege from "../../../../../public/assets/defaultcollege.png"
 const peopleData = [
   {
     name: "Anmol Roop Rai",
@@ -21,10 +22,11 @@ const peopleData = [
     testimonial:
       "Till now, my journey with ARTH and LW has been awesome and, it is still going on. I got to know about Vimal sir and LW through my friend and that day and this day there is a huge upward curve in my technical knowledge & passion for learning new technologies and integrating them which boosts my confidence and through ARTH and INIT platform I got DevOps internship with all that knowledge and sir blessings. Thanks a lot to Vimal Sir, Preeti mam, and the whole LinuxWorld Team for providing such great opportunities. ",
     hike: "85% Hike",
-    beforeRole: "Arya College of Engineering and IT",
-    beforeLogo: AryaCollage,
+    beforeRole: ` Arya College of Engineering and IT`,
+    beforeLogo: defaultcollege,
     afterRole: "DevOps Intern",
     afterLogo: bluePlanet,
+    height:12
   },
 
   
@@ -107,7 +109,7 @@ const peopleData = [
       "Being a part of ARTH transformed me entirely. I learned so many industry trending technologies that I ha only heard about and gained quality practical exposure. My interest in Automation technologies grew, and this was all thanks to Vimal Sir. I was actually enjoying working with technologies.",
     hike: "85% Hike",
     beforeRole: "IGNOU, NEW DELHI",
-    beforeLogo: ignoLogo,
+    beforeLogo: defaultcollege,
     afterRole: "Quality Engineer Intern",
     afterLogo: Redhat,
   },
