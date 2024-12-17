@@ -9,7 +9,7 @@ function CourseCarousel() {
     <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 pb-6 rounded-xl">
 
     <span className="h-12 w-12">
-<img alt="numbering" className="h-12 w-12" src="/assets/tag1.webp" ></img>
+<img alt="numbering" className="h-12 w-12" src="/assets/tag3.webp" ></img>
 </span>
 
       <div className="mx-auto ">
