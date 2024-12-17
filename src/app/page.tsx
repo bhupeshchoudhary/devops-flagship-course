@@ -42,36 +42,36 @@ const CourseDetail = ()=>{
         <>
         <Navbar />
         <CourseDetailHero></CourseDetailHero>
-        <JobSkills />
         <CompaniesCarousel/>
-        {/* <PlacementProgramCard /> */}
-        <ProgramCohorts></ProgramCohorts>
-        
-     <Tools></Tools> 
-     <Projects></Projects>
-        {/* <CertificateCarousel /> */}
         <CareerTransformation />
-        <ProgramHighlights></ProgramHighlights>
+        <ProgramCohorts></ProgramCohorts>
         <CourseCurriculumModule></CourseCurriculumModule>
         <CourseCarrrerModule ></CourseCarrrerModule>
         <CourseCarousel />
-
-
-
-        
-        
-  <TestimonialsSection />
+     <Projects></Projects> {/*6 */}
      <MentorProfile></MentorProfile>
-     
      <Analyst></Analyst>
-     <Faq></Faq>
-     <CardStack></CardStack>
-     <QueryForm />
-     <CourseTestimonials />
-     <CoursePricingSection></CoursePricingSection>
+  <TestimonialsSection />
      <PlacedStudents />
+     <CoursePricingSection></CoursePricingSection> {/*10 */}
+     <Tools></Tools> 
         <CertificateDisplay></CertificateDisplay>
+     <CourseTestimonials />
+        <ProgramHighlights></ProgramHighlights>
+        <JobSkills />
+     
+     <Faq></Faq>
+     
+     <QueryForm />
         <Footer />
+
+
+
+
+
+
+        
+        
      </>
     )
 }
