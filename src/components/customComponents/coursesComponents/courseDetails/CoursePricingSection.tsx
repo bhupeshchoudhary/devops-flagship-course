@@ -22,7 +22,7 @@ export default function   CoursePricingSection() {
               </span>
             </h2>
             
-            <div className="mb-6">
+            <div className="mb-6 s">
               <span className="text-red-600 text-4xl font-bold">₹ 980</span>
               <span className="text-gray-500 line-through ml-2">₹ 5,000</span>
               <span className="text-gray-500">(+ taxes)</span>
@@ -41,7 +41,7 @@ export default function   CoursePricingSection() {
               </div>
             </div>
 <div className=" flex w-full mx-auto">
-            <Button className="w-1/2 mx-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white py-6">
+            <Button className="md:w-1/2 sm:w-full mx-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white py-6">
               Yes! I want this insane deal for
               <br />₹ 980 + taxes
               
