@@ -127,7 +127,7 @@ export default function ProgramCohorts() {
 
           {/* Best Suited For */}
           <Card className="p-6 bg-white">
-            <h3 className="text-lg font-medium mb-4 text-black">What You'll Receive:</h3>
+            <h3 className="text-lg font-medium mb-4 text-black">What You&apos;ll Receive:</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
                 "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",

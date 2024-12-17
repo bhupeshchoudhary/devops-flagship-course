@@ -112,7 +112,7 @@ export default function QueryForm() {
                 <Users className="w-6 h-6 text-white" />
               </div>
               <div className="text-2xl font-bold text-white">11,00,000+</div>
-              <div className="text-white/80">Student's Lives Changed</div>
+              <div className="text-white/80">Student&apos;s Lives Changed</div>
             </div>
 
             <div className="bg-red-800/50 p-6 rounded-lg space-y-2">

@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { PlayCircle } from "lucide-react";
+//import { PlayCircle } from "lucide-react";
 import { useState } from "react";
 import Roadmap from "../../../../../public/assets/cources/roadmap.png";
 import Redhat from "../../../../../public/assets/companyLogo/redhat.png";
-import TCS from "../../../../../public/assets/companyLogo/tcs.png";
-import AryaCollage from "../../../../../public/assets/companyLogo/aryaCollage.svg";
+//import TCS from "../../../../../public/assets/companyLogo/tcs.png";
+//import AryaCollage from "../../../../../public/assets/companyLogo/aryaCollage.svg";
 import bluePlanet from "../../../../../public/assets/companyLogo/blueplanet.png"
-import ignoLogo from "../../../../../public/assets/companyLogo/ignouLogo.png"
+//import ignoLogo from "../../../../../public/assets/companyLogo/ignouLogo.png"
 import NagpurUniversityLogo from "../../../../../public/assets/companyLogo/NagpurLogo.png"
 import ShyenaTechLogo from "../../../../../public/assets/companyLogo/shyenaTechLogo.png"
 import TtiLogo from "../../../../../public/assets/companyLogo/TtiLogo.png"

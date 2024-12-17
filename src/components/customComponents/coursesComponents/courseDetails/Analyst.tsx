@@ -38,7 +38,7 @@ const companyLogos: Record<string, string> = {
 
 const Analyst: React.FC = () => {
   // Use state to manage the active tab
-  const [activeTab, setActiveTab] = useState<"analyst">("analyst");
+  const [activeTab, setActiveTab] = useState("analyst");
 
   // Get the corresponding data for the active tab
   const { salary, companies, demand } = data[activeTab];

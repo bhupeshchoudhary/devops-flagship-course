@@ -4,8 +4,8 @@ import * as React from "react";
 import Image from "next/image";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
+//import { ChevronLeft, ChevronRight } from "lucide-react";
+//import { Button } from "@/components/ui/button";
 import Certificate from "../../../../../public/assets/cources/courseDetails/certificateimage.png"
 
 interface Certificate {
@@ -22,13 +22,13 @@ export default function CertificateCarousel() {
 
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
-  const handlePrevious = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? certificates.length - 1 : prevIndex - 1));
-  };
+  // const handlePrevious = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex === 0 ? certificates.length - 1 : prevIndex - 1));
+  // };
 
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === certificates.length - 1 ? 0 : prevIndex + 1));
-  };
+  // const handleNext = () => {
+  //   setCurrentIndex((prevIndex) => (prevIndex === certificates.length - 1 ? 0 : prevIndex + 1));
+  // };
 
   return (
     <div className="bg-gray-50  w-full">

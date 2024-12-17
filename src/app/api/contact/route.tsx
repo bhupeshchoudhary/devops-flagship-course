@@ -109,7 +109,7 @@ export async function POST(request: NextRequest) {
       },
       { status: 200 }
     );
-  } catch (error: any) {
+  } catch (error:any) {
     console.error("Error sending email:", error.message);
     return NextResponse.json<ResponseData>(
       { error: "Failed to send email. Please try again later." },
