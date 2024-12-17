@@ -134,43 +134,52 @@ const Navbar: React.FC = () => {
         </li>
         <li>
           <a
-            href="#schedule"
+            href="#mentor"
             className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
-            Agenda
+           About Us 
           </a>
         </li>
         <li>
           <a
-            href="#venue"
+            href="#trainingcontent"
             className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
-            Cities on Tour
+            Training Content
           </a>
         </li>
         <li>
           <a
-            href="#gallery"
+            href="#projects"
             className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
-            Gallery
+              Projects
           </a>
         </li>
         <li>
           <a
-            href="#contact"
+            href="#placements"
             className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
-            Contact
+            Placements 
+          </a>
+        </li>
+        <li>
+          <a
+            href="#careertransition"
+            className="block hover:text-red-600"
+            onClick={closeMobileMenu}
+          >
+             Career Transition 
           </a>
         </li>
       </ul>
       <a
-        href="#buy-tickets"
+        href="#participatenow"
         className="block mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 text-center"
         onClick={closeMobileMenu}
       >
