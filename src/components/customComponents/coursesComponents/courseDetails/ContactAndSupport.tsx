@@ -3,22 +3,35 @@
 import { useState } from "react";
 import { Users, ArrowUpRight, Globe } from "lucide-react";
 
+interface FormData {
+  fullName: string;
+  email: string;
+  whatsappNumber: string;
+  city: string;
+}
+
+interface Errors {
+  fullName?: string;
+  email?: string;
+  whatsappNumber?: string;
+  city?: string;
+}
+
 export default function QueryForm() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     fullName: "",
     email: "",
     whatsappNumber: "",
     city: "",
-    terms: false,
   });
 
-  const [errors, setErrors] = useState({});
-  const [loading, setLoading] = useState(false);
+  const [errors, setErrors] = useState<Errors>({});
+  const [loading, setLoading] = useState<boolean>(false);
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
   const validateForm = () => {
-    const newErrors: Record<string, string> = {};
+    const newErrors: Errors = {};
 
     if (!formData.fullName || formData.fullName.length < 2) {
       newErrors.fullName = "Name must be at least 2 characters.";
@@ -34,10 +47,6 @@ export default function QueryForm() {
 
     if (!formData.city || formData.city.length < 3) {
       newErrors.city = "Please enter your city.";
-    }
-
-    if (!formData.terms) {
-      newErrors.terms = "You must accept the terms.";
     }
 
     setErrors(newErrors);
@@ -82,7 +91,6 @@ export default function QueryForm() {
         email: "",
         whatsappNumber: "",
         city: "",
-        terms: false,
       });
     } catch (error: any) {
       setErrorMessage(error.message || "Something went wrong. Please try again later.");
@@ -188,24 +196,6 @@ export default function QueryForm() {
               />
               {errors.city && <p className="text-red-600 text-sm">{errors.city}</p>}
             </div>
-
-            <div className="flex items-start space-x-2">
-              <input
-                name="terms"
-                type="checkbox"
-                checked={formData.terms}
-                onChange={handleChange}
-                className="mt-1"
-              />
-              <div className="text-sm leading-none pt-1">
-                I agree to LinuxWorld's{" "}
-                <a href="#" className="text-red-600 hover:underline">
-                  Terms & Conditions
-                </a>
-                .
-              </div>
-            </div>
-            {errors.terms && <p className="text-red-600 text-sm">{errors.terms}</p>}
 
             <button
               type="submit"
