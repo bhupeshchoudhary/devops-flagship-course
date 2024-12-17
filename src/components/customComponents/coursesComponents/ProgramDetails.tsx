@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { Calendar, Clock, GraduationCap, Briefcase, Code } from 'lucide-react'
+import {  GraduationCap, Briefcase, Code } from 'lucide-react'
 
 export default function ProgramCohorts() {
   return (

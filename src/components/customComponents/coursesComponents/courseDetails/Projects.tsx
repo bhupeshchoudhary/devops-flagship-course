@@ -1,12 +1,9 @@
 "use client"
+
 import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { ChevronRight, Globe, BrainCircuit, ShoppingCart, Container } from "lucide-react";
-import k8s from "../../../../../public/assets/Projects/k8s.png"
-import containerLogo from "../../../../../public/assets/Projects/container.png"
 import dockerLogo from "../../../../../public/assets/Projects/docker.png"
-import gitLogo from "../../../../../public/assets/Projects/git.png"
-import jenkinsLogo from "../../../../../public/assets/Projects/jenkins.svg"
+
 
 const projectData = [
   {
@@ -136,7 +133,7 @@ export default function Projects() {
                     <CardHeader>
                       <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mb-4">
                         {/* <project.icon className="w-6 h-6" /> */}
-                        <img src={project.icon.toString()}></img>
+                        <img alt="icon" src={project.icon.toString()}></img>
                       </div>
                       <h3 className="text-xl font-bold">{project.title}</h3>
                       <p className="text-muted-foreground">{project.description}</p>

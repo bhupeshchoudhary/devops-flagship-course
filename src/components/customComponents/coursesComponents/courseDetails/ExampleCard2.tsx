@@ -1,6 +1,6 @@
+import Image from "next/image"
 import { Star } from "lucide-react"
 import { Card, CardFooter } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 
 const courseInfo = [
     {
@@ -72,7 +72,7 @@ export default function ExampleCard() {
         >
           {/* Image Container */}
           <div className="h-56 sm:h-56 overflow-hidden">
-            <img
+            <Image
               src={course.backgroundImage}
               alt={course.title}
               className="w-full h-full object-cover"

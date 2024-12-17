@@ -4,18 +4,13 @@ import Image from 'next/image'; // Importing Next.js Image component
 
 // Importing images as StaticImageData objects
 import Google from "../../../../../public/assets/companyLogo/google.png";
-import TCS from "../../../../../public/assets/companyLogo/tcs.png";
 import Infosys from "../../../../../public/assets/companyLogo/infosys.png";
 import Salesforce from "../../../../../public/assets/companyLogo/salesforce.png";
-// import Intel from "../../../../../public/assets/companyLogo/intel.png";
-// import RedHat from "../../../../../public/assets/companyLogo/redhat.png";
 import Razorpay from "../../../../../public/assets/companyLogo/razorpay.png";
 import Wipro from "../../../../../public/assets/companyLogo/wipro.png";
 import Zoho from "../../../../../public/assets/companyLogo/zoho.png";
 import Oracle from "../../../../../public/assets/companyLogo/oracle.png";
-import Searce from "../../../../../public/assets/companyLogo/searce.png";
 import Syfe from "../../../../../public/assets/companyLogo/syfe.png";
-// import Paytm from "../../../../../public/assets/companyLogo/paytm.png";
 import PWC from "../../../../../public/assets/companyLogo/pwc.png";
 import Nykaa from "../../../../../public/assets/companyLogo/nykaa.png";
 import NPCI from "../../../../../public/assets/companyLogo/NPCI_logo.png";
@@ -29,18 +24,13 @@ import IBM from "../../../../../public/assets/companyLogo/ibm.png";
 const MentorFeatured = () => {
   const logos = [
     { src: Google, alt: "Google" },
-    // { src: TCS, alt: "TCS" },
     { src: Infosys, alt: "Infosys" },
     { src: Salesforce, alt: "Salesforce" },
-    // { src: Intel, alt: "Intel" },
-    // { src: RedHat, alt: "RedHat" },
     { src: Razorpay, alt: "Razorpay" },
     { src: Wipro, alt: "Wipro" },
     { src: Zoho, alt: "Zoho" },
     { src: Oracle, alt: "Oracle" },
-    // { src: Searce, alt: "Searce" },
     { src: Syfe, alt: "Syfe" },
-    // { src: Paytm, alt: "Paytm" },
     { src: PWC, alt: "PWC" },
     { src: Nykaa, alt: "Nykaa" },
     { src: NPCI, alt: "NPCI" },

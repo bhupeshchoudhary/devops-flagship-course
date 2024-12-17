@@ -1,6 +1,6 @@
 import React from "react";
 import { TrendingUp, BarChart, Cpu } from "lucide-react"; // Import specific icons
-import Image from "next/image"
+
 // Section Component
 interface SectionProps {
   icon: React.ReactNode;
