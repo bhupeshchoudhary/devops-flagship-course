@@ -69,17 +69,19 @@ const CompaniesCarousel = () => {
     { src: BigBasket, alt: "BigBasket" },
     { src: BluePlanet, alt: "BluePanet" },
     { src: Capgemini, alt: "Capgemini" },
-    
   ];
 
   const containerRef = useRef(null);
   const [scrollOffset, setScrollOffset] = useState(0);
 
-  // Split the logos into chunks of 10
-  const chunkedLogos = [];
-  for (let i = 0; i < logos.length; i += 11) {
-    chunkedLogos.push(logos.slice(i, i + 10));
-  }
+  // Split the logos into chunks of 10 (only done once)
+  const chunkedLogos = React.useMemo(() => {
+    const result = [];
+    for (let i = 0; i < logos.length; i += 11) {
+      result.push(logos.slice(i, i + 10));
+    }
+    return result;
+  }, [logos]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -93,48 +95,47 @@ const CompaniesCarousel = () => {
 
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
-    <div className="relative  overflow-hidden max-w-7xl mx-auto ">
-      <div className="text-3xl font-bold mx-auto text-center pt-12">
-
-      1356+ Leading companies hire 
-
-        {/* 1300+ leading companies hire through */}
-        
-         <br />{" "}
-        <span className="text-[#ff0000]">LinuxWorld Students </span> 🤝
-      </div>
-      <div className="text-md text-center text-gray-800 pt-4 pb-8">
-      Get an opportunity to learn from the World Record Holder - <span className="text-[#ff0000]">Mr Vimal Daga</span>
-      </div>
-      <div className="w-full overflow-hidden">
-        {chunkedLogos.map((lineLogos, rowIndex) => (
-          <div
-            key={rowIndex}
-            ref={containerRef}
-            className="whitespace-nowrap mb-4"
-            style={{
-              transform: `translateX(${-scrollOffset * (rowIndex % 2 === 0 ? 0.1 : -0.1)}px)`,
-              transition: "transform 0.9s ease-out",
-            }}
-          >
-            <div className="inline-flex items-center w-max">
-              {lineLogos.map((logo, index) => (
-                <div key={index} className="mx-4 flex-shrink-0">
-                  <div className="w-32 h-20 flex items-center justify-center">
-                    <Image
-                      src={logo.src}
-                      alt={logo.alt}
-                      width={120}
-                      height={120}
-                      style={{ objectFit: "contain" }}
-                    />
+      <div className="relative overflow-hidden max-w-7xl mx-auto">
+        <div className="text-3xl font-bold mx-auto text-center pt-12">
+          1356+ Leading companies hire
+          <br />
+          <span className="text-[#ff0000]">LinuxWorld Students </span> 🤝
+        </div>
+        <div className="text-md text-center text-gray-800 pt-4 pb-8">
+          Get an opportunity to learn from the World Record Holder -{" "}
+          <span className="text-[#ff0000]">Mr Vimal Daga</span>
+        </div>
+        <div className="w-full overflow-hidden">
+          {chunkedLogos.map((lineLogos, rowIndex) => (
+            <div
+              key={rowIndex}
+              ref={containerRef}
+              className="whitespace-nowrap mb-4"
+              style={{
+                transform: `translateX(${
+                  -scrollOffset * (rowIndex % 2 === 0 ? 0.1 : -0.1)
+                }px)`,
+                transition: "transform 0.9s ease-out",
+              }}
+            >
+              <div className="inline-flex items-center w-max">
+                {lineLogos.map((logo, index) => (
+                  <div key={index} className="mx-4 flex-shrink-0">
+                    <div className="w-32 h-20 flex items-center justify-center">
+                      <Image
+                        src={logo.src}
+                        alt={logo.alt}
+                        width={120}
+                        height={120}
+                        style={{ objectFit: "contain" }}
+                      />
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
       </div>
     </div>
   );
