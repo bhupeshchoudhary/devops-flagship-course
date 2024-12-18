@@ -170,7 +170,7 @@ const Navbar: React.FC = () => {
         </li>
         <li>
           <a
-            href="#careertransition"
+            href="#careertransformation"
             className="block hover:text-red-600"
             onClick={closeMobileMenu}
           >
