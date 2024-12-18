@@ -1,14 +1,14 @@
 "use client"
-import react from "react";
-import { useParams  } from 'next/navigation'
-import { Button } from "@/components/ui/button";
+
+
+
 import { Card, CardContent } from "@/components/ui/card";
-import { Share } from "lucide-react";
+
 import { Star } from 'lucide-react';
-import { ST } from "next/dist/shared/lib/utils";
+
 const CourseDetailHero = ()=>{
-    const params = useParams ();
-    const {pid}  = params;
+    
+    
 
     return (
         <>
@@ -102,7 +102,7 @@ const CourseDetailHero = ()=>{
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span className="">For enquiries call: +91 9772201449</span>
+                <span className="" onClick={()=>{location.href="tel:+919772201449"}}>For enquiries call: +91 9772201449</span>
               </div>
             </div>
 

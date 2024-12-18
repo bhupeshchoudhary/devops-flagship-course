@@ -26,7 +26,7 @@ export default function ProgramCohorts() {
 
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
-              <h3 className="text-sm sm:text-lg text-black ">
+              <h3 className="text-sm sm:text-lg text-black font-semibold">
                 LW Job Oriented DevOps Globally Recognized Program 2025
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
@@ -58,13 +58,13 @@ export default function ProgramCohorts() {
                 >
                   {/* Mobile: Stacked layout */}
                   <div className="flex flex-col sm:hidden">
-                    <div className="font-medium text-sm text-black">Duration</div>
+                    <div className="font-medium text-sm text-black font-semibold">Duration:</div>
                     <div className="text-black text-sm mb-2">{program.date}</div>
                     
-                    <div className="font-medium text-sm text-black">Time</div>
+                    <div className="font-medium text-sm text-black font-semibold">Time:</div>
                     <div className="text-black text-sm mb-2">{program.time}</div>
                     
-                    <div className="font-medium text-sm text-black">Location</div>
+                    <div className="font-medium font-semibold text-sm text-black">Mode:</div>
                     <div className="text-black text-sm mb-2">Online</div>
                   </div>
 
@@ -73,7 +73,7 @@ export default function ProgramCohorts() {
                     <div className="font-medium text-sm text-black">{program.date}</div>
                   </div>
                   <div className="hidden sm:block text-black text-sm">{program.time}</div>
-                  <div className="hidden sm:block text-black text-sm">Online</div>
+                  <div className="hidden sm:block text-black text-sm text-blue-400">Online</div>
                   
                   {/* Action button - same for both mobile and desktop */}
                   <div>
@@ -93,8 +93,8 @@ export default function ProgramCohorts() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Eligibility Criteria */}
           <Card className="p-6 bg-white">
-            <h3 className="text-lg text-black font-medium mb-4">
-              Eligibility Criteria
+            <h3 className="text-lg text-black font-medium mb-4 font-semibold">
+              Eligibility Criteria:
             </h3>
             <div className="space-y-4">
               <div className="flex gap-3">
@@ -127,7 +127,7 @@ export default function ProgramCohorts() {
 
           {/* Best Suited For */}
           <Card className="p-6 bg-white">
-            <h3 className="text-lg font-medium mb-4 text-black">What You&apos;ll Receive:</h3>
+            <h3 className="text-lg font-medium mb-4 text-black font-semibold">What You&apos;ll Receive:</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
                 "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
@@ -136,7 +136,7 @@ export default function ProgramCohorts() {
                 "The opportunity to learn from World Record Holder, Mr. Vimal Daga, and enhance your skills to stand out in the tech industry!"
               ].map((role, index) => (
                 <div key={index} className="flex items-center gap-2">
-                  <div className="w-2 h-2 bg-orange-500 rounded-full" />
+                  <div className="flex-shrink-0 w-2 h-2 bg-red-500 rounded-full" />
                   <span className="text-sm text-black">{role}</span>
                 </div>
               ))}
