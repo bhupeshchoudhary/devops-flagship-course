@@ -78,8 +78,8 @@ const Tools: React.FC = () => {
       </div>
 
       {/* Right Image Section */}
-      <div className="lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0 p-6">
-        <div className="relative bg-white p-4 sm:p-8 rounded-lg shadow-lg">
+      <div className="lg:w-1/2 flex items-center justify-center mt-8 lg:mt-0 md:p-6">
+        <div className="relative bg-white md:p-4 sm:p-8 rounded-lg shadow-lg">
           {/* Replace this image tag with your actual image */}
           <img
             src="/assets/cources/tools.jpg"

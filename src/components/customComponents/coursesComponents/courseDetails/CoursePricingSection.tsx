@@ -5,11 +5,11 @@ import { Check } from 'lucide-react'
 export default function   CoursePricingSection() {
   return (
     <div className=" mx-auto bg-gradient-to-r from-gray-50 via-white-50 to-red-50 " id="participatenow">
-      <div className="max-w-6xl mx-auto p-6">
+      <div className="max-w-6xl mx-auto md:p-6">
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
 
 
-        <span className="text-[#ff0000]" > Invest today & </span> get a return of 5 lpa
+        <span className="text-[#ff0000] md:p-0 p-2" > Invest today & </span> get a return of 5 lpa
         </h1>
         
         <div className="flex flex-col md:flex-row gap-8">
@@ -53,8 +53,8 @@ export default function   CoursePricingSection() {
           </Card>
 
           {/* Right Column - Features */}
-          <div className="flex-1 space-y-8">
-            <div>
+          <div className="flex-1 space-y-8 md:p-0 p-4">
+            <div> 
               <h3 className="text-2xl font-bold text-gray-700 mb-4">
               What you will get...
               </h3>

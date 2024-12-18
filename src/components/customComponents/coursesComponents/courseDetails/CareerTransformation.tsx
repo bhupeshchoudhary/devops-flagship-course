@@ -144,8 +144,8 @@ export default function CareerTransformation() {
   return (
     <div className="w-full bg-gradient-to-r from-gray-50 to-red-50" id="careertransformation"> 
       <section className="max-w-6xl mx-auto py-12">
-        <div className="container px-4 md:px-6">
-          <h1 className="text-3xl font-bold tracking-tighter mb-8">
+        <div className="container  md:px-6">
+          <h1 className="text-3xl font-bold tracking-tighter md:p-0 p-2 mb-8">
             Career <span className="text-[#ff0000]">Transformation</span>
           </h1>
 
