@@ -91,7 +91,7 @@ export default function Footer() {
         <iframe
     width="420"
     height="250"
-    src="https://www.youtube.com/embed/F0eRuiXQNx4?start=59&autoplay=1&mute=1"
+    src="https://www.youtube.com/embed/dqIsmWjbtfQ?si=JRgPBQsu4PIvUMpy"
     title="YouTube video player"
     
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

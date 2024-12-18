@@ -71,7 +71,7 @@ const Analyst: React.FC = () => {
               Average Salaries
             </span>
             <div className="space-y-4 p-4">
-              <div className="text-xs sm:text-sm text-gray-600">After 2019</div>
+              <span className="text-[#ff0000] md:text-sm  font-medium bg-red-100/50 px-3 py-1 rounded-full animate-pulse">After 2019</span>
               <div className="relative sm:h-64">
                 {/* Bar Chart for Salary */}
                 <ChartComponent data={chartData.salaryData} label={salary.label} />

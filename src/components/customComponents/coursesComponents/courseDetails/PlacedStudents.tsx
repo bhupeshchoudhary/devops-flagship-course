@@ -172,7 +172,7 @@ const PlacedStudents = () => {
         {employees.map((employee, index) => (
           <div
             key={index}
-            className="relative border-2 rounded-lg shadow-lg bg-pink-100 w-[300px] h-[360px] flex flex-col items-center"
+            className="relative border-2 rounded-lg shadow-lg bg-pink-100  w-[300px] h-[360px] flex flex-col items-center"
           >
 
             <a href={employee.linkding} target="blank">

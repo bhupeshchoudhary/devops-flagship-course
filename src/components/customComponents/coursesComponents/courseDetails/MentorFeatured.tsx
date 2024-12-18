@@ -43,7 +43,7 @@ const MentorFeatured = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden bg-white">
+    <div className="relative overflow-hidden bg-white ">
       <div className="flex items-center space-x-4 whitespace-nowrap overflow-hidden">
         {/* Animated scrolling container */}
         <div className="flex animate-scroll space-x-8">

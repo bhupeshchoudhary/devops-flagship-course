@@ -121,7 +121,7 @@ const CompaniesCarousel = () => {
               <div className="inline-flex items-center w-max">
                 {lineLogos.map((logo, index) => (
                   <div key={index} className="mx-4 flex-shrink-0">
-                    <div className="w-32 h-20 flex items-center justify-center">
+                    <div className="md:w-52 w-20 h-8 md:h-20 flex items-center justify-center">
                       <Image
                         src={logo.src}
                         alt={logo.alt}

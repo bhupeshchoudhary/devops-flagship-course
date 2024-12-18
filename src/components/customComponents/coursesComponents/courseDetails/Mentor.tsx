@@ -106,7 +106,7 @@ const MentorProfile = () => {
 
   return (
     <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50' id="mentor">
-    <div ref={profileRef} className="max-w-6xl pt-12 mx-auto p-6 lg:px-8">
+    <div ref={profileRef} className="max-w-6xl pt-12 mx-auto md:p-6 lg:px-8">
     <h1 className="text-center mb-4 font-bold  text-lg sm:text-3xl text-black pb-4">
      
 
@@ -135,14 +135,14 @@ const MentorProfile = () => {
           {/* Mentor Details Card */}
           <div className="bg-blue-50 rounded-xl p-6 shadow-sm border border-blue-100">
             <div className="flex items-center gap-3 mb-3">
-              <div className="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></div>
-              <span className="text-blue-800 md:text-sm  font-medium bg-blue-100/50 px-3 py-1 rounded-full">
+              <div className="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
+              <span className="text-[#ff0000] text-xs md:text-sm  font-medium bg-red-100/50 px-3 py-1 rounded-full">
                 Internationally Recognised Industry Expert
               </span>
             </div>
             <div className="space-y-1 pl-5">
               <h2 className="md:text-2xl  font-bold text-gray-900">Mr. Vimal Daga</h2>
-              <p className="text-gray-600 font-sm">Founder of LinuxWorld | #13 | IIEC | JAZBAA </p>
+              <p className="text-gray-600 text-sm">Founder of LinuxWorld | #13 | IIEC | JAZBAA </p>
             </div>
           </div>
         </div>
@@ -197,8 +197,8 @@ const MentorProfile = () => {
           </div>
 
           {/* Enhanced Featured Section */}
-          <div className="border border-gray-200 rounded-xl p-4 shadow-sm bg-white backdrop-blur-sm">
-            <p className="text-black font-semibold text-sm  overflow-hidden inset-2">Companies benefited with his trainings & consultancy</p>
+          <div className="border border-gray-200 rounded-xl py-4 shadow-sm bg-white ">
+            <p className="text-black font-semibold text-sm px-4 overflow-hidden inset-2">Companies benefited with his trainings & consultancy</p>
             <MentorFeatured />
           </div>
         </div>
