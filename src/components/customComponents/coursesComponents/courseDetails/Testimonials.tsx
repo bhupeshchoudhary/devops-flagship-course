@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Avatar } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { testimonials } from '@/data/testimonial';
+import { testimonials } from '../../../../data/testimonial';
 
 const floatingAvatars = [
   { top: "32%", left: "40%", size: 80, delay: 200, image: "https://media.licdn.com/dms/image/v2/C4E0BAQER-Sage-ex_A/company-logo_200_200/company-logo_200_200/0/1639050566015/linuxworld_informatics_pvt_ltd_logo?e=1742428800&v=beta&t=FwXDlkMxgxkWqJDEhrHhA20j6BFU-FTFc218GM8MX5M" },
