@@ -56,10 +56,10 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <section className="relative bg-[#faf7f4] overflow-hidden px-4 py-12 md:py-12">
-      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+    <div className="relative bg-[#faf7f4] overflow-hidden px-4 py-12 md:py-12">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 ">
         {/* Left Section */}
-        <div className="relative lg:col-span-1 order-2 lg:order-1 flex-shrink-0 h-96 overflow-hidden" aria-hidden="true">
+        <div className="relative lg:col-span-1 order-2 lg:order-1 flex-shrink-0 h-96  " aria-hidden="true">
           <div className="absolute inset-0 w-full h-full">
             {floatingAvatars.map((avatar, index) => (
               <div
@@ -168,6 +168,6 @@ export default function TestimonialsSection() {
           }
         }
       `}</style>
-    </section>
+    </div>
   );
 }
