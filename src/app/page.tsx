@@ -27,6 +27,11 @@ import CourseCarousel from "@/components/customComponents/coursesComponents/cour
 import QueryForm from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
 
 import PlacedStudents from "@/components/customComponents/coursesComponents/courseDetails/PlacedStudents";
+import BeginnerToPro from "@/components/customComponents/guaranteedPlacement/BeginnerToPro";
+import BecomePlacement from "@/components/customComponents/guaranteedPlacement/BecomePlacement";
+import SkillsAndTools from "@/components/customComponents/coursesComponents/skillsAndTools/skillsAndTools";
+import Certificates from "@/components/customComponents/Certification/Certification";
+// import BeginnerToPro from "@/components/customComponents/guaranteedPlacement/beginnerToPro";
 const CourseDetail = ()=>{
     
 
@@ -55,6 +60,11 @@ const CourseDetail = ()=>{
      <Faq></Faq>
      
      <QueryForm />
+
+     <BeginnerToPro></BeginnerToPro>
+     <BecomePlacement></BecomePlacement>
+     <SkillsAndTools></SkillsAndTools>
+     <Certificates></Certificates>
         <Footer />
 
 
