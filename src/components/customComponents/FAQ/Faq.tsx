@@ -17,7 +17,7 @@ export default function FAQSection() {
   return (
     <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50'>
     <div className="w-full max-w-6xl mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold mb-6">FAQs</h1>
+      <h1 className="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
       
       <Tabs defaultValue={faqData[0].id} value={activeTab} onValueChange={setActiveTab}>
         <ScrollArea className="w-full whitespace-nowrap rounded-md">
