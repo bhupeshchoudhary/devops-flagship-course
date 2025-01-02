@@ -27,13 +27,15 @@ import CourseCarousel from "@/components/customComponents/coursesComponents/cour
 import QueryForm from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
 
 import PlacedStudents from "@/components/customComponents/coursesComponents/courseDetails/PlacedStudents";
+import Hero from "@/components/customComponents/coursesComponents/courseDetails/Hero";
 const CourseDetail = ()=>{
     
 
     return (
         <>
         <Navbar />
-        <CourseDetailHero></CourseDetailHero>
+        {/* <CourseDetailHero></CourseDetailHero> */}
+        <Hero />
         <CompaniesCarousel/>
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
