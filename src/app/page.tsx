@@ -1,5 +1,5 @@
 "use client"
-import CourseDetailHero from "@/components/customComponents/coursesComponents/courseDetails/CourseDetailsHero";
+// import CourseDetailHero from "@/components/customComponents/coursesComponents/courseDetails/CourseDetailsHero";
 import Tools from "@/components/customComponents/coursesComponents/Tools"
 import Analyst from "@/components/customComponents/coursesComponents/courseDetails/Analyst";
 import Faq from "@/components/customComponents/coursesComponents/Faq";
@@ -33,6 +33,7 @@ import SkillsAndTools from "@/components/customComponents/coursesComponents/skil
 import Certificates from "@/components/customComponents/Certification/Certification";
 // import BeginnerToPro from "@/components/customComponents/guaranteedPlacement/beginnerToPro";
 import Hero from "@/components/customComponents/coursesComponents/courseDetails/Hero";
+import TopCareerOptions from "@/components/TopCareerOptions/TopCareerOptions";
 const CourseDetail = ()=>{
     
 
@@ -67,6 +68,7 @@ const CourseDetail = ()=>{
      <BecomePlacement></BecomePlacement>
      <SkillsAndTools></SkillsAndTools>
      <Certificates></Certificates>
+     <TopCareerOptions></TopCareerOptions>
         <Footer />
 
 
