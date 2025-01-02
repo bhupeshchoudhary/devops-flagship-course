@@ -34,6 +34,7 @@ import Certificates from "@/components/customComponents/Certification/Certificat
 // import BeginnerToPro from "@/components/customComponents/guaranteedPlacement/beginnerToPro";
 import Hero from "@/components/customComponents/coursesComponents/courseDetails/Hero";
 import TopCareerOptions from "@/components/TopCareerOptions/TopCareerOptions";
+import FAQSection from "@/components/customComponents/FAQ/Faq";
 const CourseDetail = ()=>{
     
 
@@ -69,6 +70,7 @@ const CourseDetail = ()=>{
      <SkillsAndTools></SkillsAndTools>
      <Certificates></Certificates>
      <TopCareerOptions></TopCareerOptions>
+     <FAQSection></FAQSection>
         <Footer />
 
 
