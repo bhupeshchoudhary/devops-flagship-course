@@ -1,8 +1,8 @@
 import React from "react";
+import styles from '../../../../..../../../PlaceStudents.module.css';
 import arpitJindal from "../../../../../public/assets/placed-students-photos/arpitjindal.png";
 import akanshAgarwal from "../../../../../public/assets/placed-students-photos/akanshagarwal.png";
 import mannansiddiqui from "../../../../../public/assets/placed-students-photos/mannansiddhiqui.png";
-
 import unthinkable from "../../../../../public/assets/companyLogo/logo_unthinkable_dbd9877981.png";
 import mercedes from "../../../../../public/assets/companyLogo/Mercedes-Benz_Logo_2010.svg.png";
 import NPCI from "../../../../../public/assets/companyLogo/NPCI_logo.png";
@@ -12,6 +12,7 @@ import paytm2 from "../../../../../public/assets/companyLogo/paytm.png"
 import searce2 from "../../../../../public/assets/companyLogo/searce.png"
 import redhat2 from "../../../../../public/assets/companyLogo/redhat.png"
 import tcs2 from "../../../../../public/assets/companyLogo/tcs.png"
+
 
 
 const PlacedStudents = () => {
@@ -27,7 +28,7 @@ const PlacedStudents = () => {
         },
         {
           name: "Akansh Agarwal",
-          college: "Shri Ram Murti Smarak College, Bareilly",
+          college: "Shri Ram Murti Smarak College",
           designation: "Framework Engineer",
           package: "8.5 LPA",
           companyLogo: quantiphi.src.toString(),
@@ -154,78 +155,64 @@ const PlacedStudents = () => {
                   linkding:""
                 } ,
                ];
-  return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="placements">
-    <div className="flex flex-col items-center min-h-screen p-12 ">
-      {/* Component Title */}
-      <h1 className="text-lg sm:text-2xl font-semibold text-black">
-        {/* Our <span className="text-[#ff0000]">Placed </span>Students */}
-
-        Rising Engineers, <span className="text-[#ff0000]">Real Heroes</span> 
-
-      </h1>
-      <h1 className="text-sm  sm:text-lg text-black font-semibold pt-2 mb-8"> Learn - Build - Lead with <span className="text-[#ff0000]"> Mr Vimal Daga</span> 
-      </h1>
-
-      {/* Employee Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-        {employees.map((employee, index) => (
-          <div
-            key={index}
-            className="relative border-2 rounded-lg shadow-lg bg-pink-100  w-[300px] h-[360px] flex flex-col items-center"
-          >
-
-            <a href={employee.linkding} target="blank">
-            {/* Pin Icon */}
-            <div className="absolute top-2 right-2 bg-white p-1 rounded-full shadow-md">
-              📌
-            </div>
-
-            {/* Profile Image and Name */}
-            <div className="flex flex-col items-center w-full mt-6">
-              <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-[#ff0000] flex-shrink-0">
-                <img
-                  src={employee.photo}
-                  alt={employee.name}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="mt-4 text-center">
-                <h3 className="text-lg font-bold text-[#ff0000] break-words">
-                  {employee.name}
-                </h3>
-                <p className="text-sm text-gray-600 break-words">
-                  {employee.college}
-                </p>
-              </div>
-            </div>
-
-            {/* Designation */}
-            <div className="mt-4 text-center text-gray-800 font-semibold">
-              <p>Got Selected as</p>
-              <p className="text-[#ff0000]">{employee.designation}</p>
-            </div>
-
-            {/* Salary Package */}
-            <div className="mt-4 bg-[#ff0000] text-white py-2  w-72 text-center text-lg font-bold">
-              {employee.package}
-            </div>
-
-            {/* Company Logo */}
-            <div className="mt-4 m-4 flex justify-center items-center">
-              <img
-                src={employee.companyLogo}
-                alt="Company Logo"
-                className="w-32 h-auto"
-              />
-            </div>
-            </a>
-          </div>
-        ))}
-      </div>
-    </div>
-    </div>
-  );
-};
-
-export default PlacedStudents;
+               return (
+                <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="placements">
+                  <div className="flex flex-col items-center py-12">
+                    <h1 className="text-lg sm:text-2xl font-semibold text-black">
+                      Rising Engineers, <span className="text-[#ff0000]">Real Heroes</span>
+                    </h1>
+                    <h1 className="text-sm sm:text-lg text-black font-semibold pt-2 mb-8">
+                      Learn - Build - Lead with <span className="text-[#ff0000]">Mr Vimal Daga</span>
+                    </h1>
+            
+                    <div className={styles.slider}>
+                      <div className={styles['slide-track']}>
+                        {[...employees, ...employees].map((employee, index) => (
+                          <div key={index} className={styles.slide}>
+                            <div className="border-2 rounded-lg shadow-lg bg-pink-100 h-[300px] flex flex-col items-center relative p-2">
+                              <a href={employee.linkding} target="_blank" rel="noopener noreferrer" className="w-full h-full flex flex-col items-center">
+                                <div className="absolute top-1 right-1 bg-white p-1 rounded-full shadow-md text-sm">📌</div>
+                                
+                                <div className="flex flex-col items-center w-full mt-2">
+                                  <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-[#ff0000] flex-shrink-0">
+                                    <img src={employee.photo} alt={employee.name} className="w-full h-full object-cover"/>
+                                  </div>
+                                  
+                                  <div className="mt-2 text-center px-2 py-2 ">
+                                    <h3 className="text-sm font-bold text-[#ff0000] break-words leading-tight">
+                                      {employee.name}
+                                    </h3>
+                                    <p className="text-[10px] text-gray-600 break-words leading-tight mt-1">
+                                      {employee.college}
+                                    </p>
+                                  </div>
+                                </div>
+            
+                                <div className="mt-2 text-center text-gray-800 font-semibold px-2">
+                                  <p className="text-xs">Got Selected as</p>
+                                  <p className="text-xs text-[#ff0000] font-bold">{employee.designation}</p>
+                                </div>
+            
+                                <div className="mt-2 bg-[#ff0000] text-white py-2 w-[90%] text-center">
+                                  <span className="text-sm font-bold">{employee.package}</span>
+                                </div>
+            
+                                <div className="mt-2 flex justify-center items-center h-12">
+                                  <img 
+                                    src={employee.companyLogo} 
+                                    alt="Company Logo" 
+                                    className="max-w-[100px] max-h-full object-contain"
+                                  />
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            };
+            
+            export default PlacedStudents;

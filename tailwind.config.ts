@@ -64,7 +64,16 @@ export default {
 		boxShadow: {
 			'inset-sides': 'inset 10px 0 15px -5px rgba(0, 0, 0, 0.3), inset -10px 0 15px -5px rgba(0, 0, 0, 0.3)',
 		  },
-  	}
+  	},
+	  animation: {
+        'scroll': 'scroll 40s linear infinite',
+      },
+	  keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-300px * 7))' },
+        },
+      },
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
