@@ -56,12 +56,12 @@ export default function SkillsAndTools() {
   return (
     <div className='bg-gradient-to-br from-gray-50 via-black-50 to-red-50'>
     <div className="w-full pt-4 pb-4 max-w-6xl mx-auto px-4 ">
-      <h2 className="text-2xl font-bold mb-8">Skills and tools you will learn</h2>
+      <h2 className="text-3xl font-bold mb-8"> <span className='text-[#ff0000]'>Skills </span>and <span className='text-[#ff0000]'>tools </span> you will learn</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex items-center gap-4 p-4 rounded-lg border border-gray-200 bg-white hover:shadow-md transition-shadow duration-200"
+            className="flex items-center gap-4 p-8 rounded-lg border border-gray-200 bg-white hover:shadow-md transition-shadow duration-200"
           >
             <div className="flex-shrink-0">
               {skill.icon}
