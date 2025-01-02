@@ -1,5 +1,5 @@
 "use client"
-import CourseDetailHero from "@/components/customComponents/coursesComponents/courseDetails/CourseDetailsHero";
+// import CourseDetailHero from "@/components/customComponents/coursesComponents/courseDetails/CourseDetailsHero";
 import Tools from "@/components/customComponents/coursesComponents/Tools"
 import Analyst from "@/components/customComponents/coursesComponents/courseDetails/Analyst";
 import Faq from "@/components/customComponents/coursesComponents/Faq";
@@ -27,15 +27,13 @@ import CourseCarousel from "@/components/customComponents/coursesComponents/cour
 import QueryForm from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
 
 import PlacedStudents from "@/components/customComponents/coursesComponents/courseDetails/PlacedStudents";
-<<<<<<< HEAD
 import BeginnerToPro from "@/components/customComponents/guaranteedPlacement/BeginnerToPro";
 import BecomePlacement from "@/components/customComponents/guaranteedPlacement/BecomePlacement";
 import SkillsAndTools from "@/components/customComponents/coursesComponents/skillsAndTools/skillsAndTools";
 import Certificates from "@/components/customComponents/Certification/Certification";
 // import BeginnerToPro from "@/components/customComponents/guaranteedPlacement/beginnerToPro";
-=======
 import Hero from "@/components/customComponents/coursesComponents/courseDetails/Hero";
->>>>>>> 7bce044ca8218e8c42ade33b465774cd31adcda0
+import TopCareerOptions from "@/components/TopCareerOptions/TopCareerOptions";
 const CourseDetail = ()=>{
     
 
@@ -70,6 +68,7 @@ const CourseDetail = ()=>{
      <BecomePlacement></BecomePlacement>
      <SkillsAndTools></SkillsAndTools>
      <Certificates></Certificates>
+     <TopCareerOptions></TopCareerOptions>
         <Footer />
 
 
