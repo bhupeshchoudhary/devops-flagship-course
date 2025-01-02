@@ -4,62 +4,67 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export default function BecomePlacement() {
   return (
-    <div className="container mx-auto px-4 md:px-6 py-8 bg-gradient-to-br from-gray-50 via-black-50 to-red-50" >
-      <Card className="w-full overflow-hidden max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-2 items-center">
-          {/* Left side with image */}
-          <div className="relative p-6 lg:p-8">
-            <div className="relative aspect-[4/3] w-full">
-              <Image
-                src="/assets/guaranteedPlacement/becomePlacementReady.gif"
-                alt="Resume interface mockup"
-                fill
-                className="object-cover rounded-lg"
-                priority
-              />
-              {/* <div className="absolute -right-4 top-4 w-12 h-12 rounded-full overflow-hidden border-4 border-background">
+    <div className="container mx-auto px-4 py-8 md:py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+      <Card className="p-4 sm:p-6 md:p-8 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center">
+          {/* Left Column with image - Order 1 for mobile and sm screens */}
+          <div className="relative flex justify-center items-center order-1">
+            <div className="rounded-3xl overflow-hidden bg-[#E8FAF0] w-full sm:w-[350px] md:w-[400px]">
+              <div className="relative aspect-[16/12]">
                 <Image
-                  src="/placeholder.svg"
-                  alt="Profile avatar"
-                  width={48}
-                  height={48}
-                  className="object-cover"
+                  src="/assets/guaranteedPlacement/becomePlacementReady.gif"
+                  alt="Resume interface mockup"
+                  fill
+                  className="object-cover rounded-lg"
+                  priority
                 />
-              </div> */}
+              </div>
             </div>
           </div>
 
-          {/* Right side content */}
-          <div className="p-6 lg:p-8 flex flex-col gap-6">
-            <div className="space-y-4">
-              <h2 className="text-2xl font-bold tracking-tighter sm:text-2xl">
+          {/* Right Column content - Order 2 for mobile and sm screens */}
+          <div className="space-y-6 md:space-y-8 order-2">
+            <div className="space-y-3 md:space-y-4 text-center lg:text-left">
+              <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">
                 Become{" "}
                 <span className="text-[#ff0000]">placement-ready</span>
-              </h2>
-              <p className="text-muted-foreground text-lg">
+              </h1>
+              <p className="text-sm sm:text-md text-muted-foreground max-w-[700px] mx-auto lg:mx-0">
                 Prepare to ace your placements with our career coaches, having 10+ years of experience. Say goodbye to placement anxiety!
               </p>
             </div>
 
-            <div className="flex flex-col md:flex-row gap-4">
-              <Card className="border border-gray-200 flex-1">
-                <CardContent className="p-4 flex flex-col items-center text-center">
-                  <Brain className="w-6 h-6 text-[#ff0000] mb-2" />
-                  <h3 className="font-medium">Soft skills training</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+              <Card className="w-full">
+                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
+                    <Brain className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                  </div>
+                  <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
+                    Soft skills training
+                  </h3>
                 </CardContent>
               </Card>
 
-              <Card className="border border-gray-200 flex-1">
-                <CardContent className="p-4 flex flex-col items-center text-center">
-                  <FileText className="w-6 h-6 text-[#ff0000] mb-2" />
-                  <h3 className="font-medium">Resume building & AI-</h3>
+              <Card className="w-full">
+                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
+                    <FileText className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                  </div>
+                  <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
+                    Resume building & AI
+                  </h3>
                 </CardContent>
               </Card>
 
-              <Card className="border border-gray-200 flex-1">
-                <CardContent className="p-4 flex flex-col items-center text-center">
-                  <Rocket className="w-6 h-6 text-[#ff0000] mb-2" />
-                  <h3 className="font-medium">All-new live bootcamp</h3>
+              <Card className="w-full sm:col-span-2 md:col-span-1">
+                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                  <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
+                    <Rocket className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                  </div>
+                  <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
+                    All-new live bootcamp
+                  </h3>
                 </CardContent>
               </Card>
             </div>
@@ -69,4 +74,3 @@ export default function BecomePlacement() {
     </div>
   )
 }
-

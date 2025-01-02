@@ -56,79 +56,73 @@ const Hero = () => {
           </div>
 
           {/* Bottom Info Card */}
-          <div className="relative  ">
-            <div className="relative  left-0 right-0 -bottom-[48px]"> 
+          <div className="relative">
+  <div className="relative left-0 right-0 -bottom-[48px]">
+    <div className="bg-white rounded-lg p-6 sm:p-8 shadow-lg">
+      {/* Main container with better spacing */}
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
+        {/* Info Sections Container */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
+          {/* Online Section */}
+          <div className="flex items-start gap-3 justify-center lg:justify-start">
+            <MdOnlinePrediction className="text-red-700 text-xl mt-1" />
+            <div className="flex flex-col">
+              <span className="text-red-700 text-sm font-medium">ONLINE</span>
+              <span className="font-bold text-sm">6 months</span>
+            </div>
+          </div>
 
-            <div className="bg-white rounded-lg p-4 sm:p-6 shadow-lg flex flex-col lg:flex-row gap-6 lg:gap-8 lg:items-center">
-                {/* Info Sections */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:flex lg:items-center gap-6 lg:gap-8">
-                  {/* Online Section */}
-                  <div className="flex items-center gap-2">
-                    <MdOnlinePrediction className="text-red-700 text-xl" />
-                    <div>
-                      <span className="text-red-700 text-sm">ONLINE</span>
-                      <span className="font-bold text-sm block">6 months</span>
-                    </div>
-                  </div>
+          {/* Admission Section */}
+          <div className="flex items-start gap-3 justify-center lg:justify-start">
+            <BsCalendarCheck className="text-red-700 text-xl mt-1" />
+            <div className="flex flex-col">
+              <span className="text-red-700 text-sm font-medium">ADMISSION CLOSES ON</span>
+              <span className="font-bold text-sm">7th Jan</span>
+              <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-xs mt-1 whitespace-nowrap">
+                Limited seats
+              </Badge>
+            </div>
+          </div>
 
-                  {/* Admission Section */}
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <BsCalendarCheck className="text-red-700 text-xl" />
-                      <div>
-                        <div className="flex items-center gap-2 grid">
-                          <span className="text-red-700 text-sm">ADMISSION CLOSES ON</span> 
-                          <span className="font-bold text-sm">7th Jan</span>
-                        </div>
-                        <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-xs mt-1">
-                          Limited seats
-                        </Badge>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Course Fee Section */}
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <FaMoneyBillWave className="text-red-700 text-xl" />
-                      <div>
-                        <div className="flex items-center gap-2 flex-wrap ">
-                          <span className="text-red-700 text-sm">COURSE FEE </span>
-                          <span className="font-bold text-sm">₹42,000 </span>
-                          <span className="line-through text-gray-400 text-sm">₹50,000</span>
-                        </div>
-                        <Badge variant="outline" className="text-green-600 border-green-600 text-xs mt-1">
-                          Save ₹8,000/-
-                        </Badge>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Guarantee Section */}
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <TbCertificate className="text-red-700 text-xl" />
-                      <div>
-                        <span className="text-red-700 text-sm">GUARANTEE</span>
-                        <div className="font-bold text-sm">100% refund if not hired*</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Vertical Divider and Application Button Section */}
-                <div className="flex items-center lg:items-stretch gap-4">
-                  <div className="hidden lg:block w-[1px] bg-gray-200 self-stretch"></div>
-                  <div className="flex flex-col items-center lg:items-end justify-center">
-                    <Button className="bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto">
-                      Start your application
-                    </Button>
-                    <span className="text-xs sm:text-sm text-gray-600 mt-2">
-                      186,044 already applied
-                    </span>
-                  </div>
-                </div>
+          {/* Course Fee Section */}
+          <div className="flex items-start gap-3 justify-center lg:justify-start">
+            <FaMoneyBillWave className="text-red-700 text-xl mt-1" />
+            <div className="flex flex-col">
+              <span className="text-red-700 text-sm font-medium">COURSE FEE</span>
+              <div className="flex flex-col gap-1">
+                <span className="font-bold text-sm">₹42,000</span>
+                <span className="line-through text-gray-400 text-sm">₹50,000</span>
               </div>
+              <Badge variant="outline" className="text-green-600 border-green-600 text-xs mt-1">
+                Save ₹8,000/-
+              </Badge>
+            </div>
+          </div>
+
+          {/* Guarantee Section */}
+          <div className="flex items-start gap-3 justify-center lg:justify-start">
+            <TbCertificate className="text-red-700 text-xl mt-1" />
+            <div className="flex flex-col">
+              <span className="text-red-700 text-sm font-medium">GUARANTEE</span>
+              <div className="font-bold text-sm">100% refund if not hired*</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Vertical Divider and Button Section */}
+        <div className="flex items-center gap-6 lg:border-l lg:pl-6 w-full lg:w-auto">
+          <div className="flex flex-col items-center lg:items-start w-full lg:w-auto">
+            <Button className="bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto">
+              Start your application
+            </Button>
+            <span className="text-xs sm:text-sm text-gray-600 mt-2 whitespace-nowrap">
+              186,044 already applied
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
             </div>
           </div>
         </div>

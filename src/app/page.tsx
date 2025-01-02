@@ -27,15 +27,12 @@ import CourseCarousel from "@/components/customComponents/coursesComponents/cour
 import QueryForm from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
 
 import PlacedStudents from "@/components/customComponents/coursesComponents/courseDetails/PlacedStudents";
-<<<<<<< HEAD
 import BeginnerToPro from "@/components/customComponents/guaranteedPlacement/BeginnerToPro";
 import BecomePlacement from "@/components/customComponents/guaranteedPlacement/BecomePlacement";
 import SkillsAndTools from "@/components/customComponents/coursesComponents/skillsAndTools/skillsAndTools";
 import Certificates from "@/components/customComponents/Certification/Certification";
 // import BeginnerToPro from "@/components/customComponents/guaranteedPlacement/beginnerToPro";
-=======
 import Hero from "@/components/customComponents/coursesComponents/courseDetails/Hero";
->>>>>>> 7bce044ca8218e8c42ade33b465774cd31adcda0
 const CourseDetail = ()=>{
     
 
