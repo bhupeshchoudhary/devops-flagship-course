@@ -96,7 +96,7 @@ const CompaniesCarousel = () => {
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
       <div className="relative overflow-hidden max-w-7xl mx-auto">
-        <div className="text-3xl font-bold mx-auto text-center pt-12">
+        <div className="text-3xl font-bold mx-auto text-center pt-20 md:pt-8 lg:pt-8">
           1356+ Leading companies hire
           <br />
           <span className="text-[#ff0000]">LinuxWorld Students </span> 🤝
@@ -110,7 +110,7 @@ const CompaniesCarousel = () => {
             <div
               key={rowIndex}
               ref={containerRef}
-              className="whitespace-nowrap mb-4"
+              className="whitespace-nowrap "
               style={{
                 transform: `translateX(${
                   -scrollOffset * (rowIndex % 2 === 0 ? 0.1 : -0.1)
@@ -121,7 +121,7 @@ const CompaniesCarousel = () => {
               <div className="inline-flex items-center w-max">
                 {lineLogos.map((logo, index) => (
                   <div key={index} className="mx-4 flex-shrink-0">
-                    <div className="md:w-52 w-20 h-8 md:h-20 flex items-center justify-center">
+                    <div className="md:w-52 w-20 h-10 md:h-20 flex items-center justify-center">
                       <Image
                         src={logo.src}
                         alt={logo.alt}
