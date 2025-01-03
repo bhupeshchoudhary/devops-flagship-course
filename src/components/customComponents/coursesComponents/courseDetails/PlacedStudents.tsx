@@ -159,7 +159,8 @@ const PlacedStudents = () => {
                 <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="placements">
                   <div className="flex flex-col items-center py-12">
                     <h1 className="text-lg sm:text-2xl font-semibold text-black">
-                      Rising Engineers, <span className="text-[#ff0000]">Real Heroes</span>
+                    Our learners got guaranteed placement.
+                    <span className="text-[#ff0000]"> So can you!</span>
                     </h1>
                     <h1 className="text-sm sm:text-lg text-black font-semibold pt-2 mb-8">
                       Learn - Build - Lead with <span className="text-[#ff0000]">Mr Vimal Daga</span>

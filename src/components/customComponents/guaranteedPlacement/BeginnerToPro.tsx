@@ -6,6 +6,7 @@ export default function BeginnerToPro() {
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 mx-auto">
     <div className="container mx-auto px-4 py-8 md:py-12 ">
+      <div className=" text-3xl font-bold pb-6">How will you get guaranteed placement?</div>
       <Card className="p-4 sm:p-6 md:p-8 max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center">
           {/* Left Column */}
