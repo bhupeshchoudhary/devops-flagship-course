@@ -72,14 +72,6 @@ const CourseDetail = ()=>{
      <TopCareerOptions></TopCareerOptions>
      {/* <FAQSection></FAQSection> */}
         <Footer />
-
-
-
-
-
-
-        
-        
      </>
     )
 }

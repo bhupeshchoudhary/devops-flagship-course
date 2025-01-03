@@ -2,19 +2,21 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
-import devopsheroimage from "../../../../../public/assets/image.png"
+import devopsheroimage from "../../../../../public/assets/HeroImage.png"
 import { MdOnlinePrediction } from "react-icons/md"
 import { BsCalendarCheck } from "react-icons/bs"
 import { FaMoneyBillWave } from "react-icons/fa"
 import { TbCertificate } from "react-icons/tb"
 
 
+
+
 const Hero = () => {
     return (
-      <div className="mx-auto pb-12 md:pb-0  ">
+      <div className="mx-auto pb-12 md:pb-0 h-full ">
         {/* Gradient Background */}
         <div className="bg-gradient-to-b from-red-900 to-red-700 h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
-          <div className="max-w-7xl mx-auto py-4 md:py-8"> {/* Reduced from max-w-7xl */}
+          <div className="max-w-6xl mx-auto py-4 md:py-8"> {/* Reduced from max-w-7xl */}
             {/* Top Badges */}
             <div className="flex flex-wrap gap-2 sm:gap-2 ">
               <Badge variant="secondary" className="bg-red-800 text-white text-xs sm:text-sm mb-4 md:mb-0 lg:mb-0">
@@ -24,30 +26,35 @@ const Hero = () => {
   
             {/* Main Content */}
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center">
-              <div className="max-w-xl"> {/* Reduced from max-w-2xl */}
+              <div className="max-w-3xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-                  DevOps <span className="text-white"> Course with</span>
+                Specialisation in DevOps Program <span className="text-white"> Course with Guaranteed Placement</span>
                 </h1>
                 <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
-                  Guaranteed Placement
+                  
                 </h2>
                 <p className="text-base font-bold sm:text-lg lg:text-2xl text-white mb-6">
                   Get placed with ₹3-10 LPA salary
                 </p>
-                <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-purple-700 text-sm sm:text-base">
+                <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-red-700 text-sm sm:text-base">
                   Introducing Live Bootcamp
                 </Button>
               </div>
   
               {/* Right Side Image */}
-              <div className="relative w-full lg:w-[500px] h-[200px] lg:h-[250px]"> {/* Fixed height */}
-                <Image 
-                  src={devopsheroimage}
-                  alt="Course illustration"
-                  fill
-                  className="object-contain rounded-lg"
-                  priority
-                />
+              <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
+                <div className="aspect-[16/9] w-full h-[250px] md:h-[300px] lg:h-[250px]"> {/* Increased height */}
+                  <Image 
+                    src={devopsheroimage}
+                    alt="Course illustration"
+                    fill
+                    className="object-contain rounded-lg"
+                    priority
+                    sizes="(max-width: 768px) 100vw,
+                           (max-width: 1200px) 50vw,
+                           55vw"
+                  />
+                </div>
               </div>
             </div>
   
