@@ -4,7 +4,8 @@ import { Monitor, Cpu, FileCheck } from 'lucide-react'
 
 export default function BeginnerToPro() {
   return (
-    <div className="container mx-auto px-4 py-8 md:py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 mx-auto">
+    <div className="container mx-auto px-4 py-8 md:py-12 ">
       <Card className="p-4 sm:p-6 md:p-8 max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-6 md:gap-12 items-center">
           {/* Left Column */}
@@ -68,6 +69,7 @@ export default function BeginnerToPro() {
           </div>
         </div>
       </Card>
+    </div>
     </div>
   )
 }

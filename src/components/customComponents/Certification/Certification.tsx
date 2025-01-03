@@ -9,7 +9,8 @@ import { ZoomIn } from "lucide-react"
 
 export default function Certification() {
   return (
-    <div className="container mx-auto px-4 py-16 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 mx-auto">
+    <div className="container mx-auto px-4 py-16">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-12 text-center">
           Industry-recognized & government approved{" "}
@@ -95,6 +96,7 @@ export default function Certification() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }
