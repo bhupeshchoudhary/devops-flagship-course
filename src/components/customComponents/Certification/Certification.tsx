@@ -40,7 +40,7 @@ export default function Certification() {
                         src={certimg}
                         alt="LinuxWorld Certificate"
                         fill
-                        className="object-contain p-4"
+                        className="object-cover"
                       />
                     </div>
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
@@ -82,7 +82,7 @@ export default function Certification() {
                          src={certimg}
                         alt="NSDC Certificate"
                         fill
-                        className="object-contain p-4"
+                        className="object-cover"
                       />
                     </div>
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
