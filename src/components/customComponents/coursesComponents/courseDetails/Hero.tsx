@@ -62,7 +62,7 @@ const Hero = () => {
                       <div className="flex items-center gap-2 justify-start sm:justify-center lg:justify-center">
                         <MdOnlinePrediction className="text-red-700 text-lg" />
                         <div>
-                          <span className="text-red-700 text-xs font-medium">ONLINE</span>
+                          <span className="text-black text-xs font-medium">ONLINE</span>
                           <span className="font-bold text-xs block">6 months</span>
                         </div>
                       </div>
@@ -71,7 +71,7 @@ const Hero = () => {
                       <div className="flex items-center gap-2 justify-start sm:justify-center lg:justify-center">
                         <BsCalendarCheck className="text-red-700 text-lg" />
                         <div>
-                          <span className="text-red-700 text-xs font-medium">ADMISSION CLOSES ON</span>
+                          <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
                           <span className="font-bold text-xs block">7th Jan</span>
                           <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px] mt-0.5">
                             Limited seats
@@ -83,7 +83,7 @@ const Hero = () => {
                       <div className="flex items-center gap-2 justify-start sm:justify-center lg:justify-center">
                         <FaMoneyBillWave className="text-red-700 text-lg" />
                         <div>
-                          <span className="text-red-700 text-xs font-medium">COURSE FEE</span>
+                          <span className="text-black text-xs font-medium">COURSE FEE</span>
                           <div className="flex flex-col gap-0.5">
                             <span className="font-bold text-xs">₹42,000</span>
                             <span className="line-through text-gray-400 text-xs">₹50,000</span>
@@ -98,7 +98,7 @@ const Hero = () => {
                       <div className="flex items-center gap-2 justify-start sm:justify-center lg:justify-center">
                         <TbCertificate className="text-red-700 text-lg" />
                         <div>
-                          <span className="text-red-700 text-xs font-medium">GUARANTEE</span>
+                          <span className="text-black text-xs font-medium">GUARANTEE</span>
                           <div className="font-bold text-xs">100% refund if not hired*</div>
                         </div>
                       </div>
