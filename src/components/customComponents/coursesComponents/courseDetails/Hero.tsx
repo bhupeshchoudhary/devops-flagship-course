@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
-import devopsheroimage from "../../../../../public/assets/devopsheroimage.png"
+import devopsheroimage from "../../../../../public/assets/image.png"
 import { MdOnlinePrediction } from "react-icons/md"
 import { BsCalendarCheck } from "react-icons/bs"
 import { FaMoneyBillWave } from "react-icons/fa"
