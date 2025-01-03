@@ -6,6 +6,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 import { ZoomIn } from "lucide-react"
+import certimg from "../../../../public/assets/Certificate/Certificate.jpeg"
 
 export default function Certification() {
   return (
@@ -14,7 +15,7 @@ export default function Certification() {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-12 text-center">
           Industry-recognized & government approved{" "}
-          <span className="text-red-600">Full Stack Development Certification</span>
+          <span className="text-red-600">Specialisation in DevOps Program Certification</span>
         </h1>
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
@@ -23,7 +24,7 @@ export default function Certification() {
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold">1</span>
-                Internshala Trainings certificate
+                DevOps Trainings certificate
               </h2>
               <p className="text-gray-600 pl-10">
                 Upon successful completion of the program, you will receive a Full
@@ -36,8 +37,8 @@ export default function Certification() {
                   <div className="relative group">
                     <div className="relative w-full h-[400px]">
                       <Image
-                        src="/assets/certificates/internshala.png"
-                        alt="Internshala Certificate"
+                        src={certimg}
+                        alt="LinuxWorld Certificate"
                         fill
                         className="object-contain p-4"
                       />
@@ -78,7 +79,7 @@ export default function Certification() {
                   <div className="relative group">
                     <div className="relative w-full h-[400px]">
                       <Image
-                        src="/assets/certificates/nsdc.png"
+                         src={certimg}
                         alt="NSDC Certificate"
                         fill
                         className="object-contain p-4"
