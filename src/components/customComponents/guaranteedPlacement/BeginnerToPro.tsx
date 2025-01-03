@@ -11,7 +11,7 @@ export default function BeginnerToPro() {
           {/* Left Column */}
           <div className="space-y-6 md:space-y-8 order-2 lg:order-1">
             <div className="space-y-3 md:space-y-4 text-center lg:text-left">
-              <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">
+              <h1 className="text-xl sm:text-2xl lg:text-2xl font-bold">
                 Go from{" "}
                 <span className="text-[#ff0000]">beginner to pro in 6 months</span>
               </h1>

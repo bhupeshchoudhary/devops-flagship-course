@@ -4,51 +4,51 @@ import Image from 'next/image'
 export default function SkillsAndTools() {
   const skills = [
     {
-      icon: <SquareCode className="h-6 w-6 text-[#ff0000]" />,
+      icon: <SquareCode className="h-10 w-10 rounded-2xl p-0 bg-red-100  text-[#ff0000]" />,
       name: 'HTML & CSS'
     },
     {
-      icon: <Eclipse className="h-6 w-6 text-[#ff0000]" />,
+      icon: <Eclipse className="h-10 w-10 rounded-2xl p-0 bg-red-100 text-[#ff0000]" />,
       name: 'Tailwind'
     },
     {
-      icon: <Code2 className="h-6 w-6 text-[#ff0000]" />,
+      icon: <Code2 className="h-10 w-10 text-[#ff0000] rounded-2xl p-0 bg-red-100" />,
       name: 'JavaScript'
     },
     {
-      icon: <SquareCode className="h-6 w-6 text-[#ff0000]" />,
+      icon: <SquareCode className="h-10 w-10 text-[#ff0000]" />,
       name: 'React'
     },
     {
-      icon: <GitBranch className="h-6 w-6 text-[#ff0000]" />,
+      icon: <GitBranch className="h-10 w-10 text-[#ff0000]" />,
       name: 'Redux'
     },
     {
-      icon: <Hexagon className="h-6 w-6 text-[#ff0000]" />,
+      icon: <Hexagon className="h-10 w-10 text-[#ff0000]" />,
       name: 'Node.js'
     },
     {
-      icon: <Hexagon className="h-6 w-6 text-[#ff0000]"  />,
+      icon: <Hexagon className="h-10 w-10 text-[#ff0000]"  />,
       name: 'Express.js'
     },
     {
-      icon: <Database className="h-6 w-6 text-[#ff0000]" />,
+      icon: <Database className="h-10 w-10 text-[#ff0000]" />,
       name: 'MongoDB'
     },
     {
-      icon: <FileJson className="h-6 w-6 text-[#ff0000]" />,
+      icon: <FileJson className="h-10 w-10 text-[#ff0000]" />,
       name: 'APIs'
     },
     {
-      icon: <Sparkles className="h-6 w-6 text-[#ff0000]" />,
+      icon: <Sparkles className="h-10 w-10 text-[#ff0000]" />,
       name: 'Latest gen AI tools'
     },
     {
-      icon: <Cpu className="h-6 w-6 text-[#ff0000]" />,
+      icon: <Cpu className="h-10 w-10 text-[#ff0000]" />,
       name: 'DSA'
     },
     {
-      icon: <Bot  className='h-6 w-6 text-[#ff0000]' />,
+      icon: <Bot  className='h-10 w-10 text-[#ff0000]' />,
       name: 'ChatGPT'
     }
   ]

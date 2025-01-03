@@ -48,6 +48,7 @@ const CourseDetail = ()=>{
 <BecomePlacement></BecomePlacement>
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
+        <ProgramHighlights></ProgramHighlights>
         <CourseCurriculumModule></CourseCurriculumModule>
         <CourseCarrrerModule ></CourseCarrrerModule>
         <CourseCarousel />
@@ -62,7 +63,6 @@ const CourseDetail = ()=>{
      <SkillsAndTools></SkillsAndTools>
      <Certificates></Certificates>
      <CourseTestimonials />
-        <ProgramHighlights></ProgramHighlights>
         <JobSkills />
      
      <Faq></Faq>

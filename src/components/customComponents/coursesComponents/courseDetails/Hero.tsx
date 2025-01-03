@@ -19,25 +19,25 @@ const Hero = () => {
           <div className="max-w-6xl mx-auto py-4 md:py-8"> {/* Reduced from max-w-7xl */}
             {/* Top Badges */}
             <div className="flex flex-wrap gap-2 sm:gap-2 ">
-              <Badge variant="secondary" className="bg-red-800 text-white text-xs sm:text-sm mb-4 md:mb-0 lg:mb-0">
-                AI-Powered ✨
+              <Badge variant="secondary" className="bg-red-800 text-white text-md p-2  mb-0 md:mb-0 lg:mb-0">
+              #RightJobKiGuarantee ✨
               </Badge>
             </div>
   
             {/* Main Content */}
-            <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center">
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
               <div className="max-w-3xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-                Specialisation in DevOps Program <span className="text-white"> Course with Guaranteed Placement</span>
+                Specialisation in DevOps Program <span className="text-white">  with Guaranteed Placement</span>
                 </h1>
                 <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
                   
                 </h2>
                 <p className="text-base font-bold sm:text-lg lg:text-2xl text-white mb-6">
-                  Get placed with ₹3-10 LPA salary
+                Start your career with a ₹4-8 LPA package.
                 </p>
                 <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-red-700 text-sm sm:text-base">
-                  Introducing Live Bootcamp
+                100% refund if not hired
                 </Button>
               </div>
   
@@ -70,7 +70,7 @@ const Hero = () => {
             <MdOnlinePrediction className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ONLINE</span>
-              <span className="font-bold text-xs block">6 months</span>
+              <span className="font-bold text-xs block">3 months</span>
             </div>
           </div>
 
@@ -79,7 +79,7 @@ const Hero = () => {
             <BsCalendarCheck className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
-              <span className="font-bold text-xs block">7th Jan</span>
+              <span className="font-bold text-xs block">15th Jan</span>
               <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px] mt-0.5">
                 Limited seats
               </Badge>
@@ -92,11 +92,11 @@ const Hero = () => {
             <div>
               <span className="text-black text-xs font-medium">COURSE FEE</span>
               <div className="flex flex-col gap-0.5">
-                <span className="font-bold text-xs">₹42,000</span>
-                <span className="line-through text-gray-400 text-xs">₹50,000</span>
+                <span className="font-bold text-xs">₹25,000</span>
+                <span className="line-through text-gray-400 text-xs">₹35,000</span>
               </div>
               <Badge variant="outline" className="text-green-600 border-green-600 text-[10px] mt-0.5">
-                Save ₹8,000/-
+                Save ₹10,000/-
               </Badge>
             </div>
           </div>

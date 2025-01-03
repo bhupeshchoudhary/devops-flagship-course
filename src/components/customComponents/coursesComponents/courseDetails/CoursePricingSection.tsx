@@ -18,13 +18,13 @@ export default function   CoursePricingSection() {
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
             Globally Recognized Program
               <span className="block text-gray-600 text-lg mt-1">
-                (Save ₹4,020)
+                (Save ₹10,000)
               </span>
             </h2>
             
             <div className="mb-6 s">
-              <span className="text-red-600 text-4xl font-bold">₹ 980</span>
-              <span className="text-gray-500 line-through ml-2">₹ 5,000</span>
+              <span className="text-red-600 text-4xl font-bold">₹ 25,000</span>
+              <span className="text-gray-500 line-through ml-2">₹ 35,000</span>
               <span className="text-gray-500">(+ taxes)</span>
             </div>
 
@@ -32,7 +32,7 @@ export default function   CoursePricingSection() {
               <div className="flex items-start gap-2">
                 <Check className="h-5 w-5 text-red-400 mt-1" />
                 <p className="text-gray-600">
-                  Avail the discounted price of ₹ 980 and save a total of ₹ 4,020
+                  Avail the discounted price of ₹ 25,000 and save a total of ₹ 10,000
                 </p>
               </div>
               <div className="flex items-start gap-2">
@@ -43,7 +43,7 @@ export default function   CoursePricingSection() {
 <div className=" flex w-full mx-auto">
             <Button className="md:w-1/2 sm:w-full mx-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white py-6">
               Yes! I want this insane deal for
-              <br />₹ 980 + taxes
+              <br />₹ 25,000 + taxes
               
               {/* <span className="line-through">₹ 5000</span> */}
               

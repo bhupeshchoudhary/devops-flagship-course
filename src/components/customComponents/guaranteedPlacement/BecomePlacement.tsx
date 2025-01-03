@@ -26,7 +26,7 @@ export default function BecomePlacement() {
           {/* Right Column content - Order 2 for mobile and sm screens */}
           <div className="space-y-6 md:space-y-8 order-2">
             <div className="space-y-3 md:space-y-4 text-center lg:text-left">
-              <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold">
+              <h1 className="text-xl sm:text-2xl lg:text-2xl font-bold">
                 Become{" "}
                 <span className="text-[#ff0000]">placement-ready</span>
               </h1>
