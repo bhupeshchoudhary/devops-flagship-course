@@ -60,7 +60,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
           {/* Online Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <MdOnlinePrediction className="text-red-700 text-lg mt-1" /> {/* Added mt-1 to align icon */}
+            <MdOnlinePrediction className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ONLINE</span>
               <span className="font-bold text-xs block">6 months</span>
@@ -69,7 +69,7 @@ const Hero = () => {
 
           {/* Admission Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <BsCalendarCheck className="text-red-700 text-lg mt-1" /> {/* Added mt-1 to align icon */}
+            <BsCalendarCheck className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
               <span className="font-bold text-xs block">7th Jan</span>
@@ -81,7 +81,7 @@ const Hero = () => {
 
           {/* Course Fee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <FaMoneyBillWave className="text-red-700 text-lg mt-1" /> {/* Added mt-1 to align icon */}
+            <FaMoneyBillWave className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">COURSE FEE</span>
               <div className="flex flex-col gap-0.5">
@@ -96,7 +96,7 @@ const Hero = () => {
 
           {/* Guarantee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <TbCertificate className="text-red-700 text-lg mt-1" /> {/* Added mt-1 to align icon */}
+            <TbCertificate className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">GUARANTEE</span>
               <div className="font-bold text-xs">100% refund if not hired*</div>
