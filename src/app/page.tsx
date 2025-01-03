@@ -44,6 +44,8 @@ const CourseDetail = ()=>{
         {/* <CourseDetailHero></CourseDetailHero> */}
         <Hero />
         <CompaniesCarousel/>
+     <BeginnerToPro></BeginnerToPro>
+<BecomePlacement></BecomePlacement>
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
         <CourseCurriculumModule></CourseCurriculumModule>
@@ -55,8 +57,10 @@ const CourseDetail = ()=>{
   <TestimonialsSection />
      <PlacedStudents />
      <CoursePricingSection></CoursePricingSection> {/*10 */}
-     <Tools></Tools> 
-        <CertificateDisplay></CertificateDisplay>
+     {/* <Tools></Tools>  */}
+        {/* <CertificateDisplay></CertificateDisplay> */}
+     <SkillsAndTools></SkillsAndTools>
+     <Certificates></Certificates>
      <CourseTestimonials />
         <ProgramHighlights></ProgramHighlights>
         <JobSkills />
@@ -65,12 +69,8 @@ const CourseDetail = ()=>{
      
      <QueryForm />
 
-     <BeginnerToPro></BeginnerToPro>
-     <BecomePlacement></BecomePlacement>
-     <SkillsAndTools></SkillsAndTools>
-     <Certificates></Certificates>
      <TopCareerOptions></TopCareerOptions>
-     <FAQSection></FAQSection>
+     {/* <FAQSection></FAQSection> */}
         <Footer />
 
 
