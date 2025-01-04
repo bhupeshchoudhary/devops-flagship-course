@@ -1,8 +1,3 @@
-
-
-
-
-
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 import { ZoomIn } from "lucide-react"
@@ -15,7 +10,7 @@ export default function Certification() {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-12 text-center">
           Industry-recognized & government approved{" "}
-          <span className="text-red-600">Specialisation in DevOps Program Certification</span>
+          <span className="text-[#ff0000] ">Specialisation in DevOps Program Certification</span>
         </h1>
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
@@ -23,7 +18,7 @@ export default function Certification() {
           <div className="w-full md:w-1/2">
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold">1</span>
+                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center bg-[#ff0000]  font-bold">1</span>
                 DevOps Trainings certificate
               </h2>
               <p className="text-gray-600 pl-10">
@@ -45,7 +40,7 @@ export default function Certification() {
                     </div>
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                       <div className="bg-white rounded-full p-3 opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300">
-                        <ZoomIn className="text-red-600" size={24} />
+                        <ZoomIn className="text-[#ff0000] " size={24} />
                       </div>
                     </div>
                   </div>
@@ -57,7 +52,7 @@ export default function Certification() {
           {/* Center Divider */}
           <div className="hidden md:flex flex-col items-center gap-4">
             <div className="w-[2px] h-[400px] bg-gradient-to-b from-transparent via-red-200 to-transparent"></div>
-            <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold">
+            <div className="w-12 h-12 rounded-full bg-red-100 flex items-center justify-center text-[#ff0000]  font-bold">
               &
             </div>
           </div>
@@ -66,7 +61,7 @@ export default function Certification() {
           <div className="w-full md:w-1/2">
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-red-600 font-bold">2</span>
+                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-[#ff0000]  font-bold">2</span>
                 NSDC & Skill India certificate
               </h2>
               <p className="text-gray-600 pl-10">
@@ -87,7 +82,7 @@ export default function Certification() {
                     </div>
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                       <div className="bg-white rounded-full p-3 opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300">
-                        <ZoomIn className="text-red-600" size={24} />
+                        <ZoomIn className="text-[#ff0000] " size={24} />
                       </div>
                     </div>
                   </div>

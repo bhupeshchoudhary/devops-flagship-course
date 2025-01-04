@@ -251,6 +251,12 @@ const faqContent: Record<string, FAQItem[]> = {
       answer:
        "Yes, our technical team will guide you throughout the projects, providing feedback and resolving doubts to ensure successful completion."
     },
+
+    {
+      question: "Will I receive guidance during the hands-on projects?",
+      answer:
+       "Yes, our technical team will guide you throughout the projects, providing feedback and resolving doubts to ensure successful completion."
+    },
   ],
 };
 

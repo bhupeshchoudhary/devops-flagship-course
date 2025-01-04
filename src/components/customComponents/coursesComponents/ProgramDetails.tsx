@@ -8,7 +8,7 @@ export default function ProgramCohorts() {
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
         {/* Headers */}
         <div className="space-y-2">
-          <h1 className="text-lg sm:text-2xl font-semibold text-black">
+          <h1 className="text-lg sm:text-3xl font-semibold text-black">
 
            
            Job Oriented{" "}

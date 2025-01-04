@@ -13,7 +13,7 @@ function JobSkills() {
     <div className="max-w-4xl mx-auto px-4 sm:px-8 py-12">
       <div className="text-center font-semibold text-gray-800 text-2xl sm:text-3xl pb-8">
         Find <span className="text-[#ff0000]">Internships/Jobs </span>
-        <br />
+
         for different skills
       </div>
 
