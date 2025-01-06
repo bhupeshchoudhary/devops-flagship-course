@@ -6,10 +6,10 @@ export default function   CoursePricingSection() {
   return (
     <div className=" mx-auto bg-gradient-to-r from-gray-50 via-white-50 to-red-50 " id="participatenow">
       <div className="max-w-6xl mx-auto md:p-6">
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
+        <h1 className="text-3xl md:text-3xl font-bold text-gray-800 mb-8 px-2">
 
 
-        <span className="text-[#ff0000] md:p-0 p-2" > Invest today & </span> get a return of 5 lpa
+        <span className="text-[#ff0000] md:p-0" > Invest today & </span> get a return of 5 lpa
         </h1>
         
         <div className="flex flex-col md:flex-row gap-8">
