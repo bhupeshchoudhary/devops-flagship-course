@@ -44,9 +44,11 @@ export default function CourseCurriculumModule() {
               </p>
            </div>
 
-            <Badge variant="secondary" className="h-6">
-              6 Months
+           <Badge variant="secondary" className="h-6 w-20 flex-shrink-0">
+             <span className=""> 6 Months </span>
             </Badge>
+
+
           </div>
         </div>
         <div className="grid gap-6 md:grid-cols-[300px,1fr] ">

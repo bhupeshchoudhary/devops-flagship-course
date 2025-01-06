@@ -33,8 +33,8 @@ export default function CourseCarrrerModule() {
               Once you have enrolled for the program then you will have access to a wide range of resources which will help you in becoming a Job-Ready Candidate. We have a dedicated placement team of professionals who excel in their individual domains committed to assist you in our journey.
               </p>
             </div>
-            <Badge variant="secondary" className="h-6">
-              6 Months
+            <Badge variant="secondary" className="h-6 w-20 flex-shrink-0">
+             <span className=""> 6 Months </span>
             </Badge>
           </div>
         </div>

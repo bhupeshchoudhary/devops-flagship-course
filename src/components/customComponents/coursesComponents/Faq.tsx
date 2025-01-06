@@ -274,39 +274,8 @@ const faqContent: Record<string, FAQItem[]> = {
     }
     
   ],
-  Program:[
-    {
-      question: "Do I need to have a laptop or desktop to do the Placement Guarantee course or can I do it on mobile too?",
-      answer: "You can watch the videos and take quizzes & tests on any device including mobile. However, for assignments and projects, use of a desktop or laptop will be needed and hence it is advised that you do this full-stack development course on a laptop or desktop."
-    },
-  ],
-  Pay:[
-    {
-      question: "I'm not able to make payment. What should you do now?",
-      answer: "You could try making the payment from a different card or account (of a friend or family). Otherwise, you can follow the instructions on how to make an offline payment here"
-    },
-    {
-      question: "What are the different options available to pay the course fee?",
-      answer: "You can pay the Placement Guarantee course fee online using any of the following payment methods - debit card, credit card, netbanking, UPI, and wallets. You will receive the link to make the payment once your application is successful."
-    },
-    {
-      question: "My payment got deducted twice. What should I do now?",
-      answer: "Just let us know your registered email id along with the screenshot of the payment receipt or transaction history. You can submit your request using the section. Once verified, the additional amount you paid will be refunded."
-      
-    },
 
-  ],
-  Start:[
-    {
-      question: "Once my application is accepted, when will the course start?",
-      answer: "At the time of making the payment, you will have the option to choose your preferred batch start date."
-    },
-    {
-    question: "My application has been accepted but I would like to start the course at a later date, can I?",
-    answer:  "Yes, you can. Just choose a suitable later date batch while making the payment. If a suitable date is not available, please write to us at pgc.support@internshala.com so that we can help you with it."
-    },
 
-  ],
   GuranteedJob :[
 
     {
@@ -326,58 +295,9 @@ const faqContent: Record<string, FAQItem[]> = {
   
     ],
 
-  Certifications:[
-    {
-      question: "What certificate will I receive from Internshala upon completing the Placement Guarantee course?",
-      answer: "Upon successful completion of the Placement Guarantee course, you will receive a Full-Stack Development Placement Guarantee course certificate from Internshala Trainings."
-    },
-    {
-      question: "What is the eligibility criteria to get the government approved certificate from NSDC & Skill India?",
-      answer: "To be eligible for NSDC & Skill India certificate, you need to fill in the required additional information including your salutation, date of birth and father's name within 3 days of enrollment. This form will open when you log in to your account. You will also need to complete your final test by the original course end date and score greater than 50% marks in the final test of each course, submit all mandatory milestones (projects, certificates), and complete viva and overall final test before the end date. Please also note that the partnership came to effect on 8th May so only trainings purchased on or after 8th May '23 are eligible for the certificate."
-    },
-  ],
-  Course:[
-    {
-      question: "How will the courses in the Placement Guarantee course be taught? What will be the timing of the online classes?",
-      answer:"The Placement Guarantee Course consists of 9 courses that you would complete one after another. The videos are pre-recorded, so you can watch them at any time of the day as convenient for you. Along with this, you will get weekly live classes, including Learning Concept Classes & Doubt Clearing Sessions, etc. The courses also consist of quizzes, tests, assignments, and projects that you will undergo as you learn."
-    },
-    {
-      question: "What if I get stuck somewhere while learning, how will my doubts be solved?",
-      answer: "You will have 24*7 access to a doubt clearing forum where you can post your doubts and the course instructors would answer them with-in 24 hours. There will also be a live doubt clearing session with the instructor once a week where you can ask your doubts in real-time through chat or audio/video call."
+  
+  
 
-
-    },
-
-  ],
-  Bootcamp:[
-    {
-      question:"How will the Placement Bootcamp help me?",
-      answer: "It aims at providing you with the practical application of Full Stack Development concepts learnt during the course. The Bootcamp will be a guided approach, where you will solve industry-level problems live and practice just like you would do in an actual Full Stack Development job."
-
-    },
-    {
-      question: "Can I access the Bootcamp materials and resources after the sessions have concluded?",
-      answer:"Yes, you would have lifetime access to all the study material and resources provided during the bootcamp."
-    },
-  ],
-
-AItools:[
-  {
-    question :"Which AI tools will I learn in the Full Stack Development Placement Guarantee Course?",
-    answer:"You will upskill with 4 in-demand AI tools: ChatGPT, GitHub Copilot, Blackbox AI, and Claude."
-
-
-  },
-  {
-    question: "How can I access the AI tools? Will I get a subscription for these tools?",
-    answer: " Free versions of these tools are available so no subscription is required."
-
-  },
-  {
-    question: "Do we need prior knowledge for learning AI tools?",
-    answer: "No prior knowledge is required. We will start with the basics."
-  }
-],
   
 };
 
@@ -410,8 +330,6 @@ export default function Faq() {
                   ? "Career Support"
                   : key === "Eligibility"
                   ? "Eligibility & Application"
-                  :key == "Start"
-                  ? "Start date & Duration"
                   :key=="GuranteedJob "
                   ?"Guranteed Job Program"
                   

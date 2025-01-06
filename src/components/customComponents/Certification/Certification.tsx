@@ -22,8 +22,8 @@ export default function Certification() {
                 DevOps Trainings certificate
               </h2>
               <p className="text-gray-600 pl-10">
-                Upon successful completion of the program, you will receive a Full
-                Stack Development Placement Guarantee Course certificate from
+                Upon successful completion of the program, you will receive a Devops Training
+                 with Placement Guarantee Course certificate from
                 Internshala.
               </p>
               
