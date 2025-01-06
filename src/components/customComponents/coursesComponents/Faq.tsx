@@ -410,22 +410,11 @@ export default function Faq() {
                   ? "Career Support"
                   : key === "Eligibility"
                   ? "Eligibility & Application"
-                  : key === "Program"
-                  ? "Program prerequisite"
-                  : key == "Pay"
-                  ? "Payment"
                   :key == "Start"
                   ? "Start date & Duration"
                   :key=="GuranteedJob "
                   ?"Guranteed Job Program"
-                  :key =="Certifications"
-                  ?"Certifications"
-                  :key=="Course"
-                  ?"Course"
-                  :key=="Bootcamp"
-                  ?"Bootcamp"
-                  :key=="AItools"
-                  ?"AI tools"
+                  
                   : "Tools and Hands-On Projects"
                   }
               </h2>

@@ -23,7 +23,7 @@ const ProgramHighlights = () => {
 
   return (
     <div className="bg-gradient-to-r from-gray-50 to-red-50">
-      <div className="py-6 lg:px-8 max-w-6xl mx-auto">
+      <div className="py-6 lg:px-8 max-w-6xl mx-auto px-2">
         {/* Title */}
         <h2 className="text-gray-700 text-sm font-semibold mb-2">
           Your Pathway To DevOps Career

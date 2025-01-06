@@ -143,9 +143,9 @@ export default function CareerTransformation() {
 
   return (
     <div className="w-full bg-gradient-to-r from-gray-50 to-red-50" id="careertransformation"> 
-      <section className="max-w-6xl mx-auto py-12">
-        <div className="container  md:px-6">
-          <h1 className="text-3xl font-bold tracking-tighter md:p-0 p-2 mb-8">
+      <section className="max-w-6xl mx-auto py-12 px-6">
+        <div className="container  ">
+          <h1 className="text-3xl font-bold tracking-tighter md:p-0  mb-8">
             Career <span className="text-[#ff0000]">Transformation</span>
           </h1>
 
@@ -180,7 +180,7 @@ export default function CareerTransformation() {
               </div>
             </Card>
 
-            <div className="flex flex-col items-center justify-center gap-4 h-64">
+            <div className="flex flex-col items-center justify-center gap-4 h-64 my-12">
               <div className="relative pl-60">
                 <Card className="p-4 border-1 border border-green-500">
                   <div className="space-y-2">
@@ -219,7 +219,7 @@ export default function CareerTransformation() {
                     <Image
                       src={person.beforeLogo}
                       alt="Before logo"
-                      width={60}
+                      width={98}
                       height={60}
                       className="object-contain"
                     />

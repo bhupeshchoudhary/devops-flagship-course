@@ -17,7 +17,7 @@ export default function CourseCurriculumModule() {
   return (
     <div className="pt-8 w-full pb-8 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
      
-<div className="max-w-6xl px-8 mx-auto py-6 text-3xl font-bold ">DevOps Program <span className="text-[#ff0000]">Curriculum and Modules</span> </div>
+<div className="max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold ">DevOps Program <span className="text-[#ff0000]">Curriculum and Modules</span> </div>
     <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 pb-6 rounded-xl">
 
     <span className="h-12 w-12">

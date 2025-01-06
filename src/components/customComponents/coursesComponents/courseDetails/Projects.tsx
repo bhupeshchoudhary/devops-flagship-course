@@ -99,14 +99,14 @@ export default function Projects() {
   console.log(dockerLogo)
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="projects">
-      <div className="w-full max-w-6xl mx-auto p-6 lg:px-8">
+      <div className="w-full max-w-6xl mx-auto p-6 md:px-8 px-2 lg:px-8">
         <div className="space-y-6">
-          <div>
+          <div >
             <h2 className="text-sm font-semibold text-gray-700 mb-2">
               Capstone Projects
             </h2>
             <div className="flex items-center gap-2 mt-2">
-              <h2 className="text-black px-3 py-1 text-3xl font-bold">
+              <h2 className="text-black px-2 py-1 text-3xl font-bold">
  
 
  Learn by Doing : <span className="text-[#ff0000]  font-bold">20+ Industry Level Projects </span>
