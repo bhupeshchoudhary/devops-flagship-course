@@ -15,6 +15,10 @@ import TtiLogo from "../../../../../public/assets/companyLogo/TtiLogo.png"
 import tmuCollege from "../../../../../public/assets/tmu.png"
 import ipecCollege from "../../../../../public/assets/ipec.png"
 import defaultcollege from "../../../../../public/assets/defaultcollege.png"
+import careergrowthgir from "../../../../../public/assets/growth.gif"
+
+
+
 const peopleData = [
   {
     name: "Anmol Roop Rai",
@@ -118,6 +122,8 @@ const peopleData = [
 
 
 
+
+
 export default function CareerTransformation() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isExpanded, setIsExpanded] = useState(false);
@@ -136,7 +142,6 @@ export default function CareerTransformation() {
     setIsExpanded(!isExpanded);
   };
 
-  // Split testimonial into words and show only the first 20 if not expanded
   const testimonialWords = person.testimonial.split(' ');
   const testimonialPreview = testimonialWords.slice(0, 30).join(' ') + (testimonialWords.length > 25 ? '...' : '');
   const testimonialFull = testimonialWords.join(' ');
@@ -144,12 +149,13 @@ export default function CareerTransformation() {
   return (
     <div className="w-full bg-gradient-to-r from-gray-50 to-red-50" id="careertransformation"> 
       <section className="max-w-6xl mx-auto py-12 px-6">
-        <div className="container  ">
-          <h1 className="text-3xl font-bold tracking-tighter md:p-0  mb-8">
+        <div className="container">
+          <h1 className="text-3xl font-bold tracking-tighter md:p-0 mb-8">
             Career <span className="text-[#ff0000]">Transformation</span>
           </h1>
-
+  
           <div className="grid lg:grid-cols-2 gap-6 items-center">
+            {/* Profile Card */}
             <Card className="p-6 relative mb-8">
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="relative w-full md:w-1/3 justify-center">
@@ -162,7 +168,7 @@ export default function CareerTransformation() {
                     priority
                   />
                 </div>
-
+  
                 <div className="flex-1 space-y-4">
                   <h2 className="text-2xl font-bold">{person.name}</h2>
                   <p className="text-gray-600">
@@ -179,59 +185,63 @@ export default function CareerTransformation() {
                 </div>
               </div>
             </Card>
-
-            <div className="flex flex-col items-center justify-center gap-4 h-64 my-12">
-              <div className="relative pl-60">
-                <Card className="p-4 border-1 border border-green-500">
+  
+            {/* Transformation Section */}
+            <div className="flex flex-col items-center justify-center gap-8 h-auto my-12">
+              {/* Cards Container */}
+              <div className="flex items-center justify-between w-full gap-4 px-4">
+                {/* Before Card */}
+                <Card className="p-4 border border-blue-400 relative flex-1 min-w-[100px]">
+                  <span className="absolute -top-3 right-4 bg-[#ff0000] text-white px-3 py-1 rounded-full text-xs font-medium z-10">
+                    BEFORE
+                  </span>
                   <div className="space-y-2">
-                    <p className="text-xs font-medium">{person.afterRole}</p>
-                    <Image
-                      src={person.afterLogo}
-                      alt="After logo"
-                      width={60}
-                      height={60}
-                      className="object-contain"
-                    />
-                    <span className="absolute -bottom-3 left-[316px] -translate-x-1/2 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium">
-                      AFTER
-                    </span>
+                    <p className="text-xs font-medium min-h-[32px]">{person.beforeRole}</p>
+                    <div className="h-[60px] relative">
+                      <Image
+                        src={person.beforeLogo}
+                        alt="Before logo"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
                   </div>
                 </Card>
-              </div>
-
-              {/* roadmap image */}
-              <div className="sm:ml-18">
-                <div className="relative w-full lg:w-auto">
+  
+                {/* Roadmap Image */}
+                <div className="w-20">
                   <Image
-                    src={Roadmap}
+                    src={careergrowthgir}
                     alt="Roadmap Image"
-                    className="rounded-lg object-contain"
+                    className="overflow-hidden rounded-lg "
                     priority
-                    width={72}
-                    height={72}
+                    width={100}
+                    height={100}
                   />
                 </div>
-              </div>
-              <div className="relative pr-60">
-                <Card className="p-4 border border-blue-400">
+  
+                {/* After Card */}
+                <Card className="p-4 border border-green-500 relative flex-1 min-w-[200px]">
+                  <span className="absolute -top-3 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium z-10">
+                    AFTER
+                  </span>
                   <div className="space-y-2">
-                    <p className="text-xs font-medium">{person.beforeRole}</p>
-                    <Image
-                      src={person.beforeLogo}
-                      alt="Before logo"
-                      width={98}
-                      height={60}
-                      className="object-contain"
-                    />
-                    <span className="absolute -bottom-3 left-[72px] -translate-x-1/2 bg-[#ff0000] text-white px-3 py-1 rounded-full text-xs font-medium">
-                      BEFORE
-                    </span>
+                    <p className="text-xs font-medium min-h-[32px]">{person.afterRole}</p>
+                    <div className="h-[60px] relative">
+                      <Image
+                        src={person.afterLogo}
+                        alt="After logo"
+                        fill
+                        className="object-contain"
+                      />
+                    </div>
                   </div>
                 </Card>
               </div>
             </div>
           </div>
-
+  
+          {/* Navigation Buttons */}
           <div className="flex justify-between mt-12">
             <Button
               onClick={handlePrevious}
@@ -249,5 +259,4 @@ export default function CareerTransformation() {
         </div>
       </section>
     </div>
-  );
-}
+  )};
