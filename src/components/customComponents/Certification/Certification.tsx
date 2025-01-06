@@ -27,10 +27,10 @@ export default function Certification() {
                 Internshala.
               </p>
               
-              <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 w-[300px] mx-auto">
                 <CardContent className="p-0">
                   <div className="relative group">
-                    <div className="relative w-full h-[400px]">
+                    <div className="relative w-full h-[400px] w-[300px]">
                       <Image
                         src={certimg}
                         alt="LinuxWorld Certificate"
@@ -69,10 +69,10 @@ export default function Certification() {
                 Corporation) and Skill India.
               </p>
               
-              <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 w-[300px] mx-auto">
                 <CardContent className="p-0">
                   <div className="relative group">
-                    <div className="relative w-full h-[400px]">
+                    <div className="relative w-full h-[400px] w-[300px]">
                       <Image
                          src={certimg}
                         alt="NSDC Certificate"
