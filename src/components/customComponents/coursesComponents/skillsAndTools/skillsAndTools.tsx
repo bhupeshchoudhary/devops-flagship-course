@@ -16,39 +16,39 @@ export default function SkillsAndTools() {
       name: 'JavaScript'
     },
     {
-      icon: <SquareCode className="h-10 w-10 text-[#ff0000]" />,
+      icon: <SquareCode className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
       name: 'React'
     },
     {
-      icon: <GitBranch className="h-10 w-10 text-[#ff0000]" />,
+      icon: <GitBranch className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
       name: 'Redux'
     },
     {
-      icon: <Hexagon className="h-10 w-10 text-[#ff0000]" />,
+      icon: <Hexagon className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
       name: 'Node.js'
     },
     {
-      icon: <Hexagon className="h-10 w-10 text-[#ff0000]"  />,
+      icon: <Hexagon className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100"  />,
       name: 'Express.js'
     },
     {
-      icon: <Database className="h-10 w-10 text-[#ff0000]" />,
+      icon: <Database className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
       name: 'MongoDB'
     },
     {
-      icon: <FileJson className="h-10 w-10 text-[#ff0000]" />,
+      icon: <FileJson className="h-10 w-10 text-[#ff0000] rounded-2xl  bg-red-100" />,
       name: 'APIs'
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-[#ff0000]" />,
+      icon: <Sparkles className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
       name: 'Latest gen AI tools'
     },
     {
-      icon: <Cpu className="h-10 w-10 text-[#ff0000]" />,
+      icon: <Cpu className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
       name: 'DSA'
     },
     {
-      icon: <Bot  className='h-10 w-10 text-[#ff0000]' />,
+      icon: <Bot  className='h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100' />,
       name: 'ChatGPT'
     }
   ]
