@@ -23,7 +23,7 @@ export default function   CoursePricingSection() {
             </h2>
             
             <div className="mb-6 s">
-              <span className="text-red-600 text-4xl font-bold">₹ 25,000</span>
+              <span className="text-[#ff0000] text-4xl font-bold">₹ 25,000</span>
               <span className="text-gray-500 line-through ml-2">₹ 35,000</span>
               <span className="text-gray-500">(+ taxes)</span>
             </div>
