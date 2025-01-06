@@ -13,7 +13,7 @@ import { TbCertificate } from "react-icons/tb"
 
 const Hero = () => {
     return (
-      <div className="mx-auto pb-12 md:pb-0 h-full ">
+      <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">
         {/* Gradient Background */}
         <div className="bg-gradient-to-b from-red-900 to-red-700 h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
           <div className="max-w-6xl mx-auto py-4 md:py-8"> {/* Reduced from max-w-7xl */}

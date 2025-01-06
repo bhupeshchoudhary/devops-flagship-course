@@ -63,6 +63,7 @@ const CourseDetail = ()=>{
   <TestimonialsSection />
   <CareerGuarantee />
      <PlacedStudents />
+     <TopCareerOptions></TopCareerOptions>
      <CoursePricingSection></CoursePricingSection> {/*10 */}
      {/* <Tools></Tools>  */}
         {/* <CertificateDisplay></CertificateDisplay> */}
@@ -75,7 +76,6 @@ const CourseDetail = ()=>{
      
      <QueryForm />
 
-     <TopCareerOptions></TopCareerOptions>
      {/* <FAQSection></FAQSection> */}
         <Footer />
      </>

@@ -15,9 +15,9 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className="pt-8 w-full pb-8 flex bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
+    <div className="pt-8 w-full pb-8 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
      
-
+<div className="max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold ">DevOps Program <span className="text-[#ff0000]">Curriculum and Modules</span> </div>
     <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 pb-6 rounded-xl">
 
     <span className="h-12 w-12">
@@ -44,9 +44,11 @@ export default function CourseCurriculumModule() {
               </p>
            </div>
 
-            <Badge variant="secondary" className="h-6">
-              6 Months
+           <Badge variant="secondary" className="h-6 w-20 flex-shrink-0">
+             <span className=""> 6 Months </span>
             </Badge>
+
+
           </div>
         </div>
         <div className="grid gap-6 md:grid-cols-[300px,1fr] ">

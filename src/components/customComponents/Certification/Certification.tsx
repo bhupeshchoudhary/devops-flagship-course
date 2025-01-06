@@ -8,7 +8,7 @@ export default function Certification() {
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 mx-auto">
     <div className="container mx-auto px-4 py-16">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb-12 text-center">
+        <h1 className="text-3xl md:text-3xl font-bold text-gray-800 mb-12    md:text-center">
           Industry-recognized & government approved{" "}
           <span className="text-[#ff0000] ">Specialisation in DevOps Program Certification</span>
         </h1>
@@ -22,8 +22,8 @@ export default function Certification() {
                 DevOps Trainings certificate
               </h2>
               <p className="text-gray-600 pl-10">
-                Upon successful completion of the program, you will receive a Full
-                Stack Development Placement Guarantee Course certificate from
+                Upon successful completion of the program, you will receive a Devops Training
+                 with Placement Guarantee Course certificate from
                 Internshala.
               </p>
               
