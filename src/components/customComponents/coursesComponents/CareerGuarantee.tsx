@@ -25,7 +25,7 @@ const CareerGuarantee = () => {
               />
             </div>
             {/* Content Container - Order 2 */}
-            <div className="bg-white p-6 rounded-b-xl">
+            <div className=" p-6 rounded-b-xl">
               <div className="flex flex-col justify-center">
                 <p className="text-gray-700 text-lg font-normal">
                   Our mission revolves around our learners

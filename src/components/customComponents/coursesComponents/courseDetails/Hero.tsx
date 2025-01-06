@@ -87,19 +87,26 @@ const Hero = () => {
           </div>
 
           {/* Course Fee Section */}
-          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <FaMoneyBillWave className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
-            <div>
-              <span className="text-black text-xs font-medium">COURSE FEE</span>
-              <div className="flex flex-col gap-0.5">
-                <span className="font-bold text-xs">₹25,000</span>
-                <span className="line-through text-gray-400 text-xs">₹35,000</span>
-              </div>
-              <Badge variant="outline" className="text-green-600 border-green-600 text-[10px] mt-0.5">
-                Save ₹10,000/-
-              </Badge>
-            </div>
-          </div>
+          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
+  <FaMoneyBillWave className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
+  <div>
+    <span className="text-black text-xs font-medium">COURSE FEE</span>
+    <div className="flex flex-col gap-1"> {/* Changed to flex-col for vertical stacking */}
+      <div className="flex items-center gap-2"> {/* Price row */}
+        <span className="font-bold text-xs">₹25,000</span>
+        <span className="line-through text-gray-400 text-xs">₹35,000</span>
+        <span className="text-green-600 font-semibold border-green-600 text-[10px]">
+          Save <br/> ₹10,000/-
+        </span>
+      </div>
+      <div> {/* Badge row */}
+        <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
+          Valid till 07 Jan
+        </Badge>
+      </div>
+    </div>
+  </div>
+</div>
 
           {/* Guarantee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
