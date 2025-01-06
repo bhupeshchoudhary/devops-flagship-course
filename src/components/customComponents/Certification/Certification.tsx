@@ -38,11 +38,6 @@ export default function Certification() {
                         className="object-cover"
                       />
                     </div>
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                      <div className="bg-white rounded-full p-3 opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300">
-                        <ZoomIn className="text-[#ff0000] " size={24} />
-                      </div>
-                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -79,11 +74,6 @@ export default function Certification() {
                         fill
                         className="object-cover"
                       />
-                    </div>
-                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
-                      <div className="bg-white rounded-full p-3 opacity-0 group-hover:opacity-100 transform scale-50 group-hover:scale-100 transition-all duration-300">
-                        <ZoomIn className="text-[#ff0000] " size={24} />
-                      </div>
                     </div>
                   </div>
                 </CardContent>
