@@ -11,6 +11,7 @@ import { TbCertificate } from "react-icons/tb"
 
 
 
+
 const Hero = () => {
     return (
       <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">

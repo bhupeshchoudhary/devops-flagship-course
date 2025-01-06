@@ -4,7 +4,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { List } from "lucide-react";
 import { cn } from "@/lib/utils"; // Assuming you have a `utils` file with `cn` from shadcn
 import Image from "next/image";
-import LOGO from "../../../public/assets/logohash13.svg"; // Adjust path if necessary
+import LOGO from "../../../public/assets/saviourLogo2.png" // Adjust path if necessary
+
 
 const Navbar: React.FC = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -53,9 +54,9 @@ const Navbar: React.FC = () => {
           <Image
             src={LOGO}
             alt="Logo"
-            width={64} // You can set the width
+            width={110} // You can set the width
             height={32} // You can set the height
-            className="object-contain" // Ensures the logo doesn't get distorted
+            className="object-contain overflow-hidden" // Ensures the logo doesn't get distorted
           /> 
           {/* <h2 className="text-white font-bold">Winter Program</h2> */}
         </a>
