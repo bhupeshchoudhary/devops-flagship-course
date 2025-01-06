@@ -16,18 +16,18 @@ const CoursesOffer: React.FC = () => {
         <div className="bg-white rounded-lg shadow-md p-6 flex-1">
           <h2 className="text-2xl font-bold mb-2">Mastering Git and Github Advanced Level Training</h2>
           <p className="text-lg text-gray-600 mb-4">(Save ₹4,020)</p>
-          <div className="text-red-600 text-4xl font-bold mb-2">
+          <div className="text-[#ff0000] text-4xl font-bold mb-2">
             ₹980 <span className="line-through text-gray-500 text-2xl">₹5,000</span>
             <span className="text-gray-500 text-lg"> (+ taxes)</span>
           </div>
           <div className="my-4 border-t border-gray-300"></div>
           <ul className="mb-6 space-y-2 text-gray-700">
             <li className="flex items-center">
-              <CheckCircle className="text-red-600 mr-2" />
+              <CheckCircle className="text-[#ff0000]mr-2" />
               Avail the discounted price of ₹980 and save a total of ₹4,020
             </li>
             <li className="flex items-center">
-              <CheckCircle className="text-red-600 mr-2" />
+              <CheckCircle className="text-[#ff0000] mr-2" />
               The launch offer expires in 24 hours
             </li>
           </ul>
@@ -39,43 +39,43 @@ const CoursesOffer: React.FC = () => {
         {/* Features List */}
         <div className="flex-1">
           <div className="mb-8">
-            <h3 className="text-2xl font-bold text-red-600 mb-4">What you’ll learn…</h3>
+            <h3 className="text-2xl font-bold text-[#ff0000]mb-4">What you’ll learn…</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
-                <CheckCircle className="text-red-600 mr-2" />
+                <CheckCircle className="text-[#ff0000] mr-2" />
                 Git Basics and Git Commands
               </li>
               <li className="flex items-center">
-                <CheckCircle className="text-red-600 mr-2" />
+                <CheckCircle className="text-[#ff0000] mr-2" />
                 Git Branching and Merging
               </li>
               <li className="flex items-center">
-                <CheckCircle className="text-red-600 mr-2" />
+                <CheckCircle className="text-[#ff0000] mr-2" />
                 Git Rebase and Git Bisect
               </li>
               <li className="flex items-center">
-                <CheckCircle className="text-red-600 mr-2" />
+                <CheckCircle className="text-[#ff0000] mr-2" />
                 Squashing Commits, Cherry-Picking and Three-Way Merges
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-red-600 mb-4">And bonuses too…</h3>
+            <h3 className="text-2xl font-bold text-[#ff0000] mb-4">And bonuses too…</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
-                <CheckCircle className="text-red-600 mr-2" />
+                <CheckCircle className="text-[#ff0000] mr-2" />
                 Most Relevant Git and Github Training Tips & Tricks
               </li>
               <li className="flex items-center">
-                <CheckCircle className="text-red-600 mr-2" />
+                <CheckCircle className="text-[#ff0000] mr-2" />
                 Technical Support for 90 days
               </li>
               <li className="flex items-center">
-                <CheckCircle className="text-red-600 mr-2" />
+                <CheckCircle className="text-[#ff0000] mr-2" />
                 Real Industry Use Cases of Git and Github
               </li>
               <li className="flex items-center">
-                <CheckCircle className="text-red-600 mr-2" />
+                <CheckCircle className="text-[#ff0000]mr-2" />
                 Premium #13 Git and Github Training Community
               </li>
             </ul>

@@ -24,7 +24,7 @@ export const faqData: FAQCategory[] = [
     label: "Program prerequisites",
     faqs: [
       {
-        question: "How can I reserve my seat in advance?",
+       question: "How can I reserve my seat in advance?",
         answer: "You can reserve your seat by completing the application process and paying the required deposit."
       }
     ]
