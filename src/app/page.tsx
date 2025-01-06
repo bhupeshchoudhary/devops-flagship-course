@@ -35,6 +35,11 @@ import Certificates from "@/components/customComponents/Certification/Certificat
 import Hero from "@/components/customComponents/coursesComponents/courseDetails/Hero";
 import TopCareerOptions from "@/components/TopCareerOptions/TopCareerOptions";
 import FAQSection from "@/components/customComponents/FAQ/Faq";
+import CareerGuarantee from "@/components/customComponents/coursesComponents/CareerGuarantee";
+import careerguaranteeimage from "../../public/assets/placement-guaranteed-banner.jpg"
+
+
+
 const CourseDetail = ()=>{
     
 
@@ -56,6 +61,7 @@ const CourseDetail = ()=>{
      <MentorProfile></MentorProfile>
      <Analyst></Analyst>
   <TestimonialsSection />
+  <CareerGuarantee />
      <PlacedStudents />
      <CoursePricingSection></CoursePricingSection> {/*10 */}
      {/* <Tools></Tools>  */}
