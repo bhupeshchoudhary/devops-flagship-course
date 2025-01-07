@@ -151,7 +151,7 @@ export default function CareerTransformation() {
       <section className="max-w-6xl mx-auto py-12 px-6">
         <div className="container">
           <h1 className="text-3xl font-bold tracking-tighter md:p-0 mb-8">
-            Career <span className="text-[#ff0000]">Transformation</span>
+            Career <span className="text-[#000000]">Transformation</span>: Became <span className="text-[#ff0000]">DevOps Engineer</span>
           </h1>
   
           <div className="grid lg:grid-cols-2 gap-6 items-center">

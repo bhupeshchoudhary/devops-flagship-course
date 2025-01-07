@@ -14,11 +14,12 @@ export default function BeginnerToPro() {
             <div className="space-y-3 md:space-y-4 text-center lg:text-left">
               <h1 className="text-xl sm:text-2xl lg:text-2xl font-bold">
                 Go from{" "}
-                <span className="text-[#ff0000]">beginner to pro in 6 months</span>
+                <span className="text-[#ff0000]">beginner to pro in 3 months</span>
               </h1>
               <p className="text-sm sm:text-md text-muted-foreground max-w-[700px] mx-auto lg:mx-0">
-                With a curriculum designed and taught by industry experts, you will
-                get the skills and mentorship for guaranteed success.
+               
+With a DevOps Program designed and taught by industry expert - Mr Vimal Daga, you will get step by step learning from basic to advanced level and mentorship for guaranteed success.
+
               </p>
             </div>
 
@@ -29,7 +30,7 @@ export default function BeginnerToPro() {
                     <Monitor className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                    Live & on-demand
+                  300+ Hours of Learning
                   </h3>
                 </CardContent>
               </Card>
@@ -40,7 +41,7 @@ export default function BeginnerToPro() {
                     <Cpu className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                    Latest AI tools
+                  22+ years of experience level mentor
                   </h3>
                 </CardContent>
               </Card>
@@ -51,7 +52,7 @@ export default function BeginnerToPro() {
                     <FileCheck className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                    Industry-level projects
+                  20+ Capstone Industry Level Projects
                   </h3>
                 </CardContent>
               </Card>

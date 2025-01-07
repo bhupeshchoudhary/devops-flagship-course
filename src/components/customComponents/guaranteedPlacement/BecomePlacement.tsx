@@ -31,7 +31,7 @@ export default function BecomePlacement() {
                 <span className="text-[#ff0000]">placement-ready</span>
               </h1>
               <p className="text-sm sm:text-md text-muted-foreground max-w-[700px] mx-auto lg:mx-0">
-                Prepare to ace your placements with our career coaches, having 10+ years of experience. Say goodbye to placement anxiety!
+              Placement ki tension khatam karo! Our career coaches with 15+ years of experience will help you ace your interviews and secure your dream job!
               </p>
             </div>
 
@@ -42,7 +42,7 @@ export default function BecomePlacement() {
                     <Brain className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                    Soft skills training
+                  ATS proof Resume Building 
                   </h3>
                 </CardContent>
               </Card>
@@ -53,7 +53,7 @@ export default function BecomePlacement() {
                     <FileText className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                    Resume building & AI
+                  Optimising LinkedIn profile 
                   </h3>
                 </CardContent>
               </Card>
@@ -64,7 +64,7 @@ export default function BecomePlacement() {
                     <Rocket className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                    All-new live bootcamp
+                  Building GITHub profile
                   </h3>
                 </CardContent>
               </Card>
