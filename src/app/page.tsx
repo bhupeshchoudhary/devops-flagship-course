@@ -38,7 +38,7 @@ import FAQSection from "@/components/customComponents/FAQ/Faq";
 import CareerGuarantee from "@/components/customComponents/coursesComponents/CareerGuarantee";
 import LinkedInShowcase from "@/components/customComponents/coursesComponents/courseDetails/LinkedInTestimonials";
 
-
+import LinkdingTestimonial2 from "@/components/customComponents/coursesComponents/courseDetails/LinkedinTestimonial2";
 
 
 
@@ -52,6 +52,7 @@ const CourseDetail = ()=>{
         {/* <CourseDetailHero></CourseDetailHero> */}
         <Hero />
         <LinkedInShowcase />
+        <LinkdingTestimonial2></LinkdingTestimonial2>
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
         <CompaniesCarousel/>
