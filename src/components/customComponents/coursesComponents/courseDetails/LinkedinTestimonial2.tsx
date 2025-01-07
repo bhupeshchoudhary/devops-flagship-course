@@ -6,6 +6,10 @@ import { Quote } from 'lucide-react';
 import type { Swiper as SwiperType } from 'swiper'; 
 import {  ChevronLeft, ChevronRight } from 'lucide-react';
 import { useRef } from "react";
+import linkedinimage1 from "../../../../../public/assets/linkedinScreenshot1.png"
+import linkedinimage2 from "../../../../../public/assets/linkedinScreenshot1.png"
+import linkedinimage3 from "../../../../../public/assets/linkedinScreenshot1.png"
+
 // Import Swiper styles
 import { Button } from "@/components/ui/button";
 import 'swiper/css';
@@ -19,13 +23,25 @@ const testimonialData = [
         text: "We all know how tedious finding an internship is, but Cuvette made the whole process incredibly smooth by finding all the relevant good opportunities and all we had to do is prepare for the interviews",
         name: "Sumit pal",
         institute: "IIT Kanpur",
-        image: "https://media.licdn.com/dms/image/v2/D5603AQE9xNA62XznLg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714316145658?e=1741824000&v=beta&t=e5k7GLayi_NqZAk3xXJ4XLGicTu_EHnsQgtcc_HT4_A"
+        image: linkedinimage1.src.toString()
     },
     {
         text: "We all know how tedious finding an internship is, but Cuvette made the whole process incredibly smooth by finding all the relevant good opportunities and all we had to do is prepare for the interviews",
         name: "PRIYAL DUBEY",
         institute: "IIT INDORE",
-        image: "https://media.licdn.com/dms/image/v2/D4D03AQHXkuvnF5Zm7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724997745281?e=1741824000&v=beta&t=4L3p08LUosAQ3DGvDfuJ3VVdjuPLoY3hgzwy7A7rTQQ"
+        image: linkedinimage2.src.toString()
+    },
+    {
+        text: "We all know how tedious finding an internship is, but Cuvette made the whole process incredibly smooth by finding all the relevant good opportunities and all we had to do is prepare for the interviews",
+        name: "Sumit pal",
+        institute: "IIT Kanpur",
+        image: linkedinimage3.src.toString()
+    },
+    {
+        text: "We all know how tedious finding an internship is, but Cuvette made the whole process incredibly smooth by finding all the relevant good opportunities and all we had to do is prepare for the interviews",
+        name: "PRIYAL DUBEY",
+        institute: "IIT INDORE",
+        image: linkedinimage1.src.toString()
     },
 ];
 
@@ -34,7 +50,7 @@ const LinkdingTestimonial2 = () => {
     const swiperRef = useRef<SwiperType>();  // Add ref for Swiper instance
 
     return (
-        <div className="relative max-w-4xl mx-auto px-4 py-8">
+        <div className="relative max-w-5xl mx-auto px-4 py-8">
             {/* Background decorations */}
             <div className="absolute top-0 left-0 w-64 h-48 bg-blue-50 rounded-full filter blur-3xl opacity-30 -z-10" />
             <div className="absolute bottom-0 right-0 w-64 h-64 bg-purple-50 rounded-full filter blur-3xl opacity-30 -z-10" />
@@ -47,7 +63,7 @@ const LinkdingTestimonial2 = () => {
                     centeredSlides={true}
                     effect="fade"
                     autoplay={{
-                        delay: 2000,
+                        delay: 5000,
                         disableOnInteraction: false,
                     }}
                     pagination={{

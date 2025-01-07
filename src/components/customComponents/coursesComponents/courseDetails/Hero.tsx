@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
               <div className="max-w-3xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-                Specialisation in DevOps Program <span className="text-white">  with Guaranteed Placement</span>
+                Job Oriented DevOps Program <span className="text-white">  with Guaranteed Placement</span>
                 </h1>
                 <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
                   
@@ -94,16 +94,16 @@ const Hero = () => {
     <span className="text-black text-xs font-medium">COURSE FEE</span>
     <div className="flex flex-col gap-1"> {/* Changed to flex-col for vertical stacking */}
       <div className="flex items-center gap-2"> {/* Price row */}
-        <span className="font-bold text-xs">₹25,000</span>
+        <span className="font-bold text-xs flex-shrink-0">₹25,000 (+taxes)</span>
         <span className="line-through text-gray-400 text-xs">₹35,000</span>
         <span className="text-green-600 font-semibold border-green-600 text-[10px]">
           Save <br/> ₹10,000/-
         </span>
       </div>
       <div> {/* Badge row */}
-        <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
+        {/* <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
           Valid till 07 Jan
-        </Badge>
+        </Badge> */}
       </div>
     </div>
   </div>
@@ -122,12 +122,10 @@ const Hero = () => {
         {/* Vertical Divider and Button Section */}
         <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto"> {/* Changed items-center to items-start */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
-            <Button className="bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
-              Start your application
+            <Button className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
+              Apply Now
             </Button>
-            <span className="text-[10px] sm:text-xs text-gray-600 mt-1">
-              186,044 already applied
-            </span>
+         
           </div>
         </div>
       </div>
