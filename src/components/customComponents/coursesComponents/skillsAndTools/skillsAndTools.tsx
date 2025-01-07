@@ -1,4 +1,4 @@
-import { Code2, Cpu, Database, FileJson, GitBranch, Sparkles,SquareCode,MonitorCog ,DraftingCompass,ShipWheel,Container,Gitlab,Eclipse,Hexagon    } from 'lucide-react'
+import { Code2, Cpu, Database, FileJson, GitBranch, Sparkles,SquareCode,MonitorCog,ShieldCheck ,DraftingCompass,ShipWheel,Container,Gitlab,Eclipse,Hexagon    } from 'lucide-react'
 import Image from 'next/image'
 
 export default function SkillsAndTools() {
@@ -28,11 +28,11 @@ export default function SkillsAndTools() {
       name: 'Mastering SCM & Manage CI/CD using GITLab'
     },
     {
-      icon: <ShipWheel className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100"  />,
+      icon: <ShieldCheck className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100"  />,
       name: 'Docker Certified Associate'
     },
     {
-      icon: <Database className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
+      icon: <ShipWheel className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
       name: 'MKE - Mirantis Kubernetes Engine'
     },
     {
