@@ -90,8 +90,8 @@ export default function TestimonialsSection() {
 
         {/* Right Section */}
         <div className="relative z-10 lg:col-span-1 order-1 lg:order-2">
-          <h2 className="text-4xl md:text-3xl font-bold mb-8 tracking-tight">
-            What our learners say
+          <h2 className="text-3xl md:text-3xl font-bold mb-8 tracking-tight">
+          What our placed learners says
           </h2>
 
           <div className="w-full max-w-xl">

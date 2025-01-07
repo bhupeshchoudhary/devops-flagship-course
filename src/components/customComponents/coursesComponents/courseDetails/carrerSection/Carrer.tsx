@@ -30,11 +30,11 @@ export default function CourseCarrrerModule() {
               <h1 className="text-2xl font-bold text-black">
               Career <span className="text-[#ff0000]">Track</span></h1>
               <p className="mt-2 max-w-3xl text-gray-900">
-              Once you have enrolled for the program then you will have access to a wide range of resources which will help you in becoming a Job-Ready Candidate. We have a dedicated placement team of professionals who excel in their individual domains committed to assist you in our journey.
+              Becoming a part of our Placement Guaranteed DevOps program gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success
               </p>
             </div>
             <Badge variant="secondary" className="h-6 w-20 flex-shrink-0">
-             <span className=""> 6 Months </span>
+             <span className=""> 1 Months </span>
             </Badge>
           </div>
         </div>
@@ -71,10 +71,10 @@ export default function CourseCarrrerModule() {
               <h2 className="text-lg font-semibold text-gray-900">
                 {activeModule.subtitle}
               </h2>
-              <Button variant="outline" size="sm">
+              {/* <Button variant="outline" size="sm">
                 <Download className="mr-2 h-4 w-4" />
                 Download Syllabus
-              </Button>
+              </Button> */}
             </div>
             <Separator className="mb-6" />
             <div className="space-y-2">

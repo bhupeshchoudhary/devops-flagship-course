@@ -9,8 +9,7 @@ export default function Certification() {
     <div className="container mx-auto px-4 py-16">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl md:text-3xl font-bold text-gray-800 mb-12    md:text-center">
-          Industry-recognized & government approved{" "}
-          <span className="text-[#ff0000] ">Specialisation in DevOps Program Certification</span>
+        Industry Recognised & Approved <span className="text-[#ff0000]"> Job Oriented Specialisation </span> in DevOps Certificates
         </h1>
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
@@ -22,9 +21,8 @@ export default function Certification() {
                 DevOps Trainings certificate
               </h2>
               <p className="text-gray-600 pl-10">
-                Upon successful completion of the program, you will receive a Devops Training
-                 with Placement Guarantee Course certificate from
-                Internshala.
+              On successful completion of the program with 90% attendance in Live Sessions & completion of all Capstone Projects with assessments makes you eligible for Training Certificate
+
               </p>
               
               <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 w-[300px] mx-auto">
@@ -57,11 +55,10 @@ export default function Certification() {
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-[#ff0000]  font-bold">2</span>
-                NSDC & Skill India certificate
+                Internship Certificate
               </h2>
               <p className="text-gray-600 pl-10">
-                Also, receive a certificate from NSDC (National Skill Development
-                Corporation) and Skill India.
+              Depending upon your overall performance, building & working on Industry Relevant Projects, post viva you will become eligible for Internship Certificate
               </p>
               
               <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 w-[300px] mx-auto">

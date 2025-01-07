@@ -76,7 +76,7 @@ const CourseDetail = ()=>{
      <SkillsAndTools></SkillsAndTools>
      <Certificates></Certificates>
      <CourseTestimonials />
-        <JobSkills />
+        {/* <JobSkills /> */}
      
      <Faq></Faq>
      

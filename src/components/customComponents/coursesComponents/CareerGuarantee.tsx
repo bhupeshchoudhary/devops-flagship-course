@@ -31,14 +31,14 @@ const CareerGuarantee = () => {
                   Our mission revolves around our learners
                 </p>
                 <h2 className="text-3xl font-bold text-gray-900 my-4">
-                  Promising 100% <span className="text-[#ff0000]">#CareerKiGuarantee!</span>
+                  Promising 100% <span className="text-[#ff0000]">#RightJobKiGuarantee</span>
                 </h2>
                 <Button 
                   variant="default" 
                   className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
                 >
-                  Download Placement Report
-                  <Download className="h-4 w-4" />
+                  Apply Now
+                  
                 </Button>
               </div>
             </div>
@@ -62,14 +62,14 @@ const CareerGuarantee = () => {
                   Our mission revolves around our learners
                 </p>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Promising 100% <span className="text-[#ff0000]">#CareerKiGuarantee!</span>
+                  Promising 100% <span className="text-[#ff0000]">#RightJobKiGuarantee!</span>
                 </h2>
                 <Button 
                   variant="default" 
                   className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
                 >
-                  Download Placement Report
-                  <Download className="h-4 w-4" />
+                  Apply Now
+                  
                 </Button>
               </div>
             </div>

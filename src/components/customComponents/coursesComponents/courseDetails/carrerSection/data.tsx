@@ -1,75 +1,51 @@
 import { Module } from './types'
 
-export const modules: Module[] = [
+export const modules: Module[] =// data.ts
+[
   {
     id: 1,
     title: "Module 1",
-    subtitle: "DevOps Essentials",
+    subtitle: "Profile & ATS proof Resume Building",
     topics: [
-      "Introduction to DevOps",
-      "DevOps Culture and Practices",
-      "DevOps Tools Overview",
-      "Understanding CI/CD Pipeline"
+      "ATS proof Resume building",
+      "Portfolio Building",
+      "Build highly optimized Resumes and Cover Letters",
+      "Build your LinkedIn Profile",
+      "How to maintain consistency over GITHub profile"
     ]
   },
   {
     id: 2,
     title: "Module 2",
-    subtitle: "Managing Source Code - Git and GitHub",
+    subtitle: "Business Communication & Contribution",
     topics: [
-      "Overview of Version Control systems",
-      "Central vs Distributed Control systems",
-      "Introduction to Git",
-      "Git file workflow",
-      "Important Git Commands",
-      "Branching and Merging, Stashing, Rebasing, Reverting and Resetting",
-      "Introduction to GitHub",
-      "Using Git and GitHub together"
+      "How to build Open Source Community contribution skills",
+      "Get proficient in business presentations",
+      "Learn how to frame professional emails",
+      "Excel in telephonic communication and Business Vocab",
+      "Networking and building Interpersonal Skills"
     ]
   },
   {
     id: 3,
     title: "Module 3",
-    subtitle: "Understanding and using Build",
+    subtitle: "Capstone Projects & Technical Assessments",
     topics: [
-      "Build Automation Fundamentals",
-      "Build Tools Overview",
-      "Creating Build Scripts",
-      "Build Configuration Management"
+      "Based on the industry relevant designed training modules",
+      "Evaluates the understanding of theoretical and practical concepts learnt",
+      "Adds credibility and accountability to the candidate",
+      "Difficulty level - moderate",
+      "Need to build all the Capstone Integration Level projects framed by LinuxWorld"
     ]
   },
   {
     id: 4,
     title: "Module 4",
-    subtitle: "Containerization basics using",
+    subtitle: "Interview Preparation (Technical & Non-Technical)",
     topics: [
-      "Introduction to Containers",
-      "Docker Fundamentals",
-      "Container Orchestration",
-      "Container Security"
-    ]
-  },
-  {
-    id: 5,
-    title: "Module 5",
-    subtitle: "Continuous Integration using J",
-    topics: [
-      "CI/CD Pipeline Setup",
-      "Jenkins Configuration",
-      "Automated Testing",
-      "Pipeline Optimization"
-    ]
-  },
-  {
-    id: 6,
-    title: "Module 6",
-    subtitle: "Continuous Testing",
-    topics: [
-      "Test Automation Strategies",
-      "Testing Tools and Frameworks",
-      "Test Case Management",
-      "Quality Assurance Practices"
+      "Interview prep and mock interviews",
+      "Interview Best Practices",
+      "Module-wise Interview Questions"
     ]
   }
 ]
-

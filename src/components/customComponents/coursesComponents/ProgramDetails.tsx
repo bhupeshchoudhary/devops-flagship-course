@@ -42,7 +42,7 @@ export default function ProgramCohorts() {
     <div className="flex items-center text-sm text-black gap-2 font-bold">Starting on </div>
     <div className="flex text-black items-center gap-2 font-bold">Time</div>
     <div className="text-black text-sm font-bold">Mode</div>
-    <div className="text-black font-bold text-sm pl-8">Action</div>
+    <div className="text-black font-bold text-sm pl-6">Action</div>
   </div>
 
   {[
@@ -83,7 +83,7 @@ export default function ProgramCohorts() {
       <div>
         <a href="#bookyourseat">
           <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-white hover:shadow-md hover:bg-[#ff0000]">
-            Book your Seat 
+          Apply Now 
           </Button>
         </a>
       </div>
@@ -104,7 +104,7 @@ export default function ProgramCohorts() {
               <div className="flex gap-3">
                 <GraduationCap className="w-5 h-5 text-orange-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT and working professionals.
+                Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT - 2024 & 2025 passouts
                 </p>
               </div>
               <div className="flex gap-3">
@@ -134,6 +134,7 @@ export default function ProgramCohorts() {
             <h3 className="text-lg font-medium mb-4 text-black font-semibold">What You&apos;ll Receive:</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
+                "Guaranteed Placement. 100% refund if not hired",
                 "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
                 "Industry-Recognized Project Certificate signed by Mr. Vimal Daga.",
                 "6-Month Internship Certificate upon successful completion of the projects",

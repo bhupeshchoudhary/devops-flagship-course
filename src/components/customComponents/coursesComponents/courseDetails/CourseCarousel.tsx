@@ -18,7 +18,8 @@ function CourseCarousel() {
           <div className="relative items-center justify-between">
       
             <h1 className='text-2xl font-bold' >Pay Career Services Fee</h1>
-            <p className='text-md' >Pay ₹10,000/- (Career Services Fee) Only after Getting Placed</p>
+            <p className='text-md' >Get ready to be hired by core tech companies & secure a package between ₹4,00,000 - ₹8,00,000</p>
+            <p className='font-semibold text-gray-600'>(Note : 100% refund if not hired)</p>
             <div className="mt-4 shadow-inset-sides">
   <ServiceFeeCarousel />
 </div>
