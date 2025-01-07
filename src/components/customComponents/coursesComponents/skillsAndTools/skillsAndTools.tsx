@@ -36,7 +36,7 @@ export default function SkillsAndTools() {
       name: 'MKE - Mirantis Kubernetes Engine'
     },
     {
-      icon: <FileJson className="h-10 w-10 text-[#ff0000] rounded-2xl  bg-red-100" />,
+      icon: <Cpu className="h-10 w-10 text-[#ff0000] rounded-2xl  bg-red-100" />,
       name: 'Industry Relevant - AWS Cloud Training'
     },
     {

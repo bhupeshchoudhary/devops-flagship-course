@@ -3,24 +3,24 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card"
 export default function TopCareerOptions() {
   const careers = [
     {
-      title: "Full Stack Developer",
-      description: "Be a jack of all trades and create an entire website by yourself or manage teams who do!",
-      icon: "/assets/TopCarrer/img1.webp",
+      title: "DevOps Engineer",
+      description: "Manage CI/CD pipelines, automate infrastructure, and optimize workflows.",
+      icon: "/assets/TopCarrer/Devops Engineer.jpeg",
     },
     {
-      title: "Software Development Engineer",
-      description: "Design, develop, and maintain software solutions.",
-      icon: "/assets/TopCarrer/img2.webp",
+      title: "Cloud Architect",
+      description: "Cloud Architect Design and manage cloud environments.",
+      icon: "/assets/TopCarrer/CloudArchitect.jpeg",
     },
     {
-      title: "Front-end Developer",
-      description: "Develop all the visual elements of a website that you see and interact with (like this page!).",
-      icon: "/assets/TopCarrer/img3.webp",
+      title: "Infrastructure as Code (IaC) Specialist",
+      description: "Automate infrastructure provisioning with tools like Terraform or CloudFormation.",
+      icon: " /assets/TopCarrer/Architech.jpeg",
     },
     {
-      title: "Back-end Developer",
-      description: "Manage the behind-the-scenes of a website. Keep the website running efficiently by managing servers.",
-      icon: "/assets/TopCarrer/img4.webp",
+      title: "Monitoring and Security Specialist",
+      description: "Focus on application performance and system security in DevOps ecosystems.",
+      icon: "/assets/TopCarrer/releaseengineer.jpeg",
     },
   ]
 
