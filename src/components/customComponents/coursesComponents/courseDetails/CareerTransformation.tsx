@@ -191,7 +191,7 @@ export default function CareerTransformation() {
               {/* Cards Container */}
               <div className="flex items-center justify-between w-full gap-4 px-4">
                 {/* Before Card */}
-                <Card className="p-4 border border-blue-400 relative flex-1 min-w-[100px]">
+                <Card className="p-4 border border-blue-400 relative flex-1 min-w-[50px]">
                   <span className="absolute -top-3 right-4 bg-[#ff0000] text-white px-3 py-1 rounded-full text-xs font-medium z-10">
                     BEFORE
                   </span>
@@ -221,7 +221,7 @@ export default function CareerTransformation() {
                 </div>
   
                 {/* After Card */}
-                <Card className="p-4 border border-green-500 relative flex-1 min-w-[200px]">
+                <Card className="p-4 border border-green-500 relative flex-1 min-w-[100px]">
                   <span className="absolute -top-3 right-4 bg-green-500 text-white px-3 py-1 rounded-full text-xs font-medium z-10">
                     AFTER
                   </span>
