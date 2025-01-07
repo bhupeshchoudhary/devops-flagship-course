@@ -1,55 +1,55 @@
-import { Code2, Cpu, Database, FileJson, GitBranch, Sparkles,SquareCode,Eclipse,Hexagon,Bot     } from 'lucide-react'
+import { Code2, Cpu, Database, FileJson, GitBranch, Sparkles,SquareCode,MonitorCog ,DraftingCompass,ShipWheel,Container,Gitlab,Eclipse,Hexagon    } from 'lucide-react'
 import Image from 'next/image'
 
 export default function SkillsAndTools() {
   const skills = [
     {
-      icon: <SquareCode className="h-10 w-10 rounded-2xl p-0 bg-red-100  text-[#ff0000]" />,
-      name: 'HTML & CSS'
+      icon: <GitBranch  className="h-10 w-10 rounded-2xl p-0 bg-red-100  text-[#ff0000]" />,
+      name: 'Master Git & GitHub'
     },
     {
-      icon: <Eclipse className="h-10 w-10 rounded-2xl p-0 bg-red-100 text-[#ff0000]" />,
-      name: 'Tailwind'
+      icon: <DraftingCompass className="h-10 w-10 rounded-2xl p-0 bg-red-100 text-[#ff0000]" />,
+      name: 'Automation Using Ansible'
     },
     {
       icon: <Code2 className="h-10 w-10 text-[#ff0000] rounded-2xl p-0 bg-red-100" />,
-      name: 'JavaScript'
+      name: 'Jenkins & Build Automation'
     },
     {
-      icon: <SquareCode className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
-      name: 'React'
+      icon: <MonitorCog className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
+      name: 'Monitoring Tools : Prometheus & Grafana'
     },
     {
-      icon: <GitBranch className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
-      name: 'Redux'
+      icon: <Container className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
+      name: 'Docker, Container & Kubernetes - CKA & CKAD'
     },
     {
-      icon: <Hexagon className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
-      name: 'Node.js'
+      icon: <Gitlab className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
+      name: 'Mastering SCM & Manage CI/CD using GITLab'
     },
     {
-      icon: <Hexagon className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100"  />,
-      name: 'Express.js'
+      icon: <ShipWheel className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100"  />,
+      name: 'Docker Certified Associate'
     },
     {
       icon: <Database className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
-      name: 'MongoDB'
+      name: 'MKE - Mirantis Kubernetes Engine'
     },
     {
       icon: <FileJson className="h-10 w-10 text-[#ff0000] rounded-2xl  bg-red-100" />,
-      name: 'APIs'
+      name: 'Industry Relevant - AWS Cloud Training'
     },
     {
       icon: <Sparkles className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
-      name: 'Latest gen AI tools'
+      name: 'Industry Relevant Linux Training'
     },
     {
       icon: <Cpu className="h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100" />,
-      name: 'DSA'
+      name: 'DevOps Essential - CI / CD over AWS Cloud'
     },
     {
-      icon: <Bot  className='h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100' />,
-      name: 'ChatGPT'
+      icon: <FileJson className='h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100' />,
+      name: 'Shellscripting'
     }
   ]
 
