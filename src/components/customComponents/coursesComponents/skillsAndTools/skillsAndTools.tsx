@@ -49,7 +49,7 @@ export default function SkillsAndTools() {
     },
     {
       icon: <FileJson className='h-10 w-10 text-[#ff0000] rounded-2xl bg-red-100' />,
-      name: 'Shellscripting'
+      name: 'Shell Scripting'
     }
   ]
 

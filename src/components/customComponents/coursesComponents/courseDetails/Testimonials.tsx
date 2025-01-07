@@ -66,7 +66,7 @@ export default function TestimonialsSection() {
                 key={index}
                 className="absolute cursor-pointer"
                 style={{
-                  top: avatar.top,
+                  top: avatar.top,   
                   left: avatar.left,
                   animation: `float 3s ease-in-out ${avatar.delay}s infinite`,
                 }}
