@@ -36,7 +36,10 @@ import Hero from "@/components/customComponents/coursesComponents/courseDetails/
 import TopCareerOptions from "@/components/TopCareerOptions/TopCareerOptions";
 import FAQSection from "@/components/customComponents/FAQ/Faq";
 import CareerGuarantee from "@/components/customComponents/coursesComponents/CareerGuarantee";
-import careerguaranteeimage from "../../public/assets/placement-guaranteed-banner.jpg"
+import LinkedInShowcase from "@/components/customComponents/coursesComponents/courseDetails/LinkedInTestimonials";
+
+
+
 
 
 
@@ -48,6 +51,9 @@ const CourseDetail = ()=>{
         <Navbar />
         {/* <CourseDetailHero></CourseDetailHero> */}
         <Hero />
+        <LinkedInShowcase />
+        {/* <TestimonialSlider /> */}
+        {/* <Testimonial2/> */}
         <CompaniesCarousel/>
      <BeginnerToPro></BeginnerToPro>
 <BecomePlacement></BecomePlacement>
@@ -63,7 +69,6 @@ const CourseDetail = ()=>{
   <TestimonialsSection />
   <CareerGuarantee />
      <PlacedStudents />
-     <TopCareerOptions></TopCareerOptions>
      <CoursePricingSection></CoursePricingSection> {/*10 */}
      {/* <Tools></Tools>  */}
         {/* <CertificateDisplay></CertificateDisplay> */}
@@ -76,6 +81,7 @@ const CourseDetail = ()=>{
      
      <QueryForm />
 
+     <TopCareerOptions></TopCareerOptions>
      {/* <FAQSection></FAQSection> */}
         <Footer />
      </>
