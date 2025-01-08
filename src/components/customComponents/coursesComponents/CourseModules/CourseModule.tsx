@@ -42,7 +42,7 @@ export default function CourseCurriculumModule() {
             <div className="flex items-start md:items-center justify-between mb-4">
               <div>
                 <h1 className="text-2xl md:text-3xl font-bold text-white mb-4 ml-12 md:ml-16">
-                  Course Curriculum
+                14+ DevOps Training Modules  
                 </h1>
                 <p className="text-white/90 max-w-3xl ml-12 md:pl-4 text-sm">
                   Our course is designed by industry experts for excellent academic and industrial experience. 

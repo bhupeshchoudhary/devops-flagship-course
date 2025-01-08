@@ -84,7 +84,7 @@ const posts = [
     author: {
       name: "Jivan Bhardwaj",
       title: "DevOps Engineer at Echelon Edge",
-      avatar: "",
+      avatar: "https://media.licdn.com/dms/image/v2/C4E03AQEvxMngWtOM1g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1628692879304?e=1741824000&v=beta&t=RRN0Njf2W6uv_EPjspUlYUhnQotymJIJG9XOQPUe3Jk",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7115702316866940929"
     },
     content: `It was great to see how through Kubernetes we can manage containers and launch Jenkins. 

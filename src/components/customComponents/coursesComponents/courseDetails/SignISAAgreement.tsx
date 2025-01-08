@@ -36,7 +36,7 @@ export default function ISASigningProcess() {
             {/* Mobile View */}
             <div className="md:hidden flex flex-col gap-4">
               {/* First Card */}
-              <Card className="bg-gray-200 border-none shadow-lg w-full">
+              <Card className="bg-red-100 border-none shadow-lg w-full">
                 <CardContent className="p-4 flex flex-col items-center text-center">
                   <div className="w-full h-24 relative mb-2">
                     <img src="/assets/Apply Now.png" alt="image" className="w-full h-full object-contain" />
