@@ -206,32 +206,7 @@ const faqContent: Record<string, FAQItem[]> = {
     {
       question: "Are the projects aligned with industry standards?",
       answer:
-        (
-          <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>Implementing blue-green deployments.
-
-
-          </li>
-          <li>Scaling applications with Kubernetes.
-
-          </li>
-
-          <li>Automating cloud infrastructure.
-
-          </li>
-
-          
-
-
-  
-        </ul>
-        )
-    },
-
-    {
-      question: " Do I need my own system to practice?",
-      answer:
-       "Yes, you all need a laptop/PC with you."
+         "Absolutely! All our projects are meticulously designed to align with current industry standards and practices."
     },
 
     {
@@ -257,16 +232,24 @@ const faqContent: Record<string, FAQItem[]> = {
   Eligibility:[
     {
       question:"Who is eligible to apply for the Placement Guarantee course?",
-      answer: 
-       "The Placement Guarantee course program is meant for pre-final and final year students, recent graduates, and young professionals who wish to build a career in Full Stack Development. You should also be authorized and available to work in India upon completion of the course if you wish to avail of the internship guarantee benefits." 
+      answer:
+      ( <ul className="list-disc list-inside mt-2 space-y-1">
+        The Placement Guarantee course is designed for:
+        <li>Final-year undergraduate or graduate students (2023, 2024, or 2025 batch).</li>
+        <li> Fresh graduates who have recently completed their degree.</li>
+        <li>Individuals with a keen interest in building a career in the relevant field and are ready to commit to the program requirements.</li>
+       <li>If you're looking to enhance your skills and secure a job, this course is perfect for you!</li>
+  
+       </ul>
+      )
     },
     {
       question: "I am in the early years of college and will NOT be graduating in the next 12 months, can I still apply?",
-      answer:  "Yes, if you have decided to make a career in full-stack development and are ready to put in the required time and effort to complete the course, you can still apply and we will evaluate your application based on its quality. You would be able to apply to the short-term or work-from-home internships that are published on Internshala."
+      answer:  "Yes, you can apply! While the course is primarily designed for final-year students and recent graduates, we welcome motivated learners in the early years of college who are committed to building industry-relevant skills."
     },
     {
-      question: "I have more than 3 years of work experience in a different field and now I want to switch to Full Stack Development, can I apply?",
-      answer:  "Yes, you can. However, please note that the placement opportunities that we would be curating for the students of the Placement Guarantee course would be those of internships and the same will be made available to you too. Different companies may factor in your prior work experience in their hiring decisions differently and it will be at the sole discretion of the companies."
+      question: "I have more than 3 years of work experience in a different field and now I want to switch to Devops, can I apply?",
+      answer:  "Yes, you can apply! This course is designed to support professionals from diverse backgrounds who are looking to transition into DevOps."
     },
     {
       question: "My application was rejected, can I re-apply?",
@@ -279,8 +262,8 @@ const faqContent: Record<string, FAQItem[]> = {
   GuranteedJob :[
 
     {
-      question: "What is the job guarantee?",
-       answer: "Internshala guarantees that every eligible Placement Guarantee course student will be able to secure a placement (full-time employment or internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee course program, failing which Internshala will refund the Placement Guarantee course fee paid by the student."
+      question: "What is the job guarantee??",
+       answer: "We guarantee that every eligible Placement Guarantee course student will secure a placement (full-time employment or an internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee course program."
     },
     {
       question: "What is the salary I will get an offer for?",
@@ -288,7 +271,7 @@ const faqContent: Record<string, FAQItem[]> = {
     },
     {
       question: "What opportunities will be considered towards this guarantee?",
-      answer:"Any full-time employment or internship with a pre-placement offer that a student gets, in a profile directly related to the Placement Guarantee course program or otherwise, through their own efforts, via Internshala, or any other medium, will be considered the job guarantee."
+      answer:"Any full-time employment or internship with a pre-placement offer that a student gets, in a profile directly related to the Placement Guarantee course program or otherwise, through their own efforts, or any other medium, will be considered the job guarantee."
 
     },
     

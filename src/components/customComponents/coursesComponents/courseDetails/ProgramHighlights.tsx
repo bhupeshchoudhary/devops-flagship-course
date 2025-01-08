@@ -46,12 +46,15 @@ const ProgramHighlights = () => {
                 key={index}
                 className={`text-center ${index !== 0 ? 'md:border-l md:border-gray-300 md:pl-8' : ''}`}
               >
-                <span className='flex items-start gap-2 justify-start sm:justify-center lg:justify-center'>
-                <img 
-                  src={item.icon}
-                className="text-[#ff0000] h-8 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2 font-bold">
-                </img>
-                </span>
+                <div className='flex items-start justify-start sm:justify-center lg:justify-center'>
+                  <div className="bg-[#fef4f4] p-2 rounded-lg flex items-center justify-center">
+                    <img 
+                      src={item.icon}
+                      className="text-[#ff0000] h-8"
+                      alt={`${item.description} icon`}
+                    />
+                  </div>
+                </div>
                 <div className="text-[#ff0000] text-3xl font-bold mb-2">
                   {item.number}
                 </div>
