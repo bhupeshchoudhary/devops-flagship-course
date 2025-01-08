@@ -62,7 +62,7 @@ const ServiceFeeCarousel = () => {
 
   
   return (
-    <div className="bg-[#a50000]">
+    <div className="bg-red-600">
       <div className="relative overflow-hidden max-w-7xl mx-auto">
         <div className="w-full">
           {/* First row of logos */}
