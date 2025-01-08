@@ -91,6 +91,20 @@ const faqContent: Record<string, FAQItem[]> = {
         </ul>
         )
     },
+    {
+      question: "What is the job guarantee??",
+       answer: "We guarantee that every eligible Placement Guarantee course student will secure a placement (full-time employment or an internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee course program.If this condition is not met, we will refund the course fee paid by the student."
+    },
+    {
+      question: "What is the salary I will get an offer for?",
+      answer: "Every eligible Placement Guarantee course student will be assured a CTC ranging from ₹ 3 LPA to ₹ 10 LPA for full-time, part-time, and temporary/contractual employment."
+    },
+    {
+      question: "What opportunities will be considered towards this guarantee?",
+      answer:"Any full-time employment or internship with a pre-placement offer that a student gets, in a profile directly related to the Placement Guarantee course program or otherwise, through their own efforts, or any other medium, will be considered the job guarantee."
+
+    },
+
   ],
   timeCommitment: [
     {
@@ -174,7 +188,7 @@ const faqContent: Record<string, FAQItem[]> = {
     {
       question: "What salary range can I expect after completing this program?",
       answer:
-"Entry-level DevOps roles typically offer salaries ranging from $70,000 to $100,000 per year, depending on location, industry, and expertise level."
+"Entry-level DevOps roles typically offer salaries ranging from 3 to 10 LPA per year, depending on location, industry, and expertise level."
     },
   ],
   selectionCriteria: [
@@ -259,24 +273,7 @@ const faqContent: Record<string, FAQItem[]> = {
   ],
 
 
-  GuranteedJob :[
-
-    {
-      question: "What is the job guarantee??",
-       answer: "We guarantee that every eligible Placement Guarantee course student will secure a placement (full-time employment or an internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee course program."
-    },
-    {
-      question: "What is the salary I will get an offer for?",
-      answer: "Every eligible Placement Guarantee course student will be assured a CTC ranging from ₹ 3 LPA to ₹ 10 LPA for full-time, part-time, and temporary/contractual employment."
-    },
-    {
-      question: "What opportunities will be considered towards this guarantee?",
-      answer:"Any full-time employment or internship with a pre-placement offer that a student gets, in a profile directly related to the Placement Guarantee course program or otherwise, through their own efforts, or any other medium, will be considered the job guarantee."
-
-    },
-    
   
-    ],
 
   
   
