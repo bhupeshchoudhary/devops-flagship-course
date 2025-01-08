@@ -53,7 +53,7 @@ const ProgramHighlights = () => {
                   <img 
                     src={item.icon}
                     alt={item.description}
-                    className="h-12 w-12 p-2 rounded-lg"
+                    className="h-12 w-12 p-1 rounded-lg bg-red-100"
                   />
                 </div>
 
