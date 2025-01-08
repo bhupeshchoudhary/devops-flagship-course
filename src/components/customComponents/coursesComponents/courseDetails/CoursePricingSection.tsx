@@ -65,12 +65,13 @@ export default function   CoursePricingSection() {
               </h3>
               <div className="space-y-3">
                 {[
-                  "Master Git and GitHub - From Beginner to Advanced Level",
-                  "Automation Using Ansible",
-                  "Jenkins & Build Automation",
-                  "Monitoring Tools : Prometheus & Grafana",
-                  "Monitoring Tools : Prometheus & Grafana",
-                  "Docker, Container & Kubernetes",
+                   "Master Git, Docker, Kubernetes, Jenkins, & Terraform",
+                   "Learn Ansible, Prometheus, Grafana, AWS DevOps Services",
+                  
+                  "Advanced Linux, Shell Scripting, and CI/CD Automation",
+                  
+                  "Certification Prep for DCA, CKA, & CKAD",
+                  
                   "And much more…"
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-2">
