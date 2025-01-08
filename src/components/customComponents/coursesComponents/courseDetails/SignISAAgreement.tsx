@@ -133,6 +133,7 @@ import { Check, FileText, Settings, Users } from 'lucide-react'
 export default function ISASigningProcess() {
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+        <div className="max-w-6xl mx-auto">
       <div className="relative w-full bg-gray-200 p-4 md:p-8 rounded-lg mx-auto max-w-5xl">
         {/* Top Image */}
         <div className="absolute top-0 left-10">
@@ -248,9 +249,10 @@ export default function ISASigningProcess() {
       </div>
 
       {/* Bottom Arrow */}
-      <div className="pt-2 h-16 w-8 ml-8 md:ml-[182px]">
+      <div className="pt-2 h-16 w-8 ml-8 md:ml-[128px]">
         <img src="/assets/downarrow.png" alt="Description of the image" className="h-full w-full object-contain" />
       </div>
+    </div>
     </div>
   )
 }

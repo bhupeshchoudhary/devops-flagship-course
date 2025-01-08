@@ -112,7 +112,8 @@ export default function CourseCareerModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className="w-full  flex flex-col bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+      <div className="mx-auto max-w-6xl">
       <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 pb-6 rounded-xl">
         <span className="h-12 w-12">
           <img alt="numbering" className="h-16 w-16" src="/assets/tag2.png" />
@@ -180,8 +181,10 @@ export default function CourseCareerModule() {
         </div>
       </div>
 
-      <div className="pt-2 h-16 w-8 ml-14 md:ml-[178px]">
+      <div className="pt-2 h-16 w-8 ml-14 md:ml-[120px]">
     <img src="/assets/downarrow.png" alt="Description of the image" className="h-full w-full object-contain" />
+</div>
+
 </div>
     </div>
   )
