@@ -49,7 +49,7 @@ const projectData = [
     skills: ["GitLab", "CI/CD", "Kubernetes", "DevOps", "Automation"],
   },
   {
-    icon: "/assets/Projects/terraform.svg",
+    icon: "/assets/Projects/terraform.png",
     title: "Infrastructure as Code (IaC)",
     description:
       "Using Terraform to define and provision infrastructure. Managing infrastructure changes through version control.",
@@ -78,7 +78,7 @@ const projectData = [
   },
 
   {
-    icon: "/assets/Projects/gitlab.png",
+    icon: "/assets/Projects/gitlab (1).png",
     title: "Gitlab ",
     description:
       "Master GitLab DevOps: CI/CD pipelines, automation, GitOps, IaC, security, scaling, and high-availability setups..",
@@ -86,7 +86,7 @@ const projectData = [
   },
 
   {
-    icon: "/assets/Projects/bash.svg",
+    icon: "/assets/Projects/shell.png",
     title: "Shell Scripting",
     description:
       "Master Shell Scripting: automation, APIs, debugging, CI/CD tasks, cloud resources, and performance optimization.",
