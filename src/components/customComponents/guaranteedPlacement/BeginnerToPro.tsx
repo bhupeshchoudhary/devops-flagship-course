@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { BookOpenCheck, Cpu, FileCheck } from 'lucide-react'
+import { BookOpenCheck, ClipboardCheck, Presentation} from 'lucide-react'
 
 export default function BeginnerToPro() {
   return (
@@ -25,34 +25,34 @@ With a DevOps Program designed and taught by industry expert - Mr Vimal Daga, yo
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               <Card className="w-full">
-                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
                   <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
                     <BookOpenCheck className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                  300+ Hours of Learning
+                   <span className="font-bold">300+ Hours </span> <br/>  of Learning
                   </h3>
                 </CardContent>
               </Card>
 
               <Card className="w-full">
-                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
                   <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <Cpu className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                    <ClipboardCheck className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                  22+ years of experience level mentor
+                  <span className="font-bold">22+ years  </span> <br/> of experience level mentor
                   </h3>
                 </CardContent>
               </Card>
 
               <Card className="w-full sm:col-span-2 md:col-span-1">
-                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
                   <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <FileCheck className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                    <Presentation className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                  20+ Capstone Industry Level Projects
+                   <span className="font-bold">20+ Capstone</span> Industry Level Projects
                   </h3>
                 </CardContent>
               </Card>

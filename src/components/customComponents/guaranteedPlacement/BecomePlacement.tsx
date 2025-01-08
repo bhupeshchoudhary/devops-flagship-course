@@ -37,34 +37,44 @@ export default function BecomePlacement() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
               <Card className="w-full">
-                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
                   <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <Brain className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                    <div className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]">
+                   { /* <Brain className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" /> */}
+                    <img  src="/assets/ExtraLogo/ATS proof Resume Building.png" alt="img" />
+                    </div>
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                  ATS proof Resume Building 
+                    
+                  ATS proof <span className="font-bold">Resume Building </span>
                   </h3>
                 </CardContent>
               </Card>
 
               <Card className="w-full">
-                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
                   <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <FileText className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                  <div className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]">
+                   {/* <FileText className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" /> */}
+                    <img src="/assets/ExtraLogo/Optimising LinkedIn profile.png" alt="img" />
+                   </div>
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                  Optimising LinkedIn profile 
+                  Optimising <span className="font-bold">LinkedIn profile </span> 
                   </h3>
                 </CardContent>
               </Card>
 
               <Card className="w-full sm:col-span-2 md:col-span-1">
-                <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
+                <CardContent className="p-4 md:p-4 space-y-2 flex flex-col items-center lg:items-start">
                   <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <Rocket className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                   <div className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]">
+                    { /* <Rocket className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" /> */}
+                    <img src="/assets/ExtraLogo/Building GITHub profile.png" alt="img" />
+                    </div>
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                  Building GITHub profile
+                  Building <span className="font-bold">GITHub <br /> profile</span> 
                   </h3>
                 </CardContent>
               </Card>

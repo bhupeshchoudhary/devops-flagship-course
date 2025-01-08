@@ -27,7 +27,7 @@ const Hero = () => {
   
             {/* Main Content */}
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
-              <div className="max-w-3xl"> {/* Reduced from max-w-2xl */}
+              <div className="max-w-4xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
                 Job Oriented DevOps Program <span className="text-white">  with Guaranteed Placement</span>
                 </h1>
@@ -44,9 +44,9 @@ const Hero = () => {
   
               {/* Right Side Image */}
               <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
-                <div className="aspect-[16/9] w-full h-[250px] md:h-[300px] lg:h-[250px]"> {/* Increased height */}
+                <div className="aspect-[16/9] w-full h-[250px] md:h-[320px] lg:h-[320px]"> {/* Increased height */}
                   <Image 
-                    src={devopsheroimage}
+                    src="/assets/heroImage.jpg"
                     alt="Course illustration"
                     fill
                     className="object-contain rounded-lg"
@@ -60,7 +60,7 @@ const Hero = () => {
             </div>
   
             {/* Bottom Info Card */}
-            <div className="relative mt-8">
+            <div className="relative md:-mt-6 lg:-mt-6">
   <div className="relative left-0 right-0 md:top-[0px]">
     <div className="bg-white rounded-lg p-4 shadow-lg max-w-6xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-4"> {/* Changed items-center to items-start */}
