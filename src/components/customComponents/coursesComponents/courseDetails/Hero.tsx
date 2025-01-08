@@ -44,7 +44,7 @@ const Hero = () => {
   
               {/* Right Side Image */}
               <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
-                <div className="aspect-[16/9] w-full h-[250px] md:h-[320px] lg:h-[320px]"> {/* Increased height */}
+                <div className="aspect-[16/9] w-full h-[200px] md:h-[300px] lg:h-[300px]"> {/* Increased height */}
                   <Image 
                     src="/assets/heroImage.jpg"
                     alt="Course illustration"
@@ -60,7 +60,7 @@ const Hero = () => {
             </div>
   
             {/* Bottom Info Card */}
-            <div className="relative md:-mt-6 lg:-mt-6 ">
+            <div className="relative md:-mt-6 lg:-mt-1 ">
   <div className="relative left-0 right-0 md:top-[0px]">
     <div className="bg-white rounded-lg p-4 shadow-lg max-w-6xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-4"> {/* Changed items-center to items-start */}
