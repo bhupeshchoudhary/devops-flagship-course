@@ -4,18 +4,22 @@ import { Card } from "@/components/ui/card";
 const ProgramHighlights = () => {
   const highlights = [
     {
+      icon: "/assets/ExtraLogo/modules.png",
       number: "15+",
       description: "Modules",
     },
     {
+      icon: "/assets/ExtraLogo/hours.png",
       number: "300+",
       description: "Hours of learning",
     },
     {
+      icon: "/assets/ExtraLogo/tools.png",
       number: "15+",
       description: "Programming Tools",
     },
     {
+      icon: "/assets/ExtraLogo/project-management.png",
       number: "20+",
       description: "Capstone Projects",
     },
@@ -42,7 +46,12 @@ const ProgramHighlights = () => {
                 key={index}
                 className={`text-center ${index !== 0 ? 'md:border-l md:border-gray-300 md:pl-8' : ''}`}
               >
-                <img src="/assets/ExtraLogo/hours.png" alt="img" />
+                <span className='flex items-start gap-2 justify-start sm:justify-center lg:justify-center'>
+                <img 
+                  src={item.icon}
+                className="text-[#ff0000] h-8 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2 font-bold">
+                </img>
+                </span>
                 <div className="text-[#ff0000] text-3xl font-bold mb-2">
                   {item.number}
                 </div>
