@@ -33,7 +33,7 @@ export default function CourseCurriculumModule() {
           </div>
 
           {/* Mobile Number */}
-          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-green-400 rounded-full flex items-center justify-center">
+          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
             <span className="text-[#004D40] font-bold text-lg">1</span>
           </div>
 
