@@ -7,7 +7,7 @@ export const modules: Module[] = [
     "subtitle": "Introduction to DevOps",
     "topics": [
       {
-        "id": 1,
+        "id": 1,  
         "title": "Overview of DevOps",
         "content": [
           "Understanding the DevOps culture and its significance in modern software development.",
@@ -105,8 +105,8 @@ export const modules: Module[] = [
         "id": 3,
         "title": "Setting Up the Docker Environment",
         "content": [
-          "Installation of Docker on various operating systems.",
-          "Configuring Docker Desktop for development purposes."
+          "Installation of Docker on Linux operating systems.",
+          
         ]
       },
       {
@@ -272,7 +272,8 @@ export const modules: Module[] = [
         "title": "Namespaces",
         "content": [
           "Understanding and creating Kubernetes namespaces.",
-          "Managing resources within specific namespaces."
+          "Managing resources within specific namespaces.",
+          "Authentication in Kubernetes and managing user access"
         ]
       },
       {
@@ -282,7 +283,7 @@ export const modules: Module[] = [
           "Understanding the Kubernetes API server and authentication mechanisms.",
           "Managing Kubernetes contexts, config files, and key types.",
           "Role-based Access Control (RBAC) for secure access management.",
-          "Practical on creating a Red Hat Enterprise Linux (RHEL-8) client for Kubernetes."
+          "Practical on creating a Red Hat Enterprise Linux (RHEL-9) client for Kubernetes."
         ]
       },
       {
@@ -309,7 +310,7 @@ export const modules: Module[] = [
         "content": [
           "Understanding user roles (general user vs root user) and pod capabilities.",
           "Securing containers: Managing capabilities, service accounts, and using tokens.",
-          "Practical on increasing container security using capabilities, service accounts, and tokens in curl commands."
+          
         ]
       },
       {
@@ -379,7 +380,6 @@ export const modules: Module[] = [
         "content": [
           "Creating and Configuring Pipelines",
           "Understanding Declarative and Scripted Pipelines.",
-          "Using the Blue Ocean interface for pipeline creation.",
           "Defining stages, steps, and agents within a pipeline."
         ]
       },
@@ -403,12 +403,12 @@ export const modules: Module[] = [
       },
       {
         "id": 29,
-        "title": "Advanced Jenkins Features",
+        "title": "Advanced Jenkins Features", 
         "content": [
           "Distributed Builds",
           "Setting up and managing Jenkins agents.",
           "Configuring build executors for parallel processing.",
-          "Optimizing build times through distributed systems."
+     
         ]
       },
       {
@@ -426,7 +426,7 @@ export const modules: Module[] = [
         "content": [
           "Configuring user authentication and authorization.",
           "Implementing role-based access control (RBAC).",
-          "Securing Jenkins with SSL and other protocols."
+          
         ]
       },
       {
@@ -439,24 +439,7 @@ export const modules: Module[] = [
           "Scaling Jenkins for large teams and projects."
         ]
       },
-      {
-        "id": 33,
-        "title": "Troubleshooting Common Issues",
-        "content": [
-          "Diagnosing build failures and errors.",
-          "Analyzing Jenkins logs for problem resolution.",
-          "Implementing effective debugging strategies."
-        ]
-      },
-      {
-        "id": 34,
-        "title": "Maintaining Jenkins",
-        "content": [
-          "Regular updates and patch management.",
-          "Backing up and restoring Jenkins configurations.",
-          "Implementing disaster recovery plans."
-        ]
-      }
+     
     ]
   },
   {
@@ -464,14 +447,7 @@ export const modules: Module[] = [
     "title": "Module 6",
     "subtitle": "Prometheus & Grafana",
     "topics": [
-      {
-        "id": 35,
-        "title": "Introduction to Telemetry",
-        "content": [
-          "Understanding telemetry in modern infrastructure.",
-          "The role of metrics, logs, and traces in observability."
-        ]
-      },
+      
       {
         "id": 36,
         "title": "Prometheus Overview",
@@ -702,7 +678,7 @@ export const modules: Module[] = [
           "Securing Terraform Configurations: Managing secrets with HashiCorp Vault and environment variables.",
           "Enforcing security policies with Sentinel.",
           "Best Practices: Structuring Terraform code for maintainability.",
-          "Implementing DRY (Don't Repeat Yourself) principles in Terraform."
+          
         ]
       }
     ]
