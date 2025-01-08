@@ -60,7 +60,7 @@ const Hero = () => {
             </div>
   
             {/* Bottom Info Card */}
-            <div className="relative md:-mt-6 lg:-mt-6">
+            <div className="relative md:-mt-6 lg:-mt-6 ">
   <div className="relative left-0 right-0 md:top-[0px]">
     <div className="bg-white rounded-lg p-4 shadow-lg max-w-6xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-4"> {/* Changed items-center to items-start */}
@@ -80,7 +80,7 @@ const Hero = () => {
             <BsCalendarCheck className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
-              <span className="font-bold text-xs block">15th Jan</span>
+              <span className="font-bold text-xs block">10th Jan</span>
               <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px] mt-0.5">
                 Limited seats
               </Badge>
