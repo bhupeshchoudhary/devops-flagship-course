@@ -16,6 +16,7 @@ export default function CourseCareerModule() {
   return (
     <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
       <div className="mx-auto max-w-6xl">
+        
         {/* Mobile View */}
         <div className="md:hidden">
           <div className="bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] rounded-xl p-4">
@@ -74,6 +75,12 @@ export default function CourseCareerModule() {
                 />
               </div>
             </div>
+
+            {/* <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-green-400 rounded-full flex items-center justify-center">
+            <span className="text-[#004D40] font-bold text-lg">4</span>
+          </div> */}
+
+ 
 
             {/* Content section */}
             <div className="pt-6 pl-16">

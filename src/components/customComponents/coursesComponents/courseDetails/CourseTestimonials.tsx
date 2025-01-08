@@ -51,7 +51,7 @@ const posts = [
     author: {
       name: "Rushikesh Mahindrakar",
       title: "System Engineering",
-      avatar: "https://media.licdn.com/dms/image/v2/D5603AQFmIMotaZggJw/profile-displayphoto-shrink_400_400/B56ZOfunOJGoAk-/0/1733551617738?e=1740009600&v=beta&t=8Yhs14_NMJPTSdqoiq-eNcVhgbxDFV4ZZ5FQPdyj5IU",
+      avatar: "https://media.licdn.com/dms/image/v2/D4D03AQH9caqLtsFOKw/profile-displayphoto-shrink_400_400/B4DZPdW6uqGkAg-/0/1734585593402?e=1741824000&v=beta&t=TLnub44aJ66j1b5rja8icMswY64lXNRg6o4rcmmxZSE",
       linkedin: "https://www.linkedin.com/in/rushikesh-mahindrakar-70b82537/"
     },
     content: `Your invaluable guidance in this remarkable Kubernetes training program has been truly appreciated. It's a pivotal milestone in my DevOps journey, and I'm deeply grateful for your mentorship, Vimal Daga sir. Your expertise and insights are immensely valuable, propelling my professional growth with each session. Thank you!!`,
@@ -98,7 +98,7 @@ thanks, Vimal Daga sir for so insight session.`,
     author: {
       name: "Prateek Srivastava",
       title: "DevOps Engineer - II at o9 Solutions",
-      avatar: "",
+      avatar: "https://media.licdn.com/dms/image/v2/C5603AQHZ852DgWHZCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517809201722?e=1741824000&v=beta&t=O643r_bMfCdAF1iw9E46iHEVE2riktLzWrERvtmFh_Q",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7115702316866940929"
     },
     content: `We delved into a diverse range of topics, starting from the fundamentals of DevOps to the intricacies of deploying Jenkins for continuous integration and continuous delivery (CI/CD) with automation. Throughout the course, we acquired knowledge in various areas, such as setting up Jenkins on Amazon EKS using Kubernetes Operators and Helm charts.
@@ -112,8 +112,8 @@ One of the highlights was our exploration of managing Jenkins pipelines as code,
     id: 9,
     author: {
       name: "Peeru Babu Vaddaman",
-      title: "AWS DevOps Engineer at HTC GLOBAL SERVICES (India) PVT Ltd",
-      avatar: "",
+      title: "AWS DevOps Engineer   ",
+      avatar: "https://media.licdn.com/dms/image/v2/D4E03AQEb-BPBWT8LAg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698872416669?e=1741824000&v=beta&t=BKZngEMopliFCWbjOPTWCTuW3uQqFazP3cZULy_VYvE",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7281961496195018752"
     },
     content: `I gained hands-on experience with multiple tools, enhancing my practical knowledge and skills. It was a wonderful session , Sir is a blessing for the student who are looking their career in the field of DevOps and other.
@@ -152,7 +152,7 @@ A big thanks to LinuxWorld Informatics Pvt Ltd for conducting the session & hopi
     id: 12,
     author: {
       name: "Sanchita Agrawal",
-      title: "DevOps Engineer at Genus Power Infrastructure Limited",
+      title: "DevOps Engineer ",
       avatar: "https://media.licdn.com/dms/image/v2/D4D03AQHvkoJDpKyN6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664520645818?e=1737590400&v=beta&t=0s-H7cUGZ7347Xo4Zn2GUdJGkO5tlKQjtzNVnJ3mJYw",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7239134220567130113/?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7239134220567130113%2C7240708775475601408%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287240708775475601408%2Curn%3Ali%3Aactivity%3A7239134220567130113%29"
     },
@@ -164,7 +164,7 @@ Another amazing informative workshop by vimal sir. Its always fun learning from 
     id: 13,
     author: {
       name: "Rajneesh Pratap Singh",
-      title: "DevOps Engineer || 3x Redhat Certified ||",
+      title: "DevOps Engineer || 3x Redhat ",
       avatar: "https://media.licdn.com/dms/image/v2/D5603AQFxBq8m8wYj4w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720442622903?e=1737590400&v=beta&t=v_dQCEGOIDJ96AV0ZbaA0IQUfLmnWk3m1YPnnwXAOb4",
       linkedin: "https://www.linkedin.com/in/rajneesh-pratap-singh/"
     },
@@ -185,7 +185,7 @@ Strategies for patching and managing vulnerabilities in containers..`,
     id: 14,
     author: {
       name: "Aakash Kathunia",
-      title: "Technical Architect at HCLTech | GenAI | LLM | OpenAI | Kubernetes| Automation | Cloud",
+      title: "Technical Architect at HCLTech ",
       avatar: "https://media.licdn.com/dms/image/v2/D5603AQGJi9pe0O-O8A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723740692945?e=1737590400&v=beta&t=y2ONfXKp0z5KkZJRcTtg_e1iVUh8rFUn3JxaRqqFOBg",
       linkedin: "https://www.linkedin.com/in/aakash-kathunia-6b618b16/"
     },
@@ -202,7 +202,7 @@ Strategies for patching and managing vulnerabilities in containers..`,
     id: 15,
     author: {
       name: "Alok Kumar Singh ",
-      title: "Web Developer(Angular ) | Data Analyst |",
+      title: " Data Analyst |",
       avatar: "https://media.licdn.com/dms/image/v2/D5603AQFGCjRM6gI1zg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724789778105?e=1737590400&v=beta&t=sm-JTK9zKq4_tbEEKi1nEZvWEa4fL-RoAH7KeL86jtk",
       linkedin: "https://www.linkedin.com/in/tech-alok/"
     },
@@ -218,7 +218,7 @@ Attending the System Design workshop by Vimal Daga Sir was a great learning expe
     author: {
       name: "Mallesh Gangadhar ",
       title: "--",
-      avatar: "https://media.licdn.com/dms/image/v2/D5635AQFvYLlZaIHe_A/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713248954215?e=1732777200&v=beta&t=TAOMDi9g-MQ4HMspIYg8WBdCJ53UiCsR-c_GIDtjzzA",
+      avatar: "https://media.licdn.com/dms/image/v2/D5635AQFvYLlZaIHe_A/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713248954215?e=1736978400&v=beta&t=nBLa6BUmhvyJIMrfpDuNuMyI4hVzNcOD4l6TKCyhkxE",
       linkedin: "https://www.linkedin.com/in/mallesh-gangadhar-8ab53777/"
     },
     content: `
@@ -233,8 +233,8 @@ to enhance my IT skills in Linux! Thanks
     id: 17,
     author: {
       name: "Mohit Agarwal ",
-      title: "Student at NIT Kurukshetra | Additional Secretary of MExperts",
-      avatar: "https://media.licdn.com/dms/image/v2/D5603AQFfS5ahFvJB2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681871987732?e=1737590400&v=beta&t=xyrWG92tvwvBV-V5WSDeucFFSkLx-j8GbZ3e_1lAjw0",
+      title: " Secretary of MExperts",
+      avatar: "https://media.licdn.com/dms/image/v2/D5603AQExTuqkqp5u7g/profile-displayphoto-shrink_800_800/B56ZPo2nIVHQAc-/0/1734778450936?e=1741824000&v=beta&t=DdI_Au2NQ8kNijbd0j35mYmRQqEoG_j2oC3KcrlLuDI",
       linkedin: "https://www.linkedin.com/in/mohitagarwal99/"
     },
     content: `
