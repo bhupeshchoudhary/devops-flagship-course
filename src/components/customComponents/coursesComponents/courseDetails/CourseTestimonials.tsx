@@ -12,6 +12,17 @@ export default function Component() {
 const posts = [
  
   {
+    id: 1,
+    author: {
+      name: "Akansha chaurasia",
+      title: "Domain Support Specialist @ Ericsson India Global",
+      avatar: "https://media.licdn.com/dms/image/v2/C4D03AQERGZjbVTAnNw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1645726568650?e=1737590400&v=beta&t=V8r_7CfyG-LYaBsbkY7EztvWwig6Z1vRUv9aFeJJ4-k",
+      linkedin: "https://www.linkedin.com/in/akansha-chaurasia-681718119/"
+    },
+    content: `It was an amazing class to attend. I liked the way sir delivered the helm content. Helm became so easy for me now. I like to attend these classes as it helps me to elevate my skills. Thank you Vimal sir as well as LinuxWorld Informatics Pvt to share such a good content with us..`,
+    timestamp: "8 month ago"
+  },
+  {
     id: 2,
     author: {
       name: "Manikandan Prakash",
@@ -19,9 +30,7 @@ const posts = [
       avatar: "https://media.licdn.com/dms/image/v2/D4E03AQFiY07rDFiZ1A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698246875639?e=1737590400&v=beta&t=n4sQVUqx1DDJaKh2fEvBUd5l6FR5_k7JEpb1cBS_ZTk",
       linkedin: "https://www.linkedin.com/in/manikandan-prakash/"
     },
-    content: `
-It was very informative and 100 pratical session by vimal sir ,From that I did learn the bedrock service how to intergrate in any of our own custom requirment ,It was pretty enough to start AWS bedrock thanks for the session Vimal Daga sir 
-`,
+    content: `It was very informative and 100 pratical session by vimal sir ,From that I did learn the bedrock service how to intergrate in any of our own custom requirment ,It was pretty enough to start AWS bedrock thanks for the session Vimal Daga sir`,
     timestamp: "8 month ago"
   },
   {
@@ -32,11 +41,9 @@ It was very informative and 100 pratical session by vimal sir ,From that I did l
       avatar: "https://media.licdn.com/dms/image/v2/D5603AQENeos_aDytsw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711478336339?e=1737590400&v=beta&t=eqdh3QVuz82VyuHWF78Bmif0EVec9xdh47F6VqZmmko",
       linkedin: "https://www.linkedin.com/in/dibyaraj-datta-b785661a5/"
     },
-    content: `
-
-    It was truly an amazing masterclass by the one & only Mr. Vimal Daga Sir. 
+    content: `It was truly an amazing masterclass by the one & only Mr. Vimal Daga Sir. 
     The Wow moment for me was how he explained each and every concept in such an easy manner from basic to advance, like the use of Helm Charts to solve modern world problems with container management.
-    Looking forward to join more such sessions & workshops from LinuxWorld Informatics Pvt Ltd under the guidance of Vimal Daga Sir. `,
+    Looking forward to join more such sessions & workshops from LinuxWorld Informatics Pvt Ltd under the guidance of Vimal Daga Sir.`,
     timestamp: "8 month ago"
   },
   {
@@ -47,15 +54,14 @@ It was very informative and 100 pratical session by vimal sir ,From that I did l
       avatar: "https://media.licdn.com/dms/image/v2/D5603AQFmIMotaZggJw/profile-displayphoto-shrink_400_400/B56ZOfunOJGoAk-/0/1733551617738?e=1740009600&v=beta&t=8Yhs14_NMJPTSdqoiq-eNcVhgbxDFV4ZZ5FQPdyj5IU",
       linkedin: "https://www.linkedin.com/in/rushikesh-mahindrakar-70b82537/"
     },
-    content: `
-Your invaluable guidance in this remarkable Kubernetes training program has been truly appreciated. It's a pivotal milestone in my DevOps journey, and I'm deeply grateful for your mentorship, Vimal Daga sir. Your expertise and insights are immensely valuable, propelling my professional growth with each session. Thank you!! 😊 `,
+    content: `Your invaluable guidance in this remarkable Kubernetes training program has been truly appreciated. It's a pivotal milestone in my DevOps journey, and I'm deeply grateful for your mentorship, Vimal Daga sir. Your expertise and insights are immensely valuable, propelling my professional growth with each session. Thank you!!`,
     timestamp: "3 week ago"
   },
   {
     id: 5,
     author: {
       name: "Himanshu Sahu",
-      title: "Java Backend Developer ",
+      title: "Java Backend Developer",
       avatar: "https://media.licdn.com/dms/image/v2/D4D03AQFqtDCGoMk54g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673897788931?e=1737590400&v=beta&t=s2TDcsAQ2oqQ_DvoGT8yyUUaGvsfGDwan4Phjo1RFL0",
       linkedin: "https://www.linkedin.com/in/himanshu-sahu-2aa357237/"
     },
@@ -72,20 +78,78 @@ Your invaluable guidance in this remarkable Kubernetes training program has been
     },
     content: `Thank u Vimal Daga sir and LinuxWorld Informatics Pvt Ltd for conducting this masterclass.. I learned about hashtag#helm chart with examples, artifact hub, docker hub, how to use procreated Helm chart and how to create my own helm chart and upload it, what's it's requirement, Roll out and Roll back, multi environment setup using helm chart, Jenkins setup via helm chart, jinja template etc.`,
     timestamp: "2 week ago"
-  }, {
-    id: 1,
+  },
+  {
+    id: 7,
     author: {
-      name: "Akansha chaurasia",
-      title: "Domain Support Specialist @ Ericsson India Global",
-      avatar: "https://media.licdn.com/dms/image/v2/C4D03AQERGZjbVTAnNw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1645726568650?e=1737590400&v=beta&t=V8r_7CfyG-LYaBsbkY7EztvWwig6Z1vRUv9aFeJJ4-k",
-      linkedin: "https://www.linkedin.com/in/akansha-chaurasia-681718119/"
+      name: "Jivan Bhardwaj",
+      title: "DevOps Engineer at Echelon Edge",
+      avatar: "",
+      linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7115702316866940929"
     },
-    content: `
-It was an amazing class to attend. I liked the way sir delivered the helm content. Helm became so easy for me now. I like to attend these classes as it helps me to elevate my skills. Thank you Vimal sir as well as LinuxWorld Informatics Pvt to share such a good content with us..`,
-    timestamp: "8 month ago"
+    content: `It was great to see how through Kubernetes we can manage containers and launch Jenkins. 
+
+I got the first time to get hands knowledge on various topics like Heml,Operators in the Kubernetes and CRD (custom resource definition). 
+thanks, Vimal Daga sir for so insight session.`,
+    timestamp: ""
+  },
+  {
+    id: 8,
+    author: {
+      name: "Prateek Srivastava",
+      title: "DevOps Engineer - II at o9 Solutions",
+      avatar: "",
+      linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7115702316866940929"
+    },
+    content: `We delved into a diverse range of topics, starting from the fundamentals of DevOps to the intricacies of deploying Jenkins for continuous integration and continuous delivery (CI/CD) with automation. Throughout the course, we acquired knowledge in various areas, such as setting up Jenkins on Amazon EKS using Kubernetes Operators and Helm charts.
+
+I want to extend my gratitude to Mr. Vimal Daga for sharing his expertise and making the masterclass a truly exceptional learning experience. 
+
+One of the highlights was our exploration of managing Jenkins pipelines as code, employing tools like Jenkins Kubernetes CRD and Grafana Loki. What's remarkable is that we completed a full-fledged DevOps project within a condensed 3-hour session, which is a testament to Mr. Vimal Daga's exceptional teaching.`,
+    timestamp: ""
+  },
+  {
+    id: 9,
+    author: {
+      name: "Peeru Babu Vaddaman",
+      title: "AWS DevOps Engineer at HTC GLOBAL SERVICES (India) PVT Ltd",
+      avatar: "",
+      linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7281961496195018752"
+    },
+    content: `I gained hands-on experience with multiple tools, enhancing my practical knowledge and skills. It was a wonderful session , Sir is a blessing for the student who are looking their career in the field of DevOps and other.
+
+The DevOps project workshop by Vimal Sir was truly amazing and insightful.`,
+    timestamp: ""
+  },
+  {
+    id: 10,
+    author: {
+      name: "Akash Srivastava",
+      title: "Intern at Techgyan Technologies",
+      avatar: "",
+      linkedin: ""
+    },
+    content: `Sir is a blessing for the student who are looking their career in the field of Devops and other.
+
+Students nowadays are stressed about how to make project what to make project come and have session with sir, you will feel project was in your pocket but you dont have someone who can tell you about this`,
+    timestamp: ""
+  },
+  {
+    id: 11,
+    author: {
+      name: "Dibyaraj Datta",
+      title: "Process Associate at Netscribes",
+      avatar: "",
+      linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7181174125804097536"
+    },
+    content: `Who never fails to enlighten us through his innovative thoughts and ideas. We learnt how various AWS cloud services like EC2, S3, Lambda are used in real industries and also gained an overview of the Microsoft Azure cloud platform. We learnt how an app runs in various cloud platforms altogether at a time part by part in order to gain worldwide access.
+We learnt about tools like Terraform, OpenStack that the engineers lack nowadays.
+
+A big thanks to LinuxWorld Informatics Pvt Ltd for conducting the session & hoping for more sessions.`,
+    timestamp: ""
   },
    {
-    id: 7,
+    id: 12,
     author: {
       name: "Sanchita Agrawal",
       title: "DevOps Engineer at Genus Power Infrastructure Limited",
@@ -97,7 +161,7 @@ Another amazing informative workshop by vimal sir. Its always fun learning from 
     timestamp: "2 month ago"
   },
   {
-    id: 8,
+    id: 13,
     author: {
       name: "Rajneesh Pratap Singh",
       title: "DevOps Engineer || 3x Redhat Certified ||",
@@ -118,7 +182,7 @@ Strategies for patching and managing vulnerabilities in containers..`,
 
   
   {
-    id: 10,
+    id: 14,
     author: {
       name: "Aakash Kathunia",
       title: "Technical Architect at HCLTech | GenAI | LLM | OpenAI | Kubernetes| Automation | Cloud",
@@ -135,7 +199,7 @@ Strategies for patching and managing vulnerabilities in containers..`,
     timestamp: "1 month ago"
   },
   {
-    id: 11,
+    id: 15,
     author: {
       name: "Alok Kumar Singh ",
       title: "Web Developer(Angular ) | Data Analyst |",
@@ -150,7 +214,7 @@ Attending the System Design workshop by Vimal Daga Sir was a great learning expe
   },
 
   {
-    id: 12,
+    id: 16,
     author: {
       name: "Mallesh Gangadhar ",
       title: "--",
@@ -166,7 +230,7 @@ to enhance my IT skills in Linux! Thanks
   },
 
   {
-    id: 13,
+    id: 17,
     author: {
       name: "Mohit Agarwal ",
       title: "Student at NIT Kurukshetra | Additional Secretary of MExperts",
