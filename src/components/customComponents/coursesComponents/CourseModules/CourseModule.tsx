@@ -16,7 +16,7 @@ export default function CourseCurriculumModule() {
 
   return (
     <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
-     
+     <div className="max-w-6xl mx-auto">
 <div className="max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold ">Let’s walk you through the journey of  <span className="text-[#ff0000]">Placement Guaranteed DevOps </span> Training by LinuxWorld</div>
     <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 pb-6 rounded-xl">
 
@@ -115,9 +115,10 @@ export default function CourseCurriculumModule() {
       </div>
       </div>
   
-      <div className="pt-2 h-16 w-8 ml-8 md:ml-[182px]">
+      <div className="pt-2 h-16 w-8 ml-8 md:ml-[130px] ">
     <img src="/assets/downarrow.png" alt="Description of the image" className="h-full w-full object-contain" />
 </div>
+      </div>
       </div>
     
   )
