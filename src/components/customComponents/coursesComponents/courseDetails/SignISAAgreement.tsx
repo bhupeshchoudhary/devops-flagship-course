@@ -17,10 +17,10 @@ export default function ISASigningProcess() {
            
         </div>
         <div>
-          <h2 className="text-black text-2xl font-bold mb-2">End to End Placement Guaranteed DevOps Program Process</h2>
-          <p className="text-black max-w-3xl">
+          <h2 className="text-black text-2xl font-bold ">End to End <span className="text-[#ff0000]" >Placement Guaranteed DevOps</span> Program Process</h2>
+          {/* <p className="text-black max-w-3xl">
             The students need to pay after they get placed and get their first salary. They need to pay INR 10,000 to StarAgile as a career services fee which can be paid in easy EMIs.
-          </p>
+          </p> */}
         </div>
       </div>
 
