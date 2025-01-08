@@ -32,7 +32,7 @@ const peopleData = [
 
 {
     name: "Jayant Kumar Pathak",
-    image: "", // Image URL needed
+    image: "https://media.licdn.com/dms/image/v2/D5603AQEor_1IvI4B5Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1710067942110?e=1741824000&v=beta&t=KNUE3CFeIDUxR_jPexbrb6wjE6kjaah0miyGU-GHYzY", // Image URL needed
     testimonial: "Thank you for guiding me toward choosing DevOps as my career path. I am also deeply grateful for all your blessings. It is a privilege for me to be your student. I have learned a lot and truly enjoyed my time in ARTH.",
     hike: "85% Hike",
     beforeRole: "Academy of Technology",
@@ -43,7 +43,7 @@ const peopleData = [
 
 {
     name: "Sarthak Agarwal",
-    image: "", // Image URL needed
+    image: "https://media.licdn.com/dms/image/v2/D5603AQETlu2-4tVbMw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721056218508?e=1741824000&v=beta&t=jSiuTM-dNYYbT6BhROda_mn_G27E3-jn7oQ7lSjHNkE", // Image URL needed
     testimonial: "I'm thrilled to share that I've recently joined Integraate Innovations Dehradun at a package of 20 LPA, and it's all thanks to the foundation you helped me build. Your mentorship has been instrumental in shaping my journey, and I'm excited to continue integrating technologies, just as you inspired me to do. Thank you so much for your kind words and blessings. I am truly grateful for your teachings and the guidance I received as an ARTHian.",
     hike: "85% Hike",
     beforeRole: "GLA University",
@@ -54,7 +54,7 @@ const peopleData = [
 
 {
     name: "Vikash Kaushik",
-    image: "", // Image URL needed
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQHpcQu9pIwmnQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711965805598?e=1741824000&v=beta&t=Z6X5XWPNcN6rOaPpsXysXxvrvCF_gZOPzOmvTMw5rRE", // Image URL needed
     testimonial: "I was in my third year, and now I'm a full-time DevOps engineer after graduating. The concepts and skills I gained from Vimal Sir have been invaluable in my current role. I'm very grateful for your guidance and support throughout my journey. I feel blessed to have had the opportunity to learn under you. You are the best! Thank you so much for your kind words! I'm thrilled to be a part of Nirmata, and I truly appreciate the foundation that the ARTH program provided me. It was an incredible experience learning about over 10 technologies and their integrations.",
     hike: "85% Hike",
     beforeRole: "Annie Institute of Technology and Research Centre",
@@ -65,7 +65,7 @@ const peopleData = [
 
 {
     name: "Pramod Kumar Gupta",
-    image: "", // Image URL needed
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQFfEgQMTz6GXg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1601189825651?e=1741824000&v=beta&t=Yu74qszWlLoSWXurILNCvmLyhovpQAMTWkLLO2CHEgE", // Image URL needed
     testimonial: "I got my job placement as a DevOps Intern at Signzy. I am very thankful to Vimal Sir for his teachings. His guidance and teaching have made me strong in DevOps, cloud, and Linux. Because of his training and support,",
     hike: "85% Hike",
     beforeRole: "Lovely Professional University",
