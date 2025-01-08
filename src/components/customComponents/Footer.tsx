@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Column 1: Brand Info with Logos */}
         <div>
           <h2 className="text-xl font-bold text-white">
-          Job Oriented DevOps Program  :<span className="text-[#ff0000]">  </span>
+         <span className="text-[#ff0000]">  Job Oriented DevOps Program </span> with Guaranteed Placement 
           </h2>
           <p className="text-lg text-blue-400 mt-2 leading-relaxed text-cyan-400">
           &quot;Making India 
