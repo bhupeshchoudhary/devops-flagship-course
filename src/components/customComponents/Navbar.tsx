@@ -109,10 +109,10 @@ const Navbar: React.FC = () => {
 
         {/* Call to Action Button */}
         <a
-          href="#participatenow"
+          href="https://rzp.io/rzp/R36lbP1" target="blank"
           className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
         >
-          Participate Now
+          Apply Now
         </a>
       </div>
 
@@ -184,7 +184,7 @@ const Navbar: React.FC = () => {
         className="block mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 text-center"
         onClick={closeMobileMenu}
       >
-        Participate now
+        Apply Now
       </a>
     </div>
   </div>

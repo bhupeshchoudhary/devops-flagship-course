@@ -43,8 +43,9 @@ export default function   CoursePricingSection() {
                 <p className="text-gray-600">The launch offer expires in 24 hours</p>
               </div>
             </div>
+            <a href="https://rzp.io/rzp/R36lbP1" target="blank"> 
 <div className=" flex w-full mx-auto">
-            <Button className="md:w-1/2 sm:w-full mx-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white py-6">
+           <Button className="md:w-1/2 sm:w-full mx-auto bg-[#ff0000] hover:bg-[#ff0000] hover:shadow-md hover:shadow-black text-white py-6">
               Yes! I want this insane deal for
               <br />₹ 25,000 + taxes
               
@@ -53,6 +54,7 @@ export default function   CoursePricingSection() {
                {/* <span className="text-sm)</span> */}
             </Button>
             </div>
+            </a>
           </Card>
 
           {/* Right Column - Features */}
