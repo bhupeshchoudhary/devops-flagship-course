@@ -152,13 +152,12 @@ export default function ISASigningProcess() {
           {/* First Card */}
           <Card className="bg-gray-200 border-none shadow-lg hover:shadow-xl transition-shadow w-full sm:w-64">
             <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
-              <div className="w-full h-36 md:h-28 relative mb-4">
-                <div className="absolute inset-0 bg-white rounded-lg p-4">
-                  <div className="border-b border-gray-200 mb-2" />
-                  <div className="border-b border-gray-200 mb-2" />
-                  <div className="border-b border-gray-200 mb-2" />
-                  <div className="absolute bottom-4 right-4 bg-[#E0FFF7] text-[#004D40] px-4 py-2 rounded-md">
-                    Sign
+              <div className="w-full h-36 md:h-28 relative md:mb-8 lg:mb-8">
+                <div className="absolute inset-0  rounded-lg p-4">
+                  <div className="absolute top-2 right-2 " />
+
+                  <div className="mb">
+                    <img  src="/assets/Apply Now.png" alt="image" />
                   </div>
                 </div>
               </div>
@@ -174,18 +173,18 @@ export default function ISASigningProcess() {
           {/* Second Card */}
           <Card className="bg-gray-200 border-none shadow-lg hover:shadow-xl transition-shadow w-full sm:w-64">
             <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
-              <div className="w-full h-36 md:h-28 relative mb-4">
-                <div className="absolute inset-0 bg-white rounded-lg p-4">
+              <div className="w-full h-36 md:h-32 relative mb-4">
+                <div className="absolute inset-0 rounded-lg p-4">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-12 h-12 bg-gray-200 rounded-full" />
                     <div className="flex-1">
-                      <div className="h-2 bg-gray-200 rounded w-3/4 mb-2" />
-                      <div className="h-2 bg-gray-200 rounded w-1/2" />
+                      <div className="h-2  rounded w-3/4 mb-2" />
+                      <div className="h-2 rounded w-1/2" />
                     </div>
                   </div>
                   <div className="absolute top-2 right-2">
-                    <div className="bg-purple-100 rounded-full p-2">
-                      <Check className="w-6 h-6 text-purple-600" />
+                    <div>
+                      <img src="/assets/project.png" alt="image" />
                     </div>
                   </div>
                 </div>
@@ -205,13 +204,10 @@ export default function ISASigningProcess() {
               <div className="w-full h-36 md:h-28 relative mb-4">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="relative">
-                    <div className="w-24 md:w-32 h-16 md:h-20 bg-[#E0FFF7] rounded-lg transform rotate-[-5deg] absolute top-2 left-2" />
-                    <div className="w-24 md:w-32 h-16 md:h-20 bg-[#E0FFF7] rounded-lg transform rotate-[5deg] absolute top-0 left-0" />
-                    <div className="w-24 md:w-32 h-16 md:h-20 bg-[#E0FFF7] rounded-lg relative z-10 flex items-center justify-center">
-                      <span className="text-[#004D40] font-bold">₹</span>
-                    </div>
-                    <div className="absolute bottom-[-30px] right-[-20px] bg-purple-100 rounded-full p-3">
-                      <Settings className="w-6 h-6 text-purple-600" />
+                    
+                    
+                    <div>
+                        <img src="/assets/Business-Communication.png" alt="img" />
                     </div>
                   </div>
                 </div>
@@ -229,13 +225,11 @@ export default function ISASigningProcess() {
           <Card className="bg-gray-200 border-none shadow-lg hover:shadow-xl transition-shadow w-full sm:w-64">
             <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
               <div className="w-full h-36 md:h-28 relative mb-4">
-                <div className="absolute inset-0 bg-white rounded-lg p-4 flex items-center justify-center">
+                <div className="absolute inset-0 rounded-lg p-4 flex items-center justify-center">
                   <div className="relative">
-                    <div className="bg-[#E0FFF7] rounded-full p-6">
-                      <Users className="w-12 h-12 text-[#004D40]" />
-                    </div>
-                    <div className="absolute bottom-[-20px] right-[-20px] bg-purple-100 rounded-full p-2">
-                      <Check className="w-6 h-6 text-purple-600" />
+
+                    <div>
+                       <img src="/assets/Get-placed.png" alt="img" />
                     </div>
                   </div>
                 </div>

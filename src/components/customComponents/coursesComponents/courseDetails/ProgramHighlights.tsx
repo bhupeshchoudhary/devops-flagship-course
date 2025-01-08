@@ -42,6 +42,7 @@ const ProgramHighlights = () => {
                 key={index}
                 className={`text-center ${index !== 0 ? 'md:border-l md:border-gray-300 md:pl-8' : ''}`}
               >
+                <img src="/assets/ExtraLogo/hours.png" alt="img" />
                 <div className="text-[#ff0000] text-3xl font-bold mb-2">
                   {item.number}
                 </div>
