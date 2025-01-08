@@ -15,17 +15,17 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className="pt-8 w-full pb-8 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
+    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
      
 <div className="max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold ">Let’s walk you through the journey of  <span className="text-[#ff0000]">Placement Guaranteed DevOps </span> Training by LinuxWorlds</div>
     <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 pb-6 rounded-xl">
 
-    <span className="h-12 w-12">
-<img alt="numbering" className="h-12 w-12" src="/assets/tag1.webp" ></img>
+    <span className="h-12 w-12 ">
+<img alt="numbering" className="h-16 w-16" src="/assets/tag3.png" ></img>
 </span>
 
 
-      <div className="mx-auto ">
+      <div className="mx-auto mt-2 lg:mt-8 md:mt-8">
         <div className="relative mb-6">
         {/* <div className="absolute -left-[48] -top-[48] flex h-12 w-12 items-center justify-center ">
             <span className="text-xl font-bold text-white">
@@ -114,6 +114,10 @@ export default function CourseCurriculumModule() {
         </div>
       </div>
       </div>
+  
+      <div className="pt-2 h-16 w-8 ml-8 md:ml-[182px]">
+    <img src="/assets/downarrow.png" alt="Description of the image" className="h-full w-full object-contain" />
+</div>
       </div>
     
   )

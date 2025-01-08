@@ -39,6 +39,7 @@ import CareerGuarantee from "@/components/customComponents/coursesComponents/Car
 import LinkedInShowcase from "@/components/customComponents/coursesComponents/courseDetails/LinkedInTestimonials";
 
 import LinkdingTestimonial2 from "@/components/customComponents/coursesComponents/courseDetails/LinkedinTestimonial2";
+import SignISAAgreement from "@/components/customComponents/coursesComponents/courseDetails/SignISAAgreement";
 
 
 
@@ -51,8 +52,8 @@ const CourseDetail = ()=>{
         <Navbar />
         {/* <CourseDetailHero></CourseDetailHero> */}
         <Hero />
-        <LinkedInShowcase />
-        <LinkdingTestimonial2></LinkdingTestimonial2>
+        {/* <LinkedInShowcase /> */}
+        {/* <LinkdingTestimonial2></LinkdingTestimonial2> */}
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
         <CompaniesCarousel/>
@@ -63,6 +64,7 @@ const CourseDetail = ()=>{
         <ProgramHighlights></ProgramHighlights>
         <CourseCurriculumModule></CourseCurriculumModule>
         <CourseCarrrerModule ></CourseCarrrerModule>
+        <SignISAAgreement />
         <CourseCarousel />
      <Projects></Projects> {/*6 */}
      <MentorProfile></MentorProfile>
