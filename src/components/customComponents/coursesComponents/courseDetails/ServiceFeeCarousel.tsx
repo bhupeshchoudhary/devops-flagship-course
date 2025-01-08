@@ -58,9 +58,9 @@ const ServiceFeeCarousel = () => {
   // Duplicate the logos for seamless infinite scrolling
   const firstRowLogosLoop = [...firstRowLogos, ...firstRowLogos];
   const secondRowLogosLoop = [...secondRowLogos, ...secondRowLogos];
-
+  // bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000]
   return (
-    <div className="bg-gray-200">
+    <div className="bg-[#a50000]">
       <div className="relative overflow-hidden max-w-7xl mx-auto">
         <div className="w-full">
           {/* First row of logos */}
