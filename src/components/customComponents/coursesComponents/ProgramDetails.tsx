@@ -15,8 +15,9 @@ export default function ProgramCohorts() {
             <span className="text-[#ff0000]">DevOps Globally Recognized Program</span>
           </h1>
           <h2 className="text-sm sm:text-lg text-black">
-            Chance to learn from DevOps Guru {" "}
-            <span className="text-[#ff0000]">Mr Vimal Daga</span>
+            Chance to learn from DevOps Guru - {" "}
+            <span className="text-[#ff0000]">Mr Vimal Daga</span>  & get Placement Guarantee
+
           </h2>
         </div>
 
@@ -34,58 +35,61 @@ export default function ProgramCohorts() {
               </span>
             </div>
 
-            {/* Schedule Table */}
-            <div className="space-y-4">
-              {/* Header row - hidden on mobile, visible on desktop */}
-              <div className="hidden sm:grid sm:grid-cols-4 text-sm text-black pb-2">
-                <div className="flex items-center text-sm text-black gap-2 font-bold">Duration</div>
-                <div className="flex text-black items-center gap-2 font-bold">Time</div>
-                <div className="text-black text-sm font-bold">Mode</div>
-                <div className="text-black font-bold text-sm pl-8">Action</div>
-              </div>
+          {/* Schedule Table */}
+<div className="space-y-4">
+  {/* Header row - hidden on mobile, visible on desktop */}
+  <div className="hidden sm:grid sm:grid-cols-4 text-sm text-black pb-2">
+    <div className="flex items-center text-sm text-black gap-2 font-bold">Starting on </div>
+    <div className="flex text-black items-center gap-2 font-bold">Time</div>
+    <div className="text-black text-sm font-bold">Mode</div>
+    <div className="text-black font-bold text-sm pl-6">Action</div>
+  </div>
 
-              
-              {[
-                {
-                  date: "26th Dec, 2024 - 1st Jan, 2025",
-                  time: "10:00 am - 07:00 pm IST",
-                },
-                
-              ].map((program, index) => (
-                <div
-                  key={index}
-                  className="flex flex-col sm:grid sm:grid-cols-4 text-sm border-b pb-4 gap-y-2 sm:gap-y-0"
-                >
-                  {/* Mobile: Stacked layout */}
-                  <div className="flex flex-col sm:hidden">
-                    <div className="font-medium text-sm text-black font-semibold">Duration:</div>
-                    <div className="text-black text-sm mb-2">{program.date}</div>
-                    
-                    <div className="font-medium text-sm text-black font-semibold">Time:</div>
-                    <div className="text-black text-sm mb-2">{program.time}</div>
-                    
-                    <div className="font-medium font-semibold text-sm text-black">Mode:</div>
-                    <div className="text-black text-sm mb-2">Online</div>
-                  </div>
+  {[
+    {
+      date: " 22nd Jan, 2025",
+      time1: "07:00 pm onwards (Tue - Fri)",
+      time2: "01:00 pm onwards (Sat - Sun)"
+    },
+  ].map((program, index) => (
+    <div
+      key={index}
+      className="flex flex-col sm:grid sm:grid-cols-4 text-sm border-b pb-4 gap-y-2 sm:gap-y-0"
+    >
+      {/* Mobile: Stacked layout */}
+      <div className="flex flex-col sm:hidden">
+        <div className="font-medium text-sm text-black font-semibold">Duration:</div>
+        <div className="text-black text-sm mb-2">{program.date}</div>
+        
+        <div className="font-medium text-sm text-black font-semibold">Time:</div>
+        <div className="text-black text-sm mb-2">{program.time1}</div>
+        <div className="text-black text-sm mb-2">{program.time2}</div>
+        
+        <div className="font-medium font-semibold text-sm text-black">Mode:</div>
+        <div className="text-black text-sm mb-2">Online</div>
+      </div>
 
-                  {/* Desktop: Grid layout (unchanged) */}
-                  <div className="hidden sm:block">
-                    <div className="font-medium text-sm text-black">{program.date}</div>
-                  </div>
-                  <div className="hidden sm:block text-black text-sm">{program.time}</div>
-                  <div className="hidden sm:block text-black text-sm text-blue-400">Online</div>
-                  
-                  {/* Action button - same for both mobile and desktop */}
-                  <div>
-                    <a href="#bookyourseat">
-                      <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-white hover:shadow-md hover:bg-[#ff0000]">
-                        Book your Seat 
-                      </Button>
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
+      {/* Desktop: Grid layout */}
+      <div className="hidden sm:block">
+        <div className="font-medium text-sm text-black">{program.date}</div>
+      </div>
+      <div className="hidden sm:block text-black text-sm">
+        <div>{program.time1}</div>
+        <div>{program.time2}</div>
+      </div>
+      <div className="hidden sm:block text-black text-sm text-blue-400">Online</div>
+      
+      {/* Action button - same for both mobile and desktop */}
+      <div>
+        <a href="#bookyourseat">
+          <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-white hover:shadow-md hover:bg-[#ff0000]">
+          Apply Now 
+          </Button>
+        </a>
+      </div>
+    </div>
+  ))}
+</div>
           </div>
         </Card>
 
@@ -100,7 +104,7 @@ export default function ProgramCohorts() {
               <div className="flex gap-3">
                 <GraduationCap className="w-5 h-5 text-orange-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT and working professionals.
+                Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT - 2024 & 2025 passouts
                 </p>
               </div>
               <div className="flex gap-3">
@@ -130,6 +134,7 @@ export default function ProgramCohorts() {
             <h3 className="text-lg font-medium mb-4 text-black font-semibold">What You&apos;ll Receive:</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
+                "Guaranteed Placement. 100% refund if not hired",
                 "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
                 "Industry-Recognized Project Certificate signed by Mr. Vimal Daga.",
                 "6-Month Internship Certificate upon successful completion of the projects",

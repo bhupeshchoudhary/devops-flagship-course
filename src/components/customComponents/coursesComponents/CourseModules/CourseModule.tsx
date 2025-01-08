@@ -15,17 +15,17 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[1]) // Start with Module 2 active
 
   return (
-    <div className="pt-8 w-full pb-8 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
+    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
      
-<div className="max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold ">DevOps Program <span className="text-[#ff0000]">Curriculum and Modules</span> </div>
+<div className="max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold ">Let’s walk you through the journey of  <span className="text-[#ff0000]">Placement Guaranteed DevOps </span> Training by LinuxWorlds</div>
     <div className=" container px-4 md:px-12 max-w-5xl mx-auto bg-gray-200 pb-6 rounded-xl">
 
-    <span className="h-12 w-12">
-<img alt="numbering" className="h-12 w-12" src="/assets/tag1.webp" ></img>
+    <span className="h-12 w-12 ">
+<img alt="numbering" className="h-16 w-16" src="/assets/tag3.png" ></img>
 </span>
 
 
-      <div className="mx-auto ">
+      <div className="mx-auto mt-2 lg:mt-8 md:mt-8">
         <div className="relative mb-6">
         {/* <div className="absolute -left-[48] -top-[48] flex h-12 w-12 items-center justify-center ">
             <span className="text-xl font-bold text-white">
@@ -36,16 +36,16 @@ export default function CourseCurriculumModule() {
 
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-black">DevOps Course 
-              <span className="text-[#ff0000]"> Modules</span>
+              <h1 className="text-2xl font-bold text-black">
+              <span className="text-[#ff0000]"> 14+ DevOps </span> Training Modules
               </h1>
               <p className="mt-2 max-w-3xl text-black">
-                Our course is designed by industry experts for excellent academic and industrial experience. We have a balanced combination of theoretical, technical, and practical knowledge for you to get the best training experience for everyone regardless of their background.
+              Exclusively designed, industry-relevant, placement-focused training modules by World Record Holder Mr. Vimal Daga offer you a step-by-step learning journey with hands-on practical implementation—ensuring you are fully prepared to become <span className="font-bold">DevOps Engineer</span>
               </p>
            </div>
 
            <Badge variant="secondary" className="h-6 w-20 flex-shrink-0">
-             <span className=""> 6 Months </span>
+             <span className=""> 3 Months </span>
             </Badge>
 
 
@@ -84,10 +84,10 @@ export default function CourseCurriculumModule() {
               <h2 className="text-lg font-semibold text-gray-900">
                 {activeModule.subtitle}
               </h2>
-              <Button variant="outline" size="sm">
+              {/* <Button variant="outline" size="sm">
                 <Download className="mr-2 h-4 w-4" />
                 Download Syllabus
-              </Button>
+              </Button> */}
             </div>
             <Separator className="mb-6" />
 
@@ -114,6 +114,10 @@ export default function CourseCurriculumModule() {
         </div>
       </div>
       </div>
+  
+      <div className="pt-2 h-16 w-8 ml-8 md:ml-[182px]">
+    <img src="/assets/downarrow.png" alt="Description of the image" className="h-full w-full object-contain" />
+</div>
       </div>
     
   )
