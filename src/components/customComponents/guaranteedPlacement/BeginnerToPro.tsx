@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Monitor, Cpu, FileCheck } from 'lucide-react'
+import { BookOpenCheck, Cpu, FileCheck } from 'lucide-react'
 
 export default function BeginnerToPro() {
   return (
@@ -27,7 +27,7 @@ With a DevOps Program designed and taught by industry expert - Mr Vimal Daga, yo
               <Card className="w-full">
                 <CardContent className="p-4 md:p-6 space-y-2 flex flex-col items-center lg:items-start">
                   <div className="h-10 w-10 md:h-12 md:w-12 rounded-lg bg-red-50 flex items-center justify-center">
-                    <Monitor className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
+                    <BookOpenCheck className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
                   300+ Hours of Learning

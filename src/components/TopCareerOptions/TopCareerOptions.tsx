@@ -4,23 +4,35 @@ export default function TopCareerOptions() {
   const careers = [
     {
       title: "DevOps Engineer",
-      description: "Manage CI/CD pipelines, automate infrastructure, and optimize workflows.",
+      description: 
+                  <ul className="list-disc list-inside mt-2 space-y-1"><li>Drive seamless CI/CD pipelines</li>
+                  <li>Implement automation tools and monitor systems efficiently.</li>
+                  <li>Manage infrastructure using tools like Terraform, Ansible, and Jenkins.
+                  </li></ul>,
       icon: "/assets/TopCarrer/Devops Engineer.jpeg",
     },
     {
-      title: "Cloud Architect",
-      description: "Cloud Architect Design and manage cloud environments.",
-      icon: "/assets/TopCarrer/CloudArchitect.jpeg",
+      title: " Site Reliability Engineer (SRE)",
+      description: <ul className="list-disc list-inside mt-2 space-y-1">
+        <li>Ensure reliability and uptime for mission-critical systems.</li>
+        <li>Use advanced monitoring tools to enhance system performance.</li>
+      </ul>,
+      icon: "/assets/TopCarrer/CloudArchitec.png",
     },
     {
-      title: "Infrastructure as Code (IaC) Specialist",
-      description: "Automate infrastructure provisioning with tools like Terraform or CloudFormation.",
-      icon: " /assets/TopCarrer/Architech.jpeg",
+      title: "Kubernetes Specialist",
+      description: <ul className="list-disc list-inside mt-2 space-y-1">
+        <li>Manage container orchestration with Kubernetes.</li>
+        <li>Deploy, scale, and secure applications in containerized environments.</li>
+      </ul>,
+      icon: " /assets/TopCarrer/Architech.png",
     },
     {
-      title: "Monitoring and Security Specialist",
-      description: "Focus on application performance and system security in DevOps ecosystems.",
-      icon: "/assets/TopCarrer/releaseengineer.jpeg",
+      title: "CI/CD Engineer",
+      description:<ul className="list-disc list-inside mt-2 space-y-1">
+        <li>Designs and maintains CI/CD pipelines for software delivery and deployment automation.</li>
+      </ul>,
+      icon: " /assets/TopCarrer/monitoringimage.jpeg",
     },
   ]
 

@@ -3,6 +3,7 @@ import Image from "next/image"
 import { ZoomIn } from "lucide-react"
 import certimg from "../../../../public/assets/Certificate/Certificate.jpeg"
 
+
 export default function Certification() {
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 mx-auto">
@@ -66,7 +67,7 @@ export default function Certification() {
                   <div className="relative group">
                     <div className="relative w-full h-[400px] w-[300px]">
                       <Image
-                         src={certimg}
+                         src="/assets/Certificate/internship-certificate .jpeg"
                         alt="NSDC Certificate"
                         fill
                         className="object-cover"

@@ -2,47 +2,47 @@
 
 import { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import dockerLogo from "../../../../../public/assets/Projects/docker.png"
+import dockerLogo from "../../../../../public/assets/Projects/Azure-&-GCP-Cloud.png"
 
 
 const projectData = [
   {
-    icon: "/assets/Projects/container.png",
+    icon: "/assets/Projects/Setting-up-a-Multi-Tier-Application-in-Containers.png",
     title: "Setting up a Multi-Tier Application in Containers",
     description:
       "Containerize a multi-tier application with frontend, backend, and database components. Using Docker to create and manage containers.",
     skills: ["Docker", "Kubernetes", "DevOps", "Frontend", "Backend", "Database Management"],
   },
   {
-    icon: "/assets/Projects/docker.png",
+    icon: "/assets/Projects/Integrating-Docker-files-with-Docker-Compose.png",
     title: "Integrating Docker files with Docker Compose",
     description:
       "Create Dockerfiles for different application components. Using Docker Compose to manage multi-container Docker applications.",
     skills: ["Docker", "Docker Compose", "Microservices", "Networking", "Container Management"],
   },
   {
-    icon: "/assets/Projects/k8s.png",
+    icon: "/assets/Projects/Integrating-Kubernetes-with-Docker.png",
     title: "Integrating Kubernetes with Docker",
     description:
       "Deploying containerized applications using Kubernetes. Use Kubernetes to manage container orchestration and scaling.",
     skills: ["Kubernetes", "Container Orchestration", "Docker", "Scaling", "Cluster Management"],
   },
   {
-    icon: "/assets/Projects/jenkins.svg",
+    icon: "/assets/Projects/Configuring-Jenkins-Master-Slave-Architecture-in-Docker.png",
     title: "Configuring Jenkins Master-Slave Architecture in Docker",
     description:
       "Setting up Jenkins master and slave nodes in Docker containers. Implementing distributed builds using Jenkins agents.",
     skills: ["Jenkins", "Docker", "Distributed Builds", "CI/CD", "Automation"],
   },
   {
-    icon: "/assets/Projects/prometheus.svg",
+    icon: "/assets/Projects/Integrating-Prometheus-with-Grafana.png",
     title: "Integrating Prometheus with Grafana",
     description:
       "Setting up Prometheus for monitoring application metrics. Visualize metrics with Grafana dashboards.",
     skills: ["Prometheus", "Grafana", "Monitoring", "Visualization", "Metrics Management"],
   },
   {
-    icon: "/assets/Projects/git.png",
+    icon: "/assets/Projects/Integrating-GitLab-with-Kubernetes.png",
     title: "Integrating GitLab with Kubernetes",
     description:
       "Using GitLab CI/CD for continuous integration and deployment. Deploying applications to Kubernetes clusters from GitLab.",
@@ -56,21 +56,21 @@ const projectData = [
     skills: ["Terraform", "Infrastructure as Code", "Version Control", "Cloud Infrastructure", "Automation"],
   },
   {
-    icon: "/assets/Projects/cicd.png",
+    icon: "/assets/Projects/Building-a-CICD-Pipeline.png",
     title: "Building a CI/CD Pipeline",
     description:
       "Implementing a continuous integration and deployment pipeline using Jenkins or GitLab CI. Automating testing, building, and deployment processes.",
     skills: ["CI/CD", "Jenkins", "GitLab", "Automation", "Testing"],
   },
   {
-    icon: "/assets/Projects/aws.svg",
+    icon: "/assets/Projects/AWS-DevOps-Services.png",
     title: "AWS DevOps Services",
     description:
       "Master AWS DevOps: CI/CD pipelines, IaC, serverless, monitoring, containerization, security, and cost optimization.",
     skills: ["CDK", "EKS", "CloudWatch", "CloudTrail", "Beanstalk","Fargate","IAM"],
   },
   {
-    icon: "/assets/Projects/gcp.svg",
+    icon: "/assets/Projects/Azure-&-GCP-Cloud.png",
     title: "Azure & GCP Cloud",
     description:
       "Master Azure and GCP: compute, storage, networking, security, serverless, and hands-on cloud platform comparisons.",
@@ -131,7 +131,7 @@ export default function Projects() {
                     className="border-t-0 border-r-1 border-b-1 border-l-1 border-gray-100 overflow-hidden transform transition-transform duration-300 hover:scale-105"
                   >
                     <CardHeader>
-                      <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center mb-4">
+                      <div className="w-36 h-16 bg-white rounded-lg flex items-center justify-center mb-2">
                         {/* <project.icon className="w-6 h-6" /> */}
                         <img alt="icon" src={project.icon.toString()}></img>
                       </div>
