@@ -30,11 +30,11 @@ function CourseCarousel() {
                   Become a DevOps Engineer
                 </h1>
                 <div className="text-white/90 max-w-3xl ml-4 md:pl-16">
-                  <p className="text-lg mb-2">
+                  <p className="text-sm mb-2">
                     Get ready to be hired by core tech companies & secure a package between ₹4,00,000 - ₹8,00,000
                   </p>
                   <p className="font-semibold text-white/70">
-                    (Note : 100% refund if not hired)
+                    (Note : 100% refund if not hired*)
                   </p>
                 </div>
               </div>

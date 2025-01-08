@@ -44,7 +44,7 @@ export default function CourseCurriculumModule() {
                 <h1 className="text-2xl md:text-3xl font-bold text-white mb-4 ml-12 md:ml-16">
                   Course Curriculum
                 </h1>
-                <p className="text-white/90 max-w-3xl ml-12 md:pl-16 text-sm">
+                <p className="text-white/90 max-w-3xl ml-12 md:pl-4 text-sm">
                   Our course is designed by industry experts for excellent academic and industrial experience. 
                   We have a balanced combination of theoretical, technical, and practical knowledge for you 
                   to get the best training experience for everyone regardless of their background.
