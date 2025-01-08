@@ -126,7 +126,7 @@ export default function CourseCareerModule() {
 
                 {/* Content Card */}
                 <Card className="bg-white p-6">
-                  <ScrollArea className="h-[400px]">
+                  <ScrollArea className="h-[250px]">
                     <div className="mb-6 flex items-center justify-between">
                       <h2 className="text-lg font-semibold text-gray-900">
                         {activeModule.subtitle}
