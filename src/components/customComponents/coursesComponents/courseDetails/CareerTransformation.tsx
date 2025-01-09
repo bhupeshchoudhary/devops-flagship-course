@@ -89,7 +89,7 @@ const peopleData = [
   
   {
     name: "Harishankar Dubey",
-    image: "https://media.licdn.com/dms/image/v2/D4D35AQHj5Xn6AH4Otg/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1733389351846?e=1734616800&v=beta&t=zYrN6sURG-m5zISgMD6CZBZGOTL0qYMWX2JPqt-M3e0",
+    image: "https://media.licdn.com/dms/image/v2/D4D35AQGmg5xIlBm_pw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1734733057510?e=1737032400&v=beta&t=EQEtWUz4HjjT346Y9Gr6cVuQmfNZ879HQoj3z-g6nCE",
     testimonial:
       "Learning from Vimal sir, I understood that it doesn't matter if you have zero knowledge about the subject but with dedication, determination, and perseverance, we can achieve whatever we aim for. Similarly, I started learning and working on the task given by Vimal Sir. In those tasks, I failed multiple times. Every time I failed I learned something new and then my creativity developed in the topics I learned. Now I am much more confident and I am ready to face any issue, sooner or later, I'll surely find its solution..",
     hike: "85% Hike",
