@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
           <div className="max-w-6xl mx-auto py-4 md:py-2"> {/* Reduced from max-w-7xl */}
             {/* Top Badges */}
-            <div className="flex flex-wrap gap-2 sm:gap-2 pt-">
+            <div className="flex flex-wrap gap-2 sm:gap-2 pt-6">
               <Badge variant="secondary" className="bg-red-800 text-white text-md p-2   mb-0 md:mb-0 lg:mb-0">
               #RightJobKiGuarantee ✨
               </Badge>
