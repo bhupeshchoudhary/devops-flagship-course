@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight, Calendar } from 'lucide-react'
 import { modules } from "./data"
 import { Module } from "./types"
 
@@ -15,6 +15,7 @@ export default function CourseCareerModule() {
 
   return (
     <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+      
       <div className="mx-auto max-w-6xl">
         
       {/* Mobile View */}
@@ -66,20 +67,30 @@ export default function CourseCareerModule() {
           </div>
         </div>
 
-        {/* Desktop View */}
         <div className="hidden md:block">
-          <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] pb-6 rounded-xl relative">
-            {/* Tag with number */}
-            <div className="absolute -top-2 left-12">
-              <div className="relative w-20 h-24">
-                <img 
-                  alt="numbering" 
-                  className="w-full h-full" 
-                  src="/assets/tag2.png"
-                />
-              </div>
-            </div>
+  <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] pb-6 rounded-xl relative">
+    {/* Badge in top right corner */}
+    <div className="absolute top-0 right-0">
+   
+      <Badge 
+        variant="secondary" 
+        className="h-10 px-4 p-4 bg-[#710000] text-sm text-white border-none shrink-0"
+      >
+       <Calendar className="mr-2 mt-4 mb-4   h-6"/> 1 Months
+      </Badge>
+  
+    </div>
 
+    {/* Tag with number */}
+    <div className="absolute -top-2 left-12">
+      <div className="relative w-20 h-24">
+        <img 
+          alt="numbering" 
+          className="w-full h-full" 
+          src="/assets/tag2.png"
+        />
+      </div>
+    </div>
             {/* <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-green-400 rounded-full flex items-center justify-center">
             <span className="text-[#004D40] font-bold text-lg">4</span>
           </div> */}
@@ -98,12 +109,7 @@ export default function CourseCareerModule() {
                   </p>
                 </div>
 
-                <Badge 
-                  variant="secondary" 
-                  className="h-8 px-4 bg-[#710000] text-white border-none"
-                >
-                  1 Month
-                </Badge>
+             
               </div>
 
               {/* Cards Grid */}
@@ -145,7 +151,7 @@ export default function CourseCareerModule() {
                     </div>
                     <Separator className="mb-6" />
                     <div className="space-y-2">
-                      <h3 className="text-sm   text-gray-600 font-bold ">Topics:</h3>
+                      
                       {activeModule.topics.map((topic, index) => (
                         <div key={index} className="text-sm text-gray-700">
                          <ul className="list-disc pl-8 mt-2 space-y-2"><li>{topic}</li></ul> 
