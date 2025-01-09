@@ -20,7 +20,7 @@ export default function ISASigningProcess() {
           </div>
 
           {/* Mobile Number */}
-          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-green-400 rounded-full flex items-center justify-center">
+          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
             <span className="text-[#004D40] font-bold text-lg">3</span>
           </div>
 
@@ -37,7 +37,7 @@ export default function ISASigningProcess() {
             {/* Mobile View */}
             <div className="md:hidden flex flex-col gap-4">
               {/* First Card */}
-              <Card className="bg-transparent border-[#f8f4f48c] shadow-lg w-full">
+              <Card className="bg-transparent border border-[#f13939ba] shadow-lg w-full">
                 <CardContent className="p-4 flex flex-col items-center text-center">
                   <div className="w-full h-24 relative mb-2">
                     <img src="/assets/Apply Now.png" alt="image" className="w-full h-full object-contain" />
@@ -52,7 +52,7 @@ export default function ISASigningProcess() {
               </div>
 
               {/* Second Card */}
-              <Card className="bg-transparent border-none shadow-lg w-full">
+              <Card className="bg-transparent  border border-[#f13939ba]  shadow-lg w-full">
                 <CardContent className="p-4 flex flex-col items-center text-center">
                   <div className="w-full h-24 relative mb-2">
                     <img src="/assets/project.png" alt="image" className="w-full h-full object-contain" />
@@ -66,7 +66,7 @@ export default function ISASigningProcess() {
               </div>
 
               {/* Third Card */}
-              <Card className="bg-transparent border-none shadow-lg w-full">
+              <Card className="bg-transparent border-[#ff0000] shadow-lg w-full">
                 <CardContent className="p-4 flex flex-col items-center text-center">
                   <div className="w-full h-24 relative mb-2">
                     <img src="/assets/Business-Communication.png" alt="img" className="w-full h-full object-contain" />
@@ -80,7 +80,7 @@ export default function ISASigningProcess() {
               </div>
 
               {/* Fourth Card */}
-              <Card className="bg-transparent border-none shadow-lg w-full">
+              <Card className="bg-transparent border border-[#ff0000]  shadow-lg w-full">
                 <CardContent className="p-4 flex flex-col items-center text-center">
                   <div className="w-full h-24 relative mb-2">
                     <img src="/assets/Get-placed.png" alt="img" className="w-full h-full object-contain" />
@@ -130,11 +130,11 @@ export default function ISASigningProcess() {
               </div>
 
               {/* Third Card */}
-              <Card className="bg-transparent border border-[#ff0000] shadow-lg hover:shadow-xl transition-shadow w-64">
+              <Card className="bg-transparent border border-[#ff0000] shadow-lg hover:shadow-xl h-60 transition-shadow w-64">
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                   <div className="w-full h-36 md:h-28 relative mb-4">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <img src="/assets/Business-Communication.png" alt="img" className="w-full h-full object-contain" />
+                    <div className="absolute inset-0 flex items-center justify-center pt-4">
+                      <img src="/assets/Business-Communication.png" alt="img" className="w-full h-full pb-4 object-contain" />
                     </div>
                   </div>
                   <h3 className="text-white font-semibold text-sm">Business Communication & Assessments</h3>
@@ -149,7 +149,7 @@ export default function ISASigningProcess() {
               {/* Fourth Card */}
               <Card className="bg-transparent border border-[#ff0000] shadow-lg hover:shadow-xxl transition-shadow w-64">
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
-                  <div className="w-full h-36 md:h-28 relative mb-4">
+                  <div className="w-full h-36 md:h-24 relative mb-4">
                     <div className="absolute inset-0 rounded-lg p-4 flex items-center justify-center">
                       <img src="/assets/Get-placed.png" alt="img" className="w-full h-full object-contain" />
                     </div>
