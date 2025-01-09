@@ -39,7 +39,7 @@ export default function CourseCareerModule() {
                 <button
                   key={module.id}
                   onClick={() => setActiveModule(module)}
-                  className={`px-4 py-2 rounded-full whitespace-nowrap text-sm ${
+                  className={`px-4 py-2 rounded-full whitespace-nowrap text-sm font-bold ${
                     activeModule.id === module.id
                       ? "bg-white text-[#004D40]"
                       : "text-white/80 hover:bg-white/10"
@@ -110,12 +110,12 @@ export default function CourseCareerModule() {
               <div className="grid gap-6 md:grid-cols-[350px,1fr] mt-8 md:-ml-6 lg:-ml-12">
                 {/* Module Selection Card */}
                 <Card className="bg-white">
-                  <ScrollArea className="h-[400px]">
+                  <ScrollArea className="h-[350px]">
                     {modules.map((module) => (
                       <button
                         key={module.id}
                         onClick={() => setActiveModule(module)}
-                        className={`w-full text-left ${
+                        className={`w-full text-left font-bold ${
                           activeModule.id === module.id
                             ? "bg-gray-100"
                             : "hover:bg-gray-50"
@@ -145,10 +145,10 @@ export default function CourseCareerModule() {
                     </div>
                     <Separator className="mb-6" />
                     <div className="space-y-2">
-                      <h3 className="text-sm font-medium text-gray-600">Topics:</h3>
+                      <h3 className="text-sm   text-gray-600 font-bold ">Topics:</h3>
                       {activeModule.topics.map((topic, index) => (
                         <div key={index} className="text-sm text-gray-700">
-                          {topic}
+                         <ul className="list-disc pl-8 mt-2 space-y-2"><li>{topic}</li></ul> 
                         </div>
                       ))}
                     </div>
