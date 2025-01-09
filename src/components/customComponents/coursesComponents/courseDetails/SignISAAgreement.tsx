@@ -21,7 +21,7 @@ export default function ISASigningProcess() {
 
           {/* Mobile Number */}
           <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
-            <span className="text-[#004D40] font-bold text-lg">3</span>
+            <span className="text-white font-bold text-lg">3</span>
           </div>
 
           {/* Content section */}

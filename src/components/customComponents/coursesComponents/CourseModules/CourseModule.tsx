@@ -34,7 +34,7 @@ export default function CourseCurriculumModule() {
 
           {/* Mobile Number */}
           <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
-            <span className="text-[#004D40] font-bold text-lg">1</span>
+            <span className="text-white font-bold text-lg">1</span>
           </div>
 
           {/* Content section */}
@@ -59,21 +59,43 @@ export default function CourseCurriculumModule() {
               </Badge>
             </div>
 
-            {/* Mobile Module Tabs */}
-            <div className="md:hidden overflow-x-auto flex gap-2 mt-4 pb-2 pl-12 w-full">
-              {modules.map((module) => (
-                <button
-                  key={module.id}
-                  onClick={() => setActiveModule(module)}
-                  className={`px-4 py-2 rounded-full whitespace-nowrap text-sm font-bold ${
-                    activeModule.id === module.id
-                      ? "bg-white text-[#710000]"
-                      : "text-white hover:bg-white/10"
-                  }`}
-                >
-                  {module.title}
-                </button>
-              ))}
+            {/* Mobile Module Tabs and Content */}
+            <div className="md:hidden">
+              <div className="overflow-x-auto flex gap-2 mt-4 pb-2 pl-12 w-full">
+                {modules.map((module) => (
+                  <button
+                    key={module.id}
+                    onClick={() => setActiveModule(module)}
+                    className={`px-4 py-2 rounded-full whitespace-nowrap text-sm font-bold ${
+                      activeModule.id === module.id
+                        ? "bg-white text-[#710000]"
+                        : "text-white hover:bg-white/10"
+                    }`}
+                  >
+                    {module.title}
+                  </button>
+                ))}
+              </div>
+
+              {/* Mobile Content View */}
+              <div className="mt-4 bg-white rounded-lg p-4 mx-4">
+                <h2 className="text-lg font-semibold text-gray-900 mb-4">
+                  {activeModule.subtitle}
+                </h2>
+                <div className="space-y-4">
+                
+                  {activeModule.topics.map((topic, index) => (
+                    <div key={index} className="text-sm text-gray-700">
+                      <span className="font-bold">{topic.title}</span>
+                      <ul className="list-disc pl-4 mt-2 space-y-2">
+                        {topic.content.map((content, contentIndex) => (
+                          <li key={contentIndex} className="text-gray-600">{content}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
 
             {/* Desktop Cards Grid */}
@@ -85,7 +107,7 @@ export default function CourseCurriculumModule() {
                     <button
                       key={module.id}
                       onClick={() => setActiveModule(module)}
-                      className={`w-full text-left  font-bold ${
+                      className={`w-full text-left font-bold ${
                         activeModule.id === module.id
                           ? "bg-gray-100"
                           : "hover:bg-gray-50"
@@ -105,50 +127,30 @@ export default function CourseCurriculumModule() {
                 </ScrollArea>
               </Card>
 
-              
-<Card className="bg-white p-6">
-  <ScrollArea className="h-[400px]">
-    <div className="mb-6 flex items-center justify-between">
-      <h2 className="text-lg font-semibold text-gray-900">
-        {activeModule.subtitle}
-      </h2>
-    </div>
-    <Separator className="mb-6" />
-    <div className="space-y-4">
-      <h3 className="text-sm font-bold text-gray-600 ">Topics-</h3>
-      {activeModule.topics.map((topic, index) => (
-        <div key={index} className="text-sm text-gray-700">
-          <span className="font-bold">{topic.title}</span>
-          <ul className="list-disc pl-4 mt-2 space-y-2">
-            {topic.content.map((content, contentIndex) => (
-              <li key={contentIndex}>{content}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </div>
-  </ScrollArea>
-</Card>
-
-
-<div className="md:hidden mt-4 bg-white rounded-lg p-4 w-full">
-  <h2 className="text-lg font-semibold text-gray-900 mb-4">
-    {activeModule.subtitle}
-  </h2>
-  <div className="space-y-4">
-    <h3 className="text-sm font-medium text-gray-600">Topics-</h3>
-    {activeModule.topics.map((topic, index) => (
-      <div key={index} className="text-sm text-gray-700">
-        <span className="font-bold">{topic.title}</span>
-        <ul className="list-disc pl-8 mt-2 space-y-2">
-          {topic.content.map((content, contentIndex) => (
-            <li key={contentIndex}>{content}</li>
-          ))}
-        </ul>
-      </div>
-    ))}
-  </div>
-</div>
+              {/* Content Card */}
+              <Card className="bg-white p-6">
+                <ScrollArea className="h-[400px]">
+                  <div className="mb-6 flex items-center justify-between">
+                    <h2 className="text-lg font-semibold text-gray-900">
+                      {activeModule.subtitle}
+                    </h2>
+                  </div>
+                  <Separator className="mb-6" />
+                  <div className="space-y-4">
+                    <h3 className="text-sm font-bold text-gray-600">Topics-</h3>
+                    {activeModule.topics.map((topic, index) => (
+                      <div key={index} className="text-sm text-gray-700">
+                        <span className="font-bold">{topic.title}</span>
+                        <ul className="list-disc pl-4 mt-2 space-y-2">
+                          {topic.content.map((content, contentIndex) => (
+                            <li key={contentIndex}>{content}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                </ScrollArea>
+              </Card>
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ export default function CourseCareerModule() {
   <div className="bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] rounded-xl p-4 relative"> {/* Added relative positioning */}
     {/* Added Mobile Number */}
     <div className="absolute -top-2 left-4 w-8 h-8 bg-red-800 rounded-full flex items-center justify-center">
-      <span className="text-[#004D40] font-bold text-lg">2</span>
+      <span className="text-white font-bold text-lg">2</span>
     </div>
 
     <div className="flex justify-between items-start mb-4 mt-4"> {/* Added mt-4 to account for the number */}

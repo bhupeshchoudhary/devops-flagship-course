@@ -17,10 +17,10 @@ const Hero = () => {
       <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">
         {/* Gradient Background */}
         <div className="bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
-          <div className="max-w-6xl mx-auto py-4 md:py-8"> {/* Reduced from max-w-7xl */}
+          <div className="max-w-6xl mx-auto py-4 md:py-2"> {/* Reduced from max-w-7xl */}
             {/* Top Badges */}
-            <div className="flex flex-wrap gap-2 sm:gap-2 ">
-              <Badge variant="secondary" className="bg-red-800 text-white text-md p-2  mb-0 md:mb-0 lg:mb-0">
+            <div className="flex flex-wrap gap-2 sm:gap-2 pt-6">
+              <Badge variant="secondary" className="bg-red-800 text-white text-md p-2   mb-0 md:mb-0 lg:mb-0">
               #RightJobKiGuarantee ✨
               </Badge>
             </div>
@@ -60,7 +60,7 @@ const Hero = () => {
             </div>
   
             {/* Bottom Info Card */}
-            <div className="relative md:-mt-6 lg:-mt-1 ">
+            <div className="relative md:mt-8 lg:mt-4 ">
   <div className="relative left-0 right-0 md:top-[0px]">
     <div className="bg-white rounded-lg p-4 shadow-lg max-w-6xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-4"> {/* Changed items-center to items-start */}
