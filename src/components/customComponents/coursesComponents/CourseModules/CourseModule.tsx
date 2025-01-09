@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
-import { ChevronRight, Calendar } from 'lucide-react'
+import { ChevronRight, Calendar, CalendarDays } from 'lucide-react'
 import { modules } from "./data"
 import { Module } from "./types"
 
@@ -44,7 +44,7 @@ export default function CourseCurriculumModule() {
         variant="secondary" 
         className="h-10 px-4 p-4 bg-[#710000] text-sm text-white border-none shrink-0"
       >
-       <Calendar className="mr-2 mt-4 mb-4   h-6"/> 3 Months
+       <CalendarDays className="mr-2 mt-4 mb-4   h-6"/> 3 Months
       </Badge>
       
     </div>
@@ -53,7 +53,7 @@ export default function CourseCurriculumModule() {
     variant="secondary" 
     className="h-6 pt-2 pb-2 bg-[#710000] text-sm text-white border-none shrink-0"
   >
-    <Calendar className=" mt-4 mb-4 h-6"/> 3 Months
+    <CalendarDays className=" mt-4 mb-4 h-6"/> 3 Months
   </Badge>
 </div>
   <div className="flex items-start md:items-center mb-4 relative"> {/* Added relative */}
