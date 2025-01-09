@@ -150,7 +150,7 @@ export default function ISASigningProcess() {
             {/* Mobile View */}
             <div className="md:hidden flex flex-col gap-4">
               {/* First Card */}
-              <Card className="bg-gradient-to-r from-[#520000] to-[#ce0000] border-none shadow-lg w-full">
+              <Card className="bg-gradient-to-r from-[#520000] to-[#ce0000] border-[#f8f4f48c] shadow-lg w-full">
                 <CardContent className="p-4 flex flex-col items-center text-center">
                   <div className="w-full h-24 relative mb-2">
                     <img src="/assets/Apply Now.png" alt="image" className="w-full h-full object-contain" />
@@ -207,7 +207,7 @@ export default function ISASigningProcess() {
             {/* Desktop View */}
             <div className="hidden md:flex flex-row items-center justify-center gap-4 md:gap-6 mt-8 md:-ml-12 lg:-ml-12">
               {/* First Card */}
-              <Card className="bg-gray-200 border-none shadow-lg hover:shadow-xl transition-shadow w-64">
+              <Card className="bg-[#710000] border-none shadow-lg hover:shadow-xl transition-shadow w-64">
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                   <div className="w-full h-36 md:h-28 relative md:mb-8 lg:mb-8">
                     <div className="absolute inset-0 rounded-lg p-4">
@@ -216,7 +216,7 @@ export default function ISASigningProcess() {
                       </div>
                     </div>
                   </div>
-                  <h3 className="text-black font-semibold text-sm">Apply Now & Start Your Learning Journey</h3>
+                  <h3 className="text-white font-semibold text-sm">Apply Now & Start Your Learning Journey</h3>
                 </CardContent>
               </Card>
 
@@ -226,14 +226,14 @@ export default function ISASigningProcess() {
               </div>
 
               {/* Second Card */}
-              <Card className="bg-gray-200 border-none shadow-lg hover:shadow-xl transition-shadow w-64">
+              <Card className="bg-[#7100009d] border-none shadow-lg hover:shadow-xl transition-shadow w-64">
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                   <div className="w-full h-36 md:h-28 relative mb-4">
                     <div className="absolute inset-0 rounded-lg p-4">
                       <img src="/assets/project.png" alt="image" className="w-full h-full object-contain" />
                     </div>
                   </div>
-                  <h3 className="text-black font-semibold text-sm">Build Your 20+ CapStone Industry Level Projects</h3>
+                  <h3 className="text-white font-semibold text-sm">Build Your 20+ CapStone Industry Level Projects</h3>
                 </CardContent>
               </Card>
 
@@ -243,14 +243,14 @@ export default function ISASigningProcess() {
               </div>
 
               {/* Third Card */}
-              <Card className="bg-gray-200 border-none shadow-lg hover:shadow-xl transition-shadow w-64">
+              <Card className="bg-[#ce0000b8] border-none shadow-lg hover:shadow-xl transition-shadow w-64">
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                   <div className="w-full h-36 md:h-28 relative mb-4">
                     <div className="absolute inset-0 flex items-center justify-center">
                       <img src="/assets/Business-Communication.png" alt="img" className="w-full h-full object-contain" />
                     </div>
                   </div>
-                  <h3 className="text-black font-semibold text-sm">Business Communication, Assessments & Contribution</h3>
+                  <h3 className="text-white font-semibold text-sm">Business Communication, Assessments & Contribution</h3>
                 </CardContent>
               </Card>
 
@@ -260,14 +260,14 @@ export default function ISASigningProcess() {
               </div>
 
               {/* Fourth Card */}
-              <Card className="bg-gray-200 border-none shadow-lg hover:shadow-xl transition-shadow w-64">
+              <Card className="bg-[#ce0000] border-none shadow-lg hover:shadow-xl transition-shadow w-64">
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                   <div className="w-full h-36 md:h-28 relative mb-4">
                     <div className="absolute inset-0 rounded-lg p-4 flex items-center justify-center">
                       <img src="/assets/Get-placed.png" alt="img" className="w-full h-full object-contain" />
                     </div>
                   </div>
-                  <h3 className="text-black font-semibold text-sm">Get placed as DevOps Engineer</h3>
+                  <h3 className="text-white font-semibold text-sm">Get placed as DevOps Engineer</h3>
                   <p className="text-gray-500 text-sm">(Note : 100% refund if not hired*)</p>
                 </CardContent>
               </Card>
