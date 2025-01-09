@@ -98,13 +98,13 @@ function CourseCarousel() {
 
             {/* Carousel Section */}
             <div className="mt-8 px-0 md:px-16 md:-ml-12">
-              <div className=" rounded-lg shadow-lg overflow-hidden">
+              <div className=" rounded-lg  overflow-hidden">
                 <div className="relative overflow-hidden mx-auto">
                   <div className="w-full">
                     {/* First row of logos */}
-                    <div className="flex items-center my-6 whitespace-nowrap animate-move-left">
+                    <div className="flex items-center my-2 whitespace-nowrap animate-move-left">
                       {firstRowLogosLoop.map((logo, index) => (
-                        <div key={index} className="mx-4 flex-shrink-0">
+                        <div key={index} className="mx-6 flex-shrink-0">
                           <div className="w-24 h-12 flex items-center justify-center bg-white  rounded-xl">
                             <Image
                               src={logo.src}

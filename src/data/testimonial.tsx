@@ -75,36 +75,35 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 10,
-    name: "Devesh Chitlangia",
-    role: "Software Engineer @ GlobalLogic",
+    name: "Prateek Srivastava",
+    role: "DevOps Engineer - 2 @ O9 solutions",
     rating: 88,
-    image: "/assets/learnersSayImages/deveshchitlangia.png",
-    content: "Thank you so much for your kind words and blessings! It means a lot coming from you. I feel fortunate to have had the opportunity to learn under your guidance in the ARTH program. Your teachings have played a huge role in shaping my journey, and I continue to draw inspiration from your passion for technology and learning. You are a great teacher, and I am truly grateful for all the knowledge and wisdom you've shared with me. I'll always carry those lessons forward as I continue to grow. Thank you once again for everything!"
+    image: "/assets/learnersSayImages/PrateekSrivastava.png",
+    content: "I applied for new jobs and now working as DevOps Engineer - 2 in o9 Solutions. I would like to share that I got the hike of almost 200% The in-depth content and it's delivery such that a person who is from mechanical background like me can grasp everything from basics. Now I can also confidently say that I know the technology. I started learning linux, aws, k8s, ansible, terraform, python etc. in DevOps course under Vimal Sir."
   },
   {
     id: 11,
-    name: "Divyansh Saxena",
-    role: "Software Engineer @ Pitney Bowes",
+    name: "Shubham Kumar",
+    role: "Devops engineer @ Businessnext",
     rating: 88,
-    image: "/assets/learnersSayImages/divyanashsaxena.png",
-    content: "Thank you so much sir for your kind words! It means a lot to be noticed by you. Your guidance and the ARTH program has been a huge part of my career journey, and I'm grateful for everything I learned from you. It's an honor to be called an ARTHian. Your blessings and encouragement means the world."
+    image: "/assets/learnersSayImages/ShubhamKumar.png",
+    content: "I want to express my heartfelt gratitude to Vimal Sir. His guidance helped me overcome my fear of Kubernetes, and today, I feel confident in working with it—all thanks to his exceptional teaching.Stared internship in devops but I was struggling to understand docker, Kubernetes and cloud concepts. Then one of my colleague told me about Vimal sir. I watched docker playlist available on youtube and that helped me also to understand container concept. After sometime launched AWS Cloud Enablement Training and this helped me to understand aws services in best possible way. Specially VPC and networking that I'll never forget. In simple words, whatever I'm now just because  of Vimal sir's training and his unique way to explain the concept .Vimal sir's unique and simple style of teaching."
   },
   {
     id: 12,
-    name: "Abhijit Mandal",
-    role: "Software Engineer",
+    name: "Utkarsh Kumar Singh",
+    role: "DevOps Engineer @ Celeris",
     rating: 88,
-    image: "/assets/learnersSayImages/abhijitmandal.png",
-    content: `Hi Vimal Sir,
+    image: "/assets/learnersSayImages/UtkarshKumarSingh.png",
+    content: "I made my first devOps job in Celeris based on my skills. Thanks to Vimal Sir for guiding me through the learning process.His way of teaching with core concepts. He taught me what happens behind each linix command to get it executed. I started studying your linux courses from YouTube with clear understanding by Vimal sir, that helped me to gain confidence on troubleshooting and scripting."
 
-    Thank you so much for your kind words and blessings! It truly means a lot, especially coming from someone who played such an instrumental role in shaping my journey. I still remember being in my 2nd year of college during the lockdown, participating in the ARTH program. While I may not be working with the same tools and technologies today, what you really instilled in me was a deep desire to learn and stay curious - a trait that has been invaluable in my path to becoming a software engineer.
 
-    I'm deeply grateful for your guidance, and I hope you continue to inspire both my juniors and the rest of us. Thank you once again for everything, sir.`
   },
+
   {
     id: 13,
     name: "Bellamkonda Narendra Venkata Sai Chaitanya",
-    role: "DevOps Engineer",
+    role: "DevOps Engineer @ Seclore Pvt Ltd",
     rating: 78,
     image: "/assets/learnersSayImages/BellamkondaNarendraVenkataSaiChaitanya.png",
     content: "Currently I am a DevOps Engineering at Seclore Pvt Ltd. Vimal sir is my teacher which I always remind myself. I am glad to be his student.I am currently pursuing my career as a DevOps Engineer. Each step of this journey has strengthened my skills and passion for DevOps, and I look forward to continuing my growth in this field.My journey toward becoming a DevOps Engineer began during my college ( IIIT AP ) days when I decided to pursue the Arth3 program instead of participating in regular college placement activities. I joined in Arth3 because of my frnds who are Arth1 learners. The Arth3 program provided me with in-depth knowledge of Cloud Computing and DevOps, shaping my career aspirations."
@@ -112,7 +111,7 @@ export const testimonials: Testimonial[] = [
   {
     id: 14,
     name: "Dhaval Chhayla",
-    role: "DevOps Intern",
+    role: "DevOps Intern @ Buchanan Technologies",
     rating: 66,
     image: "/assets/learnersSayImages/DhavalChhayla.png",
     content: "By September 2023, my efforts paid off when I secured a DevOps Intern role at a reputed MNC with a 5 LPA package. This experience taught me the value of perseverance and continuous learning, and I hope it inspires others to keep striving toward their goals.What I appreciated most about LinuxWorld and Mr. Vimal Daga was the exceptional learning experience during the Workshop on AWS Cloud with AI. His expertise and ability to simplify complex topics like AWS, cloud computing, and Python made the workshop impactful and inspiring.My placement journey was a mix of challenges and growth. After facing four final-round rejections, including one with IBM, I reflected on my approach and focused on smart, hard work. Participating in the Workshop on AWS Cloud with AI by LinuxWorld in August 2023 was a turning point, equipping me with practical skills and confidence."
