@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Separator } from "@/components/ui/separator"
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight, Calendar } from 'lucide-react'
 import { modules } from "./data"
 import { Module } from "./types"
 
@@ -39,26 +39,37 @@ export default function CourseCurriculumModule() {
 
           {/* Content section */}
           <div className="pt-6 px-4 md:pl-16">
-            <div className="flex items-start md:items-center justify-between mb-4">
-              <div>
-                <h1 className="text-2xl md:text-3xl font-bold text-white mb-4 ml-12 md:ml-16">
-                14+ DevOps Training Modules  
-                </h1>
-                <p className="text-white/90 max-w-3xl ml-12 md:pl-4 text-sm">
-                  Our course is designed by industry experts for excellent academic and industrial experience. 
-                  We have a balanced combination of theoretical, technical, and practical knowledge for you 
-                  to get the best training experience for everyone regardless of their background.
-                </p>
-              </div>
+    <div className="absolute top-0 right-0 hidden md:block">
+      <Badge 
+        variant="secondary" 
+        className="h-10 px-4 p-4 bg-[#710000] text-sm text-white border-none shrink-0"
+      >
+       <Calendar className="mr-2 mt-4 mb-4   h-6"/> 3 Months
+      </Badge>
+      
+    </div>
+    <div className="absolute top-0 right-0 sm:block md:hidden"> {/* Changed here */}
+  <Badge 
+    variant="secondary" 
+    className="h-6 pt-2 pb-2 bg-[#710000] text-sm text-white border-none shrink-0"
+  >
+    <Calendar className=" mt-4 mb-4 h-6"/> 3 Months
+  </Badge>
+</div>
+  <div className="flex items-start md:items-center mb-4 relative"> {/* Added relative */}
+    {/* Badge positioned absolute in top right */}
 
-              <Badge 
-                variant="secondary" 
-                className="h-8 px-4 bg-[#710000] text-white border-none shrink-0"
-              >
-                3 Months
-              </Badge>
-            </div>
-
+    <div className="w-full">
+      <h1 className="text-2xl md:text-3xl font-bold text-white mb-4 ml-12 md:ml-16">
+        14+ DevOps Training Modules  
+      </h1>
+      <p className="text-white/90 max-w-3xl ml-12 md:pl-4 text-sm">
+        Our course is designed by industry experts for excellent academic and industrial experience. 
+        We have a balanced combination of theoretical, technical, and practical knowledge for you 
+        to get the best training experience for everyone regardless of their background.
+      </p>
+    </div>
+  </div>
             {/* Mobile Module Tabs and Content */}
             <div className="md:hidden">
               <div className="overflow-x-auto flex gap-2 mt-4 pb-2 pl-12 w-full">
@@ -137,7 +148,7 @@ export default function CourseCurriculumModule() {
                   </div>
                   <Separator className="mb-6" />
                   <div className="space-y-4">
-                    <h3 className="text-sm font-bold text-gray-600">Topics-</h3>
+            
                     {activeModule.topics.map((topic, index) => (
                       <div key={index} className="text-sm text-gray-700">
                         <span className="font-bold">{topic.title}</span>

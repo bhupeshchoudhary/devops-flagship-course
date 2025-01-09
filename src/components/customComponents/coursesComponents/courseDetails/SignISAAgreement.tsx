@@ -99,7 +99,7 @@ export default function ISASigningProcess() {
                   <div className="w-full h-36 md:h-28 relative mb-4">
                     <div className="absolute inset-0 rounded-lg p-4">
                       <div className="mb">
-                        <img src="/assets/Apply Now.png" alt="image" className="w-full h-full object-contain" />
+                        <img src="/assets/Apply Now.png" alt="image" className="w-full h-20 object-contain" />
                       </div>
                     </div>
                   </div>
@@ -151,11 +151,11 @@ export default function ISASigningProcess() {
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                   <div className="w-full h-36 md:h-24 relative mb-4">
                     <div className="absolute inset-0 rounded-lg p-4 flex items-center justify-center">
-                      <img src="/assets/Get-placed.png" alt="img" className="w-full h-full object-contain" />
+                      <img src="/assets/Get-placed.png" alt="img" className="w-full h-22 object-contain" />
                     </div>
                   </div>
                   <h3 className="text-white font-semibold text-sm">Get placed as DevOps Engineer</h3>
-                  <p className="text-gray-500 text-sm">(Note : 100% refund if not hired*)</p>
+                  <p className="text-gray-300 text-sm">(Note : 100% refund if not hired*)</p>
                 </CardContent>
               </Card>
             </div>

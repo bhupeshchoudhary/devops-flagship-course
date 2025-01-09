@@ -60,7 +60,7 @@ const Hero = () => {
             </div>
   
             {/* Bottom Info Card */}
-            <div className="relative md:mt-8 lg:mt-4 ">
+            <div className="relative md:mt-6 lg:mt-2 ">
   <div className="relative left-0 right-0 md:top-[0px]">
     <div className="bg-white rounded-lg p-4 shadow-lg max-w-6xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-4"> {/* Changed items-center to items-start */}
@@ -120,7 +120,7 @@ const Hero = () => {
         </div>
 
         {/* Vertical Divider and Button Section */}
-        <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto"> {/* Changed items-center to items-start */}
+        <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Changed items-center to items-start */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
          <a href="https://rzp.io/rzp/R36lbP1" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
               Apply Now
