@@ -102,26 +102,26 @@ export default function ProgramCohorts() {
             </h3>
             <div className="space-y-4">
               <div className="flex gap-3">
-                <GraduationCap className="w-5 h-5 text-orange-500 flex-shrink-0" />
+                <GraduationCap className="w-5 h-5 text-red-500 flex-shrink-0" />
                 <p className="text-sm text-black">
                 Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT - 2024 & 2025 passouts
                 </p>
               </div>
               <div className="flex gap-3">
-                <Briefcase className="w-5 h-5 text-orange-500 flex-shrink-0" />
+                <Briefcase className="w-5 h-5 text-red-500 flex-shrink-0" />
                 <p className="text-sm text-black">
                 No prior knowledge required  learn everything from Basics to Advanced levels.
                 </p>
               </div>
               <div className="flex gap-3">
-                <Code className="w-5 h-5 text-orange-500 flex-shrink-0" />
+                <Code className="w-5 h-5 text-red-500 flex-shrink-0" />
                 <p className="text-sm text-black">
                 Ideal for those curious to learn new skills and work on industry-level projects.
                 </p>
               </div>
 
               <div className="flex gap-3">
-                <Code className="w-5 h-5 text-orange-500 flex-shrink-0" />
+                <Code className="w-5 h-5 text-red-500 flex-shrink-0" />
                 <p className="text-sm text-black">
                 Minimum 90% attendance is mandatory to qualify for the placement.
                 </p>
@@ -140,8 +140,8 @@ export default function ProgramCohorts() {
                 "6-Month Internship Certificate upon successful completion of the projects",
                 "The opportunity to learn from World Record Holder, Mr. Vimal Daga, and enhance your skills to stand out in the tech industry!"
               ].map((role, index) => (
-                <div key={index} className="flex items-center gap-2">
-                  <div className="flex-shrink-0 w-2 h-2 bg-red-500 rounded-full" />
+                <div key={index} className="flex  items-cente gap-2">
+                  <div className="flex-shrink-0 w-2 h-2 mt-2 bg-red-500 rounded-full" />
                   <span className="text-sm text-black">{role}</span>
                 </div>
               ))}

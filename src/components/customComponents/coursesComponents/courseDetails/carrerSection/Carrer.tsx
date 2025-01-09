@@ -28,7 +28,14 @@ export default function CourseCareerModule() {
 
     <div className="flex justify-between items-start mb-4 mt-4"> {/* Added mt-4 to account for the number */}
       <h1 className="text-xl font-bold text-white ml-8">Career Track</h1> {/* Added ml-8 to avoid overlap with number */}
-      <Badge className="bg-white/20 text-white">1 Month</Badge>
+      <div className="absolute top-0 right-0 sm:block md:hidden"> {/* Changed here */}
+  <Badge 
+    variant="secondary" 
+    className="h-6 pt-2 pb-2 bg-[#710000] text-sm text-white border-none shrink-0"
+  >
+    <Calendar className=" mt-4 mb-4 h-6"/> 3 Months
+  </Badge>
+</div>
     </div>
             <p className="text-white/80 text-sm mb-6">
               Once you have enrolled for the program then you will have access to a wide range of resources which will help you in becoming a Job-Ready Candidate. We have a dedicated placement team of professionals who excel in their individual domains committed to assist you in our journey.

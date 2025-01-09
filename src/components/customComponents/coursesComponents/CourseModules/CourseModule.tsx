@@ -39,14 +39,23 @@ export default function CourseCurriculumModule() {
 
           {/* Content section */}
           <div className="pt-6 px-4 md:pl-16">
-    <div className="absolute top-0 right-0">
+    <div className="absolute top-0 right-0 hidden md:block">
       <Badge 
         variant="secondary" 
         className="h-10 px-4 p-4 bg-[#710000] text-sm text-white border-none shrink-0"
       >
        <Calendar className="mr-2 mt-4 mb-4   h-6"/> 3 Months
       </Badge>
+      
     </div>
+    <div className="absolute top-0 right-0 sm:block md:hidden"> {/* Changed here */}
+  <Badge 
+    variant="secondary" 
+    className="h-6 pt-2 pb-2 bg-[#710000] text-sm text-white border-none shrink-0"
+  >
+    <Calendar className=" mt-4 mb-4 h-6"/> 3 Months
+  </Badge>
+</div>
   <div className="flex items-start md:items-center mb-4 relative"> {/* Added relative */}
     {/* Badge positioned absolute in top right */}
 
