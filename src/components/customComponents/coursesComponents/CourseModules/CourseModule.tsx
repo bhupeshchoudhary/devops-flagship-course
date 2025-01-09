@@ -16,8 +16,8 @@ export default function CourseCurriculumModule() {
     <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
       <div className="max-w-6xl mx-auto">
         {/* Main Heading - Hidden on mobile */}
-        <div className="hidden md:block max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold">
-          Let's walk you through the journey of <span className="text-[#ff0000]">Placement Guaranteed DevOps </span> Training by LinuxWorld
+        <div className="hidden md:block max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold text-center">
+          Let's walk you through the journey of <span className="text-[#ff0000]"> <br/>Placement Guaranteed DevOps </span> Training by LinuxWorld
         </div>
 
         <div className="container px-0 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] pb-6 rounded-xl relative">
