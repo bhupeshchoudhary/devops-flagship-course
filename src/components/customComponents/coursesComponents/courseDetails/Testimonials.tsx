@@ -1,7 +1,3 @@
-
-
-
-
 "use client"
 
 import React, { useState, useEffect } from 'react';
@@ -84,7 +80,7 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "26%", 
     size: 80, 
     delay: 0, 
-    image: "/assets/learnersSayImages/shubhamkumar.png",
+    image: "/assets/learnersSayImages/ShubhamKumar.png",
     testimonialId: 11
   },
   { 
