@@ -106,7 +106,7 @@ export default function QueryForm() {
         <div className="flex-1 space-y-8">
           <h2 className="text-3xl font-bold text-white">We have successfully served</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
             <div className="bg-red-800/50 p-6 rounded-lg space-y-2">
               <div className="bg-red-700/50 w-12 h-12 rounded-lg flex items-center justify-center">
                 <Users className="w-6 h-6 text-white" />

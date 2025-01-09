@@ -1,5 +1,5 @@
 
-import hash13 from "../../../public/assets/logohash13.svg";
+import hash13 from "../../../public/assets/companyLogo/hash13.png";
 import lwlogo from "../../../public/assets/LW-white.png";
 import { FaLinkedin, FaInstagram, FaYoutube, FaFacebook, FaTwitter } from "react-icons/fa";
 import Image from "next/image"
@@ -13,7 +13,7 @@ export default function Footer() {
         {/* Column 1: Brand Info with Logos */}
         <div>
           <h2 className="text-xl font-bold text-white">
-         <span className="text-[#ff0000]">  Job Oriented DevOps Program </span> with Guaranteed Placement 
+         <span className="text-[#ff0000]">  Job Oriented DevOps Program </span> <br/> with Guaranteed Placement 
           </h2>
           <p className="text-lg text-blue-400 mt-2 leading-relaxed text-cyan-400">
           &quot;Making India 
