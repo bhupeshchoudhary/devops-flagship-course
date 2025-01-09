@@ -55,7 +55,7 @@ export default function ISASigningProcess() {
               <Card className="bg-transparent  border border-[#f13939ba]  shadow-lg w-full">
                 <CardContent className="p-4 flex flex-col items-center text-center">
                   <div className="w-full h-24 relative mb-2">
-                    <img src="/assets/project.png" alt="image" className="w-full h-full object-contain" />
+                    <img src="/assets/project copy.png" alt="image" className="w-full h-full object-contain" />
                   </div>
                   <h3 className="text-black font-semibold text-sm">Build Your 20+ CapStone Industry Level Projects</h3>
                 </CardContent>
@@ -69,7 +69,7 @@ export default function ISASigningProcess() {
               <Card className="bg-transparent border-[#ff0000] shadow-lg w-full">
                 <CardContent className="p-4 flex flex-col items-center text-center">
                   <div className="w-full h-24 relative mb-2">
-                    <img src="/assets/Business-Communication.png" alt="img" className="w-full h-full object-contain" />
+                    <img src="/assets/business.png" alt="img" className="w-full h-full object-contain" />
                   </div>
                   <h3 className="text-black font-semibold text-sm">Business Communication, Assessments & Contribution</h3>
                 </CardContent>
@@ -117,7 +117,7 @@ export default function ISASigningProcess() {
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                   <div className="w-full h-36 md:h-28 relative mb-4">
                     <div className="absolute inset-0 rounded-lg p-4">
-                      <img src="/assets/project.png" alt="image" className="w-full h-full object-contain" />
+                      <img src="/assets/project copy.png" alt="image" className="w-full h-full object-contain" />
                     </div>
                   </div>
                   <h3 className="text-white font-semibold text-sm">Build Your 20+ CapStone Industry Level Projects</h3>
@@ -134,7 +134,7 @@ export default function ISASigningProcess() {
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">
                   <div className="w-full h-36 md:h-28 relative mb-4">
                     <div className="absolute inset-0 flex items-center justify-center pt-4">
-                      <img src="/assets/Business-Communication.png" alt="img" className="w-full h-full pb-4 object-contain" />
+                      <img src="/assets/business.png" alt="img" className="w-full h-full pb-4 object-contain" />
                     </div>
                   </div>
                   <h3 className="text-white font-semibold text-sm">Business Communication & Assessments</h3>
