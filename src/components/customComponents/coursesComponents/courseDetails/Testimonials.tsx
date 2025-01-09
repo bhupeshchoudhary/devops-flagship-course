@@ -21,8 +21,8 @@ const floatingAvatars = [
   { top: "24%", left: "71%", size: 50, delay: 20, image: "/assets/learnersSayImages/divyanashsaxena.png" },
   { top: "74%", left: "66%", size: 50, delay: 20, image: "/assets/learnersSayImages/abhijitmandal.png" },
   { top: "-6%", left: "59%", size: 50, delay: 20, image: "/assets/learnersSayImages/ashishmangal.png" },
-  { top: "-6%", left: "24%", size: 50, delay: 20, image: "/assets/learnersSayImages/darshilshah.png" },
-  { top: "90%", left: "42%", size: 50, delay: 20, image: "/assets/learnersSayImages/gargipatel.png" },
+  { top: "-6%", left: "24%", size: 50, delay: 20, image: "/assets/learnersSayImages/BellamkondaNarendraVenkataSaiChaitanya.png" },
+  { top: "90%", left: "42%", size: 50, delay: 20, image: "/assets/learnersSayImages/DhavalChhayla.png" },
 ];
 
 export default function TestimonialsSection() {

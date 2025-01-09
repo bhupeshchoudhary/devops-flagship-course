@@ -103,18 +103,18 @@ export const testimonials: Testimonial[] = [
   },
   {
     id: 13,
-    name: "Ashish Mangal",
-    role: "Software Engineer",
+    name: "Bellamkonda Narendra Venkata Sai Chaitanya",
+    role: "DevOps Engineer",
     rating: 78,
-    image: "/assets/learnersSayImages/ashishmangal.png",
-    content: "Hello sir, Thank you so much for your kind words and encouragement! I truly appreciate your support throughout my journey. Being an ARTHian has had a huge impact on my growth, and I'm excited to continue learning and exploring new technologies at Capgemini. Your blessings mean a lot to me!"
+    image: "/assets/learnersSayImages/BellamkondaNarendraVenkataSaiChaitanya.png",
+    content: "Currently I am a DevOps Engineering at Seclore Pvt Ltd. Vimal sir is my teacher which I always remind myself. I am glad to be his student.I am currently pursuing my career as a DevOps Engineer. Each step of this journey has strengthened my skills and passion for DevOps, and I look forward to continuing my growth in this field.My journey toward becoming a DevOps Engineer began during my college ( IIIT AP ) days when I decided to pursue the Arth3 program instead of participating in regular college placement activities. I joined in Arth3 because of my frnds who are Arth1 learners. The Arth3 program provided me with in-depth knowledge of Cloud Computing and DevOps, shaping my career aspirations."
   },
   {
     id: 14,
-    name: "Darshil Shah",
-    role: "DevOps Engineer",
+    name: "Dhaval Chhayla",
+    role: "DevOps Intern",
     rating: 66,
-    image: "/assets/learnersSayImages/darshilshah.png",
-    content: "Thank you, sir. I never had the chance to speak to you directly before, but it's an honor to do so now. From the first lecture of ARTH-1 to now being a DevOps engineer at a well-reputed company, it has been an incredible journey. I credit you for your guidance and teaching, which showed me how the thinking process of an engineer should be. Learning skills is secondary; what comes first is the mindset and how you approach problems or learning any new skill. I'm proud to be an ARTH student and grateful to have found a mentor like you."
+    image: "/assets/learnersSayImages/DhavalChhayla.png",
+    content: "By September 2023, my efforts paid off when I secured a DevOps Intern role at a reputed MNC with a 5 LPA package. This experience taught me the value of perseverance and continuous learning, and I hope it inspires others to keep striving toward their goals.What I appreciated most about LinuxWorld and Mr. Vimal Daga was the exceptional learning experience during the Workshop on AWS Cloud with AI. His expertise and ability to simplify complex topics like AWS, cloud computing, and Python made the workshop impactful and inspiring.My placement journey was a mix of challenges and growth. After facing four final-round rejections, including one with IBM, I reflected on my approach and focused on smart, hard work. Participating in the Workshop on AWS Cloud with AI by LinuxWorld in August 2023 was a turning point, equipping me with practical skills and confidence."
   }
 ];
