@@ -28,8 +28,8 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "40%", 
     size: 80, 
     delay: 200, 
-    image: "/assets/learnersSayImages/shubhamkumar.png",
-    testimonialId: 11 
+    image: "/assets/learnersSayImages/Linuxworld.png",
+    testimonialId: 15
   },
   { 
     top: "64%", 
@@ -84,8 +84,8 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "26%", 
     size: 80, 
     delay: 0, 
-    image: "/assets/learnersSayImages/rupaligurjar.png",
-    testimonialId: 8 
+    image: "/assets/learnersSayImages/shubhamkumar.png",
+    testimonialId: 11
   },
   { 
     top: "74%", 
@@ -108,8 +108,8 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "71%", 
     size: 50, 
     delay: 20, 
-    image: "/assets/learnersSayImages/divyanashsaxena.png",
-    testimonialId: 11 
+    image: "/assets/learnersSayImages/rupaligurjar.png",
+    testimonialId: 8 
   },
   { 
     top: "74%", 
