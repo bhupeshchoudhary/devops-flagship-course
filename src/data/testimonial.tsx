@@ -18,7 +18,7 @@ export const testimonials: Testimonial[] = [
     content: "Hello Vimal Sir, I can't image that you messaged me. It truly feels like a dream come true! I want to take a moment to express my deepest gratitude to you. Your guidance and mentorship have meant the world to me. Without your support I wouldn't be where I am today. Your message truly touched me, and it made me reflect on how much of an impact you have had on my journey. I remember I once had the opportunity to meet you in person, but unfortunately, due to a family emergency, I couldn't make it. I deeply regret missing that chance I really want to meet you. You've shaped my path in ways that words cannot fully express. Thank you again, Sir, for everything. I look forward to the day I can meet you and express this in person."
   },
   {
-    id: 3,
+    id: 14,
     name: "Kaushik Denge",
     role: "Cloud Network Engineer @ Capgemini",
     rating: 88,
@@ -109,7 +109,7 @@ export const testimonials: Testimonial[] = [
     content: "Currently I am a DevOps Engineering at Seclore Pvt Ltd. Vimal sir is my teacher which I always remind myself. I am glad to be his student.I am currently pursuing my career as a DevOps Engineer. Each step of this journey has strengthened my skills and passion for DevOps, and I look forward to continuing my growth in this field.My journey toward becoming a DevOps Engineer began during my college ( IIIT AP ) days when I decided to pursue the Arth3 program instead of participating in regular college placement activities. I joined in Arth3 because of my frnds who are Arth1 learners. The Arth3 program provided me with in-depth knowledge of Cloud Computing and DevOps, shaping my career aspirations."
   },
   {
-    id: 14,
+    id: 3,
     name: "Dhaval Chhayla",
     role: "DevOps Intern @ Buchanan Technologies",
     rating: 66,

@@ -21,13 +21,15 @@ interface FloatingAvatar {
 }
 // Updated floatingAvatars array with testimonialId
 const floatingAvatars: FloatingAvatar[] = [
+ 
+ 
   { 
     top: "32%", 
     left: "40%", 
     size: 80, 
     delay: 200, 
-    image: "/assets/learnersSayImages/gargipatel.png",
-    testimonialId: 1 
+    image: "/assets/learnersSayImages/shubhamkumar.png",
+    testimonialId: 11 
   },
   { 
     top: "64%", 
@@ -42,7 +44,7 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "54%", 
     size: 80, 
     delay: 0, 
-    image: "/assets/learnersSayImages/kaushikdenge.png",
+    image: "/assets/learnersSayImages/DhavalChhayla.png",
     testimonialId: 3 
   },
   { 
@@ -50,16 +52,16 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "56%", 
     size: 80, 
     delay: 0, 
-    image: "/assets/learnersSayImages/mayankagarwal.png",
-    testimonialId: 4 
+    image: "/assets/learnersSayImages/UtkarshKumarSingh.png",
+    testimonialId: 12 
   },
   { 
     top: "4%", 
     left: "46%", 
     size: 80, 
     delay: 0, 
-    image: "/assets/learnersSayImages/rahulraipuriya.png",
-    testimonialId: 5 
+    image: "/assets/learnersSayImages/BellamkondaNarendraVenkataSaiChaitanya.png",
+    testimonialId: 13
   },
   { 
     top: "4%", 
@@ -74,8 +76,8 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "24%", 
     size: 80, 
     delay: 0, 
-    image: "/assets/learnersSayImages/ritwikjha.png",
-    testimonialId: 7 
+    image: "/assets/learnersSayImages/PrateekSrivastava.png",
+    testimonialId: 10
   },
   { 
     top: "54%", 
@@ -98,8 +100,8 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "14%", 
     size: 50, 
     delay: 20, 
-    image: "/assets/learnersSayImages/deveshchitlangia.png",
-    testimonialId: 10 
+    image: "/assets/learnersSayImages/ritwikjha.png",
+    testimonialId: 7
   },
   { 
     top: "24%", 
@@ -114,24 +116,24 @@ const floatingAvatars: FloatingAvatar[] = [
     left: "66%", 
     size: 50, 
     delay: 20, 
-    image: "/assets/learnersSayImages/abhijitmandal.png",
-    testimonialId: 12 
+    image: "/assets/learnersSayImages/mayankagarwal.png",
+    testimonialId: 4 
   },
   { 
     top: "-6%", 
     left: "59%", 
     size: 50, 
     delay: 20, 
-    image: "/assets/learnersSayImages/BellamkondaNarendraVenkataSaiChaitanya.png",
-    testimonialId: 13 
+    image: "/assets/learnersSayImages/rahulraipuriya.png",
+    testimonialId: 5 
   },
   { 
     top: "-6%", 
     left: "24%", 
     size: 50, 
     delay: 20, 
-    image: "/assets/learnersSayImages/DhavalChhayla.png",
-    testimonialId: 14 
+    image: "/assets/learnersSayImages/kaushikdenge.png",
+    testimonialId: 14
   }
 ];
 
