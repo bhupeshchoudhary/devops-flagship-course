@@ -134,7 +134,7 @@ export default function ProgramCohorts() {
             <h3 className="text-lg font-medium mb-4 text-black font-semibold">What You&apos;ll Receive:</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {[
-                "Guaranteed Placement. (100% refund if not hired*)",
+                "Guaranteed Placement. (100% refund if not hired)",
                 "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
                 "Industry-Recognized Project Certificate signed by Mr. Vimal Daga.",
                 "6-Month Internship Certificate upon successful completion of the projects",

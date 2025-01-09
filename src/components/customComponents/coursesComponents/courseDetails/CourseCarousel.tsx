@@ -90,7 +90,7 @@ function CourseCarousel() {
                     Get ready to be hired by core tech companies & secure a package between ₹4,00,000 - ₹8,00,000
                   </p>
                   <p className="font-semibold text-white/70">
-                    (Note : 100% refund if not hired*)
+                    (Note : 100% refund if not hired)
                   </p>
                 </div>
               </div>
