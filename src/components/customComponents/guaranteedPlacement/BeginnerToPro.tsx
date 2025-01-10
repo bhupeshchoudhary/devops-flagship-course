@@ -30,7 +30,7 @@ With a DevOps Program designed and taught by industry expert - Mr Vimal Daga, yo
                     <BookOpenCheck className="h-5 w-5 md:h-6 md:w-6 text-[#ff0000]" />
                   </div>
                   <h3 className="font-medium text-sm sm:text-base text-center lg:text-left">
-                   <span className="font-bold">300+ Hours </span> <br/>  of Learning
+                   <span className="font-bold">300+ Hours </span> <br/>  of Hands-On Learning
                   </h3>
                 </CardContent>
               </Card>

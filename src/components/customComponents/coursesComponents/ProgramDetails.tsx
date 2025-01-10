@@ -137,7 +137,7 @@ export default function ProgramCohorts() {
                 "Guaranteed Placement. (100% refund if not hired*)",
                 "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
                 "Industry-Recognized Project Certificate signed by Mr. Vimal Daga.",
-                "6-Month Internship Certificate upon successful completion of the projects",
+                "6 Months Internship Certificate upon successful completion of the projects",
                 "The opportunity to learn from World Record Holder, Mr. Vimal Daga, and enhance your skills to stand out in the tech industry!"
               ].map((role, index) => (
                 <div key={index} className="flex  items-cente gap-2">

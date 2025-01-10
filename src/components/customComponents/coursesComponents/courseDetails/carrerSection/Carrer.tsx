@@ -33,7 +33,7 @@ export default function CourseCareerModule() {
     variant="secondary" 
     className="h-6 pt-2 pb-2 bg-[#710000] text-sm text-white border-none shrink-0"
   >
-    <CalendarDays className=" mt-4 mb-4 h-6"/> 3 Months
+    <CalendarDays className=" mt-4 mb-4 h-6"/> 1 Month
   </Badge>
 </div>
     </div>
@@ -83,7 +83,7 @@ export default function CourseCareerModule() {
         variant="secondary" 
         className="h-10 px-4 p-4 bg-[#710000] text-sm text-white border-none shrink-0"
       >
-       <CalendarDays className="mr-2 mt-4 mb-4   h-6"/> 1 Months
+       <CalendarDays className="mr-2 mt-4 mb-4   h-6"/> 1 Month
       </Badge>
   
     </div>
