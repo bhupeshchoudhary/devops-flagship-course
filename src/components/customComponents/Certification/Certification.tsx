@@ -18,7 +18,7 @@ export default function Certification() {
           <div className="w-full md:w-1/2">
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center bg-[#ff0000]  font-bold">1</span>
+                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-[#ff0000]  font-bold">1</span>
                 DevOps Training certificate
               </h2>
               <p className="text-gray-600 pl-10">
