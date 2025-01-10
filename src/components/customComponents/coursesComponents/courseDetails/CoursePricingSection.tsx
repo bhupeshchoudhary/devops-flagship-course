@@ -6,13 +6,13 @@ export default function   CoursePricingSection() {
   return (
     <div className=" mx-auto bg-gradient-to-r from-gray-50 via-white-50 to-red-50 " id="participatenow">
       <div className="max-w-6xl mx-auto md:p-6">
-      <div className="mb-6">  <h1 className="text-3xl md:text-3xl font-bold text-gray-800 px-2">
+      <div className="mb-6">  <h1 className="text-3xl md:text-3xl font-bold text-gray-800 px-2 text-center">
 
 
         <span className="text-[#ff0000] md:p-0" > Invest today & </span>get Placement Guarantee 
         </h1>
         
-        <p className="px-4">(100% refund if not hired)</p>
+        <p className="px-4 text-center">(100% refund if not hired)</p>
         </div>
         
         <div className="flex flex-col md:flex-row gap-8">
