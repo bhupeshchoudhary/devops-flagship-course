@@ -38,7 +38,7 @@ const Hero = () => {
                 Start your career with a ₹4-8 LPA package.
                 </p>
                 <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-red-700 text-sm sm:text-base">
-                100% refund if not hired*
+                100% refund if not hired
                 </Button>
               </div>
   
@@ -114,7 +114,7 @@ const Hero = () => {
             <TbCertificate className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">GUARANTEE</span>
-              <div className="font-bold text-xs">100% refund if not hired*</div>
+              <div className="font-bold text-xs">100% refund if not hired</div>
             </div>
           </div>
         </div>
