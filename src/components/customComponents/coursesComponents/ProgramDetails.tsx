@@ -81,7 +81,8 @@ export default function ProgramCohorts() {
       
       {/* Action button - same for both mobile and desktop */}
       <div>
-        <a href="https://rzp.io/rzp/R36lbP1" target="blank">
+        {/* <a href="https://rzp.io/rzp/R36lbP1" target="blank"> */}
+        <a href="https://forms.gle/MNMVshhsBLnLiaFj9" target="blank">
           <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-white hover:shadow-md hover:bg-[#ff0000]">
           Apply Now 
           </Button>

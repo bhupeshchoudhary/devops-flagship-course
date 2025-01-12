@@ -124,7 +124,8 @@ const Hero = () => {
         {/* Vertical Divider and Button Section */}
         <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Changed items-center to items-start */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
-         <a href="https://rzp.io/rzp/R36lbP1" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
+         {/* <a href="https://rzp.io/rzp/R36lbP1" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6"> */}
+         <a href="https://forms.gle/MNMVshhsBLnLiaFj9" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
               Apply Now
             </Button>
          </a>
