@@ -18,8 +18,8 @@ export default function Certification() {
           <div className="w-full md:w-1/2">
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center bg-[#ff0000]  font-bold">1</span>
-                DevOps Trainings certificate
+                <span className="w-8 h-8 rounded-full bg-red-100 flex items-center justify-center text-[#ff0000]  font-bold">1</span>
+                DevOps Training certificate
               </h2>
               <p className="text-gray-600 pl-10">
               On successful completion of the program with 90% attendance in Live Sessions & completion of all Capstone Projects with assessments makes you eligible for Training Certificate

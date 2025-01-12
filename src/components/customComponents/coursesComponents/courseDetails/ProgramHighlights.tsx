@@ -29,12 +29,12 @@ const ProgramHighlights = () => {
     <div className="bg-gradient-to-r from-gray-50 to-red-50">
       <div className="py-6 lg:px-8 max-w-6xl mx-auto px-2">
         {/* Title */}
-        <h2 className="text-gray-700 text-sm font-semibold mb-2">
+        <h2 className="text-gray-700 text-sm font-semibold mb-2 text-center">
           Your Pathway To DevOps Career
         </h2>
 
         {/* Heading */}
-        <h1 className="text-3xl font-bold mb-6">
+        <h1 className="text-3xl font-bold mb-6 text-center">
           Key <span className="text-[#ff0000]">Program</span> Highlights
         </h1>
 

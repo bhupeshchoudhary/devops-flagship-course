@@ -253,8 +253,8 @@ I'm really looking forward to applying these insights!
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 p-4 sm:p-6 mx-auto" >
       <div className="max-w-[920px] mx-auto">
-        <h2 className="text-black text-sm sm:text-md">HEAR IT FROM THEM</h2>
-        <h2 className="text-black text-2xl sm:text-3xl font-bold mb-6 sm:mb-10 mt-2">
+        <h2 className="text-black text-sm sm:text-md text-center">HEAR IT FROM THEM</h2>
+        <h2 className="text-black text-2xl sm:text-3xl font-bold mb-6 sm:mb-10 mt-2 text-center">
           Ambitious People ❤️ <span className="text-[#ff0000]">Linux World</span>
         </h2>
 

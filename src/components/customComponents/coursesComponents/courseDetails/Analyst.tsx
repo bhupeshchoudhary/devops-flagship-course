@@ -56,7 +56,7 @@ const Analyst: React.FC = () => {
         <div className="space-y-2">
            
           
-            <div className="text-2xl sm:text-3xl font-bold text-[#ff0000]">
+            <div className="text-2xl sm:text-3xl font-bold text-[#ff0000] text-center">
               Rising Demand <span className="text-black"> for DevOps since 2020 </span>
             </div>
             

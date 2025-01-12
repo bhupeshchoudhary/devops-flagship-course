@@ -110,7 +110,7 @@ const MentorProfile = () => {
     <h1 className="text-center mb-4 font-bold  text-lg sm:text-3xl text-black pb-4">
      
 
-    Know Your Mentor : <span className="text-[#ff0000]"> The World Record Holder - Mr Vimal Daga </span>
+    Know Your Mentor : <span className="text-[#ff0000] text-center"> The World Record Holder - Mr Vimal Daga </span>
           </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Left Column - Image Carousel and Mentor Details */}

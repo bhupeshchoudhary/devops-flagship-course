@@ -57,8 +57,6 @@ const CourseDetail = ()=>{
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
         <CompaniesCarousel/>
-     <BeginnerToPro></BeginnerToPro>
-<BecomePlacement></BecomePlacement>
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
         <ProgramHighlights></ProgramHighlights>
@@ -72,6 +70,9 @@ const CourseDetail = ()=>{
   <TestimonialsSection />
   <CareerGuarantee />
      <PlacedStudents />
+     {/* <CoursePricingSection></CoursePricingSection> 10 */}
+     <BeginnerToPro></BeginnerToPro>
+<BecomePlacement></BecomePlacement>
      {/* <CoursePricingSection></CoursePricingSection> 10 */}
      {/* <Tools></Tools>  */}
         {/* <CertificateDisplay></CertificateDisplay> */}

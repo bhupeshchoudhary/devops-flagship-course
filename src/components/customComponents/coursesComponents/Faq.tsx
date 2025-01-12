@@ -75,21 +75,15 @@ const faqContent: Record<string, FAQItem[]> = {
     {
       question: "Who should enroll in this program?",
       answer:
-        (
-          <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>Fresh graduates or IT professionals seeking a career in DevOps.
-
-
-          </li>
-          <li>Developers, sysadmins, or QA engineers wanting to transition to DevOps.
-
-          .</li>
-          <li>Anyone interested in mastering DevOps tools and workflows.
-          </li>
-
+      ( <ul className="list-disc list-inside mt-2 space-y-1">
+        The Placement Guarantee course is designed for:
+        <li>Final-year undergraduate or graduate students (2023, 2024, or 2025 batch).</li>
+        <li> Fresh graduates who have recently completed their degree.</li>
+        <li>Individuals with a keen interest in building a career in the relevant field and are ready to commit to the program requirements.</li>
+       <li>If you're looking to enhance your skills and secure a job, this course is perfect for you!</li>
   
-        </ul>
-        )
+       </ul>
+      )
     },
     {
       question: "What is the job guarantee??",
@@ -97,7 +91,7 @@ const faqContent: Record<string, FAQItem[]> = {
     },
     {
       question: "What is the salary I will get an offer for?",
-      answer: "Every eligible Placement Guarantee course student will be assured a CTC ranging from ₹ 3 LPA to ₹ 10 LPA for full-time, part-time, and temporary/contractual employment."
+      answer: "Every eligible Placement Guarantee course student will be assured a CTC ranging from ₹  4 LPA to ₹ 8 LPA."
     },
     {
       question: "What opportunities will be considered towards this guarantee?",
@@ -188,7 +182,7 @@ const faqContent: Record<string, FAQItem[]> = {
     {
       question: "What salary range can I expect after completing this program?",
       answer:
-"Entry-level DevOps roles typically offer salaries ranging from 3 to 10 LPA per year, depending on location, industry, and expertise level."
+"Entry-level DevOps roles typically offer salaries ranging from 4 LPA to 8 LPA per year, depending on location, industry, and expertise level."
     },
   ],
   selectionCriteria: [
@@ -263,13 +257,9 @@ const faqContent: Record<string, FAQItem[]> = {
     },
     {
       question: "I have more than 3 years of work experience in a different field and now I want to switch to Devops, can I apply?",
-      answer:  "Yes, you can apply! This course is designed to support professionals from diverse backgrounds who are looking to transition into DevOps."
+      answer:  "This program is not the best fit for you. However, we offer a professional course designed for people with work experience who want to switch to DevOps. This course is available for the 2024 and 2025 batches. Please check out our professional course for more details!"
     },
-    {
-      question: "My application was rejected, can I re-apply?",
-      answer:  "You can. However, it is recommended that you speak to us first to understand shortcomings in your previous application before deciding to re-apply."
-    }
-    
+   
   ],
 
 
@@ -288,7 +278,7 @@ export default function Faq() {
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
     <div className="container mx-auto max-w-6xl px-4 py-12 ">
       {/* Header */}
-      <h1 className="sm:text-2xl lg:text-3xl font-bold mb-8 sm:mb-12 text-center sm:text-left">
+      <h1 className="sm:text-2xl lg:text-3xl font-bold mb-8 sm:mb-12 text-center  ">
         Frequently Asked <span className="text-[#ff0000]">Questions</span>
       </h1>
 

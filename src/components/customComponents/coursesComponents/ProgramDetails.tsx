@@ -8,13 +8,13 @@ export default function ProgramCohorts() {
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
         {/* Headers */}
         <div className="space-y-2">
-          <h1 className="text-lg sm:text-3xl font-semibold text-black">
+          <h1 className="text-lg sm:text-3xl font-semibold text-black text-center">
 
            
            Job Oriented{" "}
             <span className="text-[#ff0000]">DevOps Globally Recognized Program</span>
           </h1>
-          <h2 className="text-sm sm:text-lg text-black">
+          <h2 className="text-sm sm:text-lg text-black text-center">
             Chance to learn from DevOps Guru - {" "}
             <span className="text-[#ff0000]">Mr Vimal Daga</span>  & get Placement Guarantee
 
@@ -137,7 +137,7 @@ export default function ProgramCohorts() {
                 "Guaranteed Placement. (100% refund if not hired)",
                 "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
                 "Industry-Recognized Project Certificate signed by Mr. Vimal Daga.",
-                "6-Month Internship Certificate upon successful completion of the projects",
+                "6 Months Internship Certificate upon successful completion of the projects",
                 "The opportunity to learn from World Record Holder, Mr. Vimal Daga, and enhance your skills to stand out in the tech industry!"
               ].map((role, index) => (
                 <div key={index} className="flex  items-cente gap-2">
