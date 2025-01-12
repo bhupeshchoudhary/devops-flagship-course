@@ -72,7 +72,7 @@ const CourseDetail = ()=>{
   <TestimonialsSection />
   <CareerGuarantee />
      <PlacedStudents />
-     <CoursePricingSection></CoursePricingSection> {/*10 */}
+     {/* <CoursePricingSection></CoursePricingSection> 10 */}
      {/* <Tools></Tools>  */}
         {/* <CertificateDisplay></CertificateDisplay> */}
      <SkillsAndTools></SkillsAndTools>
