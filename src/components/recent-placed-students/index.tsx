@@ -1,104 +1,17 @@
-// "use client";
- 
- 
-// import { PlacementCard, CardData } from './card';
- 
-// import { Rays } from './rays';
-// import {Beams} from './beams';
-// import blackimage from "../../../public/assets/black.jpg";
-// import { useState } from "react";
-// import { Lens } from "../ui/lens";
-// import Image from "next/image";
-// import { motion } from "framer-motion";
-// import { cn } from "@/lib/utils";
-
-
-// export function RecentPlacedStudents() {
-//     const [hovering, setHovering] = useState(false);
-//   // Create separate hovering state for each card
-//   const [hoveringStates, setHoveringStates] = useState([false, false, false, false]);
-
-//   // Function to update hovering state for a specific card
-//   const handleHover = (index: number, isHovering: boolean) => {
-//     const newHoveringStates = [...hoveringStates];
-//     newHoveringStates[index] = isHovering;
-//     setHoveringStates(newHoveringStates);
-//   };
-
-//   // Card data
-//   const cardData: CardData[] = [
-//     {
-//       title: "Shortlisted Students",
-//       description: "46+ students shortlisted for Signzy as DevOps Engineer - Freshers 2024-2025 passouts from our previous DevOps batch",
-//     //   imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQEu-u0dHSY1mg/feedshare-shrink_2048_1536/B56ZRQfsZVHQAo-/0/1736517274165?e=1739404800&v=beta&t=htjTa_MHD-eISeH1F00aZdv3UBRKXKDuELGeNhgnnoI"
-//       imageUrl: blackimage.src
-//     },
-//     {
-//       title: "Shortlisted Students",
-//       description: "56+ students shortlisted for Deloitte as Fresher DevOps Engineer : 2024/2025 passouts from our previous DevOps batch",
-//       imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQEu-u0dHSY1mg/feedshare-shrink_2048_1536/B56ZRQfsZVHQAo-/0/1736517274165?e=1739404800&v=beta&t=htjTa_MHD-eISeH1F00aZdv3UBRKXKDuELGeNhgnnoI"
-//     },
-//     {
-//       title: "Shortlisted Students",
-//       description: "1052 learners placed in 2024 : 401 Freshers & 651 professionals with 2x hike  ",
-//       imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQEu-u0dHSY1mg/feedshare-shrink_2048_1536/B56ZRQfsZVHQAo-/0/1736517274165?e=1739404800&v=beta&t=htjTa_MHD-eISeH1F00aZdv3UBRKXKDuELGeNhgnnoI"
-//     },
-//     {
-//       title: "Shortlisted Students",
-//       description: "5000+ jobs in 2025 : This year job openings would be 5x more than 2024",
-//       imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQEu-u0dHSY1mg/feedshare-shrink_2048_1536/B56ZRQfsZVHQAo-/0/1736517274165?e=1739404800&v=beta&t=htjTa_MHD-eISeH1F00aZdv3UBRKXKDuELGeNhgnnoI"
-//     }
-//   ];
-
- 
-// return (
-//     <div>
-//       <div className="w-full relative rounded-3xl overflow-hidden max-w-md mx-auto bg-gradient-to-r from-[#1D2235] to-[#121318] p-8 my-10">
-//         <Rays />
-//         <Beams />
-//         <div className="relative z-10">
-//           <Lens hoveringStates={hoveringStates} setHoveringStates={setHoveringStates}>
-//             <Image
-//               src="https://images.unsplash.com/photo-1713869820987-519844949a8a?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-//               alt="image"
-//               width={500}
-//               height={500}
-//               className="rounded-2xl"
-//             />
-//           </Lens>
-//           <motion.div
-//             animate={{
-//               filter: hovering ? "blur(2px)" : "blur(0px)",
-//             }}
-//             className="py-4 relative z-20"
-//           >
-//             <h2 className="text-white text-2xl text-left font-bold">
-//               Apple Vision Pro
-//             </h2>
-//             <p className="text-neutral-200 text-left  mt-4">
-//               The all new apple vision pro was the best thing that happened
-//               around 8 months ago, not anymore.
-//             </p>
-//           </motion.div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
- 
-
-
 "use client";
  
 import { PlacementCard, CardData } from './card';
 import { Rays } from './rays';
 import { Beams } from './beams';
-import blackimage from "../../../public/assets/black.jpg";
 import { useState } from "react";
 import { Lens } from "../ui/lens";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import Image2024 from "../../../public/assets/2024.jpg";
+import Image2025 from "../../../public/assets/2025.jpg";
+import singzy from "../../../public/assets/singzy.jpg";
+import deloitte from "../../../public/assets/deloitte.jpg";
 
 export function RecentPlacedStudents() {
   // Create separate hovering state for each card
@@ -114,34 +27,57 @@ export function RecentPlacedStudents() {
   // Card data
   const cardData: CardData[] = [
     {
-      title: "Shortlisted Students",
-      description: "46+ students shortlisted for Signzy as DevOps Engineer - Freshers 2024-2025 passouts from our previous DevOps batch",
-      imageUrl: blackimage.src
+      title: "46+ students shortlisted for Signzy  ",
+      description: "as DevOps Engineer - Freshers 2024-2025 passouts from our previous DevOps batch",
+      imageUrl: singzy.src
     },
     {
-      title: "Shortlisted Students",
-      description: "56+ students shortlisted for Deloitte as Fresher DevOps Engineer : 2024/2025 passouts from our previous DevOps batch",
-      imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQEu-u0dHSY1mg/feedshare-shrink_2048_1536/B56ZRQfsZVHQAo-/0/1736517274165?e=1739404800&v=beta&t=htjTa_MHD-eISeH1F00aZdv3UBRKXKDuELGeNhgnnoI"
-    },
+        title: "1052 learners placed in 2024  last year :",
+        description: "  401 Freshers & 651 professionals with 2x hike got placed in companies hiring exclusively from LinuxWorld",
+        imageUrl: Image2024.src
+      },
     {
-      title: "Shortlisted Students",
-      description: "1052 learners placed in 2024 : 401 Freshers & 651 professionals with 2x hike",
-      imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQEu-u0dHSY1mg/feedshare-shrink_2048_1536/B56ZRQfsZVHQAo-/0/1736517274165?e=1739404800&v=beta&t=htjTa_MHD-eISeH1F00aZdv3UBRKXKDuELGeNhgnnoI"
+      title: "52+ students shortlisted for Deloitte",
+      description: "  as Fresher DevOps Engineer : 2024/2025 passouts from our previous DevOps batch",
+      imageUrl: deloitte.src
     },
+  
     {
-      title: "Shortlisted Students",
-      description: "5000+ jobs in 2025 : This year job openings would be 5x more than 2024",
-      imageUrl: "https://media.licdn.com/dms/image/v2/D5622AQEu-u0dHSY1mg/feedshare-shrink_2048_1536/B56ZRQfsZVHQAo-/0/1736517274165?e=1739404800&v=beta&t=htjTa_MHD-eISeH1F00aZdv3UBRKXKDuELGeNhgnnoI"
+      title: "5000+ jobs in 2025 - Going to be a Big Year :",
+      description: "  This year job openings for core technical profiles would be 5x more than 2024 ",
+      imageUrl: Image2025.src
     }
   ];
 
   return (
-    <div className="container mx-auto px-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+    <div className=''>
+    <div className="container max-w-6xl mx-auto px-4 py-12 ">
+      {/* Heading Section */}
+      <div className="text-center mb-12 ">
+        <h1 
+       
+          className="text-3xl md:text-3xl lg:text-3xl font-bold text-black mb-2"
+        >
+          <span className='text-[#ff0000]'>Latest </span>Updates
+        </h1>
+        < p className="text-gray-700 text-lg">
+          
+          Discover the incredible journey of our students, from learning to landing dream jobs at top-tier companies
+        </p>
+      </div>
+
+      {/* Cards Section */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {cardData.map((card, index) => (
-          <div 
+          <motion.div 
             key={index} 
-            className="w-full relative rounded-3xl overflow-hidden bg-gradient-to-r from-[#1D2235] to-[#121318] p-4"
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ 
+              duration: 0.5, 
+              delay: index * 0.2 
+            }}
+            className="w-full relative rounded-3xl overflow-hidden bg-gradient-to-r from-[#1D2235] to-[#121318] p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
             <Rays />
             <Beams />
@@ -155,26 +91,22 @@ export function RecentPlacedStudents() {
                   alt={card.title}
                   width={500}
                   height={500}
-                  className="rounded-2xl"
+                  className="rounded-2xl object-cover aspect-square"
                 />
               </Lens>
-              <motion.div
-                animate={{
-                  filter: hoveringStates[index] ? "blur(2px)" : "blur(0px)",
-                }}
-                className="py-4 relative z-20"
-              >
+              <div className="py-4 relative z-20">
                 <h2 className="text-white text-xl text-left font-bold">
                   {card.title}
                 </h2>
                 <p className="text-neutral-200 text-left mt-2 text-sm">
                   {card.description}
                 </p>
-              </motion.div>
+              </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
+    </div>
     </div>
   );
 }
