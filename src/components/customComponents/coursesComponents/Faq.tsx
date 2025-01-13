@@ -257,7 +257,7 @@ const faqContent: Record<string, FAQItem[]> = {
     },
     {
       question: "I have more than 3 years of work experience in a different field and now I want to switch to Devops, can I apply?",
-      answer:  "This program is not the best fit for you. However, we offer a professional course designed for people with work experience who want to switch to DevOps. This course is available for the 2024 and 2025 batches. Please check out our professional course for more details!"
+      answer:  "This program is not the best fit for you. This course is available for the 2024 and 2025 batches. However, we offer a professional course designed for people with work experience who want to switch to DevOps. Please check out our professional course for more details!"
     },
    
   ],

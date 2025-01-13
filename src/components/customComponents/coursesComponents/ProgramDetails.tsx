@@ -12,7 +12,7 @@ export default function ProgramCohorts() {
 
            
            Job Oriented{" "}
-            <span className="text-[#ff0000]">DevOps Globally Recognized Program</span>
+            <span className="text-[#ff0000]">DevOps Globally Recognized Initiative</span>
           </h1>
           <h2 className="text-sm sm:text-lg text-black text-center">
             Chance to learn from DevOps Guru - {" "}
@@ -28,7 +28,7 @@ export default function ProgramCohorts() {
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
               <h3 className="text-sm sm:text-lg text-black font-semibold">
-                LW Job Oriented DevOps Globally Recognized Program 2025
+                LW Job Oriented DevOps Globally Recognized Initiative 2025
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
                 Limited Seats available

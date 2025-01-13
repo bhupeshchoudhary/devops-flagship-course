@@ -29,7 +29,7 @@ export default function ISASigningProcess() {
             <div className="flex items-center justify-between mb-4">
               <div>
                 <h2 className="text-3xl font-bold text-white mb-4 md:ml-16">
-                  End to End <span className="text-white">Placement Guaranteed DevOps</span> Program Process
+                  End to End <span className="text-white">Placement Guaranteed DevOps</span> Initiative Process
                 </h2>
               </div>
             </div>

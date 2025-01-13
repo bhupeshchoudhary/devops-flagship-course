@@ -19,7 +19,7 @@ export default function   CoursePricingSection() {
           {/* Left Column - Pricing */}
           <Card className="flex-1 p-6 bg-white">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
-              Job Oriented DevOps Program with Guaranteed Placement
+              Job Oriented DevOps Initiative with Guaranteed Placement
 
               <span className="block text-gray-600 text-lg mt-1">
                 (Save ₹10,000)
