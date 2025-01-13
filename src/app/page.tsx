@@ -40,7 +40,8 @@ import LinkedInShowcase from "@/components/customComponents/coursesComponents/co
 
 import LinkdingTestimonial2 from "@/components/customComponents/coursesComponents/courseDetails/LinkedinTestimonial2";
 import SignISAAgreement from "@/components/customComponents/coursesComponents/courseDetails/SignISAAgreement";
-import { RecentPlacedStudents } from "@/components/customComponents/coursesComponents/courseDetails/RecentPlacedStudents";
+import { RecentPlacedStudents } from "@/components/recent-placed-students";
+
 
 
 
