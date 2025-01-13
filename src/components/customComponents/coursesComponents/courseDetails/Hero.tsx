@@ -44,17 +44,17 @@ const Hero = () => {
   
               {/* Right Side Image */}
               <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
-                <div className="aspect-[16/9] w-full h-[200px] md:h-[300px] lg:h-[300px]"> {/* Increased height */}
-                  <Image 
-                    src="/assets/heroImage.jpg"
-                    alt="Course illustration"
-                    fill
-                    className="object-contain rounded-lg"
-                    priority
-                    sizes="(max-width: 768px) 100vw,
-                           (max-width: 1200px) 50vw,
-                           55vw"
-                  />
+                <div className="aspect-[16/9] w-full md:w-[50px] lg:w-[50px] h-[200px] md:h-[300px] lg:h-[300px]"> {/* Increased height */}
+                <Image 
+  src="/assets/Main-Image.png"
+  alt="Course illustration"
+  fill
+  className="object-contain rounded-tr-3xl rounded-bl-3xl ml-12"
+  priority
+  sizes="(max-width: 768px) 100vw,
+         (max-width: 1200px) 50vw,
+         55vw"
+/>
                 </div>
               </div>
             </div>
