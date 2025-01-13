@@ -37,7 +37,7 @@ export function RecentPlacedStudents() {
         imageUrl: Image2024.src
       },
     {
-      title: "52+ students shortlisted for Deloitte",
+      title: "42+ students shortlisted for Deloitte",
       description: "  as Fresher DevOps Engineer : 2024/2025 passouts from our previous DevOps batch",
       imageUrl: deloitte.src
     },
