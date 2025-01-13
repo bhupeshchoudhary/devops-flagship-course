@@ -43,7 +43,7 @@ export default function TopCareerOptions() {
       <div className="container max-w-6xl mx-auto px-4 py-8">
         <h2 className="text-2xl md:text-3xl lg:text-3xl font-bold mb-8 text-center">
           Top career options in <span className="text-[#ff0000]">Devops Program </span>
-          with <span className="text-[#ff0000]">Placement Guarantee Program</span>
+          with <span className="text-[#ff0000]">Placement Guarantee Initiative</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {careers.map((career, index) => (
