@@ -112,7 +112,7 @@ export default function CourseCareerModule() {
                     Career Track
                   </h1>
                   <p className="text-white/90 max-w-3xl pl-16 text-sm">
-                    Becoming a part of our Placement Guaranteed DevOps program gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success.
+                    Becoming a part of our Placement Guaranteed DevOps Initiative gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success.
                   </p>
                 </div>
 
