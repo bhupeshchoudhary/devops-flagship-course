@@ -38,7 +38,8 @@ export default function CourseCareerModule() {
 </div>
     </div>
             <p className="text-white/80 text-sm mb-6">
-              Once you have enrolled for the program then you will have access to a wide range of resources which will help you in becoming a Job-Ready Candidate. We have a dedicated placement team of professionals who excel in their individual domains committed to assist you in our journey.
+            Becoming a part of our Placement Guaranteed DevOps program gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success
+
             </p>
 
             {/* Mobile Tabs */}

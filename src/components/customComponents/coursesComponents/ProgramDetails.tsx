@@ -58,7 +58,7 @@ export default function ProgramCohorts() {
     >
       {/* Mobile: Stacked layout */}
       <div className="flex flex-col sm:hidden">
-        <div className="font-medium text-sm text-black font-semibold">Duration:</div>
+        <div className="font-medium text-sm text-black font-semibold">Starting on:</div>
         <div className="text-black text-sm mb-2">{program.date}</div>
         
         <div className="font-medium text-sm text-black font-semibold">Time:</div>
