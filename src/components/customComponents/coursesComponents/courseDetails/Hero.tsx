@@ -27,15 +27,15 @@ const Hero = () => {
   
             {/* Main Content */}
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
-              <div className="max-w-4xl"> {/* Reduced from max-w-2xl */}
+              <div className="max-w-5xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-                Job Oriented DevOps Program <span className="text-white">  with Guaranteed Placement</span>
+                Job Oriented DevOps Initiative <span className="text-white">  with Guaranteed Placement</span>
                 </h1>
-                <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
-                  
+                <h2 className="text-xl md:text-lg lg:text-xl font-base text-white mb-4">
+                (Technical Students - 2024/2025 passouts)
                 </h2>
-                <p className="text-base font-bold sm:text-lg lg:text-2xl text-white mb-6">
-                Start your career with a ₹4-8 LPA package.
+                <p className="text-base font-bold sm:text-lg lg:text-lg text-white mb-6">
+                Next companies hiring in Apr - May offering  ₹4-8 LPA package.
                 </p>
                 <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-red-700 text-sm sm:text-base">
                 100% refund if not hired
@@ -91,14 +91,16 @@ const Hero = () => {
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
   <FaMoneyBillWave className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
   <div>
-    <span className="text-black text-xs font-medium">COURSE FEE</span>
+    {/* <span className="text-black text-xs font-medium">COURSE FEE</span> */}
+    <span className="text-black text-xs font-medium">JOB ROLE</span>
     <div className="flex flex-col gap-1"> {/* Changed to flex-col for vertical stacking */}
       <div className="flex items-center gap-2"> {/* Price row */}
-        <span className="font-bold text-xs flex-shrink-0">₹25,000 (+taxes)</span>
-        <span className="line-through text-gray-400 text-xs">₹35,000</span>
+        {/* <span className="font-bold text-xs flex-shrink-0">₹25,000 (+taxes)</span> */}
+        <span className="font-bold text-xs flex-shrink-0">DevOps Engineer</span>
+        {/* <span className="line-through text-gray-400 text-xs">₹35,000</span>
         <span className="text-green-600 font-semibold border-green-600 text-[10px]">
           Save <br/> ₹10,000/-
-        </span>
+        </span> */}
       </div>
       <div> {/* Badge row */}
         {/* <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
@@ -122,7 +124,8 @@ const Hero = () => {
         {/* Vertical Divider and Button Section */}
         <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Changed items-center to items-start */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
-         <a href="https://rzp.io/rzp/R36lbP1" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
+         {/* <a href="https://rzp.io/rzp/R36lbP1" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6"> */}
+         <a href="https://forms.gle/MNMVshhsBLnLiaFj9" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
               Apply Now
             </Button>
          </a>

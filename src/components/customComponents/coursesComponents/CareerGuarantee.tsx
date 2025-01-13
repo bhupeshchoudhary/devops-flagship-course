@@ -33,13 +33,13 @@ const CareerGuarantee = () => {
                 <h2 className="text-3xl font-bold text-gray-900 my-4">
                   Promising 100% <span className="text-[#ff0000]">#RightJobKiGuarantee</span>
                 </h2>
-                <Button 
-                  variant="default" 
-                  className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
-                >
-                  Apply Now
-                  
-                </Button>
+                <a href="https://forms.gle/MNMVshhsBLnLiaFj9" target="_blank" rel="noopener noreferrer">
+  <Button 
+    className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
+  >
+    Apply Now
+  </Button>
+</a>
               </div>
             </div>
           </div>
@@ -64,13 +64,13 @@ const CareerGuarantee = () => {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                   Promising 100% <span className="text-[#ff0000]">#RightJobKiGuarantee!</span>
                 </h2>
-                <Button 
-                  variant="default" 
-                  className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
-                >
-                  Apply Now
-                  
-                </Button>
+                <a href="https://forms.gle/MNMVshhsBLnLiaFj9" target="_blank" rel="noopener noreferrer">
+  <Button 
+    className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
+  >
+    Apply Now
+  </Button>
+</a>
               </div>
             </div>
           </div>
