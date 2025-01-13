@@ -15,12 +15,16 @@ type FAQItem = {
 const faqContent: Record<string, FAQItem[]> = {
   curriculum: [
     {
-      question: "What is the Job-Oriented DevOps Program?",
+      question: "What is the Placement Guaranteed DevOps Initiative?",
       answer:
-        "This is a specialized program designed to equip participants with in-demand DevOps skills and provide hands-on experience through real-world projects. The goal is to make participants job-ready for roles like DevOps Engineer, Site Reliability Engineer (SRE), and Cloud Engineer.",
+        "The One & Only Placement Guaranteed DevOps Initiative which has companies before hand who are ready to hire Freshers from LinuxWorld as DevOps Engineer. To fulfill those companies requirements, LinuxWorld has come up with this exclusive Placement Guaranteed DevOps Initiative exclusively for 2024/2025 passouts.",
     },
     {
-      question: "What skills will I gain during the program?",
+      question: "What is the Job-Oriented DevOps Program?",
+      answer: "This is a specialized program designed to equip participants with in-demand DevOps skills and provide hands-on experience through real-world projects. The goal is to make participants job-ready for roles like DevOps Engineer, Site Reliability Engineer (SRE), and Cloud Engineer.",
+    },
+    {
+      question: "What skills will I gain during the Initiative?",
       answer: (
         <ul className="list-disc list-inside mt-2 space-y-1">
           <li>CI/CD pipelines with tools like Jenkins and GitHub Actions</li>

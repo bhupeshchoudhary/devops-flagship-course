@@ -65,9 +65,7 @@ export default function CourseCurriculumModule() {
         14+ DevOps Training Modules  
       </h1>
       <p className="text-white/90 max-w-3xl ml-12 md:pl-4 text-sm">
-        Our course is designed by industry experts for excellent academic and industrial experience. 
-        We have a balanced combination of theoretical, technical, and practical knowledge for you 
-        to get the best training experience for everyone regardless of their background.
+        Exclusively designed, industry-relevant, placement-focused training modules by World Record Holder Mr. Vimal Daga offer you a step-by-step learning journey with hands-on practical implementation—ensuring you are fully prepared to become DevOps Engineer
       </p>
     </div>
   </div>
