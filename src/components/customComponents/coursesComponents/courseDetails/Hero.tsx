@@ -27,15 +27,15 @@ const Hero = () => {
   
             {/* Main Content */}
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
-              <div className="max-w-4xl"> {/* Reduced from max-w-2xl */}
+              <div className="max-w-5xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-                Job Oriented DevOps Program <span className="text-white">  with Guaranteed Placement</span>
+                Job Oriented DevOps Initiative <span className="text-white">  with Guaranteed Placement</span>
                 </h1>
-                <h2 className="text-xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
-                  
+                <h2 className="text-xl md:text-lg lg:text-xl font-base text-white mb-4">
+                (Technical Students - 2024/2025 passouts)
                 </h2>
-                <p className="text-base font-bold sm:text-lg lg:text-2xl text-white mb-6">
-                Start your career with a ₹4-8 LPA package.
+                <p className="text-base font-bold sm:text-lg lg:text-lg text-white mb-6">
+                Next companies hiring in Apr - May offering  ₹4-8 LPA package.
                 </p>
                 <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-red-700 text-sm sm:text-base">
                 100% refund if not hired

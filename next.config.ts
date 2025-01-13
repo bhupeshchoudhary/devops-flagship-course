@@ -18,7 +18,9 @@ const nextConfig = {
         hostname: 'ipec.org.in',
         pathname: '/**', // This allows images from any path on LinkedIn's media domain
       },
+ 
     ],
+    domains: ['images.unsplash.com']
   },
 };
 
