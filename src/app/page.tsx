@@ -58,7 +58,7 @@ const CourseDetail = ()=>{
         {/* <LinkdingTestimonial2></LinkdingTestimonial2> */}
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
-        <RecentPlacedStudents />
+        {/*<RecentPlacedStudents />*/}
         <CompaniesCarousel/>
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
