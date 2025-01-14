@@ -109,7 +109,7 @@ const Navbar: React.FC = () => {
 
         {/* Call to Action Button */}
         <a
-          href="https://forms.gle/MNMVshhsBLnLiaFj9" target="blank"
+          href="https://forms.gle/6r8Qa7UR9TNTXXZG9" target="blank"
           className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
         >
           Apply Now
@@ -180,7 +180,7 @@ const Navbar: React.FC = () => {
         </li>
       </ul>
       <a
-        href="https://forms.gle/MNMVshhsBLnLiaFj9"
+        href="https://forms.gle/6r8Qa7UR9TNTXXZG9"
         className="block mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 text-center"
         onClick={closeMobileMenu}
       >
