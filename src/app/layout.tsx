@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Job Oriented DevOps Program ",
-  description: "Job Oriented DevOps Globally Recognised Program For Professionals",
+  description: "Job Oriented DevOps Globally Recognised Program",
 };
 
 export default function RootLayout({
