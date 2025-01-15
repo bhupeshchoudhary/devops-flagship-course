@@ -76,10 +76,10 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
               <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
                 <div className="aspect-[16/9] w-full md:w-[50px] lg:w-[50px] h-[200px] md:h-[300px] lg:h-[300px]"> {/* Increased height */}
                 <Image 
-  src="/assets/Main-Image.png"
+  src="/assets/Hero6.png"
   alt="Course illustration"
   fill
-  className="object-contain rounded-tr-3xl rounded-bl-3xl ml-12"
+  className="object-contain rounded-tr-3xl rounded-bl-3xl "
   priority
   sizes="(max-width: 768px) 100vw,
          (max-width: 1200px) 50vw,
