@@ -79,14 +79,14 @@ function CourseCarousel() {
           </div>
 
           {/* Content section */}
-          <div className="pt-6 pl-4 md:pl-16">
+          <div className="pt-6 md:pl-4 md:pl-16">
             <div className="flex items-start justify-between mb-4">
               <div>
-                <h1 className="text-3xl font-bold text-white mb-4 ml-4 md:ml-16">
+                <h1 className="text-2xl font-bold text-white mb-4 md:ml-20  md:mt-0 mt-2">
                   Become a DevOps Engineer
                 </h1>
-                <div className="text-white/90 max-w-5xl ml-4 md:pl-12">
-                  <p className="text-sm mb-2">
+                <div className="text-white/90 max-w-5xl md:ml-8 md:pl-12">
+                  <p className="text-md mb-2">
                     Get ready to be hired by core tech companies & secure a package between ₹4,00,000 - ₹8,00,000
                   </p>
                   <p className="font-semibold text-white/70">
@@ -97,15 +97,15 @@ function CourseCarousel() {
             </div>
 
             {/* Carousel Section */}
-            <div className="mt-8 px-0 md:px-16 md:-ml-12  ">
+            <div className="mt-8 px-0 md:px-16 md:-ml-2 md:-mr-12 ">
               <div className=" rounded-lg  overflow-hidden ">
                 <div className="relative overflow-hidden mx-auto ">
                   <div className="w-full ">
                     {/* First row of logos */}
-                    <div className="flex items-center my-2 whitespace-nowrap animate-move-left ">
+                    <div className="flex items-center  my-2 whitespace-nowrap animate-move-left ">
                       {firstRowLogosLoop.map((logo, index) => (
                         <div key={index} className="mx-6 flex-shrink-0">
-                          <div className="w-24 h-12 flex items-center justify-center bg-white  rounded-xl">
+                          <div className="w-24 h-12  flex items-center justify-center bg-white  rounded-xl">
                             <Image
                               src={logo.src}
                               alt={logo.alt}

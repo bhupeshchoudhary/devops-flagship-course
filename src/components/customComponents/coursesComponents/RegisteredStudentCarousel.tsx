@@ -20,7 +20,7 @@ import { TextGenerateEffect } from "../../ui/text-generate-effect";
 const words = `and many more...`
 export function RegisteredStudentCarousel() {
   return (
-    <div className="max-w-7xl px-4 py-12 mx-auto relative">
+    <div className="max-w-7xl px-4 md:py-8 lg:py-8 py-2 mx-auto relative">
       <div className="text-center "> {/* Added text-center and margin bottom */}
         <div className="font-bold text-3xl inline-block">Technical students from <span className="text-[#ff0000]" >across India  </span><span>
             <img

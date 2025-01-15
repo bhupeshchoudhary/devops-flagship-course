@@ -25,10 +25,10 @@ export default function ISASigningProcess() {
           </div>
 
           {/* Content section */}
-          <div className="pt-6 pl-4 md:pl-16">
+          <div className="pt-6  md:pl-4 md:pl-16">
             <div className="flex items-center justify-between mb-4">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-4 md:ml-16">
+                <h2 className="text-2xl mt-2 md:mt-0 md:text-2xl lg:text-2xl font-bold text-white mb-4 md:mb-0  md:ml-20">
                   End to End <span className="text-white">Placement Guaranteed DevOps</span> Initiative Process
                 </h2>
               </div>
@@ -92,7 +92,7 @@ export default function ISASigningProcess() {
             </div>
 
             {/* Desktop View */}
-            <div className="hidden md:flex flex-row items-center justify-center gap-4 md:gap-6 mt-8 md:-ml-12 lg:-ml-12">
+            <div className="hidden md:flex flex-row items-center justify-center gap-4 md:gap-6  md:-ml-12 lg:-ml-8 md:mt-12 md:-mr-4">
               {/* First Card */}
               <Card className="bg-transparent border border-[#f13939ba] shadow-lg hover:shadow-xl transition-shadow w-64">
                 <CardContent className="p-4 md:p-6 flex flex-col items-center text-center">

@@ -32,7 +32,7 @@ export function RecentPlacedStudents() {
       imageUrl: deloitte.src
     },
     {
-        title: "1052 learners placed in 2024  last year :",
+        title: "1052 learners placed in 2024  last year ",
         description: "  401 Freshers & 651 professionals with 2x hike got placed in companies hiring exclusively from LinuxWorld",
         imageUrl: Image2024.src
       },
@@ -44,7 +44,7 @@ export function RecentPlacedStudents() {
     },
   
     {
-      title: "5000+ jobs in 2025 - Going to be a Big Year :",
+      title: "5000+ jobs in 2025 -  Big Year ",
       description: "  This year job openings for core technical profiles would be 5x more than 2024 ",
       imageUrl: Image2025.src
     }
@@ -52,9 +52,9 @@ export function RecentPlacedStudents() {
 
   return (
     <div className=''>
-    <div className="container max-w-6xl mx-auto px-4 py-12 ">
+    <div className="container max-w-6xl mx-auto px-4 py-8 md:py-4 lg:py-4">
       {/* Heading Section */}
-      <div className="text-center mb-12 ">
+      <div className="text-center mb-4 ">
         <h1 
        
           className="text-3xl md:text-3xl lg:text-3xl font-bold text-black mb-2"

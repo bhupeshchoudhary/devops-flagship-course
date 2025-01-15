@@ -36,11 +36,11 @@ export default function ProgramCohorts() {
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
         {/* Headers */}
         <div className="space-y-2">
-          <h1 className="text-lg sm:text-3xl font-semibold text-black text-center">
+          <h1 className=" text-3xl font-semibold text-black text-center">
             Job Oriented
             <span className="text-[#ff0000]"> DevOps Globally Recognized Initiative</span>
           </h1>
-          <h2 className="text-sm sm:text-lg text-black text-center">
+          <h2 className="text-md sm:text-lg text-black text-center">
             Chance to learn from DevOps Guru -
             <span className="text-[#ff0000]"> Mr Vimal Daga</span>
             &nbsp;& get Placement Guarantee
@@ -52,7 +52,7 @@ export default function ProgramCohorts() {
           <div className="space-y-6">
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
-              <h3 className="text-sm sm:text-lg text-black font-semibold">
+              <h3 className="text-md sm:text-lg text-black font-semibold">
                 LW Job Oriented DevOps Globally Recognized Initiative 2025
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">

@@ -11,7 +11,7 @@ import { modules } from "./data"
 import { Module } from "./types"
 
 export default function CourseCareerModule() {
-  const [activeModule, setActiveModule] = useState<Module>(modules[1])
+  const [activeModule, setActiveModule] = useState<Module>(modules[0])
 
   return (
     <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
@@ -27,17 +27,17 @@ export default function CourseCareerModule() {
     </div>
 
     <div className="flex justify-between items-start mb-4 mt-4"> {/* Added mt-4 to account for the number */}
-      <h1 className="text-xl font-bold text-white ml-8">Career Track</h1> {/* Added ml-8 to avoid overlap with number */}
+      <h1 className="text-2xl font-bold text-white ">Career Track</h1> {/* Added ml-8 to avoid overlap with number */}
       <div className="absolute top-0 right-0 sm:block md:hidden"> {/* Changed here */}
   <Badge 
     variant="secondary" 
     className="h-6 pt-2 pb-2 bg-[#710000] text-sm text-white border-none shrink-0"
   >
-    <CalendarDays className=" mt-4 mb-4 h-6"/> 1 Month
+    <CalendarDays className=" mt-4 mb-4 h-6"/> &nbsp; 1 Month
   </Badge>
 </div>
     </div>
-            <p className="text-white/80 text-sm mb-6">
+            <p className="text-white/80 text-md mb-6">
             Becoming a part of our Placement Guaranteed DevOps program gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success
 
             </p>
@@ -109,10 +109,10 @@ export default function CourseCareerModule() {
             <div className="pt-6 pl-16">
               <div className="flex items-center justify-between mb-4">
                 <div>
-                  <h1 className="text-3xl font-bold text-white mb-4 ml-16">
+                  <h1 className="text-3xl font-bold text-white mb-4 ml-8">
                     Career Track
                   </h1>
-                  <p className="text-white/90 max-w-3xl pl-16 text-sm">
+                  <p className="text-white/90 max-w-3xl md:pl-8 text-sm">
                     Becoming a part of our Placement Guaranteed DevOps Initiative gives you access to a wealth of resources designed to transform you into a job-ready candidate. Our dedicated placement team, made up of domain experts, is committed to supporting you every step of the way in your non-technical journey toward success.
                   </p>
                 </div>

@@ -7,9 +7,9 @@ import certimg from "../../../../public/assets/Certificate/Certificate.jpeg"
 export default function Certification() {
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 mx-auto">
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-4 py-8">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl md:text-3xl font-bold text-gray-800 mb-12    md:text-center">
+        <h1 className="text-3xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-12    text-center">
         Industry Recognised & Approved <span className="text-[#ff0000]"> Job Oriented Specialisation </span> in DevOps Certificates
         </h1>
 

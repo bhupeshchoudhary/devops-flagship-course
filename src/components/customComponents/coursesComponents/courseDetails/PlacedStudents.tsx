@@ -157,8 +157,8 @@ const PlacedStudents = () => {
                ];
                return (
                 <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="placements">
-                  <div className="flex flex-col items-center py-12 px-2">
-                    <h1 className="text-2xl md:text-3xl font-semibold text-black text-center">
+                  <div className="flex flex-col items-center py-4 md:py-4 px-2">
+                    <h1 className="text-3xl md:text-3xl font-semibold text-black text-center">
                     Our learners got guaranteed placement.
                     <span className="text-[#ff0000]"> So can you!</span>
                     </h1>
