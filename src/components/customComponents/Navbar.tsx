@@ -5,6 +5,7 @@ import { List } from "lucide-react";
 import { cn } from "@/lib/utils"; // Assuming you have a `utils` file with `cn` from shadcn
 import Image from "next/image";
 import LOGO from "../../../public/assets/saviourLogo2.png" // Adjust path if necessary
+import { payment } from "../../data/paymentLink";
 
 
 const Navbar: React.FC = () => {
@@ -109,7 +110,7 @@ const Navbar: React.FC = () => {
 
         {/* Call to Action Button */}
         <a
-          href="https://forms.gle/6r8Qa7UR9TNTXXZG9" target="blank"
+          href={payment.paymentLink} target="blank"
           className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
         >
           Apply Now
@@ -180,7 +181,7 @@ const Navbar: React.FC = () => {
         </li>
       </ul>
       <a
-        href="https://forms.gle/6r8Qa7UR9TNTXXZG9"
+        href={payment.paymentLink}
         className="block mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 text-center"
         onClick={closeMobileMenu}
       >
