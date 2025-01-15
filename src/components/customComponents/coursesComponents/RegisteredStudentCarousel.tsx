@@ -2,12 +2,22 @@
 
 import React from "react";
 import { InfiniteMovingCards } from "../../ui/infinite-moving-cards";
-import harshwardhan from "../../../../public/assets/harshwardhan.jpg";
-import tharun from "../../../../public/assets/Tharun-Lakavath.jpg";
-import priyam from "../../../../public/assets/priyam.jpg";
-import nilesh from "../../../../public/assets/nilesh.jpg";
-import andmanymore from "../../../../public/assets/and-many-more.jpg";
+import first from "../../../../public/assets/registeredStudents/Artboard 1.png";
+import second from "../../../../public/assets/registeredStudents/Artboard 1 copy.png";
+import third from "../../../../public/assets/registeredStudents/Artboard 1 copy 9.png";
+import fourth from "../../../../public/assets/registeredStudents/Artboard 1 copy 8.png";
+import fifth from "../../../../public/assets/registeredStudents/Artboard 1 copy 7.png";
+import sixth  from "../../../../public/assets/registeredStudents/Artboard 1 copy 6.png";
+import seventh  from "../../../../public/assets/registeredStudents/Artboard 1 copy 5.png";
+import eighth from "../../../../public/assets/registeredStudents/Artboard 1 copy 4.png";
+import nineth  from "../../../../public/assets/registeredStudents/Artboard 1 copy 3.png";
+import tenth from "../../../../public/assets/registeredStudents/Artboard 1 copy 2.png";
+// import eleventh from "../../../../public/assets/registeredStudents/Artboard 1 copy 10.png";
+import { TextGenerateEffect } from "../../ui/text-generate-effect";
 
+
+
+const words = `and many more...`
 export function RegisteredStudentCarousel() {
   return (
     <div className="max-w-7xl px-4 py-12 mx-auto relative">
@@ -32,14 +42,24 @@ export function RegisteredStudentCarousel() {
           cardHeight={250}
         />
       </div>
+      <div className="flex justify-end md:mt-4">
+    <TextGenerateEffect words={words} />;
+    </div>
     </div>
   );
 }
 
 const testimonials = [
-  { image: harshwardhan.src },
-  { image: tharun.src },
-  { image: priyam.src },
-  { image: nilesh.src },
-  { image: andmanymore.src },
+  { image: first.src },
+  { image: second.src },
+  { image: third.src },
+  { image: fourth.src },
+  { image: fifth.src },
+  { image: sixth.src },
+  { image: seventh.src },
+  { image: eighth.src },
+  { image: nineth.src },
+  { image: tenth.src },
+  // { image: eleventh.src },
+  
 ];
