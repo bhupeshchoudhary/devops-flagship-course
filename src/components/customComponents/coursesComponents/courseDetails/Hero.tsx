@@ -110,7 +110,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
             <BsCalendarCheck className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
-              <span className="font-bold text-xs block">15th Jan</span>
+              <span className="font-bold text-xs block">18th Jan</span>
               <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px] mt-0.5">
                 Limited seats
               </Badge>
