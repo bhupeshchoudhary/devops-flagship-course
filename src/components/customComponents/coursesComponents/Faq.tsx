@@ -21,107 +21,49 @@ const faqContent: Record<string, FAQItem[]> = {
     },
     {
       question: "What skills will I gain during the Initiative?",
-      answer: (
-        <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>CI/CD pipelines with tools like Jenkins and GitHub Actions</li>
-          <li>Infrastructure Automation using Terraform and Ansible.</li>
-          <li>Containerization and orchestration with Docker and Kubernetes.
-          </li>
-          <li>Monitoring and logging with Prometheus, Grafana, and ELK Stack.
-          </li>
-          <li>Best practices for cloud platforms like AWS, Azure, and GCP.
-          </li>
+      answer: "The Job Guaranteed Initiative is a process consisting of 14+ Technical DevOps Tools & Technologies along with the same we have a complete Career Track focusing on developing non-technical (soft skills) as well. Don’t miss checking out the section for Let's walk you through the journey of Placement Guaranteed DevOps Initiative by LinuxWorld",
 
-        </ul>
-      ),
     },
     {
       question: "What kind of projects are included in the program?",
-      answer:(
-        <ul className="list-disc list-inside mt-2 space-y-1">
-        <li>Building automated CI/CD pipelines.
-        </li>
-        <li>Setting up multi-cloud infrastructure with IaC.</li>
-        <li>Deploying containerized applications to Kubernetes.
-
-        </li>
-        <li>Implementing monitoring dashboards and alert systems.
-        
-        </li>
-        <li>Enhancing system reliability with chaos engineering.
-
-        </li>
-
-      </ul>
-      )
-      ,
+      answer:"Check out the 20+ Industry Level Capstone Project sections to know the details. We have specified the integration level; project details along with the skills which would be developed during the same.",
     },
     {
-      question: " How is this program structured?",
-      answer:
-        (
-          <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>Training Phase: Comprehensive, hands-on learning of DevOps tools and techniques.
+      question: " How is this initiative structured?",
+      answer: "The Job Guaranteed Initiative is a process consisting of 14+ Technical DevOps Tools & Technologies along with the same we have a complete Career Track focusing on developing non-technical (soft skills) as well. Don’t miss checking out the section for Let's walk you through the journey of Placement Guaranteed DevOps Initiative by LinuxWorld",
 
-          </li>
-          <li>Project/Job-Oriented Phase: Solving industry-grade problems and completing projects to build a strong portfolio.
-          .</li>
-
-  
-        </ul>
-        )
     },
+  
 
     {
       question: "Who should enroll in this program?",
       answer:
       ( <ul className="list-disc list-inside mt-2 space-y-1">
-        The Placement Guarantee course is designed for:
-        <li>Final-year undergraduate or graduate students (2023, 2024, or 2025 batch).</li>
+        The Placement Guarantee Initiative is designed for:
+        <li>Final-year undergraduate or graduate students ( 2024 or 2025 batch Only).</li>
         <li> Fresh graduates who have recently completed their degree.</li>
         <li>Individuals with a keen interest in building a career in the relevant field and are ready to commit to the program requirements.</li>
-       <li>If you're looking to enhance your skills and secure a job, this course is perfect for you!</li>
+       <li>If you're looking to enhance your skills and secure a job, this initiative is perfect for you!</li>
   
        </ul>
       )
     },
     {
       question: "What is the job guarantee??",
-       answer: "We guarantee that every eligible Placement Guarantee course student will secure a placement (full-time employment or an internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee course program.If this condition is not met, we will refund the course fee paid by the student."
+       answer: "We guarantee that every eligible Placement Guarantee initiative student will secure a placement (full-time employment or an internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee initiative program.If this condition is not met, we will refund the initiative fee paid by the student."
     },
     {
       question: "What is the salary I will get an offer for?",
-      answer: "Every eligible Placement Guarantee course student will be assured a CTC ranging from ₹  4 LPA to ₹ 8 LPA."
+      answer: "Every eligible Placement Guarantee initiative student will be assured a CTC ranging from ₹  4 LPA to ₹ 8 LPA."
     },
     {
       question: "What opportunities will be considered towards this guarantee?",
-      answer:"Any full-time employment or internship with a pre-placement offer that a student gets, in a profile directly related to the Placement Guarantee course program or otherwise, through their own efforts, or any other medium, will be considered the job guarantee."
+      answer:"Any full-time employment or internship with a pre-placement offer that a student gets, in a profile directly related to the Placement Guarantee initiative program or otherwise, through their own efforts, or any other medium, will be considered the job guarantee."
 
     },
 
   ],
   timeCommitment: [
-    {
-      question: "Does the program include job placement assistance?",
-      answer:(
-        <ul className="list-disc list-inside mt-2 space-y-1">
-        <li>Yes, the program provides:
-
-        </li>
-        <li>Resume-building services tailored for DevOps roles.</li>
-        <li>Mock interviews with industry experts.
-
-        </li>
-        <li>Job referrals through partnerships with hiring companies for the students who has 90% Attendance 
-
-        
-        </li>
-       
-
-      </ul>
-      )
-      ,
-    },
     {
       question: "What kind of job roles can I apply for after completing this program?",
       answer:
@@ -239,25 +181,22 @@ const faqContent: Record<string, FAQItem[]> = {
 
   Eligibility:[
     {
-      question:"Who is eligible to apply for the Placement Guarantee course?",
+      question:"Who is eligible to apply for the Placement Guarantee initiative?",
       answer:
       ( <ul className="list-disc list-inside mt-2 space-y-1">
-        The Placement Guarantee course is designed for:
-        <li>Final-year undergraduate or graduate students (2023, 2024, or 2025 batch).</li>
+        The Placement Guarantee initiative is designed for:
+        <li>Final-year undergraduate or graduate students (2024 or 2025 batch Only).</li>
         <li> Fresh graduates who have recently completed their degree.</li>
         <li>Individuals with a keen interest in building a career in the relevant field and are ready to commit to the program requirements.</li>
-       <li>If you're looking to enhance your skills and secure a job, this course is perfect for you!</li>
+       <li>If you're looking to enhance your skills and secure a job, this initiative is perfect for you!</li>
   
        </ul>
       )
     },
-    {
-      question: "I am in the early years of college and will NOT be graduating in the next 12 months, can I still apply?",
-      answer:  "Yes, you can apply! While the course is primarily designed for final-year students and recent graduates, we welcome motivated learners in the early years of college who are committed to building industry-relevant skills."
-    },
+   
     {
       question: "I have more than 3 years of work experience in a different field and now I want to switch to Devops, can I apply?",
-      answer:  "This program is not the best fit for you. This course is available for the 2024 and 2025 batches. However, we offer a professional course designed for people with work experience who want to switch to DevOps. Please check out our professional course for more details!"
+      answer:  "This program is not the best fit for you. This initiative is available for the 2024 and 2025 batches. However, we offer a professional initiative designed for people with work experience who want to switch to DevOps. Please check out our professional initiative for more details!"
     },
    
   ],
