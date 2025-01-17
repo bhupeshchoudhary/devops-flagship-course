@@ -56,7 +56,7 @@ const Analyst: React.FC = () => {
         <div className="space-y-2">
            
           
-            <div className="text-2xl sm:text-3xl font-bold text-[#ff0000] text-center">
+            <div className="text-3xl sm:text-3xl  font-bold text-[#ff0000] text-center">
               Rising Demand <span className="text-black"> for DevOps since 2020 </span>
             </div>
             
@@ -159,7 +159,7 @@ const Analyst: React.FC = () => {
         </div>
 
         {/* Footer Text */}
-        <p className="text-gray-600 text-xs sm:text-sm max-w-6xl">
+        <p className="text-gray-600 text-sm sm:text-sm max-w-6xl">
         DevOps engineers in India have seen rising salaries due to growing demand driven by cloud computing, automation, and CI/CD practices. In 2024, entry-level salaries range from ₹4.1–15 lakh annually, with experienced professionals earning ₹15 lakh or more, reflecting the industry's focus on agile methodologies and scalable infrastructure.
         </p>
       </div>

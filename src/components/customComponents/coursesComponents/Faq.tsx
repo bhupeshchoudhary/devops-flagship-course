@@ -215,9 +215,9 @@ export default function Faq() {
 
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
-    <div className="container mx-auto max-w-6xl px-4 py-12 ">
+    <div className="container mx-auto max-w-6xl px-4 py-4 md:py-8 ">
       {/* Header */}
-      <h1 className="sm:text-2xl lg:text-3xl font-bold mb-8 sm:mb-12 text-center  ">
+      <h1 className="text-3xl lg:text-3xl font-bold mb-4 md:mb-8 sm:mb-12 text-center  ">
         Frequently Asked <span className="text-[#ff0000]">Questions</span>
       </h1>
 

@@ -33,12 +33,12 @@ const CareerGuarantee = () => {
   }, [pathname]);
 
   return (
-    <div className="px-4 py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+    <div className="px-4 md:py-12 bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
       <div className="max-w-6xl mx-auto">
         <div className="relative w-full overflow-hidden rounded-xl">
           {/* Mobile View */}
           <div className="md:hidden flex flex-col">
-            <div className="relative w-full h-[220px]">
+            <div className="relative w-full h-[220px] order-0">
               <Image
                 src={careerguranteemobileimage}
                 alt="Career Background"

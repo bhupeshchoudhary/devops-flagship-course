@@ -51,7 +51,7 @@ export default function TestimonialsSection() {
   const isLongText = words.length > 70;
 
   return (
-    <div className="relative bg-[#faf7f4] overflow-hidden px-4 py-12 md:py-12">
+    <div className="relative bg-[#faf7f4] overflow-hidden px-4 py-2 md:py-12">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left Section */}
         <div className="relative lg:col-span-1 order-2 lg:order-1 flex-shrink-0 h-96" aria-hidden="true">
@@ -94,7 +94,7 @@ export default function TestimonialsSection() {
 
         {/* Right Section */}
         <div className="relative z-10 lg:col-span-1 order-1 lg:order-2">
-          <h2 className="text-3xl md:text-3xl font-bold mb-8 tracking-tight">
+          <h2 className="text-3xl md:text-3xl font-bold md:mb-8 mb-2 tracking-tight">
             What our <span className="text-[#ff0000]">placed learners</span> say
           </h2>
 

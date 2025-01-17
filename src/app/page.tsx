@@ -60,7 +60,7 @@ const CourseDetail = ()=>{
         {/* <TestimonialSlider /> */}
         {/* <Testimonial2/> */}
         <RecentPlacedStudents />
-        {/* <RegisteredStudentCarousel /> */}
+        <RegisteredStudentCarousel />
         <CompaniesCarousel/>
         <CareerTransformation />
         <ProgramCohorts></ProgramCohorts>
