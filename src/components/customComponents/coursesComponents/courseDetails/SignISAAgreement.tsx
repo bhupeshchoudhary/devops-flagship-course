@@ -11,10 +11,11 @@ export default function ISASigningProcess() {
           {/* Tag with number - Hidden on mobile */}
           <div className="hidden md:block absolute -top-2 left-12">
             <div className="relative w-20 h-24">
+              
               <img 
                 alt="numbering" 
                 className="w-full h-full" 
-                src="/assets/tag1.png"
+                src="/assets/tag4.png"
               />
             </div>
           </div>
@@ -162,14 +163,7 @@ export default function ISASigningProcess() {
           </div>
         </div>
 
-        {/* Bottom Arrow */}
-        <div className="pt-2 h-16 w-8 ml-8 md:ml-[130px]">
-          <img 
-            src="/assets/downarrow.png" 
-            alt="Description of the image" 
-            className="h-full w-full object-contain" 
-          />
-        </div>
+       
       </div>
     </div>
   )
