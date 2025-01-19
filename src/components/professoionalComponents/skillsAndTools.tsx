@@ -7,7 +7,7 @@ export default function SkillsAndTools() {
       icon: <GitBranch  className="h-10 w-10 rounded-2xl p-0 bg-gray-100  text-[#292929]" />,
       name: 'Master Git & GitHub'
     },
-    {
+  {
       icon: <DraftingCompass className="h-10 w-10 rounded-2xl p-0 bg-gray-100 text-[#292929]" />,
       name: 'Automation Using Ansible'
     },
