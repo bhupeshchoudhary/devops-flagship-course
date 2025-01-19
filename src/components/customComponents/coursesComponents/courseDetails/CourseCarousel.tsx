@@ -65,17 +65,17 @@ function CourseCarousel() {
           {/* Tag with number - Hidden on mobile */}
           <div className="hidden md:block absolute -top-2 left-12">
             <div className="relative w-20 h-24">
-              <img 
+            <img 
                 alt="numbering" 
                 className="w-full h-full" 
-                src="/assets/tag4.png"
+                src="/assets/tag1.png"
               />
             </div>
           </div>
 
           {/* Mobile Number */}
           <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-lg">4</span>
+            <span className="text-white font-bold text-lg">3</span>
           </div>
 
           {/* Content section */}
@@ -139,8 +139,19 @@ function CourseCarousel() {
               </div>
             </div>
           </div>
+          
         </div>
+        <div className="pt-6 h-16 w-8 ml-8 md:ml-[130px]">
+          <img 
+            src="/assets/downarrow.png" 
+            alt="Description of the image" 
+            className="h-full w-full object-contain" 
+          />
+          
+          </div>
       </div>
+       {/* Bottom Arrow */}
+       
       <style jsx>{`
         @keyframes move-left {
           0% {
