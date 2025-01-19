@@ -1,6 +1,6 @@
 "use client";
-import React from 'react';
-import Image from 'next/image'; // Importing Next.js Image component
+import React from "react";
+import Image from "next/image"; // Importing Next.js Image component
 
 // Importing images as StaticImageData objects
 import Google from "../../../../../public/assets/companyLogo/google.png";
@@ -47,13 +47,16 @@ const MentorFeatured = () => {
       <div className="flex items-center space-x-4 whitespace-nowrap overflow-hidden">
         {/* Animated scrolling container */}
         <div className="flex animate-scroll space-x-8">
-          {[...logos, ...logos].map((logo, index) => ( // Duplicate logos array for seamless scrolling
-            <div key={index} className="flex-shrink-0 h-16">
+          {[...logos, ...logos].map((logo, index) => (
+            <div
+              key={index}
+              className="flex-shrink-0 flex items-center justify-center h-16 w-16" // Centering the image
+            >
               <Image
                 src={logo.src}
                 alt={logo.alt}
-                width={100}
-                height={100}
+                width={70}
+                height={70}
                 style={{ objectFit: "contain" }}
               />
             </div>
