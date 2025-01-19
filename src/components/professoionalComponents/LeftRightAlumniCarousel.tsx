@@ -42,41 +42,42 @@ import peerxp from "../../../public/assets/companyLogo/peerXp-Photoroom.png";
 import unthinkable from "../../../public/assets/companyLogo/logo_unthinkable_dbd9877981.png"
 
 export function LeftRightAlumniCarousel() {
-    return (
-      <div className="max-w-7xl px-4 md:py-8 lg:py-8 py-2 mx-auto relative">
-        <div className="text-center mb-8">
-          <div className="font-bold text-3xl inline-block">
-           <span className="text-[#ff0000]">Our Students</span> Are Working At
-          </div>
-          <div className="text-gray-500">
-            Become a part of our Alumni working at Leading Companies (moving two lines, logos closer & faster movement)
-          </div>
+  return (
+    <div className="max-w-7xl px-4 md:py-8 lg:py-8 py-2 mx-auto relative bg-white">
+      <div className="text-center mb-8">
+        <div className="font-bold text-3xl inline-block">
+          <span className="text-[#ff0000]">Our Students</span> Are Working At
         </div>
-  
-        {/* First row - Moving Left */}
-        <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden mt-6">
-          <OurAlumniWorksAtCarousel
-            items={companiesRow1}
-            direction="left"
-            speed="slow"
-            cardWidth={160}  // Fixed size for all cards
-            cardHeight={80} // Fixed size for all cards
-          />
+        <div className="text-gray-500">
+          Become a part of our Alumni working at Leading Companies
         </div>
-  
-        {/* Second row - Moving Right */}
-        <div className="rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-          <OurAlumniWorksAtCarousel 
-            items={companiesRow2}
-            direction="right"
-            speed="slow"
-            cardWidth={160}  // Same size as first row
-            cardHeight={80} // Same size as first row
-          />
-        </div>
-      </div>    
-    );
-  }
+      </div>
+
+      {/* First row - Moving Left */}
+      <div className="flex flex-col items-center justify-center relative overflow-hidden mt-6">
+        <OurAlumniWorksAtCarousel
+          items={companiesRow1}
+          direction="left"
+          speed="slow"
+          cardWidth={160}
+          cardHeight={80}
+        />
+      </div>
+
+      {/* Second row - Moving Right */}
+      <div className="flex flex-col items-center justify-center relative overflow-hidden">
+        <OurAlumniWorksAtCarousel 
+          items={companiesRow2}
+          direction="right"
+          speed="slow"
+          cardWidth={160}
+          cardHeight={80}
+        />
+      </div>
+    </div>    
+  );
+}
+
 const companiesRow1 = [
   { image: Google.src },
   { image: BigBasket.src },

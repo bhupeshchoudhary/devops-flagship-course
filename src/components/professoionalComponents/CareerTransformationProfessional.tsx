@@ -1,3 +1,6 @@
+
+
+
 "use client";
 
 import React from "react";
@@ -12,7 +15,8 @@ export function CareerTransformationProfessional() {
     <div className="max-w-7xl px-4 md:py-8 lg:py-8 py-2 mx-auto relative">
       <div className="text-center">
         <div className="font-bold text-3xl inline-block">
-         <span className="text-[#ff0000]">Career Transformations </span>Success Stories from our Learners
+          <span className="text-[#ff0000]">Career Transformations </span>
+          Success Stories from our Learners
           <span>
             <img
               src="/assets/flag.png" 
@@ -21,11 +25,11 @@ export function CareerTransformationProfessional() {
               height={14} 
               style={{ display: 'inline-block', marginLeft: '4px', verticalAlign: 'middle' }} 
             />
-           &nbsp;
+            &nbsp;
           </span>
         </div>
         <div className="text-gray-500">
-        With our DevOps Expert Program, IT professionals have transformed their careers and achieved their goals!
+          With our DevOps Expert Program, IT professionals have transformed their careers and achieved their goals!
         </div>
       </div>
       
@@ -39,7 +43,7 @@ export function CareerTransformationProfessional() {
         />
       </div>
       
-      <div className="flex text-md justify-end md:mt-4 first-line:">
+      <div className="flex text-md justify-end md:mt-4">
         <TextGenerateEffect words={words} />
       </div>
     </div>

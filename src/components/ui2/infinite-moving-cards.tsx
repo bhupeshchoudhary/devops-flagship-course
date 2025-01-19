@@ -1,10 +1,12 @@
+
+
+
 "use client";
 
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import { ProfileCard } from "../professoionalComponents/ProfileCard";
 
-// Update the interface for items
 interface ProfileData {
   name: string;
   profilePicture: string;
@@ -33,11 +35,11 @@ interface ProfileData {
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
-  speed = "fast",
+  speed = "slow",
   pauseOnHover = true,
   className,
-  cardWidth = 350, // Updated default width for ProfileCard
-  cardHeight = 350, // Updated default height for ProfileCard
+  cardWidth = 350,
+  cardHeight = 350,
 }: {
   items: ProfileData[];
   direction?: "left" | "right";
@@ -75,23 +77,34 @@ export const InfiniteMovingCards = ({
   
   const getDirection = () => {
     if (containerRef.current) {
-      containerRef.current.style.setProperty(
-        "--animation-direction",
-        direction === "left" ? "forwards" : "reverse"
-      );
+      if (direction === "right") {
+        containerRef.current.style.setProperty("--scroll-direction", "reverse");
+      } else {
+        containerRef.current.style.setProperty("--scroll-direction", "normal");
+      }
     }
   };
   
   const getSpeed = () => {
     if (containerRef.current) {
-      let duration = "120s";
-      if (speed === "fast") duration = "60s";
-      if (speed === "slow") duration = "180s";
-      
-      containerRef.current.style.setProperty("--animation-duration", duration);
+      let duration;
+      switch (speed) {
+        case "fast":
+          duration = "40s";
+          break;
+        case "normal":
+          duration = "60s";
+          break;
+        case "slow":
+          duration = "120s";
+          break;
+        default:
+          duration = "80s";
+      }
+      containerRef.current.style.setProperty("--scroll-duration", duration);
     }
   };
-  
+
   return (
     <div
       ref={containerRef}
@@ -107,26 +120,17 @@ export const InfiniteMovingCards = ({
         ref={scrollerRef}
         className={cn(
           "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
-          start && "animate-scroll",
+          start && "infinite-scroll-animation",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
+        style={{
+          animationDirection: 'var(--scroll-direction)',
+          animationDuration: 'var(--scroll-duration)'
+        }}
       >
         {items.map((profile, idx) => (
           <li
             key={idx}
-            className="relative flex-shrink-0"
-            style={{
-              width: `${cardWidth}px`,
-              height: `${cardHeight}px`
-            }}
-          >
-            <ProfileCard profile={profile} />
-          </li>
-        ))}
-        {/* Duplicate set for infinite scroll */}
-        {items.map((profile, idx) => (
-          <li
-            key={`duplicate-${idx}`}
             className="relative flex-shrink-0"
             style={{
               width: `${cardWidth}px`,
