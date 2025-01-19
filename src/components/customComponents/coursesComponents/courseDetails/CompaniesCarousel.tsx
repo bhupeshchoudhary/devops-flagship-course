@@ -125,8 +125,8 @@ const CompaniesCarousel = () => {
                       <Image
                         src={logo.src}
                         alt={logo.alt}
-                        width={120}
-                        height={120}
+                        width={70}
+                        height={70}
                         style={{ objectFit: "contain" }}
                       />
                     </div>
