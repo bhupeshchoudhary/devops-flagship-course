@@ -51,7 +51,7 @@ export default function TestimonialsSection() {
   const isLongText = words.length > 70;
 
   return (
-    <div className="relative bg-[#bcbcbc] overflow-hidden px-4 py-2 md:py-12">
+    <div className="relative bg-[#faf7f4] overflow-hidden px-4 py-2 md:py-12">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left Section */}
         <div className="relative lg:col-span-1 order-2 lg:order-1 flex-shrink-0 h-96" aria-hidden="true">
