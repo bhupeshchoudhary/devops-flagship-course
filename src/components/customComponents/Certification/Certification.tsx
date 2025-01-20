@@ -64,6 +64,7 @@ export default function Certification() {
               
               <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 w-[300px] mx-auto">
                 <CardContent className="p-0">
+                  
                   <div className="relative group">
                     <div className="relative w-full h-[400px] w-[300px]">
                       <Image
