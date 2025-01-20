@@ -11,7 +11,7 @@ import Navbar from "@/components/professoionalComponents/Navbar";
 import ProgramCohorts from "@/components/professoionalComponents/ProgramDetails";
 import ProgramHighlights from "@/components/professoionalComponents/ProgramHighlights";
 import Projects from "@/components/professoionalComponents/Projects";
-import { RecentPlacedStudents } from "@/components/professoionalComponents/recent-placed-students";
+import { RecentPlacedStudents } from "@/components/recent-placed-students";
 import RequiredSkills from "@/components/professoionalComponents/Requiredskills";
 import ISASigningProcess from "@/components/professoionalComponents/SignISAAgreement";
 import TestimonialsSection from "@/components/customComponents/coursesComponents/courseDetails/Testimonials"
