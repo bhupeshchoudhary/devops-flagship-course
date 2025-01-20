@@ -21,6 +21,10 @@ const ROUTE_CONFIG: Record<string, RouteConfig> = {
   'default': {
     link: payment.paymentLink,
     buttonText: 'Apply Now'
+  },
+  "/professionals": { 
+    link: payment.professionRouteLink,
+    buttonText:"Apply Now"
   }
 };
 
