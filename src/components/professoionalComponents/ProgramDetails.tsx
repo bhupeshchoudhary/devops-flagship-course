@@ -20,6 +20,10 @@ const ROUTE_CONFIG: Record<string, RouteConfig> = {
   'default': {
     link: payment.paymentLink,
     buttonText: 'Apply Now'
+  },
+  "/professionals": {
+    link: payment.professionRouteLink,
+    buttonText:"Apply Now"
   }
 }
 
@@ -51,7 +55,7 @@ export default function ProgramCohorts() {
           <div className="space-y-6">
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
-              <h3 className="text-md sm:text-lg text-black font-semibold">
+              <h3 className="text-md pt-2 sm:text-lg text-black font-semibold">
                 LW Career Switch / Salary Hike Oriented DevOps Globally Recognized Initiative 2025
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">

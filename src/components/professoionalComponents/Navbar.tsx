@@ -15,7 +15,10 @@ interface RouteConfig {
 }
 
 const ROUTE_CONFIG: Record<string, RouteConfig> = {
-
+  '/professionals': {
+    link: payment.professionRouteLink, // Add this to your payment data
+    buttonText: 'Apply Now'
+  },
   'default': {
     link: payment.paymentLink,
     buttonText: 'Apply Now'

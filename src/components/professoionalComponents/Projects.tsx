@@ -98,7 +98,7 @@ export default function Projects() {
   console.log(dockerLogo)
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100" id="projects">
-      <div className="w-full max-w-6xl mx-auto p-6 md:px-8 px-2 lg:px-8">
+      <div className="w-full max-w-6xl mx-auto p-6 md:px-8 px-2 py-2 lg:px-8">
         <div className="space-y-6">
           <div className="max-w-6xl  mx-auto">
             <h2 className="text-sm font-semibold text-gray-700 mb-2 text-center">

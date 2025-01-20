@@ -21,12 +21,8 @@ interface RouteConfig {
  
 
 const ROUTE_CONFIG: Record<string, RouteConfig> = {
-  '/students': {
-    link: payment.studentRouteLink, // Add this to your payment data
-    buttonText: 'Apply Now'
-  },
-  'default': {
-    link: payment.paymentLink,
+  '/professionals': {
+    link: payment.professionRouteLink, // Add this to your payment data
     buttonText: 'Apply Now'
   }
 };

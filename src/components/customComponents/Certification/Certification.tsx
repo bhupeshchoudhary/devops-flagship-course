@@ -56,10 +56,10 @@ export default function Certification() {
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-full bg-gary-100 flex items-center justify-center text-[#ff0000]  font-bold">2</span>
-                Internship Certificate
+                Experience Certificate
               </h2>
               <p className="text-gray-600 pl-10">
-              Depending upon your overall performance, building & working on Industry Relevant Projects, post viva you will become eligible for Internship Certificate
+              Depending upon your overall performance, building & working on Industry Relevant Projects, post viva you will become eligible for Experience Certificate
               </p>
               
               <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 w-[300px] mx-auto">
