@@ -18,9 +18,14 @@ const nextConfig = {
         hostname: 'ipec.org.in',
         pathname: '/**', // This allows images from any path on LinkedIn's media domain
       },
+      {
+        protocol: 'https',
+        hostname: 'hebbkx1anhila5yf.public.blob.vercel-storage.com',
+        pathname: '/**', // This allows images from any path on LinkedIn's media domain
+      },
  
     ],
-    domains: ['images.unsplash.com']
+    domains: ['images.unsplash.com', 'hebbkx1anhila5yf.public.blob.vercel-storage.com']
   },
 };
 
