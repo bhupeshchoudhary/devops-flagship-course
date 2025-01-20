@@ -22,20 +22,12 @@ const faqContent: Record<string, FAQItem[]> = {
         "The One & Only Placement Guaranteed DevOps Initiative which has companies before hand who are ready to hire Freshers from LinuxWorld as DevOps Engineer. To fulfill those companies requirements, LinuxWorld has come up with this exclusive Placement Guaranteed DevOps Initiative exclusively for 2024/2025 passouts.",
     },
     {
-      question: "What skills will I gain during the Initiative?",
-      answer: (
-        <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>CI/CD pipelines with tools like Jenkins and GitHub Actions</li>
-          <li>Infrastructure Automation using Terraform and Ansible.</li>
-          <li>Containerization and orchestration with Docker and Kubernetes.
-          </li>
-          <li>Monitoring and logging with Prometheus, Grafana, and ELK Stack.
-          </li>
-          <li>Best practices for cloud platforms like AWS, Azure, and GCP.
-          </li>
-
-        </ul>
-      ),
+      question: "What is the Job-Oriented DevOps Program?",
+      answer:"This is a specialized program designed to equip participants with in-demand DevOps skills and provide hands-on experience through real-world projects. The goal is to make participants job-ready for roles like DevOps Engineer, Site Reliability Engineer (SRE), and Cloud Engineer."
+    },
+    {
+      question: "What skills will I gain during the Job Guaranteed initiative ?",
+      answer: "The Job Guaranteed Initiative is a process consisting of 14+ Technical DevOps Tools & Technologies along with the same we have a complete Career Track focusing on developing non-technical (soft skills) as well",
     },
     {
       question: "What kind of projects are included in the program?",
@@ -59,19 +51,9 @@ const faqContent: Record<string, FAQItem[]> = {
       ,
     },
     {
-      question: " How is this program structured?",
+      question: "How is this initiative structured?",
       answer:
-        (
-          <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>Training Phase: Comprehensive, hands-on learning of DevOps tools and techniques.
-
-          </li>
-          <li>Project/Job-Oriented Phase: Solving industry-grade problems and completing projects to build a strong portfolio.
-          .</li>
-
-  
-        </ul>
-        )
+        "The Job Guaranteed Initiative is a process consisting of 14+ Technical DevOps Tools & Technologies along with the same we have a complete Career Track focusing on developing non-technical (soft skills) as well. Dont miss checking out the section for Lets take you through"
     },
 
     {
