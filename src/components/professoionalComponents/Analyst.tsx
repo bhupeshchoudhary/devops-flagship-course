@@ -27,9 +27,9 @@ const data: Record<string, TabData> = {
 const companyLogos: Record<string, string> = {
   Citibank: "/assets/companyLogo/paytm.png",
   Dell: "/assets/companyLogo/tcs.png",
-  Deloitte: "/assets/companyLogo/searce.png",
-  Google: "/assets/companyLogo/NPCI_logo.png",
-  IBM: "/assets/companyLogo/quantfi.png",
+  Deloitte: "/assets/companyLogo/ibm.png",
+  Google: "/assets/companyLogo/oracle.png",
+  IBM: "/assets/companyLogo/infosys.png",
   Infosys: "/assets/companyLogo/accenture.png",
   Intel: "/assets/companyLogo/dell.png",
   JPMorgan: "/assets/companyLogo/intel.png",
@@ -146,7 +146,7 @@ const Analyst: React.FC = () => {
                   }}
                 />  
                 <div className="relative text-center  space-y-2 ">
-                  <h2 className="text-4xl font-bold text-gray-900">15,000+</h2>
+                  <h2 className="text-4xl font-bold text-gray-900">11,840+</h2>
                   <p className="text-gray-600">
                     Total jobs found online
                     <br />
