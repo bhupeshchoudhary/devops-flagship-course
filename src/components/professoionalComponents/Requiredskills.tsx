@@ -120,13 +120,13 @@ export default function RequiredSkills() {
             </div>
             
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {["Chef", "Puppet", "GitOps", "Prometheus", "Grafana", "ArgoCD", "Lambda"].map((skill) => (
+              {["Splunk", "ELK Stack", "GitOps", "Prometheus", "Grafana", "ArgoCD", "Lambda"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
 
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {["Fargate", "SubNets", "CloudFront", "CI/CD", "Redshift", "Linux", "SQL"].map((skill) => (
+              {["Fargate", "Podman", "CloudFront", "CI/CD", "Redshift", "Linux", "SQL"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
