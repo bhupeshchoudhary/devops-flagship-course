@@ -41,7 +41,14 @@ export default function RequiredSkills() {
   ]
   return (
     <div className="w-full max-w-6xl mx-auto p-2 sm:p-4 bg-white rounded-lg shadow-sm">
-      <h1> <span className='text-[#ff0000]'>Master 15+</span> essential industry tools</h1>
+      <div className="text-center mb-4 ">
+        <h1 
+       
+          className="text-3xl md:text-3xl lg:text-3xl font-bold text-black mb-2"
+        >
+          <span className='text-[#ff0000]'>Master 15+ </span>essential industry tools
+        </h1>
+      </div>
       {/* Search Header - Added responsive padding and flex-wrap */}
       <div className="flex flex-col sm:flex-row gap-4 mb-6">
         <div className="relative flex-1">
