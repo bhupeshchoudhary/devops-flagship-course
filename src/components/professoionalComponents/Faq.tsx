@@ -17,118 +17,52 @@ type FAQItem = {
 const faqContent: Record<string, FAQItem[]> = {
   curriculum: [
     {
-      question: "What is the Placement Guaranteed DevOps Initiative?",
+      question: "What is the Hike Program by Vimal Daga?",
       answer:
-        "The One & Only Placement Guaranteed DevOps Initiative which has companies before hand who are ready to hire Freshers from LinuxWorld as DevOps Engineer. To fulfill those companies requirements, LinuxWorld has come up with this exclusive Placement Guaranteed DevOps Initiative exclusively for 2024/2025 passouts.",
+        " The Hike Program is a 3-month, job-oriented DevOps training program designed to help participants gain the skills required to switch to DevOps roles. It guarantees a 100% refund if a switch is not achieved within the program timeline or after 3 months post-program.",
     },
     {
-      question: "What is the Job-Oriented DevOps Program?",
-      answer:"This is a specialized program designed to equip participants with in-demand DevOps skills and provide hands-on experience through real-world projects. The goal is to make participants job-ready for roles like DevOps Engineer, Site Reliability Engineer (SRE), and Cloud Engineer."
+      question: "Who can enroll in the program?",
+      answer:" This program is ideal for professionals looking to transition into DevOps roles or those aiming to enhance their career opportunities in the DevOps domain."
     },
     {
-      question: "What skills will I gain during the Job Guaranteed initiative ?",
-      answer: "The Job Guaranteed Initiative is a process consisting of 14+ Technical DevOps Tools & Technologies along with the same we have a complete Career Track focusing on developing non-technical (soft skills) as well",
+      question: "What is the duration of the program ?",
+      answer: "The program spans over 3 months, providing comprehensive hands-on training and industry-relevant knowledge.",
     },
     {
-      question: "What kind of projects are included in the program?",
-      answer:(
-        <ul className="list-disc list-inside mt-2 space-y-1">
-        <li>Building automated CI/CD pipelines.
-        </li>
-        <li>Setting up multi-cloud infrastructure with IaC.</li>
-        <li>Deploying containerized applications to Kubernetes.
-
-        </li>
-        <li>Implementing monitoring dashboards and alert systems.
-        
-        </li>
-        <li>Enhancing system reliability with chaos engineering.
-
-        </li>
-
-      </ul>
-      )
-      ,
-    },
-    {
-      question: "How is this initiative structured?",
+      question: " Is the program live or pre-recorded ?",
       answer:
-        "The Job Guaranteed Initiative is a process consisting of 14+ Technical DevOps Tools & Technologies along with the same we have a complete Career Track focusing on developing non-technical (soft skills) as well. Dont miss checking out the section for Lets take you through"
+      " The Hike Program offers live sessions conducted by Vimal Daga, supplemented with resources for continuous learning.",
     },
-
-    {
-      question: "Who should enroll in this program?",
-      answer:
-      ( <ul className="list-disc list-inside mt-2 space-y-1">
-        The Placement Guarantee course is designed for:
-        <li>Final-year undergraduate or graduate students (2023, 2024, or 2025 batch).</li>
-        <li> Fresh graduates who have recently completed their degree.</li>
-        <li>Individuals with a keen interest in building a career in the relevant field and are ready to commit to the program requirements.</li>
-       <li>If you're looking to enhance your skills and secure a job, this course is perfect for you!</li>
-  
-       </ul>
-      )
-    },
-    {
-      question: "What is the job guarantee??",
-       answer: "We guarantee that every eligible Placement Guarantee course student will secure a placement (full-time employment or an internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee course program.If this condition is not met, we will refund the course fee paid by the student."
-    },
-    {
-      question: "What is the salary I will get an offer for?",
-      answer: "Every eligible Placement Guarantee course student will be assured a CTC ranging from ₹  4 LPA to ₹ 8 LPA."
-    },
-    {
-      question: "What opportunities will be considered towards this guarantee?",
-      answer:"Any full-time employment or internship with a pre-placement offer that a student gets, in a profile directly related to the Placement Guarantee course program or otherwise, through their own efforts, or any other medium, will be considered the job guarantee."
-
-    },
-
+    
   ],
   timeCommitment: [
     {
-      question: "Does the program include job placement assistance?",
-      answer:(
-        <ul className="list-disc list-inside mt-2 space-y-1">
-        <li>Yes, the program provides:
-
-        </li>
-        <li>Resume-building services tailored for DevOps roles.</li>
-        <li>Mock interviews with industry experts.
-
-        </li>
-        <li>Job referrals through partnerships with hiring companies for the students who has 90% Attendance 
-
-        
-        </li>
-       
-
-      </ul>
-      )
-      ,
+      question: " How does the 100% refund policy work?",
+      answer:" If a participant doesn’t achieve a job switch within the program duration and 3 months post-program, we guarantee a full refund of the course fee, provided all conditions for eligibility are met.",
     },
     {
-      question: "What kind of job roles can I apply for after completing this program?",
+      question: "What are the conditions for the refund ?",
       answer:
         (
           <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>You can target roles such as:
+          <li>To qualify for the refund, participants must:
 
 
           </li>
-          <li>DevOps Engineer.
+          <li>Attend all live sessions with at least 90% attendance.
 </li>
 
 <li>Site Reliability Engineer (SRE).
 </li>
 
-<li>Cloud Infrastructure Engineer.
+<li>Complete all assignments, projects, and tasks on time.
+
 </li>
 
-<li>Build and Release Engineer.
+<li>Actively apply for roles as guided during the program.
 </li>
 
-<li>Automation Engineer.
-</li>
 
   
         </ul>
@@ -136,42 +70,16 @@ const faqContent: Record<string, FAQItem[]> = {
     },
 
     {
-      question: "Will I receive a certificate after completing the program?",
+      question: "How long does it take to process the refund?",
       answer:
-       "If you maintain 90% attendance during the program, you will receive a Certificate of Completion and an Internship Certificate, both of which can be added to your LinkedIn profile and resume to highlight your DevOps expertise and practical experience."
+       " Once eligibility is confirmed, refunds are processed within 30 days of the request submission."
     },
 
     
-    {
-      question: " How does the program prepare me for interviews?",
-      answer:
-(
-  <ul className="list-disc list-inside mt-2 space-y-1">
-  <li>Mock technical interviews.  
-
-  </li>
-  <li>Guidance on answering DevOps-specific questions.
-  </li>
-  <li>Training in building your projects & presenting effectively to recruiters.
-
-
-  </li>
-
- 
-
-</ul>
-)
-    },
-
-    {
-      question: "What salary range can I expect after completing this program?",
-      answer:
-"Entry-level DevOps roles typically offer salaries ranging from 4 LPA to 8 LPA per year, depending on location, industry, and expertise level."
-    },
   ],
   selectionCriteria: [
     {
-      question: "What DevOps tools will I work with during the program?",
+      question: "What tools and technologies will be covered?",
       answer:
         (
           <ul className="list-disc list-inside mt-2 space-y-1">
@@ -181,13 +89,11 @@ const faqContent: Record<string, FAQItem[]> = {
           <li>CI/CD: Jenkins, GitHub Actions, and ArgoCD.
           </li>
 
-          <li>Containerization: Docker.
+          <li>Containerization: Docker,Podman.
           </li>
 
-          <li>Orchestration: Kubernetes.
+          <li>Orchestration: Kubernetes, Helm, Ingress Controllers.
           </li>
-<li>IaC: Terraform and Ansible.
-</li>
 
 <li>Monitoring: Prometheus, Grafana, and ELK Stack.
 </li>
@@ -196,57 +102,88 @@ const faqContent: Record<string, FAQItem[]> = {
         )
     },
     {
-      question: "Are the projects aligned with industry standards?",
+      question: "Will I learn automation and scripting?",
       answer:
-         "Absolutely! All our projects are meticulously designed to align with current industry standards and practices."
+         "Yes, the program includes automating tasks using Bash, YAML, and other tools within the DevOps workflow."
     },
 
     {
-      question: " Do I need my own system to practice?",
+      question: "  Does the program cover cloud platforms?",
       answer:
-       "Yes, you all need a laptop/PC with you."
+       "Yes, integration with cloud providers like AWS, Azure, and GCP for deploying and managing applications is included.",
     },
 
     {
-      question: "Can I showcase the projects on my resume?",
+      question: "Are there any live projects?",
       answer:
-       "Absolutely! All projects are designed to be portfolio-worthy, demonstrating your practical DevOps skills to potential employers."
+       " Yes, participants will work on real-world DevOps projects such as building CI/CD pipelines, deploying microservices, and creating monitoring dashboards."
     },
 
     {
-      question: "Will I receive guidance during the hands-on projects?",
+      question: "Will I receive a certificate upon completion?",
       answer:
-       "Yes, our technical team will guide you throughout the projects, providing feedback and resolving doubts to ensure successful completion."
+       " Yes, participants who complete the program successfully will receive a certificate of completion, demonstrating their proficiency in DevOps."
     },
     
   ],
 
   Eligibility:[
     {
-      question:"Who is eligible to apply for the Placement Guarantee course?",
+      question:"Does the program offer job placement assistance?",
       answer:
       ( <ul className="list-disc list-inside mt-2 space-y-1">
-        The Placement Guarantee course is designed for:
-        <li>Final-year undergraduate or graduate students (2023, 2024, or 2025 batch).</li>
-        <li> Fresh graduates who have recently completed their degree.</li>
-        <li>Individuals with a keen interest in building a career in the relevant field and are ready to commit to the program requirements.</li>
-       <li>If you're looking to enhance your skills and secure a job, this course is perfect for you!</li>
-  
+         Yes, participants receive personalized job placement support, including:
+        <li>Resume building</li>
+        <li>Mock interviews</li>
+        <li>Job referrals in the DevOps domain</li>
        </ul>
       )
     },
     {
-      question: "I am in the early years of college and will NOT be graduating in the next 12 months, can I still apply?",
-      answer:  "Yes, you can apply! While the course is primarily designed for final-year students and recent graduates, we welcome motivated learners in the early years of college who are committed to building industry-relevant skills."
-    },
-    {
-      question: "I have more than 3 years of work experience in a different field and now I want to switch to Devops, can I apply?",
-      answer:  "This program is not the best fit for you. This course is available for the 2024 and 2025 batches. However, we offer a professional course designed for people with work experience who want to switch to DevOps. Please check out our professional course for more details!"
+      question: "What is the success rate of job switches through this program ?",
+      answer:  "The Hike Program boasts a high success rate, with many participants achieving successful transitions into DevOps roles."
     },
    
   ],
+  Enrollment:[
+    {
+      question:"How do I enroll in the program?",
+      answer:"You can enroll through the official website by filling out the application form and making the payment. Limited seats are available, so early registration is recommended.",
+
+    },
+
+    {
+      question:" What is the cost of the program?",
+      answer:" The course fee details are available on the website. Contact the support team for the most updated pricing.",
+    },
+  ],
+  Support:[
+    {
+      question:"What support will I receive during the program?",
+      answer:( <ul className="list-disc list-inside mt-2 space-y-1">
+         Participants will have access to:
+       <li>1:1 mentoring with the Tech Team</li>
+       <li>Dedicated support for queries and doubts</li>
+       <li>Peer group discussions and collaboration</li>
+      </ul>
+     )
+    },
+    { question:"How do I contact the support team?",
+      answer:" You can reach the support team via email or through the contact number provided on the website.",
 
 
+    },
+  ],
+  Post:[
+    { question:"What if I don’t achieve a job switch within the program timeline?",
+      answer:" If all eligibility conditions are met and a job switch is not achieved, you can request a full refund as per the program’s policy.",
+
+    },
+    {question:" Can I continue accessing the resources after the program ends?",
+      answer:"Yes, participants receive access to program resources and materials for a limited time.",
+
+    },
+  ],
   
 
   
@@ -279,11 +216,19 @@ export default function Faq() {
             >
               <h2 className="text-md md:text-md font-medium">
                 {key === "curriculum"
-                  ? "Program Overview"
+                  ? "General Questions"
                   : key === "timeCommitment"
-                  ? "Career Support"
+                  ? "Refund Policy"
                   : key === "Eligibility"
-                  ? "Eligibility & Application"
+                  ? "Technical Details"
+                  :key === "Enrollment"
+                  ? "Enrollment & Fees"
+                  :key === "Support"
+                  ?"Support & Resources"
+                  :key === "Post"
+                  ?"Post - Program"
+
+
                   :key=="GuranteedJob "
                   ?"Guranteed Job Program"
                   
