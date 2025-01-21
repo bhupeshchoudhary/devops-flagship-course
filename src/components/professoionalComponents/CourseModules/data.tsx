@@ -4,1273 +4,587 @@ export const modules: Module[] = [
   {
     "id": 1,
     "title": "Module 1",
-    "subtitle": "Introduction to DevOps",
+    "subtitle": "Advanced Version Control with Git and GitHub",
     "topics": [
       {
         "id": 1,  
-        "title": "Overview of DevOps",
+        "title": "Git Essentials ",
         "content": [
-          "Understanding the DevOps culture and its significance in modern software development.",
-          "Benefits of DevOps: Enhanced collaboration, faster deployment, and improved quality.",
-          "DevOps lifecycle: Plan, Develop, Build, Test, Release, Deploy, Operate, Monitor."
+          "Introduction to Version Control:",
+          "Understand the significance of version control and the problems it solves in collaborative development.",
+          "Git Basics Refresher:",
+          "Installing and configuring Git.",
+          "Initializing a Git repository and understanding .git directory structure.",
+          "Basic commands: git add, git commit, git status, git log.",
+          "Configuring user information: username, email, and aliases for command-line efficiency.",
+          "File Lifecycle in Git:",
+          "From untracked to committed.",
+          "Staging area and working directory concepts."
         ]
       },
       {
         "id": 2,
-        "title": "DevOps Principles",
+        "title": " Advanced Git Concepts",
         "content": [
-          "Continuous Integration (CI) and Continuous Deployment (CD).",
-          "Infrastructure as Code (IaC).",
-          "Monitoring and Logging.",
-          "Collaboration and Communication."
+          "Deep Dive into Git Internals:",
+          "How Git tracks changes using commit objects, blobs, and trees.",
+          "SHA-1 hashes and their role in versioning.",
+          "Branching Strategies:",
+          "Creating, merging, and deleting branches (git branch, git merge, git branch -d).",
+          "GitFlow Workflow: Release, hotfix, and feature branches.",
+          "Trunk-Based Development: When and why to use it.",
+          "Merge and Rebase Strategies:",
+          "Handling fast-forward and recursive merges.",
+          "Resolving conflicts effectively with git merge and git mergetool.",
+          "Interactive Rebase: Cleaning up commit history (git rebase -i) and resolving rebase conflicts.",
+          "Git Stash:",
+          "Temporary storage of changes (git stash save, git stash apply, git stash pop).",
+          "Managing multiple stashes and resolving conflicts from stashed changes.",
+          "Git Submodules:",
+          "Adding submodules to a repository (git submodule add).",
+          "Updating and cloning repositories with submodules.",
+          "Git Hooks:",
+          "Automating workflows with pre-commit, post-merge, and pre-push hooks.",
+          "Example: Using a pre-commit hook to enforce code formatting."
+        ]
+      },
+      {
+        "id": 3,
+        "title": " GitHub for Collaboration",
+        "content": [
+          "Repository Management:",
+          "Creating repositories: Private, public, and internal visibility.",
+          "Managing access controls with teams and collaborators.",
+          "Forking, cloning, and synchronizing repositories.",
+          "Pull Requests and Code Reviews:",
+          "Creating pull requests and adding reviewers.",
+          "Handling review comments and suggested changes.",
+          "Enabling branch protection rules to enforce quality standards.",
+          "GitHub Actions:",
+          "Introduction to GitHub Actions: Benefits and use cases.",
+          "Writing workflows using YAML for automating CI/CD.",
+          "Prebuilt actions from GitHub Marketplace for testing, building, and deploying.",
+          "Issue Tracking and Project Boards:",
+          "Creating, assigning, and labeling issues.",
+          "Using GitHub Project Boards to organize tasks (Kanban-style).",
+          "Automating issue tracking with workflows.",
+          "Publishing Documentation:",
+          "Using GitHub Pages for static site hosting.",
+          "Creating and publishing project documentation (README, Wiki, and Pages)."
         ]
       }
     ]
   },
+
   {
     "id": 2,
     "title": "Module 2",
-    "subtitle": "Git & Github",
+    "subtitle": "Continuous Integration and Continuous Delivery (CI/CD)",
     "topics": [
       {
         "id": 1,
-        "title": "Advanced Git Concepts",
+        "title": "Jenkins: Automating CI/CD with Advanced Pipelines",
         "content": [
-          "Git Internals: Explore how Git represents commits and branches internally to gain deep insights into its operations.",
-          "Rewriting History: Learn advanced commands and scenarios, like rewriting history with interactive rebase, to maintain a clean project history.",
-          "Git Hooks: Automate tasks and enforce policies by utilizing Git hooks effectively."
+          "Jenkins Setup:",
+          "Installing Jenkins on various platforms (Linux, Docker).",
+          "Configuring Jenkins Master-Slave architecture for distributed builds.",
+          "Setting up agents for load balancing and scalability in build processes.",
+          "Pipeline as Code:",
+          "Writing and managing Declarative Pipelines using Jenkinsfile.",
+          "Multi-branch pipelines for handling complex workflows in Git repositories.",
+          "Configuring stages for build, test, and deploy with parallel executions.",
+          "Integration with DevOps Tools:",
+          "Connecting Jenkins with Git for version control.",
+          "Automating builds with Maven and managing dependencies efficiently.",
+          "Building and publishing Docker images directly from Jenkins.",
+          "Automating Tests and Deployments:",
+          "Integrating with testing frameworks like JUnit and Selenium for automated test execution.",
+          "Deploying applications to Kubernetes, AWS, or other platforms from Jenkins pipelines.",
+          "Advanced Jenkins Plugins:",
+          "Artifactory Plugin: Managing and publishing artifacts to repositories.",
+          "SonarQube Integration: Performing static code analysis for quality assurance.",
+          "Kubernetes Plugin: Deploying and scaling workloads on Kubernetes clusters.",
+          "Blue Ocean: Simplified visualization and management of Jenkins pipelines."
         ]
       },
       {
         "id": 2,
-        "title": "Branching and Merging Strategies",
+        "title": "GitLab CI/CD: Simplifying and Automating Workflows",
         "content": [
-          "Branching Models: Understand and implement effective branching strategies to streamline development workflows.",
-          "Merging vs. Rebasing: Master the art of merging and rebasing to integrate changes efficiently.",
-          "Conflict Resolution: Develop skills to resolve merge conflicts and maintain code integrity."
+          "Introduction to GitLab CI/CD:",
+          "Understanding GitLab runners and their role in executing jobs.",
+          "Setting up a .gitlab-ci.yml file for defining CI/CD pipelines.",
+          "Building Multi-Stage Pipelines:",
+          "Writing multi-stage pipelines for building, testing, and deploying applications.",
+          "Managing parallel and sequential jobs to optimize build times.",
+          "Containerized Application Builds:",
+          "Using Docker in GitLab runners to build containerized applications.",
+          "Publishing Docker images to GitLab Container Registry or Docker Hub.",
+          "GitLab Auto DevOps:",
+          "Leveraging Auto DevOps for automatic build, test, and deploy workflows.",
+          "Customizing Auto DevOps templates for specific project requirements.",
+          "Secrets and Variables Management:",
+          "Storing and using sensitive data (API keys, passwords) securely within pipelines.",
+          "Configuring environment-specific variables for staging and production environments."
         ]
       },
       {
         "id": 3,
-        "title": "Repository Management and Collaboration",
+        "title": "CircleCI: Optimizing Build and Delivery Processes",
         "content": [
-          "Forking and Pull Requests: Collaborate efficiently by forking repositories and managing pull requests.",
-          "Managing Private Repositories: Handle private repositories and control access permissions effectively.",
-          "Tagging and Releases: Use tags and releases to manage versions and track project milestones."
-        ]
-      },
-      {
-        "id": 4,
-        "title": "Advanced Git Commands and Techniques",
-        "content": [
-          "Git Rebase and Reset: Utilize advanced commands like rebase and reset to manipulate commit history.",
-          "Git Stash: Temporarily save changes with Git stash to manage work in progress.",
-          "Git Submodules: Manage submodules to handle dependencies within your projects."
-        ]
-      },
-      {
-        "id": 5,
-        "title": "Best Practices and Advanced Workflows",
-        "content": [
-          "Code Review Processes: Establish effective code review workflows to maintain code quality.",
-          "Security Practices: Implement security measures in Git workflows to protect codebases.",
-          "Performance Optimization: Optimize Git operations for large repositories and teams."
+          "Introduction to CircleCI:",
+          "Setting up a CircleCI account and integrating with GitHub or GitLab repositories.",
+          "Using config.yml for defining workflows, jobs, and steps.",
+          "Efficient Workflow Management:",
+          "Configuring pipelines with multiple workflows for build, test, and deploy stages.",
+          "Utilizing caching mechanisms to speed up repetitive tasks (e.g., dependency installation).",
+          "Parallelism and Resource Optimization:",
+          "Running tests and builds in parallel to reduce pipeline execution times.",
+          "Optimizing resource allocation using CircleCI’s resource classes.",
+          "Reusable CircleCI Orbs:",
+          "Understanding and utilizing Orbs for prebuilt tasks (e.g., Docker, Kubernetes, AWS).",
+          "Writing custom Orbs for specific project needs."
         ]
       }
     ]
   },
+
+
   {
     "id": 3,
     "title": "Module 3",
-    "subtitle": "DCA - Docker Certified Associate",
+    "subtitle": "Containerization and Orchestration",
     "topics": [
       {
         "id": 1,
-        "title": "Introduction to Docker and Containerization",
+        "title": "Docker: Building and Managing Containers",
         "content": [
-          "Understanding Containers and Virtualization.",
-          "Explore the differences between containers and virtual machines.",
-          "Discuss the benefits of containerization in modern application development."
+          "Introduction to Docker:",
+          "Core concepts of containers, images, and the Docker Engine.",
+          "Differences between containers and virtual machines.",
+          "Writing Efficient Dockerfiles:",
+          "Creating lightweight and optimized Docker images.",
+          "Multi-stage builds to reduce image size and improve security.",
+          "Best practices for layer caching and minimizing build times.",
+          "Docker Compose:",
+          "Defining multi-container applications using docker-compose.yml.",
+          "Managing services, networks, and volumes for multi-container setups.",
+          "Common use cases: Microservices, LAMP/LEMP stacks, and local development environments.",
+          "Docker Networking:",
+          "Understanding default networks: Bridge, host, and none.",
+          "Configuring custom networks for container communication.",
+          "Overlay networks for multi-host communication.",
+          "Docker Security:",
+          "Scanning images for vulnerabilities using tools like Snyk and Docker Scan.",
+          "Managing secrets and sensitive data in Docker containers.",
+          "Restricting container capabilities for enhanced security."
         ]
       },
       {
         "id": 2,
-        "title": "Overview of Docker",
+        "title": "Podman: Rootless Container Management",
         "content": [
-          "Introduction to Docker's role in the containerization ecosystem.",
-          "Key components: Docker Engine, Docker Hub, and Docker Compose."
+          "Introduction to Podman:",
+          "Understanding the differences between Podman and Docker.",
+          "Benefits of rootless architecture for enhanced security.",
+          "Managing Containers and Pods:",
+          "Creating and managing containers without a central daemon.",
+          "Working with pods to group containers and share resources.",
+          "Migrating from Docker to Podman:",
+          "Using Docker-compatible commands for a seamless transition.",
+          "Converting docker-compose.yml to Podman-supported configurations."
         ]
       },
       {
         "id": 3,
-        "title": "Setting Up the Docker Environment",
+        "title": "Kubernetes: Advanced Orchestration",
         "content": [
-          "Installation of Docker on Linux operating systems.",
-          
+          "Core Kubernetes Concepts:",
+          "Brief overview of Pods, Deployments, and Services.",
+          "Advanced Pod Scheduling:",
+          "Node Affinity and Anti-Affinity for controlling pod placement.",
+          "Using Taints and Tolerations to schedule pods on specific nodes.",
+          "Workload Scaling:",
+          "Configuring Horizontal Pod Autoscaler (HPA) to scale pods based on CPU and memory usage.",
+          "Using Vertical Pod Autoscaler (VPA) to adjust pod resource requests and limits.",
+          "Kubernetes Networking:",
+          "Setting up Ingress Controllers for HTTP/HTTPS routing.",
+          "Defining Network Policies to control communication between pods.",
+          "Persistent Storage:",
+          "Creating Persistent Volumes (PVs) and Persistent Volume Claims (PVCs).",
+          "Using StorageClasses for dynamic volume provisioning.",
+          "Kubernetes Observability:",
+          "Setting up metrics-server for resource monitoring.",
+          "Integrating Prometheus and Grafana for advanced observability.",
+          "Kubernetes Security:",
+          "Implementing Role-Based Access Control (RBAC) for fine-grained access control.",
+          "Configuring PodSecurityPolicy to enforce security constraints.",
+          "Managing secrets for storing sensitive information securely."
         ]
       },
       {
         "id": 4,
-        "title": "Docker Fundamentals",
+        "title": "Docker Swarm: Lightweight Container Orchestration",
         "content": [
-          "Docker Architecture.",
-          "Understanding Docker's client-server model.",
-          "Role of Docker Daemon and Docker CLI."
+          "Setting Up a Swarm Cluster:",
+          "Initializing a Docker Swarm manager and adding worker nodes.",
+          "Deploying services to a Swarm cluster.",
+          "Secrets and Config Management:",
+          "Storing and managing sensitive information using Swarm secrets.",
+          "Deploying services with environment-specific configurations.",
+          "Scaling and Load Balancing:",
+          "Scaling services horizontally to handle increased traffic.",
+          "Configuring built-in load balancing for Swarm services."
         ]
       },
       {
         "id": 5,
-        "title": "Working with Docker Images and Containers",
+        "title": "OpenShift: Enterprise-Grade Container Orchestration",
         "content": [
-          "Creating and managing Docker images.",
-          "Running, stopping, and removing containers.",
-          "Understanding container lifecycles."
-        ]
-      },
-      {
-        "id": 6,
-        "title": "Docker Networking",
-        "content": [
-          "Configuring container networking.",
-          "Exploring bridge, host, and overlay networks."
-        ]
-      },
-      {
-        "id": 7,
-        "title": "Data Management in Docker",
-        "content": [
-          "Using volumes for persistent storage.",
-          "Managing data in containers."
-        ]
-      },
-      {
-        "id": 8,
-        "title": "Advanced Docker Usage",
-        "content": [
-          "Docker Compose.",
-          "Defining multi-container applications.",
-          "Using docker-compose.yml files for configuration."
-        ]
-      },
-      {
-        "id": 9,
-        "title": "Docker Swarm and Orchestration",
-        "content": [
-          "Introduction to Docker Swarm mode.",
-          "Deploying and managing services in a Swarm cluster.",
-          "Comparing Docker Swarm with Kubernetes."
-        ]
-      },
-      {
-        "id": 10,
-        "title": "Security Best Practices",
-        "content": [
-          "Securing Docker containers and images.",
-          "Implementing user namespaces and security profiles."
-        ]
-      },
-      {
-        "id": 11,
-        "title": "Advanced Topics and Best Practices",
-        "content": [
-          "Docker in Production Environments.",
-          "Strategies for deploying Docker containers at scale.",
-          "Ensuring high availability and fault tolerance."
-        ]
-      },
-      {
-        "id": 12,
-        "title": "Performance Optimization",
-        "content": [
-          "Optimizing Docker images for faster builds and deployments.",
-          "Resource management and limiting container resource usage."
-        ]
-      },
-      {
-        "id": 13,
-        "title": "Troubleshooting and Debugging",
-        "content": [
-          "Common issues in Docker environments and their resolutions.",
-          "Using Docker logs and debugging tools effectively."
+          "Introduction to OpenShift:",
+          "Understanding OpenShift architecture and its enterprise features.",
+          "Differences between Kubernetes and OpenShift.",
+          "Application Deployment in OpenShift:",
+          "Using OpenShift templates and Operators for automated deployments.",
+          "Setting up CI/CD pipelines with OpenShift Pipelines.",
+          "OpenShift Security:",
+          "Managing authentication and authorization using OpenShift RBAC.",
+          "Securely handling secrets and configuration data in OpenShift."
         ]
       }
     ]
+},
+
+
+{
+  "id": 4,
+  "title": "Module 4",
+  "subtitle": "Infrastructure as Code (IaC)",
+  "topics": [
+    {
+      "id": 1,
+      "title": "Terraform: Infrastructure Provisioning Made Easy",
+      "content": [
+        "Introduction to Terraform:",
+        "Overview of Infrastructure as Code (IaC) and the role of Terraform.",
+        "Setting up Terraform CLI and understanding the execution workflow: plan, apply, and destroy.",
+        "Understanding the provider ecosystem (e.g., AWS, Azure, GCP).",
+        "Writing Reusable Modules:",
+        "Creating modules for frequently used infrastructure components (e.g., VPC, EC2, RDS).",
+        "Utilizing variables, outputs, and locals for dynamic and parameterized modules.",
+        "Best practices for module versioning and module registries.",
+        "State Management:",
+        "Understanding the Terraform state file and its role in resource tracking.",
+        "Remote state management using backends like S3, Azure Blob Storage, and GCS.",
+        "Locking strategies to avoid state file conflicts in team environments.",
+        "Secure storage of sensitive information in state files.",
+        "Multi-Cloud Provisioning:",
+        "Provisioning infrastructure on multiple cloud platforms simultaneously.",
+        "Managing cloud-specific configurations with provider blocks.",
+        "Implementing environment-specific configurations using workspaces.",
+        "Advanced Terraform Features:",
+        "Dynamic blocks for repetitive resource definitions.",
+        "Using Terraform Cloud/Enterprise for team collaboration and automated workflows.",
+        "Terraform with CI/CD pipelines for automated infrastructure changes."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ansible: Configuration Management and Automation",
+      "content": [
+        "Introduction to Ansible:",
+        "Understanding agentless architecture and push-based automation.",
+        "Setting up Ansible inventory (static and dynamic) for managing hosts.",
+        "Core components: Playbooks, roles, and modules.",
+        "Writing Modular Playbooks and Roles:",
+        "Structuring playbooks for readability and reusability.",
+        "Writing roles with default variables, tasks, handlers, and templates.",
+        "Organizing roles with dependencies and Ansible Galaxy integration.",
+        "Ansible Vault:",
+        "Encrypting sensitive information like API keys and passwords using Ansible Vault.",
+        "Managing decryption in CI/CD pipelines for secure automation.",
+        "Automating Patch Management:",
+        "Creating playbooks for automated Linux server patching with package managers (e.g., yum, apt).",
+        "Scheduling periodic patching using tools like cron or Ansible AWX.",
+        "Optimizing Ansible Performance:",
+        "Using fact caching for faster execution.",
+        "Implementing asynchronous tasks and parallel execution.",
+        "Leveraging ansible-pull for pull-based configurations.",
+        "Integrating Ansible with Other Tools:",
+        "Configuring cloud resources (e.g., AWS, Azure, GCP) using Ansible modules.",
+        "Managing Kubernetes configurations with Ansible.",
+        "Integrating with Terraform for post-provisioning tasks (e.g., application deployment)."
+      ]
+    }
+  ]
+},
+{
+  "id": 5,
+  "title": "Module 5",
+  "subtitle": "Monitoring & Observability",
+  "topics": [
+    {
+      "id": 1,
+      "title": "Prometheus & Grafana",
+      "content": [
+        "Prometheus:",
+        "Introduction to Prometheus and its role in observability.",
+        "Setting up Prometheus with custom configuration for scraping targets.",
+        "Writing PromQL queries for real-time metrics analysis, including:",
+        "Aggregations (e.g., rate(), sum()).",
+        "Functions for anomaly detection.",
+        "Building multi-dimensional metrics.",
+        "Managing Prometheus exporters for system and application metrics (e.g., Node Exporter, Blackbox Exporter).",
+        "Alerting with Alertmanager: Setting up alerts for threshold breaches and downtimes.",
+        "Grafana:",
+        "Installing and configuring Grafana for visualizing Prometheus metrics.",
+        "Advanced dashboard creation:",
+        "Custom panels with thresholds, trends, and correlation metrics.",
+        "Templates and variables for dynamic visualizations.",
+        "Integrating Grafana with multiple data sources (e.g., Prometheus, Loki, and cloud services).",
+        "Exporting dashboards and automating their deployment with Grafana APIs."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ELK Stack (Elasticsearch, Logstash, Kibana)",
+      "content": [
+        "Elasticsearch:",
+        "Setting up Elasticsearch clusters for scalability and redundancy.",
+        "Managing indices, shards, and replicas for efficient data querying.",
+        "Querying logs using the Elasticsearch Query DSL (e.g., match queries, aggregations).",
+        "Logstash:",
+        "Configuring Logstash pipelines for ingesting and transforming log data.",
+        "Applying filters to parse logs (e.g., Grok, mutate, and date filters).",
+        "Using Logstash plugins for enrichment (e.g., GeoIP and DNS).",
+        "Kibana:",
+        "Creating detailed and actionable dashboards in Kibana.",
+        "Configuring visualizations for log trends, errors, and user activity.",
+        "Setting up Kibana alerts for operational insights."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Splunk",
+      "content": [
+        "Introduction to Splunk:",
+        "Overview of Splunk architecture: Forwarders, indexers, and search heads.",
+        "Configuring Splunk forwarders for log ingestion from applications and systems.",
+        "Real-Time Log Aggregation:",
+        "Setting up data inputs for various sources (e.g., HTTP Event Collector, syslog).",
+        "Creating Splunk queries using the Splunk Processing Language (SPL) for:",
+        "Log filtering.",
+        "Anomaly detection with statistical models.",
+        "Trend analysis.",
+        "Monitoring and Alerting:",
+        "Configuring alerts for log anomalies and system performance.",
+        "Setting up dashboards for infrastructure health and application metrics."
+      ]
+    }
+  ]
   },
-  {
-    "id": 4,
-    "title": "Module 4",
-    "subtitle": "Kubernetes",
-    "topics": [
-      {
-        "id": 7,
-        "title": "Lab Setup",
-        "content": [
-          "Setting up a Minikube cluster for Kubernetes practice."
-        ]
-      },
-      {
-        "id": 8,
-        "title": "Introduction to Kubernetes",
-        "content": [
-          "Understanding Kubernetes and its components."
-        ]
-      },
-      {
-        "id": 9,
-        "title": "Working with Pods",
-        "content": [
-          "What is a pod and how to create one using the command line and YAML file.",
-          "Interacting with Kubernetes clusters and deleting all pods."
-        ]
-      },
-      {
-        "id": 10,
-        "title": "Labels & Load Balancers",
-        "content": [
-          "Working with labels and selectors to organize resources.",
-          "Understanding Replication Controllers, Replica Sets, and scaling pods.",
-          "Configuring load balancers and creating Replica Sets."
-        ]
-      },
-      {
-        "id": 11,
-        "title": "Environmental Variables",
-        "content": [
-          "What are environmental variables in Kubernetes?",
-          "Creating and managing environmental variables for pods."
-        ]
-      },
-      {
-        "id": 12,
-        "title": "Storage Management",
-        "content": [
-          "Different types of storage in Kubernetes: Persistent Volumes (PV), Persistent Volume Claims (PVC), and Storage Classes (SC).",
-          "Creating and using PVC and PV.",
-          "Dynamic provisioning and using NFS in Storage Classes for persistent data."
-        ]
-      },
-      {
-        "id": 13,
-        "title": "Deployments",
-        "content": [
-          "What are Kubernetes deployments and different deployment strategies?",
-          "Understanding Rollout and Rollback strategies, including Recreate and Rolling Update.",
-          "Deploying Pods using deployment strategies."
-        ]
-      },
-      {
-        "id": 14,
-        "title": "Secrets and Config Management",
-        "content": [
-          "Understanding Secrets in Kubernetes: How to use and manage secrets securely.",
-          "Introduction to Kustomize for managing multi-container pods (e.g., WordPress & MariaDB).",
-          "Creating and managing ConfigMaps for configuration management."
-        ]
-      },
-      {
-        "id": 15,
-        "title": "Namespaces",
-        "content": [
-          "Understanding and creating Kubernetes namespaces.",
-          "Managing resources within specific namespaces.",
-          "Authentication in Kubernetes and managing user access"
-        ]
-      },
-      {
-        "id": 16,
-        "title": "Authentication & API Server",
-        "content": [
-          "Understanding the Kubernetes API server and authentication mechanisms.",
-          "Managing Kubernetes contexts, config files, and key types.",
-          "Role-based Access Control (RBAC) for secure access management.",
-          "Practical on creating a Red Hat Enterprise Linux (RHEL-9) client for Kubernetes."
-        ]
-      },
-      {
-        "id": 17,
-        "title": "Networking",
-        "content": [
-          "Understanding Ingress Controllers and path-based routing.",
-          "Setting up local DNS and network policies for controlling pod communication.",
-          "Filtering network packets and managing source/destination ports."
-        ]
-      },
-      {
-        "id": 18,
-        "title": "Design Patterns and Logs",
-        "content": [
-          "Exploring design patterns for pods, including sidecar and ambassador patterns.",
-          "Log management in Kubernetes: Viewing and managing logs in Apache Web Server.",
-          "Changing log formats and handling logging in Kubernetes environments."
-        ]
-      },
-      {
-        "id": 19,
-        "title": "Container Security",
-        "content": [
-          "Understanding user roles (general user vs root user) and pod capabilities.",
-          "Securing containers: Managing capabilities, service accounts, and using tokens.",
-          
-        ]
-      },
-      {
-        "id": 20,
-        "title": "Custom Resources & CRDs",
-        "content": [
-          "Introduction to Custom Resources (CR) and Custom Resource Definitions (CRD).",
-          "Creating and managing custom resources in Kubernetes."
-        ]
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Module 5",
-    "subtitle": "CI/CD with Jenkins",
-    "topics": [
-      {
-        "id": 21,
-        "title": "Introduction to Jenkins and Continuous Integration/Continuous Deployment (CI/CD)",
-        "content": [
-          "Overview of Software Development Processes",
-          "Understanding traditional development workflows.",
-          "Challenges in manual integration and deployment."
-        ]
-      },
-      {
-        "id": 22,
-        "title": "Introduction to Jenkins",
-        "content": [
-          "History and evolution of Jenkins.",
-          "Key features and capabilities.",
-          "Jenkins ecosystem and community support."
-        ]
-      },
-      {
-        "id": 23,
-        "title": "Fundamentals of CI/CD",
-        "content": [
-          "Defining Continuous Integration, Continuous Delivery, and Continuous Deployment.",
-          "Benefits of implementing CI/CD pipelines.",
-          "Role of Jenkins in automating CI/CD processes."
-        ]
-      },
-      {
-        "id": 24,
-        "title": "Setting Up Jenkins",
-        "content": [
-          "Installation and Configuration",
-          "Installing Jenkins on various operating systems.",
-          "Configuring Jenkins for optimal performance.",
-          "Understanding Jenkins architecture: Master and Agent nodes."
-        ]
-      },
-      {
-        "id": 25,
-        "title": "Managing Jenkins",
-        "content": [
-          "Navigating the Jenkins dashboard.",
-          "Configuring system settings and global tools.",
-          "Managing plugins to extend Jenkins functionality."
-        ]
-      },
-      {
-        "id": 26,
-        "title": "Building and Managing Jenkins Pipelines",
-        "content": [
-          "Creating and Configuring Pipelines",
-          "Understanding Declarative and Scripted Pipelines.",
-          "Defining stages, steps, and agents within a pipeline."
-        ]
-      },
-      {
-        "id": 27,
-        "title": "Version Control Integration",
-        "content": [
-          "Integrating Jenkins with Git repositories.",
-          "Setting up webhooks for automated builds.",
-          "Managing credentials securely."
-        ]
-      },
-      {
-        "id": 28,
-        "title": "Automated Testing and Quality Assurance",
-        "content": [
-          "Integrating unit tests and code quality tools.",
-          "Configuring test reports and notifications.",
-          "Implementing code coverage analysis."
-        ]
-      },
-      {
-        "id": 29,
-        "title": "Advanced Jenkins Features", 
-        "content": [
-          "Distributed Builds",
-          "Setting up and managing Jenkins agents.",
-          "Configuring build executors for parallel processing.",
-     
-        ]
-      },
-      {
-        "id": 30,
-        "title": "Pipeline as Code",
-        "content": [
-          "Storing pipeline definitions in version control.",
-          "Implementing shared libraries for reusable pipeline code.",
-          "Managing pipeline configurations with configuration as code."
-        ]
-      },
-      {
-        "id": 31,
-        "title": "Security and Access Control",
-        "content": [
-          "Configuring user authentication and authorization.",
-          "Implementing role-based access control (RBAC).",
-          
-        ]
-      },
-      {
-        "id": 32,
-        "title": "Best Practices and Troubleshooting",
-        "content": [
-          "Optimizing Jenkins Performance",
-          "Configuring build queues and executors efficiently.",
-          "Managing build artifacts and workspace cleanup.",
-          "Scaling Jenkins for large teams and projects."
-        ]
-      },
-     
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Module 6",
-    "subtitle": "Prometheus & Grafana",
-    "topics": [
-      
-      {
-        "id": 36,
-        "title": "Prometheus Overview",
-        "content": [
-          "Architecture and components of Prometheus.",
-          "Prometheus data model and metric types.",
-          "Setting up and configuring Prometheus."
-        ]
-      },
-      {
-        "id": 37,
-        "title": "Grafana Overview",
-        "content": [
-          "Introduction to Grafana and its capabilities.",
-          "Integrating Grafana with Prometheus.",
-          "Creating and managing dashboards."
-        ]
-      },
-      {
-        "id": 38,
-        "title": "Monitoring Web Applications",
-        "content": [
-          "Instrumenting applications for monitoring.",
-          "Using client libraries for metric collection.",
-          "Setting up exporters for various services."
-        ]
-      },
-      {
-        "id": 39,
-        "title": "Alerting Mechanisms",
-        "content": [
-          "Configuring alerting rules in Prometheus.",
-          "Integrating alerting with Grafana.",
-          "Best practices for effective alerting."
-        ]
-      },
-      {
-        "id": 40,
-        "title": "Prometheus Storage and Scaling",
-        "content": [
-          "Understanding Prometheus storage architecture.",
-          "Scaling Prometheus for large environments.",
-          "Integrating Prometheus with remote storage systems."
-        ]
-      },
-      {
-        "id": 41,
-        "title": "Advanced Grafana Features",
-        "content": [
-          "Using variables and templating in dashboards.",
-          "Implementing annotations and dashboard links.",
-          "Configuring user authentication and permissions."
-        ]
-      },
-      {
-        "id": 42,
-        "title": "Provisioning and Automation",
-        "content": [
-          "Automating Grafana dashboards and data sources.",
-          "Using Grafana provisioning for consistent configurations.",
-          "Version control for dashboards and alerts."
-        ]
-      },
-      {
-        "id": 43,
-        "title": "Security Considerations",
-        "content": [
-          "Securing Prometheus and Grafana instances.",
-          "Implementing role-based access control (RBAC).",
-          "Best practices for data protection and compliance."
-        ]
-      }
-    ]
+    {
+      "id": 6,
+      "title": "Module 6",
+      "subtitle": "DevSecOps and Build Tools",
+      "topics": [
+        {
+          "id": 1,
+          "title": "SonarQube for Static Code Analysis",
+          "content": [
+            "Introduction to Static Code Analysis:",
+            "What is static code analysis, and why is it critical in modern DevSecOps pipelines?",
+            "Overview of SonarQube and its integration with DevOps workflows.",
+            "SonarQube Setup:",
+            "Installing and configuring SonarQube server and scanner.",
+            "Configuring quality profiles and quality gates to enforce coding standards.",
+            "Analyzing code coverage, technical debt, and code smells.",
+            "SonarQube Integration:",
+            "Integrating SonarQube with build tools (Maven, Gradle) for automated code analysis.",
+            "Using SonarQube plugins for CI/CD tools like Jenkins, GitLab CI/CD, and GitHub Actions.",
+            "Generating reports and actionable insights to improve code quality."
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Snyk for Vulnerability Scanning",
+          "content": [
+            "Introduction to Snyk:",
+            "Overview of software vulnerabilities and their impact on application security.",
+            "Features of Snyk for scanning code, dependencies, containers, and IaC files.",
+            "Using Snyk for Code and Dependency Scanning:",
+            "Setting up Snyk CLI and dashboard for project scanning.",
+            "Scanning open-source dependencies for known vulnerabilities.",
+            "Monitoring vulnerabilities over time and creating remediation workflows.",
+            "Container and IaC Scanning with Snyk:",
+            "Analyzing container images for vulnerabilities in base images and application layers.",
+            "Scanning Terraform and Kubernetes configuration files for security risks.",
+            "Snyk Integration with DevOps Pipelines:",
+            "Automating vulnerability scans in CI/CD workflows using Jenkins, GitHub Actions, and GitLab CI/CD.",
+            "Generating real-time alerts and vulnerability reports for proactive issue resolution."
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Maven and Gradle for Dependency and Build Management",
+          "content": [
+            "Introduction to Build Tools:",
+            "Overview of Maven and Gradle as essential tools for Java-based application development.",
+            "Key differences between Maven and Gradle.",
+            "Maven:",
+            "Understanding Maven’s project structure and POM (Project Object Model).",
+            "Managing dependencies using Maven Central Repository.",
+            "Writing custom goals and plugins for extended functionality.",
+            "Automating tests and packaging applications into deployable artifacts.",
+            "Gradle:",
+            "Introduction to Gradle’s Groovy-based DSL.",
+            "Managing dependencies and resolving version conflicts.",
+            "Configuring multi-project builds for complex applications.",
+            "Optimizing builds with caching and parallel execution.",
+            "Advanced Build Automation:",
+            "Using Maven and Gradle in conjunction with Jenkins, GitLab CI/CD, and CircleCI for automated builds and testing.",
+            "Managing and versioning artifacts with repositories like Nexus or Artifactory."
+          ]
+        }
+      ]
   },
   {
     "id": 7,
     "title": "Module 7",
-    "subtitle": "Ansible",
-    "topics": [
-      {
-        "id": 44,
-        "title": "Introduction to Ansible",
-        "content": [
-          "What is Ansible?",
-          "Overview of Ansible and its role in IT automation.",
-          "Benefits of using Ansible in DevOps."
-        ]
-      },
-      {
-        "id": 45,
-        "title": "Key Features",
-        "content": [
-          "Agentless architecture (SSH-based).",
-          "Idempotency in task execution.",
-          "Extensibility through custom modules and plugins."
-        ]
-      },
-      {
-        "id": 46,
-        "title": "Core Components of Ansible",
-        "content": [
-          "Playbooks: Writing YAML-based automation scripts.",
-          "Modules: Overview of built-in modules for managing systems and configurations.",
-          "Inventory: Defining static and dynamic inventories for managed nodes.",
-          "Roles: Creating reusable and modular Ansible tasks for large projects."
-        ]
-      },
-      {
-        "id": 47,
-        "title": "Ansible in DevOps Workflows",
-        "content": [
-          "Continuous Integration/Continuous Deployment (CI/CD):",
-          "Integrating Ansible with Jenkins, GitLab, or GitHub Actions for automated testing and deployment.",
-          "Infrastructure as Code (IaC): Automating infrastructure provisioning with Ansible.",
-          "Configuration Management: Standardizing configurations across environments."
-        ]
-      },
-      {
-        "id": 48,
-        "title": "Ansible Best Practices",
-        "content": [
-          "Version Control: Storing playbooks and roles in Git for collaboration and tracking changes.",
-          "Modularization: Breaking down tasks into reusable roles and collections.",
-          "Security in Automation: Protecting sensitive data with Ansible Vault."
-        ]
-      },
-      {
-        "id": 49,
-        "title": "Practical Projects",
-        "content": [
-          "Automate web server deployment with Ansible.",
-          "Configure and deploy a multi-tier application using Ansible and Docker.",
-          "Integrate Ansible in a CI/CD pipeline for automated testing and deployment.",
-          "Deploy and scale Kubernetes applications using Ansible and Helm."
-        ]
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Module 8",
-    "subtitle": "Terraform",
-    "topics": [
-      {
-        "id": 50,
-        "title": "Introduction to Terraform",
-        "content": [
-          "What is Terraform?",
-          "Overview of Infrastructure as Code (IaC).",
-          "Benefits of using Terraform for DevOps.",
-          "Comparing Terraform with other IaC tools (e.g., CloudFormation, Ansible)."
-        ]
-      },
-      {
-        "id": 51,
-        "title": "Core Concepts",
-        "content": [
-          "Providers, resources, state files, and configuration files.",
-          "Declarative syntax and its advantages."
-        ]
-      },
-      {
-        "id": 52,
-        "title": "Setting Up Terraform",
-        "content": [
-          "Installing Terraform: Installing on Windows, macOS, and Linux.",
-          "Understanding Providers: Overview of Terraform providers (AWS, Azure, Google Cloud, Kubernetes).",
-          "Authenticating and configuring cloud providers."
-        ]
-      },
-      {
-        "id": 53,
-        "title": "Working with Terraform Configurations",
-        "content": [
-          "Basic Configurations: Writing and organizing Terraform .tf files.",
-          "Defining resources and variables.",
-          "Variables and Outputs: Using input variables for dynamic configurations.",
-          "Outputs for sharing data between configurations."
-        ]
-      },
-      {
-        "id": 54,
-        "title": "State Management",
-        "content": [
-          "Managing Terraform state files.",
-          "Remote state storage (AWS S3, Azure Blob, Google Cloud Storage)."
-        ]
-      },
-      {
-        "id": 55,
-        "title": "Infrastructure Automation in Practice",
-        "content": [
-          "Building Cloud Infrastructure: Provisioning virtual machines, networks, and storage on AWS, Azure, and GCP.",
-          "Creating scalable and fault-tolerant architectures.",
-          "Networking with Terraform: Automating VPCs, subnets, and security groups.",
-          "Configuring load balancers and DNS records.",
-          "Terraform and Containers: Deploying Docker containers.",
-          "Integrating Terraform with Kubernetes for infrastructure provisioning."
-        ]
-      },
-      {
-        "id": 56,
-        "title": "Advanced Terraform Features",
-        "content": [
-          "Modules: Creating reusable modules for scalable configurations.",
-          "Using Terraform Registry for pre-built modules.",
-          "Terraform Workspaces: Managing multiple environments (e.g., dev, staging, production).",
-          "Dynamic Blocks: Writing flexible configurations with loops and conditionals.",
-          "Data Sources: Fetching data from existing infrastructure for dynamic resources."
-        ]
-      },
-      {
-        "id": 57,
-        "title": "Collaboration and Team Workflow",
-        "content": [
-          "Terraform Cloud: Overview of Terraform Cloud and its role in team collaboration.",
-          "Setting up remote operations and managing workspaces.",
-          "Version Control Integration: Using Git for Terraform configuration management.",
-          "Applying CI/CD workflows for infrastructure changes.",
-          "Managing State in Teams: Locking state files to prevent conflicts.",
-          "Sharing state securely across team members."
-        ]
-      },
-      {
-        "id": 58,
-        "title": "Security and Best Practices",
-        "content": [
-          "Securing Terraform Configurations: Managing secrets with HashiCorp Vault and environment variables.",
-          "Enforcing security policies with Sentinel.",
-          "Best Practices: Structuring Terraform code for maintainability.",
-          
-        ]
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Module 9",
     "subtitle": "Linux",
     "topics": [
       {
-        "id": 59,
+        "id": 1,
         "title": "Introduction to Linux for DevOps",
         "content": [
           "Why Linux for DevOps?",
-          "Overview of Linux in cloud, automation, and containerized environments.",
-          "Key distributions used in the industry (Ubuntu, CentOS, RHEL)."
+          "Importance of Linux in cloud computing, automation, and containerized environments.",
+          "Key Linux features enabling DevOps practices: security, stability, and scalability.",
+          "Industry Use Cases:",
+          "Overview of popular distributions like Ubuntu, CentOS, RHEL, and Alpine Linux for specific DevOps workflows."
         ]
       },
       {
-        "id": 60,
-        "title": "Linux Architecture and Command Line Basics",
+        "id": 2,
+        "title": "Linux Architecture and Command-Line Basics",
         "content": [
-          "Linux kernel, shell, and file system hierarchy.",
-          "Essential CLI commands for navigation and file management."
+          "Linux Architecture:",
+          "Deep dive into the Linux kernel and its interaction with hardware.",
+          "The role of shell and its variants (bash, zsh).",
+          "File system hierarchy and key directories (/etc, /var, /home, /proc).",
+          "Command-Line Basics:",
+          "Navigation and file management commands: ls, cd, mv, cp, rm.",
+          "Searching files with find, locate, and grep.",
+          "Viewing and editing files with cat, less, nano, and vim."
         ]
       },
       {
-        "id": 61,
+        "id": 3,
         "title": "User and Permission Management",
         "content": [
-          "User and Group Management: Adding, modifying, and deleting users and groups.",
-          "Understanding /etc/passwd, /etc/group, and /etc/shadow.",
-          "Permissions and Ownership: File and directory permissions (read, write, execute).",
-          "Managing ownership with chown and permissions with chmod.",
-          "Access Control Lists (ACLs) for advanced permission management."
+          "User and Group Management:",
+          "Creating, modifying, and deleting users and groups using useradd, usermod, and groupadd.",
+          "Understanding user-related configuration files: /etc/passwd, /etc/group, /etc/shadow.",
+          "Permissions and Ownership:",
+          "File and directory permissions (read, write, execute).",
+          "Changing ownership with chown and managing permissions with chmod.",
+          "Advanced Permissions:",
+          "Using Access Control Lists (ACLs) for fine-grained permission management.",
+          "Managing default permissions with umask."
         ]
       },
       {
-        "id": 62,
+        "id": 4,
         "title": "Process and Service Management",
         "content": [
-          "Managing Processes: Monitoring processes with ps, top, htop, and kill.",
-          "Understanding and managing daemons.",
-          "Systemd and Service Management: Starting, stopping, and managing services with systemctl.",
-          "Creating and managing custom services."
+          "Managing Processes:",
+          "Monitoring and controlling processes with ps, top, htop, kill, and nice.",
+          "Identifying zombie and orphan processes.",
+          "Systemd and Service Management:",
+          "Understanding systemd, unit files, and their types (service, timer, target).",
+          "Managing services using systemctl for start, stop, enable, and disable operations.",
+          "Writing and deploying custom systemd services."
         ]
       },
       {
-        "id": 63,
+        "id": 5,
         "title": "Networking and Security Essentials",
         "content": [
-          "Network Configuration: Managing IP addresses and network interfaces.",
-          "Tools: ping, netstat, ss, traceroute, and curl.",
-          "Firewall Management: Configuring iptables and firewalld.",
-          "Securing services with SELinux or AppArmor.",
-          "SSH Configuration: Securing and managing SSH connections.",
-          "Using SSH keys for passwordless authentication."
+          "Network Configuration:",
+          "Viewing and configuring network interfaces with ifconfig and ip.",
+          "Network troubleshooting tools: ping, netstat, ss, traceroute, and curl.",
+          "Firewall Management:",
+          "Configuring and managing firewall rules using iptables and firewalld.",
+          "Setting up NAT and port forwarding rules.",
+          "SSH Configuration:",
+          "Securing SSH by disabling root login and modifying default ports.",
+          "Configuring SSH keys for passwordless authentication."
         ]
       },
       {
-        "id": 64,
+        "id": 6,
         "title": "File Systems and Storage Management",
         "content": [
-          "File System Basics: Partitioning and formatting disks with fdisk, parted, and mkfs.",
-          "Mounting and unmounting file systems.",
-          "LVM and RAID: Managing logical volumes with LVM.",
-          "Configuring software RAID for redundancy.",
-          "File System Troubleshooting: Using tools like fsck, df, and du.",
-          "Diagnosing disk space issues."
+          "File System Basics:",
+          "Partitioning and formatting disks with fdisk, parted, and mkfs.",
+          "Mounting and unmounting file systems with mount and umount.",
+          "LVM and RAID:",
+          "Configuring logical volumes with lvcreate, vgcreate, and pvcreate.",
+          "Setting up RAID arrays with mdadm for redundancy and performance.",
+          "File System Troubleshooting:",
+          "Diagnosing issues with fsck, df, and du.",
+          "Resolving disk space issues and managing inodes."
         ]
       },
       {
-        "id": 65,
+        "id": 7,
         "title": "Automation and Scripting",
         "content": [
-          "Introduction to Shell Scripting: Writing and executing basic shell scripts.",
-          "Using variables, loops, and conditionals.",
-          "Automating Tasks with Cron and At: Scheduling recurring jobs with cron.",
-          "One-time job scheduling with at.",
-          "Industry Use Cases: Automating system updates and backups.",
-          "Custom scripts for monitoring and alerting."
+          "Shell Scripting Basics:",
+          "Writing scripts to automate repetitive tasks.",
+          "Working with variables, loops (for, while), and conditionals (if, case).",
+          "Automating Tasks with Cron and At:",
+          "Scheduling periodic tasks using cron.",
+          "Managing one-time jobs with at and batch.",
+          "Industry Use Cases:",
+          "Writing scripts for system backups and updates.",
+          "Automating system monitoring and alerting processes."
         ]
       },
       {
-        "id": 66,
+        "id": 8,
         "title": "Package Management and Software Installation",
         "content": [
-          "Package Managers Overview: Managing software with apt, yum, and dnf.",
-          "Installing, updating, and removing packages.",
-          "Source-Based Installation: Compiling and installing software from source.",
-          "Managing dependencies with tools like make and gcc."
+          "Package Management:",
+          "Installing, upgrading, and removing software using apt, yum, and dnf.",
+          "Querying and troubleshooting packages.",
+          "Source-Based Installation:",
+          "Compiling software from source using make and gcc.",
+          "Resolving dependencies with tools like pkg-config."
         ]
       },
       {
-        "id": 67,
+        "id": 9,
         "title": "Monitoring and Performance Tuning",
         "content": [
-          "Monitoring Tools: Using vmstat, iostat, and sar for performance monitoring.",
-          "Log management with journalctl and rsyslog.",
-          "Performance Optimization: Tuning kernel parameters with sysctl.",
-          "Optimizing disk I/O and memory usage."
+          "Monitoring Tools:",
+          "System performance monitoring using vmstat, iostat, and sar.",
+          "Log management with journalctl, rsyslog, and logrotate.",
+          "Performance Optimization:",
+          "Kernel parameter tuning using sysctl.",
+          "Optimizing memory usage, disk I/O, and CPU performance."
         ]
       },
       {
-        "id": 68,
+        "id": 10,
         "title": "Security and Compliance",
         "content": [
-          "System Hardening: Disabling unnecessary services and ports.",
-          "Applying security patches and updates.",
-          "Auditing and Compliance: Using auditd for tracking system changes.",
-          "Managing logs for compliance and security purposes."
-        ]
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Module 10",
-    "subtitle": "AWS DevOps Services",
-    "topics": [
-      {
-        "id": 69,
-        "title": "Introduction to AWS for DevOps",
-        "content": [
-          "What is AWS DevOps?",
-          "Overview of DevOps practices and principles.",
-          "Role of AWS in enabling automation and scalability."
-        ]
-      },
-      {
-        "id": 70,
-        "title": "AWS Core Services Overview",
-        "content": [
-          "Key services: EC2, S3, RDS, Lambda, and Elastic Load Balancer (ELB).",
-          "Understanding the shared responsibility model."
-        ]
-      },
-      {
-        "id": 71,
-        "title": "Infrastructure as Code (IaC) with AWS",
-        "content": [
-          "Introduction to Infrastructure as Code: Benefits of IaC in DevOps.",
-          "Comparison of AWS CloudFormation and Terraform.",
-          "AWS CloudFormation: Writing CloudFormation templates.",
-          "Automating resource creation and updates.",
-          "AWS CDK (Cloud Development Kit): Introduction to CDK for IaC.",
-          "Writing IaC with programming languages (e.g., Python, TypeScript)."
-        ]
-      },
-      {
-        "id": 72,
-        "title": "CI/CD Pipelines on AWS",
-        "content": [
-          "Introduction to CI/CD: Principles and practices of CI/CD in AWS.",
-          "Tools overview: CodeCommit, CodeBuild, CodePipeline, CodeDeploy.",
-          "Building a CI/CD Pipeline: Automating deployments with AWS CodePipeline.",
-          "Integrating with GitHub and other version control systems.",
-          "Blue-Green Deployments and Canary Releases: Strategies for minimizing deployment downtime.",
-          "Implementation using CodeDeploy and Elastic Beanstalk."
-        ]
-      },
-      {
-        "id": 73,
-        "title": "Containerization and Orchestration",
-        "content": [
-          "Docker on AWS: Running containerized applications on AWS.",
-          "Using Elastic Container Registry (ECR) for image storage.",
-          "Kubernetes with AWS EKS: Deploying and managing Kubernetes clusters with EKS.",
-          "Scaling and monitoring containerized applications.",
-          "AWS Fargate: Running serverless containers without managing infrastructure."
-        ]
-      },
-      {
-        "id": 74,
-        "title": "Monitoring and Logging",
-        "content": [
-          "AWS CloudWatch: Setting up custom metrics and alarms.",
-          "Monitoring application and infrastructure performance.",
-          "AWS CloudTrail: Logging and auditing AWS account activities.",
-          "Ensuring compliance and tracking API usage.",
-          "Third-Party Monitoring Tools: Integrating tools like Datadog, Prometheus, and Grafana with AWS."
-        ]
-      },
-      {
-        "id": 75,
-        "title": "Serverless Architecture for DevOps",
-        "content": [
-          "Introduction to Serverless Computing: Benefits and use cases of serverless in DevOps.",
-          "Key services: AWS Lambda, API Gateway, DynamoDB.",
-          "Building Serverless Applications: Writing and deploying Lambda functions.",
-          "Integrating API Gateway for RESTful APIs.",
-          "Event-Driven Architectures: Leveraging SQS, SNS, and EventBridge for automation."
-        ]
-      },
-      {
-        "id": 76,
-        "title": "AWS Security Best Practices",
-        "content": [
-          "Identity and Access Management (IAM): Managing users, groups, and roles securely.",
-          "Policies and permissions best practices.",
-          "Securing Applications: Using AWS Secrets Manager and Systems Manager Parameter Store.",
-          "Encrypting data with KMS and S3 bucket policies.",
-          "Auditing and Compliance: Ensuring security with AWS Config and Trusted Advisor.",
-          "Implementing multi-factor authentication (MFA)."
-        ]
-      },
-      {
-        "id": 77,
-        "title": "High Availability and Scalability",
-        "content": [
-          "Load Balancing and Auto Scaling: Configuring ELB and Application Load Balancers.",
-          "Setting up Auto Scaling Groups for EC2 instances.",
-          "AWS Elastic Beanstalk: Simplifying application deployment and scaling.",
-          "Managing multiple environments.",
-          "AWS Global Infrastructure: Using Route 53 for DNS and global traffic management.",
-          "Leveraging AWS CloudFront for content delivery."
-        ]
-      },
-      {
-        "id": 78,
-        "title": "Cost Optimization and Management",
-        "content": [
-          "AWS Cost Management Tools: Using Cost Explorer and AWS Budgets.",
-          "Analyzing usage patterns to reduce costs.",
-          "Optimizing Resources: Rightsizing EC2 instances and auto-scaling.",
-          "Leveraging Spot Instances and Savings Plans.",
-          "AWS Trusted Advisor: Cost-saving recommendations and best practices."
-        ]
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Module 11",
-    "subtitle": "Azure & GCP Cloud",
-    "topics": [
-      {
-        "id": 79,
-        "title": "Azure Cloud Basics",
-        "content": [
-          "What is Microsoft Azure?",
-          "History and significance of Azure in the cloud ecosystem.",
-          "Overview of Azure's global infrastructure."
-        ]
-      },
-      {
-        "id": 80,
-        "title": "Core Azure Services",
-        "content": [
-          "Compute: Azure Virtual Machines, Azure App Services.",
-          "Storage: Blob Storage, File Storage, Disk Storage.",
-          "Networking: Virtual Network (VNet), Azure Load Balancer.",
-          "Databases: Azure SQL Database, Cosmos DB."
-        ]
-      },
-      {
-        "id": 81,
-        "title": "Getting Started with Azure",
-        "content": [
-          "Navigating the Azure Portal.",
-          "Creating an Azure account.",
-          "Understanding subscriptions and resource groups."
-        ]
-      },
-      {
-        "id": 82,
-        "title": "GCP Cloud Basics",
-        "content": [
-          "What is Google Cloud Platform (GCP)?",
-          "Overview of GCP's origins and unique features.",
-          "GCP's global regions and zones."
-        ]
-      },
-      {
-        "id": 83,
-        "title": "Core GCP Services",
-        "content": [
-          "Compute: Compute Engine, App Engine, Kubernetes Engine (GKE).",
-          "Storage: Cloud Storage, Filestore, Persistent Disk.",
-          "Networking: Virtual Private Cloud (VPC), Cloud Load Balancing.",
-          "Databases: Cloud SQL, Bigtable, Firestore."
-        ]
-      },
-      {
-        "id": 84,
-        "title": "Getting Started with GCP",
-        "content": [
-          "Navigating the GCP Console.",
-          "Setting up a free-tier account.",
-          "Understanding projects and billing."
-        ]
-      },
-      {
-        "id": 85,
-        "title": "Identity, Access, and Security in Azure and GCP",
-        "content": [
-          "Azure Identity and Security: Introduction to Azure Active Directory (AAD).",
-          "Role-Based Access Control (RBAC).",
-          "Azure Security Center overview.",
-          "GCP Identity and Security: Understanding IAM (Identity and Access Management).",
-          "Service accounts and roles in GCP.",
-          "GCP Security Command Center overview."
-        ]
-      },
-      {
-        "id": 86,
-        "title": "Compute Services in Azure and GCP",
-        "content": [
-          "Azure Compute Services: Creating and managing Azure Virtual Machines.",
-          "Serverless computing with Azure Functions.",
-          "GCP Compute Services: Deploying virtual machines with Compute Engine.",
-          "Introduction to Cloud Run for serverless applications."
-        ]
-      },
-      {
-        "id": 87,
-        "title": "Storage and Databases in Azure and GCP",
-        "content": [
-          "Azure Storage Services: Working with Azure Blob Storage.",
-          "Introduction to Azure Data Lake.",
-          "GCP Storage Services: Using Cloud Storage buckets.",
-          "Overview of Google BigQuery for analytics.",
-          "Comparison of Azure and GCP Storage Services: Choosing the right service based on use cases."
-        ]
-      },
-      {
-        "id": 88,
-        "title": "Networking and Load Balancing in Azure and GCP",
-        "content": [
-          "Azure Networking: Setting up Virtual Networks (VNets).",
-          "Configuring Azure Application Gateway.",
-          "GCP Networking: Working with Virtual Private Cloud (VPC).",
-          "Load balancing with Google Cloud Load Balancer."
-        ]
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "title": "Module 13",
-    "subtitle": "Shell Scripting",
-    "topics": [
-      {
-        "id": 100,
-        "title": "Introduction to Shell Scripting",
-        "content": [
-          "What is Shell Scripting?",
-          "Understanding the role of shell scripting in DevOps.",
-          "Differences between shell scripts and other scripting languages.",
-          "Overview of various shells (Bash, Zsh, Fish, etc.) and their use cases."
-        ]
-      },
-      {
-        "id": 101,
-        "title": "Setting Up the Environment",
-        "content": [
-          "Choosing the right shell for your environment (Bash for Linux, PowerShell for Windows, etc.).",
-          "Basic setup and configuration of a shell environment.",
-          "Accessing the terminal and using common shell commands."
-        ]
-      },
-      {
-        "id": 102,
-        "title": "Understanding Shell Basics",
-        "content": [
-          "Basic commands and navigation (ls, cd, pwd, mkdir, etc.).",
-          "Redirection and piping in shell (>, >>, <, |).",
-          "Understanding file permissions and working with chmod, chown, etc."
-        ]
-      },
-      {
-        "id": 103,
-        "title": "Variables and Data Types",
-        "content": [
-          "Defining Variables: Creating and using variables in shell scripts.",
-          "Global vs local variables.",
-          "Environment variables and their significance in scripting.",
-          "Data Types and Data Structures: Handling strings, integers, and arrays.",
-          "Using arrays in shell scripting for data management.",
-          "Looping through arrays and manipulating data."
-        ]
-      },
-      {
-        "id": 104,
-        "title": "User Input and Output",
-        "content": [
-          "Using read for interactive scripts.",
-          "Printing messages with echo, printf.",
-          "Redirecting input and output (stdin, stdout, stderr)."
-        ]
-      },
-      {
-        "id": 105,
-        "title": "Control Structures and Logic",
-        "content": [
-          "Conditional Statements: if, else, elif, and nested conditions.",
-          "Using test and [[ ]] for conditional expressions.",
-          "Advanced logical operators (&&, ||, !).",
-          "Loops and Iteration: Using for, while, and until loops.",
-          "Looping through files, directories, or command output.",
-          "Efficient iteration through arrays.",
-          "Error Handling: Using exit codes for error handling.",
-          "Handling errors using trap.",
-          "Debugging scripts with set -x and set -e."
-        ]
-      },
-      {
-        "id": 106,
-        "title": "Functions and Modularization",
-        "content": [
-          "Creating Functions: Writing reusable functions in shell scripts.",
-          "Function arguments and return values.",
-          "Best practices for modular scripting.",
-          "Script Optimization: Organizing scripts into smaller, reusable parts.",
-          "Using function libraries for larger automation tasks.",
-          "Writing scripts for performance and efficiency."
-        ]
-      },
-      {
-        "id": 107,
-        "title": "Argument Parsing",
-        "content": [
-          "Using $1, $2, etc., for passing arguments to scripts.",
-          "Using getopts for more advanced argument parsing.",
-          "Handling optional flags and parameters."
-        ]
-      },
-      {
-        "id": 108,
-        "title": "File and Process Management",
-        "content": [
-          "File Operations: Reading and writing files in shell scripts.",
-          "Working with text files: grep, sed, awk.",
-          "Managing logs, backups, and file permissions.",
-          "Process Control: Managing processes with ps, top, kill, bg, fg, etc.",
-          "Automating process management: creating, stopping, and restarting services.",
-          "Background and foreground processes in shell scripts."
-        ]
-      },
-      {
-        "id": 109,
-        "title": "Scheduled Jobs",
-        "content": [
-          "Using cron for scheduling recurring tasks.",
-          "Writing and managing cron jobs for automation.",
-          "Handling log rotation and clean-up tasks."
-        ]
-      },
-      {
-        "id": 110,
-        "title": "Advanced Shell Scripting Concepts",
-        "content": [
-          "Regular Expressions and Pattern Matching: Using regular expressions with grep, sed, awk, and find.",
-          "Advanced string manipulation techniques.",
-          "Pattern matching for file searching and log analysis.",
-          "Working with APIs: Making HTTP requests using curl or wget.",
-          "Handling JSON responses with jq.",
-          "Automating API calls for DevOps tasks (e.g., fetching logs, deploying services)."
-        ]
-      },
-      {
-        "id": 111,
-        "title": "Automation with Shell Scripting",
-        "content": [
-          "Automating server provisioning tasks (e.g., with scp, rsync).",
-          "Configuring and automating cloud resources with shell scripts (AWS CLI, Azure CLI, GCP).",
-          "Continuous integration and deployment automation with shell scripts."
-        ]
-      },
-      {
-        "id": 112,
-        "title": "Troubleshooting and Debugging",
-        "content": [
-          "Debugging Shell Scripts: Common errors and how to resolve them.",
-          "Using set -e and set -x for debugging.",
-          "Checking script execution status and troubleshooting with logs."
-        ]
-      },
-      {
-        "id": 113,
-        "title": "Performance Tuning and Optimization",
-        "content": [
-          "Identifying performance bottlenecks in scripts.",
-          "Optimizing loops, file handling, and process management.",
-          "Best practices for large-scale shell scripting in production environments."
-        ]
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "title": "Module 14",
-    "subtitle": "Integration of DevOps Tools or Capstone Projects",
-    "topics": [
-      {
-        "id": 200,
-        "title": "Integrating Git with DevOps Tools",
-        "content": [
-          "Continuous Integration/Continuous Deployment (CI/CD): Integrate Git with CI/CD pipelines to automate testing and deployment processes.",
-          "Monitoring and Logging: Use tools like Prometheus and Grafana to monitor Git repositories and visualize metrics.",
-          "Infrastructure as Code (IaC): Implement Git in conjunction with tools like Terraform for infrastructure management."
-        ]
-      },
-      {
-        "id": 201,
-        "title": "Integrating Docker with DevOps Tools",
-        "content": [
-          "Continuous Integration and Continuous Deployment (CI/CD): Integrating Docker with Jenkins for automated builds and deployments.",
-          "Using Docker in GitLab CI/CD pipelines.",
-          "Configuration Management with Ansible: Automating Docker container deployments using Ansible.",
-          "Managing configurations across multiple containers."
-        ]
-      },
-      {
-        "id": 202,
-        "title": "Monitoring and Logging",
-        "content": [
-          "Implementing monitoring solutions like Prometheus and Grafana for Docker containers.",
-          "Setting up centralized logging for containerized applications."
-        ]
-      },
-      {
-        "id": 203,
-        "title": "Integrating Jenkins with Other Tools",
-        "content": [
-          "Containerization and Virtualization: Integrating Jenkins with Docker for containerized builds.",
-          "Using Kubernetes for scalable build environments.",
-          "Managing containerized applications through Jenkins.",
-          "Monitoring and Reporting: Setting up monitoring tools for Jenkins health.",
-          "Configuring build metrics and dashboards.",
-          "Implementing alerting mechanisms for build failures."
-        ]
-      },
-      {
-        "id": 204,
-        "title": "Cloud Integration",
-        "content": [
-          "Integrating Jenkins with cloud services like AWS, Azure, and Google Cloud.",
-          "Automating deployments to cloud environments.",
-          "Managing cloud resources through Jenkins pipelines."
-        ]
-      },
-      {
-        "id": 205,
-        "title": "Integrating Ansible with Kubernetes",
-        "content": [
-          "Deploying Kubernetes Clusters: Automating Kubernetes setup and management.",
-          "Helm Integration: Using Helm charts to deploy Kubernetes applications with Ansible.",
-          "GitOps with Ansible: Managing Kubernetes manifests using Git workflows."
-        ]
-      },
-      {
-        "id": 206,
-        "title": "Integrating Terraform with DevOps Pipelines",
-        "content": [
-          "CI/CD with Terraform: Automating Terraform runs using Jenkins, GitLab CI, or GitHub Actions.",
-          "Handling approvals and rollbacks in Terraform pipelines."
-        ]
-      },
-      {
-        "id": 207,
-        "title": "Integration of GitLab with Other DevOps Tools",
-        "content": [
-          "Integrating with Cloud Platforms: Deploying to AWS, Azure, and Google Cloud from GitLab.",
-          "Setting up GitLab pipelines for multi-cloud deployments.",
-          "Containerization Tools: Using GitLab with Docker and Kubernetes.",
-          "Helm charts for Kubernetes deployments with GitLab CI.",
-          "Monitoring and Logging Tools: Integration with Prometheus and Grafana for pipeline monitoring.",
-          "Centralized logging with ELK Stack and GitLab.",
-          "Configuration Management Tools: Automating infrastructure changes with Ansible and Terraform.",
-          "GitLab CI/CD pipelines for IaC workflows."
-        ]
-      },
-      {
-        "id": 208,
-        "title": "Shell Scripting for DevOps Pipelines",
-        "content": [
-          "Integrating Shell Scripts in CI/CD Pipelines: Using shell scripts in GitLab CI, Jenkins, and other CI/CD tools.",
-          "Automating testing and deployment processes with shell scripts.",
-          "Handling version control, deployments, and rollbacks in scripts.",
-          "Containerization and Orchestration: Writing shell scripts to manage Docker containers.",
-          "Using shell scripts in Kubernetes automation tasks.",
-          "Automating container deployments, scaling, and monitoring."
-        ]
-      },
-      {
-        "id": 209,
-        "title": "Infrastructure as Code (IaC) with Shell Scripts",
-        "content": [
-          "Automating infrastructure management using AWS CLI, Azure CLI, and GCP CLI.",
-          "Writing shell scripts for managing cloud infrastructure and services.",
-          "Integrating IaC workflows with GitOps using shell scripts."
+          "System Hardening:",
+          "Disabling unnecessary services and ports.",
+          "Keeping systems secure with regular updates and patches.",
+          "Auditing and Compliance:",
+          "Using auditd for tracking system changes and events.",
+          "Ensuring compliance with security policies using log auditing."
         ]
       }
     ]
@@ -1278,12 +592,4 @@ export const modules: Module[] = [
   
   
   
-  
-  
-  
-  
-  
-  
-  
 ]
-
