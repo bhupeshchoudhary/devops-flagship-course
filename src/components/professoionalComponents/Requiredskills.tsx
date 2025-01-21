@@ -8,10 +8,6 @@ export default function RequiredSkills() {
 
   const skilsLogo = [ 
     {
-      name: "AWS",
-      logo: "/assets/professionals/aws.png"
-    },
-    {
       name: "Docker",
       logo: "/assets/professionals/docker.png"
     },
@@ -122,19 +118,19 @@ export default function RequiredSkills() {
 
             {/* Text Badge Skills - Improved spacing and wrapping */}
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {["AWS", "Docker", "Kubernetes", "Jenkins", "Terraform", "Ansible", "Github"].map((skill) => (
+              {[ "Docker", "Kubernetes", "Jenkins", "Terraform", "Ansible", "Github"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
             
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {["Splunk", "ELK Stack", "GitOps", "Prometheus", "Grafana", "ArgoCD", "Lambda"].map((skill) => (
+              {["Splunk", "ELK Stack", "GitOps", "Prometheus", "Grafana", "ArgoCD"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
 
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {["Fargate", "Podman", "CloudFront", "CI/CD", "Redshift", "Linux", "SQL"].map((skill) => (
+              {[ "Podman",  "CI/CD", "Redshift", "Linux", "SQL"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
