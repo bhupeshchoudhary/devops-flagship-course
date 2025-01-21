@@ -569,13 +569,24 @@ export const modules: Module[] = [
         "Prometheus:",
         "Introduction to Prometheus and its role in observability.",
         "Setting up Prometheus with custom configuration for scraping targets.",
-        "Writing PromQL queries for real-time metrics analysis, including:",
+      ]
+    },
+    {
+        "id": 2,
+          "title": "Writing PromQL queries for real-time metrics analysis, including:",
+          "content":[
         "Aggregations (e.g., rate(), sum()).",
         "Functions for anomaly detection.",
         "Building multi-dimensional metrics.",
         "Managing Prometheus exporters for system and application metrics (e.g., Node Exporter, Blackbox Exporter).",
         "Alerting with Alertmanager: Setting up alerts for threshold breaches and downtimes.",
-        "Grafana:",
+          ]
+        },
+        {
+        
+        "id": 3,
+          "title":   "Grafana:",
+          "content":[
         "Installing and configuring Grafana for visualizing Prometheus metrics.",
         "Advanced dashboard creation:",
         "Custom panels with thresholds, trends, and correlation metrics.",
@@ -585,14 +596,20 @@ export const modules: Module[] = [
       ]
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "ELK Stack (Elasticsearch, Logstash, Kibana)",
       "content": [
         "Elasticsearch:",
         "Setting up Elasticsearch clusters for scalability and redundancy.",
         "Managing indices, shards, and replicas for efficient data querying.",
         "Querying logs using the Elasticsearch Query DSL (e.g., match queries, aggregations).",
-        "Logstash:",
+      ]
+    },
+    {
+       "id": 1,
+      "title":  "Logstash:",
+      "content":[
+
         "Configuring Logstash pipelines for ingesting and transforming log data.",
         "Applying filters to parse logs (e.g., Grok, mutate, and date filters).",
         "Using Logstash plugins for enrichment (e.g., GeoIP and DNS).",
@@ -609,13 +626,28 @@ export const modules: Module[] = [
         "Introduction to Splunk:",
         "Overview of Splunk architecture: Forwarders, indexers, and search heads.",
         "Configuring Splunk forwarders for log ingestion from applications and systems.",
-        "Real-Time Log Aggregation:",
+      ]
+    },
+    {
+        "id": 1,
+          "title": "Real-Time Log Aggregation:",
+          "content":[
         "Setting up data inputs for various sources (e.g., HTTP Event Collector, syslog).",
-        "Creating Splunk queries using the Splunk Processing Language (SPL) for:",
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Creating Splunk queries using the Splunk Processing Language (SPL) for:",
+          "content":[
         "Log filtering.",
         "Anomaly detection with statistical models.",
         "Trend analysis.",
-        "Monitoring and Alerting:",
+          ]
+        },
+        {
+          "id": 1,
+          "title": "Monitoring and Alerting:",
+          "content":[
         "Configuring alerts for log anomalies and system performance.",
         "Setting up dashboards for infrastructure health and application metrics."
       ]
@@ -634,11 +666,22 @@ export const modules: Module[] = [
             "Introduction to Static Code Analysis:",
             "What is static code analysis, and why is it critical in modern DevSecOps pipelines?",
             "Overview of SonarQube and its integration with DevOps workflows.",
-            "SonarQube Setup:",
+          ]
+        },
+        {
+            "id": 1,
+          "title": "SonarQube Setup:",
+          "content":[
+
             "Installing and configuring SonarQube server and scanner.",
             "Configuring quality profiles and quality gates to enforce coding standards.",
             "Analyzing code coverage, technical debt, and code smells.",
-            "SonarQube Integration:",
+          ]
+        },
+        {
+            "id": 1,
+          "title": "SonarQube Integration:",
+          "content":[
             "Integrating SonarQube with build tools (Maven, Gradle) for automated code analysis.",
             "Using SonarQube plugins for CI/CD tools like Jenkins, GitLab CI/CD, and GitHub Actions.",
             "Generating reports and actionable insights to improve code quality."
