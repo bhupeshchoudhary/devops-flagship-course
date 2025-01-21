@@ -209,28 +209,53 @@ export const modules: Module[] = [
         "content":[
           "Using Docker in GitLab runners to build containerized applications.",
           "Publishing Docker images to GitLab Container Registry or Docker Hub.",
-          "GitLab Auto DevOps:",
-          "Leveraging Auto DevOps for automatic build, test, and deploy workflows.",
+        ]
+      },
+      {
+          "id": 8,
+        "title":"GitLab Auto DevOps:",
+          "content":[
+            "Leveraging Auto DevOps for automatic build, test, and deploy workflows.",
           "Customizing Auto DevOps templates for specific project requirements.",
-          "Secrets and Variables Management:",
+          ]
+        },
+        {
+          "id": 9,
+        "title":"Secrets and Variables Management:",
+        "content":[
           "Storing and using sensitive data (API keys, passwords) securely within pipelines.",
           "Configuring environment-specific variables for staging and production environments."
         ]
       },
       {
-        "id": 3,
+        "id": 10,
         "title": "CircleCI: Optimizing Build and Delivery Processes",
         "content": [
           "Introduction to CircleCI:",
           "Setting up a CircleCI account and integrating with GitHub or GitLab repositories.",
           "Using config.yml for defining workflows, jobs, and steps.",
-          "Efficient Workflow Management:",
+        ]
+      },
+        {  
+          "id": 11,
+        "title":"Efficient Workflow Management:",
+        "content":[
           "Configuring pipelines with multiple workflows for build, test, and deploy stages.",
           "Utilizing caching mechanisms to speed up repetitive tasks (e.g., dependency installation).",
-          "Parallelism and Resource Optimization:",
+        ]
+      },
+      {
+          "id": 12,
+        "title":"Parallelism and Resource Optimization:",
+        "content":[
           "Running tests and builds in parallel to reduce pipeline execution times.",
           "Optimizing resource allocation using CircleCI’s resource classes.",
-          "Reusable CircleCI Orbs:",
+        ]
+      },
+      {
+          "id": 13,
+        "title":"Reusable CircleCI Orbs:",
+        "content":[
           "Understanding and utilizing Orbs for prebuilt tasks (e.g., Docker, Kubernetes, AWS).",
           "Writing custom Orbs for specific project needs."
         ]
@@ -251,96 +276,176 @@ export const modules: Module[] = [
           "Introduction to Docker:",
           "Core concepts of containers, images, and the Docker Engine.",
           "Differences between containers and virtual machines.",
-          "Writing Efficient Dockerfiles:",
-          "Creating lightweight and optimized Docker images.",
+        ]
+      },
+      {
+          "id": 2,
+        "title":"Writing Efficient Dockerfiles:",
+         "content":[
+           "Creating lightweight and optimized Docker images.",
           "Multi-stage builds to reduce image size and improve security.",
           "Best practices for layer caching and minimizing build times.",
-          "Docker Compose:",
+         ]
+        },
+        {
+         "id": 3,
+        "title": "Docker Compose:",
+        "content":[
           "Defining multi-container applications using docker-compose.yml.",
           "Managing services, networks, and volumes for multi-container setups.",
           "Common use cases: Microservices, LAMP/LEMP stacks, and local development environments.",
-          "Docker Networking:",
+        ]
+      },
+      {
+          "id": 4,
+        "title":"Docker Networking:",
+        "content":[
           "Understanding default networks: Bridge, host, and none.",
           "Configuring custom networks for container communication.",
           "Overlay networks for multi-host communication.",
-          "Docker Security:",
+        ]
+      },
+        {
+          "id": 5,
+        "title": "Docker Security:",
+        "content":[
           "Scanning images for vulnerabilities using tools like Snyk and Docker Scan.",
           "Managing secrets and sensitive data in Docker containers.",
           "Restricting container capabilities for enhanced security."
         ]
       },
       {
-        "id": 2,
+        "id": 6,
         "title": "Podman: Rootless Container Management",
         "content": [
           "Introduction to Podman:",
           "Understanding the differences between Podman and Docker.",
           "Benefits of rootless architecture for enhanced security.",
-          "Managing Containers and Pods:",
+        ]
+      },
+      {
+          "id": 7,
+        "title":"Managing Containers and Pods:",
+        "content":[
           "Creating and managing containers without a central daemon.",
           "Working with pods to group containers and share resources.",
-          "Migrating from Docker to Podman:",
-          "Using Docker-compatible commands for a seamless transition.",
+        ]
+      },
+      {
+        "id": 8,
+        "title" :  "Migrating from Docker to Podman:",
+         "content":[ 
+        "Using Docker-compatible commands for a seamless transition.",
           "Converting docker-compose.yml to Podman-supported configurations."
         ]
       },
       {
-        "id": 3,
+        "id": 9,
         "title": "Kubernetes: Advanced Orchestration",
         "content": [
           "Core Kubernetes Concepts:",
           "Brief overview of Pods, Deployments, and Services.",
-          "Advanced Pod Scheduling:",
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Advanced Pod Scheduling:",
+        "content":[
           "Node Affinity and Anti-Affinity for controlling pod placement.",
           "Using Taints and Tolerations to schedule pods on specific nodes.",
-          "Workload Scaling:",
+        ]
+      },
+      {
+          "id": 11,
+        "title": "Workload Scaling:",
+        "content":[
           "Configuring Horizontal Pod Autoscaler (HPA) to scale pods based on CPU and memory usage.",
           "Using Vertical Pod Autoscaler (VPA) to adjust pod resource requests and limits.",
-          "Kubernetes Networking:",
+        ]
+      },
+      {
+           "id": 12,
+        "title":"Kubernetes Networking:",
+        "content":[
           "Setting up Ingress Controllers for HTTP/HTTPS routing.",
           "Defining Network Policies to control communication between pods.",
-          "Persistent Storage:",
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Persistent Storage:",
+        "content":[
           "Creating Persistent Volumes (PVs) and Persistent Volume Claims (PVCs).",
           "Using StorageClasses for dynamic volume provisioning.",
-          "Kubernetes Observability:",
+        ]
+      },
+      {                
+       "id": 14,
+        "title":"Kubernetes Observability:",
+        "content":[
           "Setting up metrics-server for resource monitoring.",
           "Integrating Prometheus and Grafana for advanced observability.",
-          "Kubernetes Security:",
+        ]
+      },
+      {
+           "id": 15,
+        "title":"Kubernetes Security:",
+        "content":[
           "Implementing Role-Based Access Control (RBAC) for fine-grained access control.",
           "Configuring PodSecurityPolicy to enforce security constraints.",
           "Managing secrets for storing sensitive information securely."
         ]
       },
       {
-        "id": 4,
+        "id": 16,
         "title": "Docker Swarm: Lightweight Container Orchestration",
         "content": [
           "Setting Up a Swarm Cluster:",
           "Initializing a Docker Swarm manager and adding worker nodes.",
           "Deploying services to a Swarm cluster.",
-          "Secrets and Config Management:",
+        ]
+      },
+      {
+          "id": 17,
+        "title":"Secrets and Config Management:",
+        "content": [
           "Storing and managing sensitive information using Swarm secrets.",
           "Deploying services with environment-specific configurations.",
-          "Scaling and Load Balancing:",
+        ]
+      },
+      {
+          "id": 18,
+        "title":"Scaling and Load Balancing:",
+          "content":[
           "Scaling services horizontally to handle increased traffic.",
           "Configuring built-in load balancing for Swarm services."
         ]
       },
       {
-        "id": 5,
+        "id": 19,
         "title": "OpenShift: Enterprise-Grade Container Orchestration",
         "content": [
           "Introduction to OpenShift:",
           "Understanding OpenShift architecture and its enterprise features.",
           "Differences between Kubernetes and OpenShift.",
-          "Application Deployment in OpenShift:",
+        ]
+      },
+      {
+          "id": 20,
+        "title":"Application Deployment in OpenShift:",
+        "content":[
           "Using OpenShift templates and Operators for automated deployments.",
           "Setting up CI/CD pipelines with OpenShift Pipelines.",
-          "OpenShift Security:",
+        ]
+      },
+      {
+          "id": 21,
+        "title":"OpenShift Security:",
+        "content":[
           "Managing authentication and authorization using OpenShift RBAC.",
           "Securely handling secrets and configuration data in OpenShift."
         ]
-      }
+      },
     ]
 },
 
