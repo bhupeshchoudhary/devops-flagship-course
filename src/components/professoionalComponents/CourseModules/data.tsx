@@ -463,53 +463,98 @@ export const modules: Module[] = [
         "Overview of Infrastructure as Code (IaC) and the role of Terraform.",
         "Setting up Terraform CLI and understanding the execution workflow: plan, apply, and destroy.",
         "Understanding the provider ecosystem (e.g., AWS, Azure, GCP).",
-        "Writing Reusable Modules:",
-        "Creating modules for frequently used infrastructure components (e.g., VPC, EC2, RDS).",
+      ]
+    },
+    {
+        "id": 2,
+        "title":"Writing Reusable Modules:",
+        "content":[
+          "Creating modules for frequently used infrastructure components (e.g., VPC, EC2, RDS).",
         "Utilizing variables, outputs, and locals for dynamic and parameterized modules.",
         "Best practices for module versioning and module registries.",
-        "State Management:",
-        "Understanding the Terraform state file and its role in resource tracking.",
+        ]
+      },
+        {
+          "id": 3,
+        "title":"State Management:",
+        "content":[
+          "Understanding the Terraform state file and its role in resource tracking.",
         "Remote state management using backends like S3, Azure Blob Storage, and GCS.",
         "Locking strategies to avoid state file conflicts in team environments.",
         "Secure storage of sensitive information in state files.",
-        "Multi-Cloud Provisioning:",
-        "Provisioning infrastructure on multiple cloud platforms simultaneously.",
+        ]
+        },
+        {
+          "id": 4,
+        "title":"Multi-Cloud Provisioning:",
+        "content":[
+          "Provisioning infrastructure on multiple cloud platforms simultaneously.",
         "Managing cloud-specific configurations with provider blocks.",
         "Implementing environment-specific configurations using workspaces.",
-        "Advanced Terraform Features:",
-        "Dynamic blocks for repetitive resource definitions.",
+        ]
+        },
+        {
+        "id": 5,
+        "title":"Advanced Terraform Features:",
+        "content": [
+          "Dynamic blocks for repetitive resource definitions.",
         "Using Terraform Cloud/Enterprise for team collaboration and automated workflows.",
         "Terraform with CI/CD pipelines for automated infrastructure changes."
       ]
     },
     {
-      "id": 2,
+      "id": 6,
       "title": "Ansible: Configuration Management and Automation",
       "content": [
         "Introduction to Ansible:",
         "Understanding agentless architecture and push-based automation.",
         "Setting up Ansible inventory (static and dynamic) for managing hosts.",
         "Core components: Playbooks, roles, and modules.",
-        "Writing Modular Playbooks and Roles:",
+      ]
+    },
+    {
+       "id": 7,
+        "title": "Writing Modular Playbooks and Roles:",
+        "content":[
         "Structuring playbooks for readability and reusability.",
         "Writing roles with default variables, tasks, handlers, and templates.",
         "Organizing roles with dependencies and Ansible Galaxy integration.",
-        "Ansible Vault:",
-        "Encrypting sensitive information like API keys and passwords using Ansible Vault.",
+        ]
+      },
+        {
+          "id": 8,
+        "title":"Ansible Vault:",
+        "content": [
+          "Encrypting sensitive information like API keys and passwords using Ansible Vault.",
         "Managing decryption in CI/CD pipelines for secure automation.",
-        "Automating Patch Management:",
+        ]
+      },
+      {
+        "id": 9,
+        "title":"Automating Patch Management:",
+        "content":[
         "Creating playbooks for automated Linux server patching with package managers (e.g., yum, apt).",
         "Scheduling periodic patching using tools like cron or Ansible AWX.",
-        "Optimizing Ansible Performance:",
-        "Using fact caching for faster execution.",
+        ]
+      },
+      {
+        "id": 10,
+        "title":"Optimizing Ansible Performance:",
+        "content":[
+          "Using fact caching for faster execution.",
         "Implementing asynchronous tasks and parallel execution.",
         "Leveraging ansible-pull for pull-based configurations.",
-        "Integrating Ansible with Other Tools:",
-        "Configuring cloud resources (e.g., AWS, Azure, GCP) using Ansible modules.",
+        ]
+      },
+      {
+       "id": 11,
+        "title": "Integrating Ansible with Other Tools:",
+        "content": [
+          "Configuring cloud resources (e.g., AWS, Azure, GCP) using Ansible modules.",
         "Managing Kubernetes configurations with Ansible.",
         "Integrating with Terraform for post-provisioning tasks (e.g., application deployment)."
       ]
-    }
+    },
   ]
 },
 {
