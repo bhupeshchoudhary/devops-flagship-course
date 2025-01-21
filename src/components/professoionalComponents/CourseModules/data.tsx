@@ -7,72 +7,130 @@ export const modules: Module[] = [
     "subtitle": "Advanced Version Control with Git and GitHub",
     "topics": [
       {
-        "id": 1,  
+        "id": 2,  
         "title": "Git Essentials ",
         "content": [
           "Introduction to Version Control:",
           "Understand the significance of version control and the problems it solves in collaborative development.",
-          "Git Basics Refresher:",
+        ]
+          
+        },
+        {
+          "id":3,
+          "title":"Git Basics Refresher:",
+          "content":[
           "Installing and configuring Git.",
           "Initializing a Git repository and understanding .git directory structure.",
           "Basic commands: git add, git commit, git status, git log.",
           "Configuring user information: username, email, and aliases for command-line efficiency.",
-          "File Lifecycle in Git:",
+          ]
+        },
+        {
+         "id":4,
+          "title":"File Lifecycle in Git:",
+          "content":[
           "From untracked to committed.",
           "Staging area and working directory concepts."
         ]
       },
       {
-        "id": 2,
+        "id": 5,
         "title": " Advanced Git Concepts",
         "content": [
           "Deep Dive into Git Internals:",
           "How Git tracks changes using commit objects, blobs, and trees.",
           "SHA-1 hashes and their role in versioning.",
-          "Branching Strategies:",
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Branching Strategies:",
+        "content": [
           "Creating, merging, and deleting branches (git branch, git merge, git branch -d).",
           "GitFlow Workflow: Release, hotfix, and feature branches.",
           "Trunk-Based Development: When and why to use it.",
-          "Merge and Rebase Strategies:",
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Merge and Rebase Strategies:",
+        "content": [
+          
           "Handling fast-forward and recursive merges.",
           "Resolving conflicts effectively with git merge and git mergetool.",
           "Interactive Rebase: Cleaning up commit history (git rebase -i) and resolving rebase conflicts.",
-          "Git Stash:",
+        ]
+      },
+      {
+          "id": 8,
+        "title": "Git Stash:",
+        "content":[
           "Temporary storage of changes (git stash save, git stash apply, git stash pop).",
           "Managing multiple stashes and resolving conflicts from stashed changes.",
-          "Git Submodules:",
+        ]
+      },
+      {
+          "id": 9,
+        "title": "Git Submodules:",
+        "content" : [
           "Adding submodules to a repository (git submodule add).",
           "Updating and cloning repositories with submodules.",
-          "Git Hooks:",
+        ]
+      },
+      {
+          "id": 10,
+        "title": "Git Hooks:",
+        "content" : [
           "Automating workflows with pre-commit, post-merge, and pre-push hooks.",
           "Example: Using a pre-commit hook to enforce code formatting."
         ]
       },
       {
-        "id": 3,
+        "id": 11,
         "title": " GitHub for Collaboration",
         "content": [
           "Repository Management:",
           "Creating repositories: Private, public, and internal visibility.",
           "Managing access controls with teams and collaborators.",
           "Forking, cloning, and synchronizing repositories.",
-          "Pull Requests and Code Reviews:",
+        ]
+      },
+      {
+        "id": 12,
+        "title":"Pull Requests and Code Reviews:",
+        "content":[
           "Creating pull requests and adding reviewers.",
           "Handling review comments and suggested changes.",
           "Enabling branch protection rules to enforce quality standards.",
-          "GitHub Actions:",
-          "Introduction to GitHub Actions: Benefits and use cases.",
+        ]
+      },
+      {
+         "id": 13,
+        "title":"GitHub Actions:",
+         "content":[
+           "Introduction to GitHub Actions: Benefits and use cases.",
           "Writing workflows using YAML for automating CI/CD.",
           "Prebuilt actions from GitHub Marketplace for testing, building, and deploying.",
-          "Issue Tracking and Project Boards:",
+         ]
+        },
+        {
+
+          "id": 14,
+        "title": "Issue Tracking and Project Boards:",
+        "content" : [
           "Creating, assigning, and labeling issues.",
           "Using GitHub Project Boards to organize tasks (Kanban-style).",
           "Automating issue tracking with workflows.",
-          "Publishing Documentation:",
+        ]
+      },
+      {
+          "id": 15,
+        "title":"Publishing Documentation:",
+        "content": [
           "Using GitHub Pages for static site hosting.",
           "Creating and publishing project documentation (README, Wiki, and Pages)."
         ]
-      }
+      },
     ]
   },
 
