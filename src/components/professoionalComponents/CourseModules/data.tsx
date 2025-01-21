@@ -8,7 +8,7 @@ export const modules: Module[] = [
     "topics": [
       {
         "id": 2,  
-        "title": "Git Essentials ",
+        "title": "Git Essentials :",
         "content": [
           "Introduction to Version Control:",
           "Understand the significance of version control and the problems it solves in collaborative development.",
@@ -35,7 +35,7 @@ export const modules: Module[] = [
       },
       {
         "id": 5,
-        "title": " Advanced Git Concepts",
+        "title": " Advanced Git Concepts:",
         "content": [
           "Deep Dive into Git Internals:",
           "How Git tracks changes using commit objects, blobs, and trees.",
@@ -87,7 +87,7 @@ export const modules: Module[] = [
       },
       {
         "id": 11,
-        "title": " GitHub for Collaboration",
+        "title": " GitHub for Collaboration:",
         "content": [
           "Repository Management:",
           "Creating repositories: Private, public, and internal visibility.",
@@ -147,18 +147,39 @@ export const modules: Module[] = [
           "Installing Jenkins on various platforms (Linux, Docker).",
           "Configuring Jenkins Master-Slave architecture for distributed builds.",
           "Setting up agents for load balancing and scalability in build processes.",
-          "Pipeline as Code:",
+        ]
+      },
+      {
+          "id": 1,
+        "title":"Pipeline as Code:",
+        "content":[
           "Writing and managing Declarative Pipelines using Jenkinsfile.",
           "Multi-branch pipelines for handling complex workflows in Git repositories.",
           "Configuring stages for build, test, and deploy with parallel executions.",
-          "Integration with DevOps Tools:",
+        ]
+      },
+      {
+         "id": 2,
+        "title": "Integration with DevOps Tools:",
+        "content":[
           "Connecting Jenkins with Git for version control.",
           "Automating builds with Maven and managing dependencies efficiently.",
           "Building and publishing Docker images directly from Jenkins.",
-          "Automating Tests and Deployments:",
+        ]
+      },
+      {
+          "id": 3,
+        "title":"Automating Tests and Deployments:",
+        "content":[
+
           "Integrating with testing frameworks like JUnit and Selenium for automated test execution.",
           "Deploying applications to Kubernetes, AWS, or other platforms from Jenkins pipelines.",
-          "Advanced Jenkins Plugins:",
+        ]
+      },
+      {
+          "id": 4,
+        "title":"Advanced Jenkins Plugins:",
+        "content" :[
           "Artifactory Plugin: Managing and publishing artifacts to repositories.",
           "SonarQube Integration: Performing static code analysis for quality assurance.",
           "Kubernetes Plugin: Deploying and scaling workloads on Kubernetes clusters.",
@@ -166,16 +187,26 @@ export const modules: Module[] = [
         ]
       },
       {
-        "id": 2,
+        "id": 5,
         "title": "GitLab CI/CD: Simplifying and Automating Workflows",
         "content": [
           "Introduction to GitLab CI/CD:",
           "Understanding GitLab runners and their role in executing jobs.",
           "Setting up a .gitlab-ci.yml file for defining CI/CD pipelines.",
-          "Building Multi-Stage Pipelines:",
-          "Writing multi-stage pipelines for building, testing, and deploying applications.",
+        ]
+      },
+      {   
+         "id": 6,
+        "title":"Building Multi-Stage Pipelines:",
+           "content":[
+            "Writing multi-stage pipelines for building, testing, and deploying applications.",
           "Managing parallel and sequential jobs to optimize build times.",
-          "Containerized Application Builds:",
+           ]
+          },
+          {
+            "id": 7,
+        "title":"Containerized Application Builds:",
+        "content":[
           "Using Docker in GitLab runners to build containerized applications.",
           "Publishing Docker images to GitLab Container Registry or Docker Hub.",
           "GitLab Auto DevOps:",
