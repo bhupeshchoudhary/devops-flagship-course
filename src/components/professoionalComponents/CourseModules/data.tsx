@@ -794,7 +794,12 @@ export const modules: Module[] = [
           "Deep dive into the Linux kernel and its interaction with hardware.",
           "The role of shell and its variants (bash, zsh).",
           "File system hierarchy and key directories (/etc, /var, /home, /proc).",
-          "Command-Line Basics:",
+        ]
+      },
+      {
+          "id": 1,
+          "title":"Command-Line Basics:",
+          "content":[
           "Navigation and file management commands: ls, cd, mv, cp, rm.",
           "Searching files with find, locate, and grep.",
           "Viewing and editing files with cat, less, nano, and vim."
@@ -807,10 +812,21 @@ export const modules: Module[] = [
           "User and Group Management:",
           "Creating, modifying, and deleting users and groups using useradd, usermod, and groupadd.",
           "Understanding user-related configuration files: /etc/passwd, /etc/group, /etc/shadow.",
-          "Permissions and Ownership:",
+        ]
+      },
+      {
+        "id": 1,
+        "title":"Permissions and Ownership:",
+        "content":[
           "File and directory permissions (read, write, execute).",
           "Changing ownership with chown and managing permissions with chmod.",
-          "Advanced Permissions:",
+        ]
+      },
+          
+      {
+        "id": 1,
+        "title":"Advanced Permissions:",
+        "content":[
           "Using Access Control Lists (ACLs) for fine-grained permission management.",
           "Managing default permissions with umask."
         ]
@@ -822,7 +838,13 @@ export const modules: Module[] = [
           "Managing Processes:",
           "Monitoring and controlling processes with ps, top, htop, kill, and nice.",
           "Identifying zombie and orphan processes.",
-          "Systemd and Service Management:",
+        ]
+      },
+          
+      {
+        "id": 1,
+        "title":"Systemd and Service Management:",
+        "content":[
           "Understanding systemd, unit files, and their types (service, timer, target).",
           "Managing services using systemctl for start, stop, enable, and disable operations.",
           "Writing and deploying custom systemd services."
@@ -835,10 +857,22 @@ export const modules: Module[] = [
           "Network Configuration:",
           "Viewing and configuring network interfaces with ifconfig and ip.",
           "Network troubleshooting tools: ping, netstat, ss, traceroute, and curl.",
-          "Firewall Management:",
+        ]
+      },
+         
+      {
+        "id": 1,
+        "title":"Firewall Management:",
+        "content":[
           "Configuring and managing firewall rules using iptables and firewalld.",
           "Setting up NAT and port forwarding rules.",
-          "SSH Configuration:",
+        ]
+      },
+          
+      {
+        "id": 1,
+        "title":"SSH Configuration:",
+        "content":[
           "Securing SSH by disabling root login and modifying default ports.",
           "Configuring SSH keys for passwordless authentication."
         ]
@@ -850,10 +884,22 @@ export const modules: Module[] = [
           "File System Basics:",
           "Partitioning and formatting disks with fdisk, parted, and mkfs.",
           "Mounting and unmounting file systems with mount and umount.",
-          "LVM and RAID:",
+        ]
+      },
+         
+      {
+        "id": 1,
+        "title":"LVM and RAID:",
+        "content":[
           "Configuring logical volumes with lvcreate, vgcreate, and pvcreate.",
           "Setting up RAID arrays with mdadm for redundancy and performance.",
-          "File System Troubleshooting:",
+        ]
+      },
+         
+      {
+        "id": 1,
+        "title": "File System Troubleshooting:",
+        "content":[
           "Diagnosing issues with fsck, df, and du.",
           "Resolving disk space issues and managing inodes."
         ]
@@ -865,10 +911,21 @@ export const modules: Module[] = [
           "Shell Scripting Basics:",
           "Writing scripts to automate repetitive tasks.",
           "Working with variables, loops (for, while), and conditionals (if, case).",
-          "Automating Tasks with Cron and At:",
+        ]
+      },
+        
+      {
+        "id": 1,
+        "title":"Automating Tasks with Cron and At:",
+        "content":[
           "Scheduling periodic tasks using cron.",
           "Managing one-time jobs with at and batch.",
-          "Industry Use Cases:",
+        ]
+      },
+      {
+        "id": 1,
+        "title":"Industry Use Cases:",
+        "content":[
           "Writing scripts for system backups and updates.",
           "Automating system monitoring and alerting processes."
         ]
@@ -880,7 +937,13 @@ export const modules: Module[] = [
           "Package Management:",
           "Installing, upgrading, and removing software using apt, yum, and dnf.",
           "Querying and troubleshooting packages.",
-          "Source-Based Installation:",
+        ]
+      },
+         
+      {
+        "id": 1,
+        "title":"Source-Based Installation:",
+        "content":[
           "Compiling software from source using make and gcc.",
           "Resolving dependencies with tools like pkg-config."
         ]
@@ -892,7 +955,12 @@ export const modules: Module[] = [
           "Monitoring Tools:",
           "System performance monitoring using vmstat, iostat, and sar.",
           "Log management with journalctl, rsyslog, and logrotate.",
-          "Performance Optimization:",
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Performance Optimization:",
+        "content":[
           "Kernel parameter tuning using sysctl.",
           "Optimizing memory usage, disk I/O, and CPU performance."
         ]
@@ -904,7 +972,13 @@ export const modules: Module[] = [
           "System Hardening:",
           "Disabling unnecessary services and ports.",
           "Keeping systems secure with regular updates and patches.",
-          "Auditing and Compliance:",
+        ]
+      },
+         
+      {
+        "id": 1,
+        "title":"Auditing and Compliance:",
+        "content":[
           "Using auditd for tracking system changes and events.",
           "Ensuring compliance with security policies using log auditing."
         ]
