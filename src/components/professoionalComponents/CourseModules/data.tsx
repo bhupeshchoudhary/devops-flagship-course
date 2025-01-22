@@ -606,21 +606,26 @@ export const modules: Module[] = [
       ]
     },
     {
-       "id": 1,
+       "id": 5,
       "title":  "Logstash:",
       "content":[
 
         "Configuring Logstash pipelines for ingesting and transforming log data.",
         "Applying filters to parse logs (e.g., Grok, mutate, and date filters).",
         "Using Logstash plugins for enrichment (e.g., GeoIP and DNS).",
-        "Kibana:",
+      ]
+    },
+     {
+      "id": 6,
+      "title": "Kibana:",
+      "content":[
         "Creating detailed and actionable dashboards in Kibana.",
         "Configuring visualizations for log trends, errors, and user activity.",
         "Setting up Kibana alerts for operational insights."
       ]
     },
     {
-      "id": 3,
+      "id": 7,
       "title": "Splunk",
       "content": [
         "Introduction to Splunk:",
@@ -629,14 +634,14 @@ export const modules: Module[] = [
       ]
     },
     {
-        "id": 1,
+        "id": 8,
           "title": "Real-Time Log Aggregation:",
           "content":[
         "Setting up data inputs for various sources (e.g., HTTP Event Collector, syslog).",
           ]
         },
         {
-          "id": 1,
+          "id": 9,
           "title": "Creating Splunk queries using the Splunk Processing Language (SPL) for:",
           "content":[
         "Log filtering.",
@@ -645,7 +650,7 @@ export const modules: Module[] = [
           ]
         },
         {
-          "id": 1,
+          "id": 10,
           "title": "Monitoring and Alerting:",
           "content":[
         "Configuring alerts for log anomalies and system performance.",
@@ -669,7 +674,7 @@ export const modules: Module[] = [
           ]
         },
         {
-            "id": 1,
+            "id": 2,
           "title": "SonarQube Setup:",
           "content":[
 
@@ -679,7 +684,7 @@ export const modules: Module[] = [
           ]
         },
         {
-            "id": 1,
+            "id": 3,
           "title": "SonarQube Integration:",
           "content":[
             "Integrating SonarQube with build tools (Maven, Gradle) for automated code analysis.",
@@ -688,42 +693,77 @@ export const modules: Module[] = [
           ]
         },
         {
-          "id": 2,
+          "id": 4,
           "title": "Snyk for Vulnerability Scanning",
           "content": [
             "Introduction to Snyk:",
             "Overview of software vulnerabilities and their impact on application security.",
             "Features of Snyk for scanning code, dependencies, containers, and IaC files.",
-            "Using Snyk for Code and Dependency Scanning:",
+          ]
+        },
+        
+        {
+          "id": 5,
+          "title":"Using Snyk for Code and Dependency Scanning:",
+          "content":[
             "Setting up Snyk CLI and dashboard for project scanning.",
             "Scanning open-source dependencies for known vulnerabilities.",
             "Monitoring vulnerabilities over time and creating remediation workflows.",
-            "Container and IaC Scanning with Snyk:",
+          ]
+        },
+        {
+          "id": 6,
+          "title":"Container and IaC Scanning with Snyk:",
+          "content":[
             "Analyzing container images for vulnerabilities in base images and application layers.",
             "Scanning Terraform and Kubernetes configuration files for security risks.",
-            "Snyk Integration with DevOps Pipelines:",
+          ]
+        },
+            
+        {
+          "id": 7,
+          "title":"Snyk Integration with DevOps Pipelines:",
+          "content":[
             "Automating vulnerability scans in CI/CD workflows using Jenkins, GitHub Actions, and GitLab CI/CD.",
             "Generating real-time alerts and vulnerability reports for proactive issue resolution."
           ]
         },
         {
-          "id": 3,
+          "id": 8,
           "title": "Maven and Gradle for Dependency and Build Management",
           "content": [
             "Introduction to Build Tools:",
             "Overview of Maven and Gradle as essential tools for Java-based application development.",
             "Key differences between Maven and Gradle.",
-            "Maven:",
+          ]
+        },
+            
+        {
+          "id": 9,
+          "title":"Maven:",
+          "content":[
             "Understanding Maven’s project structure and POM (Project Object Model).",
             "Managing dependencies using Maven Central Repository.",
             "Writing custom goals and plugins for extended functionality.",
             "Automating tests and packaging applications into deployable artifacts.",
-            "Gradle:",
+          ]
+        },
+            
+        {
+          "id": 10,
+          "title":"Gradle:",
+          "content":[
             "Introduction to Gradle’s Groovy-based DSL.",
             "Managing dependencies and resolving version conflicts.",
             "Configuring multi-project builds for complex applications.",
             "Optimizing builds with caching and parallel execution.",
-            "Advanced Build Automation:",
+          ]
+        },
+            
+        {
+          "id": 11,
+          "title":"Advanced Build Automation:",
+          "content":[
             "Using Maven and Gradle in conjunction with Jenkins, GitLab CI/CD, and CircleCI for automated builds and testing.",
             "Managing and versioning artifacts with repositories like Nexus or Artifactory."
           ]
