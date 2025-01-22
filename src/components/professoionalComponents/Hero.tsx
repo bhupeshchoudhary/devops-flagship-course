@@ -138,10 +138,10 @@ const Hero = () => {
           {/* Guarantee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
             <TbCertificate className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
-            <div>
+            {/* <div>
               <span className="text-black text-xs font-medium">GUARANTEE</span>
-              {/* <div className="font-bold text-xs">100% refund if not hired</div> */}
-            </div>
+              <div className="font-bold text-xs">100% refund if not hired</div>
+            </div> */}
           </div>
         </div>
 
