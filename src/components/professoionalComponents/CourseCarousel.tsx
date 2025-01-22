@@ -92,9 +92,9 @@ function CourseCarousel() {
                   <p className="text-md mb-2">
                   Get ready to be hired by core tech companies & secure a career switch / salary hike upto 2x as DevOps Engineer 
                   </p>
-                  <p className="font-semibold text-white/70">
+                  {/* <p className="font-semibold text-white/70">
                     (Note : 100% refund if not hired)
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
