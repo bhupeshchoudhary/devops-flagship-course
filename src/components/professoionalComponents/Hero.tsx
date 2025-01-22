@@ -61,9 +61,9 @@ const Hero = () => {
                  Get Upto 2x hike as SRE I / II / DevOps Engineer
                 </h2>
   
-                <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-gray-700 text-sm sm:text-base">
+                {/* <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-gray-700 text-sm sm:text-base">
                 100% refund if not hired
-                </Button>
+                </Button> */}
               </div>
   
               {/* Right Side Image */}
@@ -140,7 +140,7 @@ const Hero = () => {
             <TbCertificate className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">GUARANTEE</span>
-              <div className="font-bold text-xs">100% refund if not hired</div>
+              {/* <div className="font-bold text-xs">100% refund if not hired</div> */}
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ const faqContent: Record<string, FAQItem[]> = {
     },
     {
       question: "What is the job guarantee??",
-       answer: "We guarantee that every eligible Placement Guarantee initiative student will secure a placement (full-time employment or an internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee initiative program.If this condition is not met, we will refund the initiative fee paid by the student."
+       answer: "We guarantee that every eligible Placement Guarantee initiative student will secure a placement (full-time employment or an internship with a pre-placement offer) within 6 months after graduating from the Placement Guarantee initiative program."
     },
     {
       question: "What is the salary I will get an offer for?",

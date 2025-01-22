@@ -19,7 +19,7 @@ const faqContent: Record<string, FAQItem[]> = {
     {
       question: "What is the Hike Program by Vimal Daga?",
       answer:
-        " The Hike Program is a 3-month, job-oriented DevOps training program designed to help participants gain the skills required to switch to DevOps roles. It guarantees a 100% refund if a switch is not achieved within the program timeline or after 3 months post-program.",
+        " The Hike Program is a 3-month, job-oriented DevOps training program designed to help participants gain the skills required to switch to DevOps roles.",
     },
     {
       question: "Who can enroll in the program?",
@@ -36,47 +36,47 @@ const faqContent: Record<string, FAQItem[]> = {
     },
     
   ],
-  timeCommitment: [
-    {
-      question: " How does the 100% refund policy work?",
-      answer:" If a participant doesn’t achieve a job switch within the program duration and 3 months post-program, we guarantee a full refund of the course fee, provided all conditions for eligibility are met.",
-    },
-    {
-      question: "What are the conditions for the refund ?",
-      answer:
-        (
-          <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>To qualify for the refund, participants must:
+//   timeCommitment: [
+//     {
+//       question: " How does the 100% refund policy work?",
+//       answer:" If a participant doesn’t achieve a job switch within the program duration and 3 months post-program, we guarantee a full refund of the course fee, provided all conditions for eligibility are met.",
+//     },
+//     {
+//       question: "What are the conditions for the refund ?",
+//       answer:
+//         (
+//           <ul className="list-disc list-inside mt-2 space-y-1">
+//           <li>To qualify for the refund, participants must:
 
 
-          </li>
-          <li>Attend all live sessions with at least 90% attendance.
-</li>
+//           </li>
+//           <li>Attend all live sessions with at least 90% attendance.
+// </li>
 
-<li>Site Reliability Engineer (SRE).
-</li>
+// <li>Site Reliability Engineer (SRE).
+// </li>
 
-<li>Complete all assignments, projects, and tasks on time.
+// <li>Complete all assignments, projects, and tasks on time.
 
-</li>
+// </li>
 
-<li>Actively apply for roles as guided during the program.
-</li>
+// <li>Actively apply for roles as guided during the program.
+// </li>
 
 
   
-        </ul>
-        )
-    },
+//         </ul>
+//         )
+//     },
 
-    {
-      question: "How long does it take to process the refund?",
-      answer:
-       " Once eligibility is confirmed, refunds are processed within 30 days of the request submission."
-    },
+//     {
+//       question: "How long does it take to process the refund?",
+//       answer:
+//        " Once eligibility is confirmed, refunds are processed within 30 days of the request submission."
+//     },
 
     
-  ],
+//   ],
   selectionCriteria: [
     {
       question: "What tools and technologies will be covered?",
@@ -175,10 +175,10 @@ const faqContent: Record<string, FAQItem[]> = {
     },
   ],
   Post:[
-    { question:"What if I don’t achieve a job switch within the program timeline?",
-      answer:" If all eligibility conditions are met and a job switch is not achieved, you can request a full refund as per the program’s policy.",
+    // { question:"What if I don’t achieve a job switch within the program timeline?",
+    //   answer:" If all eligibility conditions are met and a job switch is not achieved, you can request a full refund as per the program’s policy.",
 
-    },
+    // },
     {question:" Can I continue accessing the resources after the program ends?",
       answer:"Yes, participants receive access to program resources and materials for a limited time.",
 

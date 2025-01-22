@@ -46,7 +46,7 @@ export default function ProgramCohorts() {
           </h1>
           <h2 className="text-md sm:text-lg text-black text-center">
             Learn from the DevOps Guru, <span className="text-[#ff0000]"> Mr Vimal Daga</span> <br/> and secure a guaranteed career switch or salary hike with 
-             100% refund if not hired
+             {/* 100% refund if not hired */}
           </h2>
         </div>
 
@@ -159,9 +159,9 @@ export default function ProgramCohorts() {
               </div>
               <div className="flex gap-3">
                 <TicketSlash className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                <p className="text-sm text-black">
+                {/* <p className="text-sm text-black">
                 100% refund if not hired.
-                </p>
+                </p> */}
               </div>
               <div className="flex gap-3">
                 <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
