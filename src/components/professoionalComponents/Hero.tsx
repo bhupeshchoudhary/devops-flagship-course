@@ -1,3 +1,5 @@
+"use client"
+
 // CourseHero.tsx
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
