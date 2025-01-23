@@ -102,7 +102,7 @@ const Hero = () => {
           </div>
 
           {/* Admission Section */}
-          <div className="flex flex-col items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Kept items-start */}
+          <div className="flex flex-col items-center gap-2 justify-start sm:justify-center lg:justify-center"> {/* Kept items-start */}
             <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
