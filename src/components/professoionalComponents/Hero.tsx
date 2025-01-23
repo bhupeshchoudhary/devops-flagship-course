@@ -93,7 +93,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full"> {/* Increased gap between sections */}
           
           {/* Online Section */}
-          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Kept items-start */}
+          <div className="flex flex-col items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Kept items-start */}
             <MdOnlinePrediction className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
             <div>
               <span className="text-black text-xs font-medium">ONLINE</span>
@@ -102,7 +102,7 @@ const Hero = () => {
           </div>
 
           {/* Admission Section */}
-          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Kept items-start */}
+          <div className="flex flex-col items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Kept items-start */}
             <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
@@ -114,7 +114,7 @@ const Hero = () => {
           </div>
 
           {/* Course Fee Section */}
-          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
+          <div className="flex flex-col items-start gap-2 justify-start sm:justify-center lg:justify-center">
             <FaMoneyBillWave className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
             <div>
               <span className="text-black text-xs font-medium">Course Fees</span>
@@ -144,7 +144,7 @@ const Hero = () => {
         </div> 
 
         {/* Vertical Divider and Button Section */}
-        <div className="flex items-start gap-6 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Added gap-6 for better spacing */}
+        <div className="flex flex-col items-start gap-6 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Added gap-6 for better spacing */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
             <a href={link} target="blank">
               <Button className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
