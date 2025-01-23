@@ -84,15 +84,17 @@ const Hero = () => {
             </div>
   
             {/* Bottom Info Card */}
-            <div className="relative md:mt-6 lg:mt-2 ">
+<div className="relative md:mt-6 lg:mt-2">
   <div className="relative left-0 right-0 md:top-[0px]">
     <div className="bg-white rounded-lg p-4 shadow-lg max-w-6xl mx-auto">
-      <div className="flex flex-col lg:flex-row justify-between items-start gap-4"> {/* Changed items-center to items-start */}
+      <div className="flex flex-col lg:flex-row justify-between items-start gap-6"> {/* Added gap-6 for spacing */}
+        
         {/* Info Sections Container */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full space-between">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full"> {/* Increased gap between sections */}
+          
           {/* Online Section */}
-          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <MdOnlinePrediction className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Kept items-start */}
+            <MdOnlinePrediction className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
             <div>
               <span className="text-black text-xs font-medium">ONLINE</span>
               <span className="font-bold text-xs block">3 months</span>
@@ -100,8 +102,8 @@ const Hero = () => {
           </div>
 
           {/* Admission Section */}
-          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Kept items-start */}
+            <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
             <div>
               <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
               <span className="font-bold text-xs block">22nd Jan</span>
@@ -113,27 +115,23 @@ const Hero = () => {
 
           {/* Course Fee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
-  <FaMoneyBillWave className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
-  <div>
-    {/* <span className="text-black text-xs font-medium">COURSE FEE</span> */}
-    <span className="text-black text-xs font-medium">Course Fees</span>
-    <div className="flex flex-col gap-1"> {/* Changed to flex-col for vertical stacking */}
-      <div className="flex items-center gap-2"> {/* Price row */}
-         <span className="font-bold text-xs flex-shrink-0">₹45,000 (+taxes)</span> 
-        {/* <span className="font-bold text-xs flex-shrink-0">DevOps Engineer</span> */}
-         <span className="line-through text-gray-400 text-xs">₹75,000</span>
-        <span className="text-green-600 font-semibold border-green-600 text-[10px]">
-          Save <br/> ₹30,000/-
-        </span> 
-      </div>
-      <div> {/* Badge row */}
-        {/* <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
-          Valid till 07 Jan
-        </Badge> */}
-      </div>
-    </div>
-  </div>
-</div>
+            <FaMoneyBillWave className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
+            <div>
+              <span className="text-black text-xs font-medium">Course Fees</span>
+              <div className="flex flex-col gap-2"> {/* Added gap-2 */}
+                <div className="flex items-center gap-2"> {/* Price row */}
+                  <span className="font-bold text-xs flex-shrink-0">₹45,000 (+taxes)</span> 
+                  <span className="line-through text-gray-400 text-xs">₹75,000</span>
+                  <span className="text-green-600 font-semibold border-green-600 text-[10px]">
+                    Save <br/> ₹30,000/-
+                  </span>
+                </div>
+                <div> {/* Badge row */}
+                  {/* Badge remains commented */}
+                </div>
+              </div>
+            </div>
+          </div>
 
           {/* Guarantee Section */}
           {/* <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> Changed items-center to items-start
@@ -146,15 +144,16 @@ const Hero = () => {
         </div> 
 
         {/* Vertical Divider and Button Section */}
-        <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Changed items-center to items-start */}
+        <div className="flex items-start gap-6 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Added gap-6 for better spacing */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
-         <a href={link} target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
-         {/* <a href="https://forms.gle/6r8Qa7UR9TNTXXZG9" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6"> */}
-            {buttonText}
-            </Button>
-         </a>
+            <a href={link} target="blank">
+              <Button className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
+                {buttonText}
+              </Button>
+            </a>
           </div>
         </div>
+
       </div>
     </div>
   </div>
