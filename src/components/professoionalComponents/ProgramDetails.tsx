@@ -157,12 +157,12 @@ export default function ProgramCohorts() {
                  Guaranteed Career Switch / Salary Hike. .
                  </p>
               </div>
-              <div className="flex gap-3">
+              {/* <div className="flex gap-3">
                 <TicketSlash className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                {/* <p className="text-sm text-black">
+                <p className="text-sm text-black">
                 100% refund if not hired.
-                </p> */}
-              </div>
+                </p>
+              </div> */}
               <div className="flex gap-3">
                 <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
