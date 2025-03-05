@@ -64,7 +64,7 @@ export default function ProgramCohorts() {
             <div className="space-y-4">
               {/* Header row */}
               <div className="hidden sm:grid sm:grid-cols-4 text-sm text-black pb-2">
-                <div className="flex items-center text-sm text-black gap-2 font-bold">Starting on</div>
+                <div className="flex items-center text-sm text-black gap-2 font-bold">Be Part of Our Exclusive </div>
                 <div className="flex text-black items-center gap-2 font-bold">Time</div>
                 <div className="text-black text-sm font-bold">Mode</div>
                 <div className="text-black font-bold text-sm pl-6">Action</div>
@@ -73,8 +73,8 @@ export default function ProgramCohorts() {
               <div className="flex flex-col sm:grid sm:grid-cols-4 text-sm border-b pb-4 gap-y-2 sm:gap-y-0">
                 {/* Mobile View */}
                 <div className="flex flex-col sm:hidden">
-                  <div className="font-medium text-sm text-black font-semibold">Starting on:</div>
-                  <div className="text-black text-sm mb-2">22nd Jan, 2025</div>
+                  <div className="font-medium text-sm text-black font-semibold">Be Part of Our Exclusive :</div>
+                  <div className=" text-sm mb-2 text-green-400 font-bold"> • Live Batch</div>
 
                   <div className="font-medium text-sm text-black font-semibold">Time:</div>
                   <div className="text-black text-sm mb-2">07:00 pm onwards (Tue - Fri)</div>
@@ -86,7 +86,7 @@ export default function ProgramCohorts() {
 
                 {/* Desktop View */}
                 <div className="hidden sm:block">
-                  <div className="font-medium text-sm text-black">22nd Jan, 2025</div>
+                  <div className="font-bold text-sm text-green-400"> • Live Batch</div>
                 </div>
                 <div className="hidden sm:block text-black text-sm">
                   <div>07:00 pm onwards (Tue - Fri)</div>
