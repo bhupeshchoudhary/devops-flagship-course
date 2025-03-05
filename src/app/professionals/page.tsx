@@ -42,6 +42,7 @@ const CourseDetail = ()=>{
         <ProgramHighlights />
         <CourseCurriculumModule />
         <CourseCareerModule />
+        
         <CourseCarousel />
         <ISASigningProcess />
         <Projects />
