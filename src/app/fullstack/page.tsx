@@ -1,6 +1,6 @@
 
-
-import Hero from "@/components/professoionalComponents/Hero";
+"use client";
+import Hero from "@/components/fullStackComponents/Hero";
 
 import Navbar from "@/components/professoionalComponents/Navbar";
 
@@ -47,7 +47,7 @@ const FullStack = ()=>{
     return (
         <>
         <Navbar />
-        {/* <Hero /> */}
+        <Hero />
         <CareerTransformationFullStack />
         <RecentPlacedStudents></RecentPlacedStudents>
         <LeftRightAlumniCarousel/>

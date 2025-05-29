@@ -1,10 +1,8 @@
-"use client"
-
 // CourseHero.tsx
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
-import devopsheroimage from "../../../../../public/assets/HeroImage8.png"
+import devopsheroimage from "../../../../../public/assets/HeroImage.png"
 import { MdOnlinePrediction } from "react-icons/md"
 import { BsCalendarCheck } from "react-icons/bs"
 import { FaMoneyBillWave } from "react-icons/fa"
@@ -21,8 +19,12 @@ interface RouteConfig {
  
 
 const ROUTE_CONFIG: Record<string, RouteConfig> = {
-  '/fullstack': {
-    link: payment.fullstackLink|| "", // Add this to your payment data
+  '/students': {
+    link: payment.studentRouteLink, // Add this to your payment data
+    buttonText: 'Apply Now'
+  },
+  'default': {
+    link: payment.paymentLink,
     buttonText: 'Apply Now'
   }
 };
@@ -36,17 +38,17 @@ const Hero = () => {
     return ROUTE_CONFIG[currentPath] || ROUTE_CONFIG.default;
   };
 
-  const { link, buttonText } =  getRouteConfig(pathname);
+  const { link, buttonText } = getRouteConfig(pathname);
 
 
     return (
       <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">
         {/* Gradient Background */}
-        <div className="bg-gradient-to-r from-[#1e1e1e] via-[#212121] via-[#2f2f2f] to-[#363636] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
+        <div className="bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] h-[780px] md:h-[400px] lg:h-[400px] px-4 sm:px-6"> 
           <div className="max-w-6xl mx-auto py-4 md:py-2"> {/* Reduced from max-w-7xl */}
             {/* Top Badges */}
             <div className="flex flex-wrap gap-2 sm:gap-2 pt-6">
-              <Badge variant="secondary" className="bg-gray-800 text-white text-md p-2   mb-0 md:mb-0 lg:mb-0">
+              <Badge variant="secondary" className="bg-red-800 text-white text-md p-2   mb-0 md:mb-0 lg:mb-0">
               #RightJobKiGuarantee ✨
               </Badge>
             </div>
@@ -55,22 +57,26 @@ const Hero = () => {
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
               <div className="max-w-5xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-                DevOps Expert Program <span className="text-white font-semibold">  With<br/>Guaranteed Career Switch/Salary Hike</span>
+                Job Oriented DevOps Initiative <span className="text-white">  with Guaranteed Placement</span>
                 </h1>
                 <h2 className="text-xl md:text-lg lg:text-md font-base text-white mb-4">
-                 Get Upto 2x hike as SRE I / II / DevOps Engineer
+                (Last Batch for Technical Students - 2024/2025 passouts)
                 </h2>
-  
-                {/* <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-gray-700 text-sm sm:text-base">
+                <p className="text-base font-bold sm:text-lg md:text-xl lg:text-xl text-white mb-6">
+       
+Next companies hiring in Apr - May offering  ₹4-8 LPA package.
+
+                </p>
+                 <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-red-700 text-sm sm:text-base">
                 100% refund if not hired
-                </Button> */}
+                </Button> 
               </div>
   
               {/* Right Side Image */}
               <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
                 <div className="aspect-[16/9] w-full md:w-[50px] lg:w-[50px] h-[200px] md:h-[300px] lg:h-[300px]"> {/* Increased height */}
                 <Image 
-  src="/assets/HeroImage8.png"
+  src="/assets/Hero6.png"
   alt="Course illustration"
   fill
   className="object-contain rounded-tr-3xl rounded-bl-3xl "
@@ -92,7 +98,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
           {/* Online Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <MdOnlinePrediction className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <MdOnlinePrediction className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
               <span className="text-black text-xs font-medium">ONLINE</span>
               <span className="font-bold text-xs block">3 months</span>
@@ -101,30 +107,30 @@ const Hero = () => {
 
           {/* Admission Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <BsCalendarCheck className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <BsCalendarCheck className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
-              <span className="text-black text-xs font-medium">ADMISSION CLOSES ON</span>
-              <span className="font-bold text-xs block">22nd Jan</span>
-              <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px] mt-0.5">
+              <span className="text-black text-xs font-medium">LIMITED SEATS </span>
+              <span className="font-bold text-xs block">Enroll Now</span>
+              {/* <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px] mt-0.5">
                 Limited seats
-              </Badge>
+              </Badge> */}
             </div>
           </div>
 
           {/* Course Fee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
-  <FaMoneyBillWave className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
+  <FaMoneyBillWave className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
   <div>
     {/* <span className="text-black text-xs font-medium">COURSE FEE</span> */}
-    <span className="text-black text-xs font-medium">Course Fees</span>
+    <span className="text-black text-xs font-medium">JOB ROLE</span>
     <div className="flex flex-col gap-1"> {/* Changed to flex-col for vertical stacking */}
       <div className="flex items-center gap-2"> {/* Price row */}
-         <span className="font-bold text-xs flex-shrink-0">₹45,000 (+taxes)</span> 
-        {/* <span className="font-bold text-xs flex-shrink-0">DevOps Engineer</span> */}
-         <span className="line-through text-gray-400 text-xs">₹75,000</span>
+        {/* <span className="font-bold text-xs flex-shrink-0">₹25,000 (+taxes)</span> */}
+        <span className="font-bold text-xs flex-shrink-0">DevOps Engineer</span>
+        {/* <span className="line-through text-gray-400 text-xs">₹35,000</span>
         <span className="text-green-600 font-semibold border-green-600 text-[10px]">
-          Save <br/> ₹30,000/-
-        </span> 
+          Save <br/> ₹10,000/-
+        </span> */}
       </div>
       <div> {/* Badge row */}
         {/* <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
@@ -137,11 +143,11 @@ const Hero = () => {
 
           {/* Guarantee Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <TbCertificate className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
-            {/* <div>
+            <TbCertificate className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
+            <div>
               <span className="text-black text-xs font-medium">GUARANTEE</span>
-              <div className="font-bold text-xs">100% refund if not hired</div>
-            </div> */}
+              <div className="font-bold text-xs">100% refund if not hired</div> 
+            </div>
           </div>
         </div>
 

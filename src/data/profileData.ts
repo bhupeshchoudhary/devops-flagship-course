@@ -1,7 +1,7 @@
 export const profileData = [
     {
       name: "Ashutosh Purohit",
-      profilePicture: "https://media.licdn.com/dms/image/v2/C4E03AQGVyeWNBih1Jg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1618541496907?e=1742428800&v=beta&t=oAKv8llW2k6RyJKGwkb1hXA2wWffPjK8yYh41aVkkq8",
+      profilePicture: "https://media.licdn.com/dms/image/v2/C4E03AQGVyeWNBih1Jg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1618541496907?e=1753920000&v=beta&t=f7apeiRexpX0iOo-sXPuufP_lwCAw59KxyMhE7S00jo",
       company: "Cashfree Payments",
       jobTitle: "Senior DevOps Engineer @ Cashfree Payments",
       linkedinUrl: "https://www.linkedin.com/in/ashutoshlw/",
@@ -11,11 +11,12 @@ export const profileData = [
         { icon: "Briefcase", text: "6 Years work experience " },
       ],
       careerProgression: {
-        before: {
-          companyLogo: "https://media.licdn.com/dms/image/v2/C560BAQE-cwaObx8Iag/company-logo_200_200/company-logo_200_200/0/1630649720006/hashedin_logo?e=1745452800&v=beta&t=06uDPdkFA9UeEr4GexvIbiRq7eUNBU23NNf2as-gX6k",
-          companyName: "Hashedln",
-          designation: "DevOps Engineer 2",
-        },
+       before: {
+  companyLogo: "https://media.licdn.com/dms/image/C560BAQE-cwaObx8Iag/company-logo_200_200/0/1630649720006?e=2147483647&v=beta&t=06uDPdkFA9UeEr4GexvIbiRq7eUNBU23NNf2as-gX6k",
+  companyName: "Hashedln",
+  designation: "DevOps Engineer 2",
+}
+,
         after: {
           companyLogo: "/assets/companyLogo/cashfee.jpeg",
           companyName: "Cashfree Payment",
@@ -26,7 +27,7 @@ export const profileData = [
    
     {
       name: "Prabir Dey",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQFxdMt0rX5nsw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1706241759798?e=1742428800&v=beta&t=sCgO5-kXhovO0UPMbxQV2UYPJnG8ZiAheJWyUBqaH1o",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGW6UI52N5I1g/profile-displayphoto-shrink_400_400/B56ZXshduHHQAg-/0/1743429952611?e=1753920000&v=beta&t=BKPZ0572p6axhmxo7AzsUxPnKv5eerkNs3W3U3RqK4I",
       company: "Amazon",
       jobTitle: "Cloud & DevOps Engineer @Amazon",
       linkedinUrl: "https://www.linkedin.com/in/prabir-dey/",
@@ -50,7 +51,7 @@ export const profileData = [
     },
     {
       name: "Rutwik Kshirsagar",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGCTF-Ry4NQIQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731481253639?e=1742428800&v=beta&t=nPM-rH4YAQc8X3pgXXv9AaiixVA0toqOsl9S35vxuA8",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGCTF-Ry4NQIQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1731481253613?e=1753920000&v=beta&t=c4BskkyQOzGov8vQwSQXtNQA__vbZA966aQ6mMTItSQ",
       company: "Yatra Online Ltd.",
       jobTitle: "DevOps Engineer   @Yatra",
       linkedinUrl: "https://www.linkedin.com/in/rutwikksagar/",
@@ -74,7 +75,7 @@ export const profileData = [
     },
     {
       name: "Arpit Jindal",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D4D35AQG6DADB1Gb6vw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1718213596436?e=1737788400&v=beta&t=KkeqzNM6cUIXcjjaFeI878938fwkppXGyZLhRp1BZaA",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQFQqYEvQENHhQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718213594769?e=1753920000&v=beta&t=lFxI4ZFU70IMwt9gEkBOSTfjePir2d-3pD6g6wYlZ6M",
       company: "BayOne Solutions",
       jobTitle: "Senior DevOps Engineer @ BayOne",
       linkedinUrl: "https://www.linkedin.com/in/arpit-jindal-1b52831a3/",
@@ -149,7 +150,7 @@ export const profileData = [
   
     {
       name: "Rohit Jain",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQHoW9sesrA6Lw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1731653281849?e=1742428800&v=beta&t=73B0xmXPH3Sx7y2VXTREKEBphalErLoqpvRWIOqktGI",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQHa1SHuT8llBw/profile-displayphoto-shrink_800_800/B56ZXXvHVQHQAc-/0/1743081208230?e=1753920000&v=beta&t=hc25m6d5sssX0BY0PqrORvl5O6c2xkdr6-x8yGzVFAg",
       company: "Cloud Ambassadors",
       jobTitle: "DevOps Engineer @Cloud Ambassadors",
       linkedinUrl: "https://www.linkedin.com/in/01rohitjain/",
@@ -200,7 +201,7 @@ export const profileData = [
   
     {
       name: "Laveena Jethani",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQHiOkUsnxxITg/profile-displayphoto-shrink_800_800/B56ZPP_UsEGkAc-/0/1734361305412?e=1742428800&v=beta&t=rhmxWGoHHFZmYetQKiV7T609StsYb3rt_s1viHg_mcY",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQHiOkUsnxxITg/profile-displayphoto-shrink_200_200/B56ZPP_UsEGkAY-/0/1734361305386?e=1753920000&v=beta&t=Ds7QDqLNVrZ0wasXAimPSyqOmzI1v-KqBbIBujJEP2s",
       company: "RedHat ",
       jobTitle: "DevOps Engineer @redhat",
       linkedinUrl: "https://www.linkedin.com/in/laveena-jethani/",
@@ -225,7 +226,7 @@ export const profileData = [
   
     {
       name: "Adil Ansari ",
-      profilePicture: "https://media.licdn.com/dms/image/v2/C4E03AQGMJIlo7lEWrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1638083798521?e=1742428800&v=beta&t=DPbsRnaGBIuARXGTlioIa9ohpNEHENv9fzEQpTu5res",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQGLcWAfCquBDA/profile-displayphoto-shrink_200_200/B56ZVWl9_.HsAk-/0/1740914550575?e=1753920000&v=beta&t=iTGRAQoYzXqmOPhWfW3tEZXHUcrmjLKh17OBmDy14zQ",
       company: "IGT Solutions",
       jobTitle: "Associate Software Engineer @IGT",
       linkedinUrl: "https://www.linkedin.com/in/adilansari488/",
@@ -250,7 +251,7 @@ export const profileData = [
   
     {
       name: "Sarthak Agarwal",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D5603AQETlu2-4tVbMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1721056218487?e=1742428800&v=beta&t=iNxZ7nACna327CjSj9qMVc6yy21PIXKW5um2TpG1m1M",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQEzJiADUGIJIg/profile-framedphoto-shrink_200_200/B56ZbnNJWkHUAg-/0/1747635705506?e=1749124800&v=beta&t=lks-Okw6QCjeXRrDP0rbcc3AwDmgvcug5lkofhu18hA",
       company: "Integraate Innovations",
       jobTitle: "Associate Software Engineer @Integraate Innovations",
       linkedinUrl: "https://www.linkedin.com/in/sarthak-agarwal-0476331b1/",
@@ -275,7 +276,7 @@ export const profileData = [
   
     {
       name: "Nishant Saini",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D5635AQFnOXjUV_FV0Q/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1724154848871?e=1737792000&v=beta&t=TGy_NEr383EhjyHXKGe6rwtmeuptpwMsCDaH0H0Sc6E",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQFJLOW4XJA8Og/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1700767608266?e=1753920000&v=beta&t=y0FXOICHVBeFgOFTJZ4oqnRcb0mASNLc25-7ZkXvzt0",
       company: "The Modern Data Company ",
       jobTitle: "Associate Software Engineer @Modern Data",
       linkedinUrl: "https://www.linkedin.com/in/nishant27saini/overlay/photo/",
@@ -302,7 +303,7 @@ export const profileData = [
   
     {
       name: "Vikash Kaushik",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQHpcQu9pIwmnQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711965805598?e=1742428800&v=beta&t=7-TD3sOfocIWlD0AO-bybNttjm6cSZKFOEhCg_8qQt8",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQFnsv5aXqpn3Q/profile-displayphoto-shrink_200_200/B4DZZ8Jl47HIAg-/0/1745839612358?e=1753920000&v=beta&t=OHcCDjXrV8qO-rh8WZ3nr_8bZkxgtD5WaEnNUz40u0o",
       company: "Nirmata",
       jobTitle: "DevOps Engineer @Nirmata",
       linkedinUrl: "https://www.linkedin.com/in/vikash-kaushik/",
@@ -327,7 +328,7 @@ export const profileData = [
   
     {
       name: "Rupesh Jha ",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQEeqg_ffYQ2FA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1680794576122?e=1742428800&v=beta&t=Lf2Gqbejk_btN-svH7iMzJakjAvu64zfJmpOV0IBhXs",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQEeqg_ffYQ2FA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680794576122?e=1753920000&v=beta&t=lFE8dUG9CAZDQev1vB7ihlrKMbI2b2y7JndmQIDVyGM",
       company: "Winjit Technologies Pvt Ltd",
       jobTitle: "DevOps Engineer @Winjit",
       linkedinUrl: "https://www.linkedin.com/in/rupesh-jha-/",
@@ -353,7 +354,7 @@ export const profileData = [
   
     {
       name: "Manmohan ",
-      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQEOgNHipHqfQw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1709959290844?e=1742428800&v=beta&t=PL0HqfoPCFF-LhrhKy6CGM73yzoJWrS18buQc3PZrwY",
+      profilePicture: "https://media.licdn.com/dms/image/v2/D4D03AQEOgNHipHqfQw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1709959290844?e=1753920000&v=beta&t=HiEZlVPX0BtfRXhKUSRYRf8Vx5zYvwcK-YhjiShV3wQ",
       company: "Ventura",
       jobTitle: "Sr.Executive DevOps Engineer @Ventura",
       linkedinUrl: "https://www.linkedin.com/in/manmohan-singh-8a0b24186/",

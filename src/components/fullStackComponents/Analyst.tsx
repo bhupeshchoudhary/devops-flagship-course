@@ -17,7 +17,7 @@ type TabData = {
 // Define the structure of the data for the "analyst" tab
 const data: Record<string, TabData> = {
   analyst: {
-    salary: { label: "Jobs in DevOps", values: [700000, 1200000, 1800000] },
+    salary: { label: "Jobs in DevOps", values: [1200000, 1800000,2500000,3500000,] },
     companies: ["Citibank", "Dell", "Deloitte", "Google", "IBM", "Infosys", "Intel", "JPMorgan", "Redhat"],
     demand: 45,
   },
