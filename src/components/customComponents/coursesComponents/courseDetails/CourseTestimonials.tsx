@@ -16,7 +16,7 @@ const posts = [
     author: {
       name: "Akansha chaurasia",
       title: "Domain Support Specialist @ Ericsson India Global",
-      avatar: "https://media.licdn.com/dms/image/v2/C4D03AQERGZjbVTAnNw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1645726568650?e=1737590400&v=beta&t=V8r_7CfyG-LYaBsbkY7EztvWwig6Z1vRUv9aFeJJ4-k",
+      avatar: "https://media.licdn.com/dms/image/v2/C4E03AQGUv_4wyCC6fg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522737007614?e=1752710400&v=beta&t=oMb1vPnm8BYJuedn-fqab0Nlgryvs_D7UIPO94ZepVc",
       linkedin: "https://www.linkedin.com/in/akansha-chaurasia-681718119/"
     },
     content: `It was an amazing class to attend. I liked the way sir delivered the helm content. Helm became so easy for me now. I like to attend these classes as it helps me to elevate my skills. Thank you Vimal sir as well as LinuxWorld Informatics Pvt to share such a good content with us..`,
@@ -27,7 +27,7 @@ const posts = [
     author: {
       name: "Manikandan Prakash",
       title: "DevOps Engineer @smallcase",
-      avatar: "https://media.licdn.com/dms/image/v2/D4E03AQFiY07rDFiZ1A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698246875639?e=1737590400&v=beta&t=n4sQVUqx1DDJaKh2fEvBUd5l6FR5_k7JEpb1cBS_ZTk",
+      avatar: "https://media.licdn.com/dms/image/v2/D4E03AQFiY07rDFiZ1A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1698246875639?e=1752710400&v=beta&t=rl9_TZv1--t0V7bo_JrysuiGkhvKQ5u3gxyH5FtG3xo",
       linkedin: "https://www.linkedin.com/in/manikandan-prakash/"
     },
     content: `It was very informative and 100 pratical session by vimal sir ,From that I did learn the bedrock service how to intergrate in any of our own custom requirment ,It was pretty enough to start AWS bedrock thanks for the session Vimal Daga sir`,
@@ -51,7 +51,7 @@ const posts = [
     author: {
       name: "Rushikesh Mahindrakar",
       title: "System Engineering",
-      avatar: "https://media.licdn.com/dms/image/v2/D4D03AQH9caqLtsFOKw/profile-displayphoto-shrink_400_400/B4DZPdW6uqGkAg-/0/1734585593402?e=1741824000&v=beta&t=TLnub44aJ66j1b5rja8icMswY64lXNRg6o4rcmmxZSE",
+      avatar: "https://media.licdn.com/dms/image/v2/D4D03AQH9caqLtsFOKw/profile-displayphoto-shrink_200_200/B4DZPdW6uqGkAY-/0/1734585593402?e=1752710400&v=beta&t=qR3SqHZsyoZjDkWOgqtkmgTnr2cVnkMcjV-LIWSKt9Y",
       linkedin: "https://www.linkedin.com/in/rushikesh-mahindrakar-70b82537/"
     },
     content: `Your invaluable guidance in this remarkable Kubernetes training program has been truly appreciated. It's a pivotal milestone in my DevOps journey, and I'm deeply grateful for your mentorship, Vimal Daga sir. Your expertise and insights are immensely valuable, propelling my professional growth with each session. Thank you!!`,
@@ -113,7 +113,7 @@ One of the highlights was our exploration of managing Jenkins pipelines as code,
     author: {
       name: "Peeru Babu Vaddaman",
       title: "AWS DevOps Engineer   ",
-      avatar: "https://media.licdn.com/dms/image/v2/D4E03AQEb-BPBWT8LAg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1698872416669?e=1741824000&v=beta&t=BKZngEMopliFCWbjOPTWCTuW3uQqFazP3cZULy_VYvE",
+      avatar: "https://media.licdn.com/dms/image/v2/D5635AQGzxDFWF5O7Pw/profile-framedphoto-shrink_200_200/B56ZYy.95VH0Ac-/0/1744612089760?e=1747659600&v=beta&t=bGGyMRTgUepUbsa6-NTBuMPDc45e_KaoSQmr0Qcrbj0",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7281961496195018752"
     },
     content: `I gained hands-on experience with multiple tools, enhancing my practical knowledge and skills. It was a wonderful session , Sir is a blessing for the student who are looking their career in the field of DevOps and other.
@@ -139,7 +139,7 @@ Students nowadays are stressed about how to make project what to make project co
     author: {
       name: "Dibyaraj Datta",
       title: "Process Associate at Netscribes",
-      avatar: "",
+      avatar: "https://media.licdn.com/dms/image/v2/D5603AQENeos_aDytsw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711478336339?e=1753920000&v=beta&t=uFuDgOCWLYdZgoInQJnW2N9QzHSmYp-VIshVu1rXsmE",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7181174125804097536"
     },
     content: `Who never fails to enlighten us through his innovative thoughts and ideas. We learnt how various AWS cloud services like EC2, S3, Lambda are used in real industries and also gained an overview of the Microsoft Azure cloud platform. We learnt how an app runs in various cloud platforms altogether at a time part by part in order to gain worldwide access.
@@ -153,7 +153,7 @@ A big thanks to LinuxWorld Informatics Pvt Ltd for conducting the session & hopi
     author: {
       name: "Sanchita Agrawal",
       title: "DevOps Engineer ",
-      avatar: "https://media.licdn.com/dms/image/v2/D4D03AQHvkoJDpKyN6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664520645818?e=1737590400&v=beta&t=0s-H7cUGZ7347Xo4Zn2GUdJGkO5tlKQjtzNVnJ3mJYw",
+      avatar: "https://media.licdn.com/dms/image/v2/D4D03AQHvkoJDpKyN6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1664520645818?e=1753920000&v=beta&t=7947H-345Q9k7rU55dXuwTB4AcKUhJ7FFQBG2x1LGks",
       linkedin: "https://www.linkedin.com/feed/update/urn:li:activity:7239134220567130113/?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7239134220567130113%2C7240708775475601408%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287240708775475601408%2Curn%3Ali%3Aactivity%3A7239134220567130113%29"
     },
     content: `
@@ -165,7 +165,7 @@ Another amazing informative workshop by vimal sir. Its always fun learning from 
     author: {
       name: "Rajneesh Pratap Singh",
       title: "DevOps Engineer || 3x Redhat ",
-      avatar: "https://media.licdn.com/dms/image/v2/D5603AQFxBq8m8wYj4w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720442622903?e=1737590400&v=beta&t=v_dQCEGOIDJ96AV0ZbaA0IQUfLmnWk3m1YPnnwXAOb4",
+      avatar: "https://media.licdn.com/dms/image/v2/D5603AQES0juOhhnKYQ/profile-displayphoto-shrink_200_200/B56ZShRhtAHoAY-/0/1737872515563?e=1753920000&v=beta&t=_Gds_0HYV1BToF-LCnJ3G_x-S1hEoolSqKD82Ll5Wt4",
       linkedin: "https://www.linkedin.com/in/rajneesh-pratap-singh/"
     },
     content: `
@@ -186,7 +186,7 @@ Strategies for patching and managing vulnerabilities in containers..`,
     author: {
       name: "Aakash Kathunia",
       title: "Technical Architect at HCLTech ",
-      avatar: "https://media.licdn.com/dms/image/v2/D5603AQGJi9pe0O-O8A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723740692945?e=1737590400&v=beta&t=y2ONfXKp0z5KkZJRcTtg_e1iVUh8rFUn3JxaRqqFOBg",
+      avatar: "https://media.licdn.com/dms/image/v2/D5603AQGJi9pe0O-O8A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723740692945?e=1753920000&v=beta&t=Tmm_f3CxolLZXmPDCtl2cx2XlnqeO2S3HJNO66HZCgY",
       linkedin: "https://www.linkedin.com/in/aakash-kathunia-6b618b16/"
     },
     content: `
@@ -203,7 +203,7 @@ Strategies for patching and managing vulnerabilities in containers..`,
     author: {
       name: "Alok Kumar Singh ",
       title: " Data Analyst |",
-      avatar: "https://media.licdn.com/dms/image/v2/D5603AQFGCjRM6gI1zg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1724789778105?e=1737590400&v=beta&t=sm-JTK9zKq4_tbEEKi1nEZvWEa4fL-RoAH7KeL86jtk",
+      avatar: "https://media.licdn.com/dms/image/v2/D5603AQFGCjRM6gI1zg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724789778105?e=1753920000&v=beta&t=lRS8KsvoM6QkD8M7nJFiekojDf3Yeb7fqukrPRajQ-o",
       linkedin: "https://www.linkedin.com/in/tech-alok/"
     },
     content: `
@@ -218,7 +218,7 @@ Attending the System Design workshop by Vimal Daga Sir was a great learning expe
     author: {
       name: "Mallesh Gangadhar ",
       title: "--",
-      avatar: "https://media.licdn.com/dms/image/v2/D5635AQFvYLlZaIHe_A/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1713248954215?e=1736978400&v=beta&t=nBLa6BUmhvyJIMrfpDuNuMyI4hVzNcOD4l6TKCyhkxE",
+      avatar: "https://media.licdn.com/dms/image/v2/D5635AQFvYLlZaIHe_A/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1713248954215?e=1749132000&v=beta&t=r8qB_nMKWFZ9tdI10UFybLAA0rOz0VtQn9kEjwA0vSA",
       linkedin: "https://www.linkedin.com/in/mallesh-gangadhar-8ab53777/"
     },
     content: `
@@ -234,7 +234,7 @@ to enhance my IT skills in Linux! Thanks
     author: {
       name: "Mohit Agarwal ",
       title: " Secretary of MExperts",
-      avatar: "https://media.licdn.com/dms/image/v2/D5603AQExTuqkqp5u7g/profile-displayphoto-shrink_800_800/B56ZPo2nIVHQAc-/0/1734778450936?e=1741824000&v=beta&t=DdI_Au2NQ8kNijbd0j35mYmRQqEoG_j2oC3KcrlLuDI",
+      avatar: "https://media.licdn.com/dms/image/v2/D5635AQEU9qZl9pXFvw/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1737954708379?e=1749132000&v=beta&t=eAk3lNipRylN08yTXX3ZtolMwUeF6LTICvA5G6gG3PU",
       linkedin: "https://www.linkedin.com/in/mohitagarwal99/"
     },
     content: `
