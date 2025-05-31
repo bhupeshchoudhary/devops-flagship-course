@@ -160,7 +160,7 @@ const Analyst: React.FC = () => {
 
         {/* Footer Text */}
         <p className="text-gray-600 text-sm sm:text-sm max-w-6xl">
-       The average salary for DevOps engineers in India has surged from ₹7 LPA in 2019 to ₹18 LPA by 2023, driven by growing demand for cloud computing, automation, and CI/CD practices. As industries adopt agile methodologies, DevOps expertise remains highly valued, offering lucrative career prospects.
+       The average salary for a Full Stack Developer in India has surged from ₹7 LPA in 2019 to ₹18 LPA by 2023, driven by the growing demand for comprehensive web application development, cloud integration, and seamless user experiences. As industries adopt agile methodologies, proficiency in both frontend and backend technologies remains highly valued, offering lucrative career prospects.
        </p>
       </div>
     </div>

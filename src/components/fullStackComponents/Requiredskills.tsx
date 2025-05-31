@@ -9,27 +9,27 @@ export default function RequiredSkills() {
   const skilsLogo = [ 
     {
       name: "Docker",
-      logo: "/assets/professionals/docker.png"
+      logo: "/assets/Fullstack/html.png"
     },
     {
       name: "Kubernetes",
-      logo: "/assets/professionals/k8s.png"
+      logo: "/assets/Fullstack/Tailwind_CSS.png"
     },
     {
       name: "Jenkins",
-      logo: "/assets/professionals/jenkins.png"
+      logo: "/assets/Fullstack/React.png"
     },
     {
       name: "Terraform",
-      logo: "/assets/professionals/terraform.png"
+      logo: "/assets/Fullstack/expressjs.png"
     },
     {
       name: "Ansible",
-      logo: "/assets/professionals/ansible.png"
+      logo: "/assets/Fullstack/mongo.png"
     },
     {
       name: "GitHub",
-      logo: "/assets/professionals/github.png"
+      logo: "/assets/Fullstack/postman2.png"
     },
     
     
@@ -64,31 +64,31 @@ export default function RequiredSkills() {
           <div className="flex md:block gap-4 md:gap-0 md:space-y-4 min-w-max md:min-w-0">
             <CompanyItem
               logo="/assets/professionals/meta.png"
-              name="DevOps Engineer"
+              name="Frontend Developer"
               company="Meta"
               bgColor="bg-blue-50"
             />
             <CompanyItem
               logo="/assets/professionals/amazon.png"
-              name="Site Reliability Engineer (SRE)"
+              name="Backend Developer"
               company="Amazon"
               bgColor="bg-orange-50"
             />
             <CompanyItem
               logo="/assets/professionals/netflix.png"
-              name="DevOps Architect"
+              name="Full Stack Developer (MERN)"
               company="Netflix"
               bgColor="bg-red-50"
             />
             <CompanyItem
               logo="/assets/professionals/google.png"
-              name="Cloud Engineer"
+              name="API Integration Engineer"
               company="Google"
               bgColor="bg-green-50"
             />
             <CompanyItem
               logo="/assets/professionals/microsoft.png"
-              name="Platform Engineer"
+              name="Deployment & DevOps Associate (MERN)"
               company="Microsoft"
               bgColor="bg-blue-50"
             />
@@ -118,19 +118,19 @@ export default function RequiredSkills() {
 
             {/* Text Badge Skills - Improved spacing and wrapping */}
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {[ "Docker", "Kubernetes", "Jenkins", "Terraform", "Ansible", "Github"].map((skill) => (
+              {[ "HTML5", "CSS3", " JavaScript", "Tailwind CSS ", "Bootstrap", "Github"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
             
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {["Splunk", "ELK Stack", "GitOps", "Prometheus", "Grafana", "ArgoCD"].map((skill) => (
+              {["React.js with Hooks", "Router", "Fetch API", "Redux Toolki", "frontend apps"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
 
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {[ "Podman",  "CI/CD", "Redshift", "Linux", "SQL"].map((skill) => (
+              {[ "MongoDB",  "Mongoose", "JWT ", "MongoDB Atlas", "Postman"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>

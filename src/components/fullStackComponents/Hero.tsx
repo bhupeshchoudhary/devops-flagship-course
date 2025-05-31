@@ -64,7 +64,7 @@ const Hero = () => {
                 </h2>
                 <p className="text-base font-bold sm:text-lg md:text-xl lg:text-xl text-white mb-6">
        
-Next companies hiring in Apr - May offering  ₹4-8 LPA package.
+Next companies hiring in Aug - Oct offering  ₹4-8 LPA package.
 
                 </p>
                  <Button variant="outline" className="rounded-full bg-transparent border-white text-white hover:bg-red-700 text-sm sm:text-base">
