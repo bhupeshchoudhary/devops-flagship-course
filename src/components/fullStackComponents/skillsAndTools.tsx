@@ -1,57 +1,75 @@
-import { Code2, Cpu, Database, FileJson, GitBranch, Sparkles,SquareCode,MonitorCog,ShieldCheck ,DraftingCompass,ShipWheel,Container,Gitlab,Eclipse,Hexagon    } from 'lucide-react'
-import Image from 'next/image'
+import {
+  Code2,
+  CrossIcon,
+  FileCode,
+  Layout,
+  Columns,
+  GitBranch,
+  Cloud,
+  Ship,
+  Database,
+  FlaskConical,
+  CloudCog,
+  ServerCog,
+  Terminal,
+  Code,
+  Cpu,
+  ShieldCheck,
+  DraftingCompass,
+  MonitorCog,
+  Container,
+  Gitlab,
+  Sparkles,
+  FileJson
+} from 'lucide-react';
 
 export default function SkillsAndTools() {
   const skills = [
     {
-      icon: <GitBranch  className="h-10 w-10 rounded-2xl p-0 bg-gray-100  text-[#292929]" />,
-      name: 'Master Git & GitHub'
-    },
-  {
-      icon: <DraftingCompass className="h-10 w-10 rounded-2xl p-0 bg-gray-100 text-[#292929]" />,
-      name: 'Automation Using Ansible'
+      icon: <Code2 className="h-10 w-10 rounded-2xl p-0 bg-gray-100 text-[#292929]" />,
+      name: 'HTML5'
     },
     {
-      icon: <Code2 className="h-10 w-10 text-[#292929] rounded-2xl p-0 bg-gray-100" />,
-      name: 'Jenkins & Build Automation'
+      icon: <CrossIcon className="h-10 w-10 rounded-2xl p-0 bg-gray-100 text-[#292929]" />,
+      name: 'CSS3'
     },
     {
-      icon: <MonitorCog className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
-      name: 'Monitoring Tools : Prometheus & Grafana'
+      icon: <FileCode className="h-10 w-10 text-[#292929] rounded-2xl p-0 bg-gray-100" />,
+      name: 'JavaScript (ES6+)'
     },
     {
-      icon: <Container className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
-      name: 'Docker, Container & Kubernetes - CKA & CKAD'
+      icon: <Layout className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
+      name: 'Tailwind CSS'
     },
     {
-      icon: <Gitlab className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
-      name: 'Mastering SCM & Manage CI/CD using GITLab'
+      icon: <Columns className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
+      name: 'Bootstrap'
     },
     {
-      icon: <ShieldCheck className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100"  />,
-      name: 'Docker Certified Associate'
+      icon: <GitBranch className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
+      name: 'Git & GitHub'
     },
     {
-      icon: <ShipWheel className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
-      name: 'MKE - Mirantis Kubernetes Engine'
+      icon: <Cloud className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
+      name: 'Fetch API'
     },
     {
-      icon: <Cpu className="h-10 w-10 text-[#292929] rounded-2xl  bg-gray-100" />,
-      name: 'Industry Relevant - AWS Cloud Training'
+      icon: <Ship className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
+      name: 'React.js (Hooks, Router, Redux Toolkit)'
     },
     {
-      icon: <Sparkles className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
-      name: 'Industry Relevant Linux Training'
+      icon: <CloudCog className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
+      name: 'JWT'
     },
     {
-      icon: <Cpu className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
-      name: 'DevOps Essential - CI / CD over AWS Cloud'
+      icon: <Database className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
+      name: 'MongoDB Atlas'
     },
     {
-      icon: <FileJson className='h-10 w-10 text-[#292929] rounded-2xl bg-gray-100' />,
-      name: 'Shell Scripting'
+      icon: <FlaskConical className='h-10 w-10 text-[#292929] rounded-2xl bg-gray-100' />,
+      name: 'Postman'
     }
-  ]
+  ];
 
   return (
     <div className='bg-gradient-to-br from-gray-50 via-black-50 to-gray-100'>

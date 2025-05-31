@@ -5,22 +5,22 @@ const ProgramHighlights = () => {
   const highlights = [
     {
       icon: "/assets/ExtraLogo/modules.png",
-      number: "14+",
+      number: "15+",
       description: "Hands on Modules",
     },
     {
       icon: "/assets/ExtraLogo/hours.png",
-      number: "300+",
+      number: "250+",
       description: "Hours of learning",
     },
     {
       icon: "/assets/ExtraLogo/tools.png",
-      number: "15+",
+      number: "18+",
       description: "Programming Tools",
     },
     {
       icon: "/assets/ExtraLogo/project-management.png",
-      number: "20+",
+      number: "10+",
       description: "Capstone Projects",
     },
   ];
