@@ -46,7 +46,7 @@ export default function ProgramCohorts() {
         <div className="space-y-2">
           <h1 className=" text-3xl font-semibold text-black text-center">
           Career Switch / Salary Hike Oriented
-            <span className="text-[#ff0000]">  FullStack Development Globally Recognised Program</span>
+            <span className="text-[#ff0000]">FullStack Development Globally Recognised Program</span>
           </h1>
           <h2 className="text-md sm:text-lg text-black text-center">
             Learn from the DevOps Guru, <span className="text-[#ff0000]"> Mr Vimal Daga</span> <br/> and secure a guaranteed career switch or salary hike with 

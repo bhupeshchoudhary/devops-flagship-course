@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 import { ZoomIn } from "lucide-react"
-import certimg from "../../../../public/assets/Certificate/Certificate.jpeg"
+import certimg from "../../../../public/assets/Fullstack/Shell Scripting copy 10.png"
 
 
 export default function Certification() {
@@ -19,7 +19,7 @@ export default function Certification() {
             <div className="space-y-6">
               <h2 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-[#ff0000]  font-bold">1</span>
-                DevOps Training certificate
+               FullStack Training certificate
               </h2>
               <p className="text-gray-600 pl-10">
               On successful completion of the program with 90% attendance in Live Sessions & completion of all Capstone Projects with assessments makes you eligible for Training Certificate

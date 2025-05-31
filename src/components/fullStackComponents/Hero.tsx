@@ -76,7 +76,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
               <div className="relative w-full lg:w-[55%]"> {/* Increased width */}
                 <div className="aspect-[16/9] w-full md:w-[50px] lg:w-[50px] h-[200px] md:h-[300px] lg:h-[300px]"> {/* Increased height */}
                 <Image 
-  src="/assets/Hero6.png"
+  src="/assets/Fullstack/main.jpg"
   alt="Course illustration"
   fill
   className="object-contain rounded-tr-3xl rounded-bl-3xl "
@@ -100,7 +100,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
             <MdOnlinePrediction className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
             <div>
-              <span className="text-black text-xs font-medium">ONLINE</span>
+              <span className="text-black text-xs font-medium">ONLINE/OFFLINE</span>
               <span className="font-bold text-xs block">3 months</span>
             </div>
           </div>
