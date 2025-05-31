@@ -13,15 +13,14 @@ export default function CourseCurriculumModule() {
   const [activeModule, setActiveModule] = useState<Module>(modules[0])
 
   return (
-    <div className="pt-4 md:pt-0 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-gray-100" id="trainingcontent">
+    <div className="pt-4 md:pt-0 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="trainingcontent">
       <div className="max-w-6xl mx-auto">
         {/* Main Heading - Hidden on mobile */}
         <div className="hidden md:block max-w-6xl px-2 md:px-8 mx-auto py-6 text-3xl font-bold text-center">
-          Let's walk you through the journey of <span className="text-[#ff0000]"> <br/>Career Switch / Salary hike Guaranteed </span> DevOps Training by LinuxWorld
-
+          Let's walk you through the journey of <span className="text-[#ff0000]"> <br/>Placement Guaranteed DevOps </span> Initiative by LinuxWorld
         </div>
 
-        <div className="container px-0 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#1e1e1e] via-[#212121] via-[#2f2f2f] to-[#363636] pb-6 rounded-xl relative">
+        <div className="container px-0 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] pb-6 rounded-xl relative">
         {/* <div className="container px-0 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#292929] via-[#323232] via-[#3d3d3d] to-[#4a4a4a] pb-6 rounded-xl relative"> */}
           {/* Tag with number - Hidden on mobile */}
           <div className="hidden md:block absolute -top-2 left-12">
@@ -35,7 +34,7 @@ export default function CourseCurriculumModule() {
           </div>
 
           {/* Mobile Number */}
-          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center">
+          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
             <span className="text-white font-bold text-lg">1</span>
           </div>
 
@@ -44,7 +43,7 @@ export default function CourseCurriculumModule() {
     <div className="absolute top-0 right-0 hidden md:block">
       <Badge 
         variant="secondary" 
-        className="h-10 px-4 p-4 bg-[#4a4a4a] text-sm text-white border-none shrink-0"
+        className="h-10 px-4 p-4 bg-[#710000] text-sm text-white border-none shrink-0"
       >
        <CalendarDays className="mr-2 mt-4 mb-4   h-6"/>  3 Months
       </Badge>
@@ -53,7 +52,7 @@ export default function CourseCurriculumModule() {
     <div className="absolute top-0 right-0 sm:block md:hidden"> {/* Changed here */}
   <Badge 
     variant="secondary" 
-    className="h-6 pt-2 pb-2 bg-[#4a4a4a] text-sm text-white border-none shrink-0"
+    className="h-6 pt-2 pb-2 bg-[#710000] text-sm text-white border-none shrink-0"
   >
     <CalendarDays className=" mt-4 mb-4 h-6"/> &nbsp; 3 Months
   </Badge>
@@ -63,11 +62,11 @@ export default function CourseCurriculumModule() {
 
     <div className="w-full">
       <h1 className="text-2xl md:text-2xl font-bold text-white mb-4 mt-2 md:ml-8">
-        14+ DevOps Training Modules  
+        15+ FullStack Developement Training Modules  
       </h1>
       <p className="text-white/90 max-w-3xl  md:pl-8 text-md">
-      Exclusively designed, industry-relevant, placement-focused training modules by World Record Holder Mr. Vimal Daga offer you a step-by-step learning journey with hands-on practical implementation—ensuring you are fully prepared to become SRE I/ SRE II/ DevOps Engineer
-     </p>
+        Exclusively designed, industry-relevant, placement-focused training modules by World Record Holder Mr. Vimal Daga offer you a step-by-step learning journey with hands-on practical implementation—ensuring you are fully prepared to become DevOps Engineer
+      </p>
     </div>
   </div>
             {/* Mobile Module Tabs and Content */}

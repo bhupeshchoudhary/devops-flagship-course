@@ -126,7 +126,7 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
     <div className="flex flex-col gap-1"> {/* Changed to flex-col for vertical stacking */}
       <div className="flex items-center gap-2"> {/* Price row */}
         {/* <span className="font-bold text-xs flex-shrink-0">₹25,000 (+taxes)</span> */}
-        <span className="font-bold text-xs flex-shrink-0">DevOps Engineer</span>
+        <span className="font-bold text-xs flex-shrink-0">FullStack Development</span>
         {/* <span className="line-through text-gray-400 text-xs">₹35,000</span>
         <span className="text-green-600 font-semibold border-green-600 text-[10px]">
           Save <br/> ₹10,000/-

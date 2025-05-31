@@ -46,7 +46,7 @@ export default function ProgramCohorts() {
         <div className="space-y-2">
           <h1 className=" text-3xl font-semibold text-black text-center">
           Career Switch / Salary Hike Oriented
-            <span className="text-[#ff0000]">  DevOps Globally Recognised Program</span>
+            <span className="text-[#ff0000]">  FullStack Development Globally Recognised Program</span>
           </h1>
           <h2 className="text-md sm:text-lg text-black text-center">
             Learn from the DevOps Guru, <span className="text-[#ff0000]"> Mr Vimal Daga</span> <br/> and secure a guaranteed career switch or salary hike with 
@@ -60,7 +60,7 @@ export default function ProgramCohorts() {
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
               <h3 className="text-md pt-2 sm:text-lg text-black font-semibold">
-                LW Career Switch / Salary Hike Oriented DevOps Globally Recognized Initiative 2025
+                LW Career Switch / Salary Hike Oriented FullStack Development Globally Recognized Initiative 2025
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
                 Limited Seats available
@@ -88,7 +88,7 @@ export default function ProgramCohorts() {
                   <div className="text-black text-sm mb-2">01:00 pm onwards (Sat - Sun)</div>
 
                   <div className="font-medium font-semibold text-sm text-black">Mode:</div>
-                  <div className="text-black text-sm mb-2">Online</div>
+                  <div className="text-black text-sm mb-2">Online/Offline</div>
                 </div>
 
                 {/* Desktop View */}
@@ -99,7 +99,7 @@ export default function ProgramCohorts() {
                   <div>07:00 pm onwards (Tue - Fri)</div>
                   <div>01:00 pm onwards (Sat - Sun)</div>
                 </div>
-                <div className="hidden sm:block text-black text-sm text-blue-400">Online</div>
+                <div className="hidden sm:block text-black text-sm text-blue-400">Online/Offline</div>
 
                 {/* Action Button */}
                 <div>
@@ -131,13 +131,13 @@ export default function ProgramCohorts() {
               <div className="flex gap-3">
                 <Briefcase className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  Ideal for those aiming for a career switch or a significant salary hike in the DevOps domain.
+                  Ideal for those aiming for a career switch or a significant salary hike in the FullStack Development  domain.
                 </p>
               </div>
               <div className="flex gap-3">
                 <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  Perfect for professionals seeking to master DevOps skills and excel in this rapidly growing field.
+                  Perfect for professionals seeking to master FullStack Development skills and excel in this rapidly growing field.
                 </p>
               </div>
               {/* <div className="flex gap-3">
@@ -170,7 +170,7 @@ export default function ProgramCohorts() {
               <div className="flex gap-3">
                 <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                An exclusive opportunity to learn from World Record Holder, Mr. Vimal Daga, and elevate your DevOps skills to excel and stand out in the competitive tech industry!
+                An exclusive opportunity to learn from World Record Holder, Mr. Vimal Daga, and elevate your FullStack Development skills to excel and stand out in the competitive tech industry!
 
 
                 </p>

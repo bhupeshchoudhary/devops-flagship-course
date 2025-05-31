@@ -60,127 +60,130 @@ function CourseCarousel() {
   const firstRowLogosLoop = [...firstRowLogos, ...firstRowLogos];
   const secondRowLogosLoop = [...secondRowLogos, ...secondRowLogos];
 
-  return (
-    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-gray-50">
-      <div className="max-w-6xl mx-auto">
-        <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#1e1e1e] via-[#212121] via-[#2f2f2f] to-[#363636] pb-6 rounded-xl relative">
-          {/* Tag with number - Hidden on mobile */}
-          <div className="hidden md:block absolute -top-2 left-12">
-            <div className="relative w-20 h-24">
-              <img 
-                alt="numbering" 
-                className="w-full h-full" 
-                src="/assets/tag1.png"
-              />
-              
-            </div>
-          </div>
-
-          {/* Mobile Number */}
-          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-lg">3</span>
-          </div>
-
-          {/* Content section */}
-          <div className="pt-6 md:pl-4 md:pl-16">
-            <div className="flex items-start justify-between mb-4">
-              <div>
-                <h1 className="text-2xl font-bold text-white mb-4 md:ml-20  md:mt-0 mt-2">
-                  Become a DevOps Engineer
-                </h1>
-                <div className="text-white/90 max-w-5xl md:ml-8 md:pl-12">
-                  <p className="text-md mb-2">
-                  Get ready to be hired by core tech companies & secure a career switch / salary hike upto 2x as DevOps Engineer 
-                  </p>
-                  {/* <p className="font-semibold text-white/70">
-                    (Note : 100% refund if not hired)
-                  </p> */}
-                </div>
-              </div>
-            </div>
-
-            {/* Carousel Section */}
-            <div className="mt-8 px-0 md:px-16 md:-ml-2 md:-mr-12 ">
-              <div className=" rounded-lg  overflow-hidden ">
-                <div className="relative overflow-hidden mx-auto ">
-                  <div className="w-full ">
-                    {/* First row of logos */}
-                    <div className="flex items-center  my-2 whitespace-nowrap animate-move-left ">
-                      {firstRowLogosLoop.map((logo, index) => (
-                        <div key={index} className="mx-6 flex-shrink-0">
-                          <div className="w-24 h-12  flex items-center justify-center bg-white  rounded-xl">
-                            <Image
-                              src={logo.src}
-                              alt={logo.alt}
-                              width={60}
-                              height={60}
-                              style={{ objectFit: "contain" }}
-                            />
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                     
-                    {/* Second row of logos */}
-                    <div className="flex items-center my-6 whitespace-nowrap animate-move-right">
-                      {secondRowLogosLoop.map((logo, index) => (
-                        <div key={index} className="mx-4 flex-shrink-0">
-                          <div className="w-24 h-12 flex items-center justify-center bg-white border rounded-xl">
-                            <Image
-                              src={logo.src}
-                              alt={logo.alt}
-                              width={60}
-                              height={60}
-                              style={{ objectFit: "contain" }}
-                            />
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-         {/* Bottom Arrow */}
-         <div className="pt-2 h-16 w-8 ml-8 md:ml-[130px]">
-          <img 
-            src="/assets/downarrow.png" 
-            alt="Description of the image" 
-            className="h-full w-full object-contain" 
-          />
-        </div>
-      </div>
-      <style jsx>{`
-        @keyframes move-left {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-
-        @keyframes move-right {
-          0% {
-            transform: translateX(-50%);
-          }
-          100% {
-            transform: translateX(0);
-          }
-        }
-
-        .animate-move-left {
-          animation: move-left 30s linear infinite;
-        }
-
-        .animate-move-right {
-          animation: move-right 30s linear infinite;
-        }
-      `}</style>
-    </div>
-  )
-}
-
-export default CourseCarousel
+ 
+   return (
+     <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
+       <div className="max-w-6xl mx-auto">
+         <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] pb-6 rounded-xl relative">
+           {/* Tag with number - Hidden on mobile */}
+           <div className="hidden md:block absolute -top-2 left-12">
+             <div className="relative w-20 h-24">
+             <img 
+                 alt="numbering" 
+                 className="w-full h-full" 
+                 src="/assets/tag1.png"
+               />
+             </div>
+           </div>
+ 
+           {/* Mobile Number */}
+           <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
+             <span className="text-white font-bold text-lg">3</span>
+           </div>
+ 
+           {/* Content section */}
+           <div className="pt-6 md:pl-4 md:pl-16">
+             <div className="flex items-start justify-between mb-4">
+               <div>
+                 <h1 className="text-2xl font-bold text-white mb-4 md:ml-20  md:mt-0 mt-2">
+                   Become a FullStack Developer
+                 </h1>
+                 <div className="text-white/90 max-w-5xl md:ml-8 md:pl-12">
+                   <p className="text-md mb-2">
+                     Get ready to be hired by core tech companies & secure a package between ₹4,00,000 - ₹8,00,000
+                   </p>
+                   <p className="font-semibold text-white/70">
+                     (Note : 100% refund if not hired)
+                   </p>
+                 </div>
+               </div>
+             </div>
+ 
+             {/* Carousel Section */}
+             <div className="mt-8 px-0 md:px-16 md:-ml-2 md:-mr-12 ">
+               <div className=" rounded-lg  overflow-hidden ">
+                 <div className="relative overflow-hidden mx-auto ">
+                   <div className="w-full ">
+                     {/* First row of logos */}
+                     <div className="flex items-center  my-2 whitespace-nowrap animate-move-left ">
+                       {firstRowLogosLoop.map((logo, index) => (
+                         <div key={index} className="mx-6 flex-shrink-0">
+                           <div className="w-24 h-12  flex items-center justify-center bg-white  rounded-xl">
+                             <Image
+                               src={logo.src}
+                               alt={logo.alt}
+                               width={60}
+                               height={60}
+                               style={{ objectFit: "contain" }}
+                             />
+                           </div>
+                         </div>
+                       ))}
+                     </div>
+                      
+                     {/* Second row of logos */}
+                     <div className="flex items-center my-6 whitespace-nowrap animate-move-right">
+                       {secondRowLogosLoop.map((logo, index) => (
+                         <div key={index} className="mx-4 flex-shrink-0">
+                           <div className="w-24 h-12 flex items-center justify-center bg-white border rounded-xl">
+                             <Image
+                               src={logo.src}
+                               alt={logo.alt}
+                               width={60}
+                               height={60}
+                               style={{ objectFit: "contain" }}
+                             />
+                           </div>
+                         </div>
+                       ))}
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+           
+         </div>
+         <div className="pt-6 h-16 w-8 ml-8 md:ml-[130px]">
+           <img 
+             src="/assets/downarrow.png" 
+             alt="Description of the image" 
+             className="h-full w-full object-contain" 
+           />
+           
+           </div>
+       </div>
+        {/* Bottom Arrow */}
+        
+       <style jsx>{`
+         @keyframes move-left {
+           0% {
+             transform: translateX(0);
+           }
+           100% {
+             transform: translateX(-50%);
+           }
+         }
+ 
+         @keyframes move-right {
+           0% {
+             transform: translateX(-50%);
+           }
+           100% {
+             transform: translateX(0);
+           }
+         }
+ 
+         .animate-move-left {
+           animation: move-left 30s linear infinite;
+         }
+ 
+         .animate-move-right {
+           animation: move-right 30s linear infinite;
+         }
+       `}</style>
+     </div>
+   )
+ }
+ 
+ export default CourseCarousel

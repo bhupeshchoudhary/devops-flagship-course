@@ -41,6 +41,7 @@ import Component from "@/components/customComponents/coursesComponents/courseDet
 import QueryForm from "@/components/customComponents/coursesComponents/courseDetails/ContactAndSupport";
 
 import Footer from "@/components/customComponents/Footer";
+import TopCareerOptions from "@/components/fullStackComponents/Topcareerotpions";
 const FullStack = ()=>{
     
 
@@ -63,7 +64,7 @@ const FullStack = ()=>{
 
         <ISASigningProcess/>
 
-        <Projects/>
+        {/* <Projects/> */}
         <MentorProfile></MentorProfile>
 
         <Analyst></Analyst>
@@ -76,6 +77,7 @@ const FullStack = ()=>{
         <Faq/>
 
         <QueryForm/>
+        <TopCareerOptions></TopCareerOptions>
 
         <Footer/>
 

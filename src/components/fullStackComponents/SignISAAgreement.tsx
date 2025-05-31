@@ -5,12 +5,13 @@ import { Check, FileText, Settings, Users } from 'lucide-react'
 
 export default function ISASigningProcess() {
   return (
-    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-gray-50">
+    <div className="pt-8 w-full pb-0 relative bg-gradient-to-br from-gray-50 via-black-50 to-red-50">
       <div className="max-w-6xl mx-auto">
-        <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#1e1e1e] via-[#212121] via-[#2f2f2f] to-[#363636] pb-6 rounded-xl relative">
+        <div className="container px-4 md:px-12 max-w-5xl mx-auto bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] pb-6 rounded-xl relative">
           {/* Tag with number - Hidden on mobile */}
           <div className="hidden md:block absolute -top-2 left-12">
             <div className="relative w-20 h-24">
+              
               <img 
                 alt="numbering" 
                 className="w-full h-full" 
@@ -18,8 +19,9 @@ export default function ISASigningProcess() {
               />
             </div>
           </div>
-            {/* Mobile Number */}
-            <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-gray-900 rounded-full flex items-center justify-center">
+
+          {/* Mobile Number */}
+          <div className="md:hidden absolute -top-2 left-4 w-8 h-8 bg-red-900 rounded-full flex items-center justify-center">
             <span className="text-white font-bold text-lg">4</span>
           </div>
 
@@ -28,7 +30,7 @@ export default function ISASigningProcess() {
             <div className="flex items-center justify-between mb-4">
               <div>
                 <h2 className="text-2xl mt-2 md:mt-0 md:text-2xl lg:text-2xl font-bold text-white mb-4 md:mb-0  md:ml-20">
-                  End to End <span className="text-white">Placement Guaranteed DevOps</span> Initiative Process
+                  End to End <span className="text-white">Placement Guaranteed FullStack Development</span> Initiative Process
                 </h2>
               </div>
             </div>
@@ -84,7 +86,7 @@ export default function ISASigningProcess() {
                   <div className="w-full h-24 relative mb-2">
                     <img src="/assets/Get-placed.png" alt="img" className="w-full h-full object-contain" />
                   </div>
-                  <h3 className="text-white font-semibold text-sm">Get a career switch / salary hike as DevOps Engineer </h3>
+                  <h3 className="text-white font-semibold text-sm">Get placed as FullStack Developer</h3>
                   {/* <p className="text-gray-500 text-sm">(Note : 100% refund if not hired)</p> */}
                 </CardContent>
               </Card>
@@ -153,7 +155,7 @@ export default function ISASigningProcess() {
                       <img src="/assets/Get-placed.png" alt="img" className="w-full h-22 object-contain" />
                     </div>
                   </div>
-                  <h3 className="text-white font-semibold text-sm">Get a career switch / salary hike as DevOps Engineer </h3>
+                  <h3 className="text-white font-semibold text-sm">Get placed as FullStack Developer</h3>
                   {/* <p className="text-gray-300 text-sm">(Note : 100% refund if not hired)</p> */}
                 </CardContent>
               </Card>
@@ -161,7 +163,7 @@ export default function ISASigningProcess() {
           </div>
         </div>
 
-        
+       
       </div>
     </div>
   )

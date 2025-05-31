@@ -65,6 +65,10 @@ export default function SkillsAndTools() {
       icon: <Database className="h-10 w-10 text-[#292929] rounded-2xl bg-gray-100" />,
       name: 'MongoDB Atlas'
     },
+     {
+      icon: <Container  className='h-10 w-10 text-[#292929] rounded-2xl bg-gray-100' />,
+      name: 'Mongoose'
+    },
     {
       icon: <FlaskConical className='h-10 w-10 text-[#292929] rounded-2xl bg-gray-100' />,
       name: 'Postman'

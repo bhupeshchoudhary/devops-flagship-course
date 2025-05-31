@@ -19,11 +19,11 @@ const faqContent: Record<string, FAQItem[]> = {
     {
       question: "What is the Hike Program by Vimal Daga?",
       answer:
-        " The Hike Program is a 3-month, job-oriented DevOps training program designed to help participants gain the skills required to switch to DevOps roles.",
+        " The Hike Program is a 3-month, job-oriented FullStack training program designed to help participants gain the skills required to switch to FullStack Development roles.",
     },
     {
       question: "Who can enroll in the program?",
-      answer:" This program is ideal for professionals looking to transition into DevOps roles or those aiming to enhance their career opportunities in the DevOps domain."
+      answer:" This program is ideal for professionals looking to transition into FullStack Development roles or those aiming to enhance their career opportunities in the FullStack Development domain."
     },
     {
       question: "What is the duration of the program ?",
@@ -78,55 +78,42 @@ const faqContent: Record<string, FAQItem[]> = {
     
 //   ],
   selectionCriteria: [
-    {
-      question: "What tools and technologies will be covered?",
-      answer:
-        (
-          <ul className="list-disc list-inside mt-2 space-y-1">
-          <li>Version Control: Git and GitHub.
-
-          </li>
-          <li>CI/CD: Jenkins, GitHub Actions, and ArgoCD.
-          </li>
-
-          <li>Containerization: Docker,Podman.
-          </li>
-
-          <li>Orchestration: Kubernetes, Helm, Ingress Controllers.
-          </li>
-
-<li>Monitoring: Prometheus, Grafana, and ELK Stack.
-</li>
-  
-        </ul>
-        )
-    },
-    {
-      question: "Will I learn automation and scripting?",
-      answer:
-         "Yes, the program includes automating tasks using Bash, YAML, and other tools within the DevOps workflow."
-    },
-
-    {
-      question: "  Does the program cover cloud platforms?",
-      answer:
-       "Yes, integration with cloud providers like AWS, Azure, and GCP for deploying and managing applications is included.",
-    },
-
-    {
-      question: "Are there any live projects?",
-      answer:
-       " Yes, participants will work on real-world DevOps projects such as building CI/CD pipelines, deploying microservices, and creating monitoring dashboards."
-    },
-
-    {
-      question: "Will I receive a certificate upon completion?",
-      answer:
-       " Yes, participants who complete the program successfully will receive a certificate of completion, demonstrating their proficiency in DevOps."
-    },
-    
-  ],
-
+   {
+    question: "What tools and technologies will be covered?",
+    answer: (
+      <ul className="list-disc list-inside mt-2 space-y-1">
+        <li>Frontend: HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS, Bootstrap</li>
+        <li>Backend: Node.js, Express.js</li>
+        <li>Database: MongoDB with Mongoose</li>
+        <li>Version Control: Git and GitHub</li>
+        <li>Testing: Jest, Supertest, React Testing Library</li>
+        <li>API Testing: Postman, Swagger UI</li>
+        <li>Deployment: Netlify, Vercel, Render, Railway, MongoDB Atlas</li>
+        <li>Tools: Axios, Redux Toolkit, Formik, Yup, Toastify</li>
+      </ul>
+    )
+  },
+  {
+    question: "Will I learn frontend and backend both?",
+    answer:
+      "Yes, this program covers complete frontend development using React and backend development using Node.js, Express, and MongoDB.",
+  },
+  {
+    question: "Does the program include real-world projects?",
+    answer:
+      "Absolutely! You'll build full-stack applications, RESTful APIs, authentication systems, dashboards, and more—using real-world development practices.",
+  },
+  {
+    question: "Is deployment covered in the course?",
+    answer:
+      "Yes, you'll learn to deploy your frontend to Netlify or Vercel and your backend to Render or Railway, with cloud database management via MongoDB Atlas.",
+  },
+  {
+    question: "Will I receive a certificate upon completion?",
+    answer:
+      "Yes, a certificate of completion will be awarded once you successfully finish the course and its projects.",
+  }
+],
   Eligibility:[
     {
       question:"Does the program offer job placement assistance?",
@@ -135,13 +122,13 @@ const faqContent: Record<string, FAQItem[]> = {
          Yes, participants receive personalized job placement support, including:
         <li>Resume building</li>
         <li>Mock interviews</li>
-        <li>Job referrals in the DevOps domain</li>
+        <li>Job referrals in the FullStack Development domain</li>
        </ul>
       )
     },
     {
       question: "What is the success rate of job switches through this program ?",
-      answer:  "The Hike Program boasts a high success rate, with many participants achieving successful transitions into DevOps roles."
+      answer:  "The Hike Program boasts a high success rate, with many participants achieving successful transitions into FullStack Development  roles."
     },
    
   ],

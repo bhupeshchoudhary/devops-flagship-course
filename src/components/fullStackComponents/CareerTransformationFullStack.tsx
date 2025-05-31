@@ -29,7 +29,7 @@ export function CareerTransformationFullStack() {
           </span>
         </div>
         <div className="text-gray-500">
-          With our DevOps Expert Program, IT professionals have transformed their careers and achieved their goals!
+          With our FullStack Development  Expert Program, IT professionals have transformed their careers and achieved their goals!
         </div>
       </div>
       
