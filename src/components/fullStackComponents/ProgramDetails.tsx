@@ -81,7 +81,7 @@ export default function ProgramCohorts() {
                 {/* Mobile View */}
                 <div className="flex flex-col sm:hidden">
                   <div className="font-medium text-sm text-black font-semibold">Starting on:</div>
-                  <div className="text-black text-sm mb-2">22nd Jan, 2025</div>
+                  <div className="text-black text-sm mb-2">23rd June, 2025</div>
 
                   <div className="font-medium text-sm text-black font-semibold">Time:</div>
                   <div className="text-black text-sm mb-2">07:00 pm onwards (Tue - Fri)</div>
