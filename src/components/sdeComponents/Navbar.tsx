@@ -8,7 +8,6 @@ import LOGO from "../../../public/assets/saviourLogo2.png";
 import { payment } from "../../data/paymentLink";
 import { usePathname } from 'next/navigation';
 
-// Define route configuration
 interface RouteConfig {
   link: string;
   buttonText: string;
@@ -16,7 +15,7 @@ interface RouteConfig {
 
 const ROUTE_CONFIG: Record<string, RouteConfig> = {
   '/professionals': {
-    link: payment.professionRouteLink, // Add this to your payment data
+    link: payment.professionRouteLink,
     buttonText: 'Apply Now'
   },
   'default': {
@@ -31,27 +30,21 @@ const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
-  // Get route-specific configuration
+  const normalizedPath = pathname?.split('?')[0].replace(/\/$/, '') || '';
+
   const getRouteConfig = (currentPath: string): RouteConfig => {
     return ROUTE_CONFIG[currentPath] || ROUTE_CONFIG.default;
   };
 
-  const { link, buttonText } = getRouteConfig(pathname);
+  const { link, buttonText } = getRouteConfig(normalizedPath);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 50);
     };
 
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        menuRef.current &&
-        !menuRef.current.contains(event.target as Node)
-      ) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
         setMobileMenuOpen(false);
       }
     };
@@ -70,12 +63,10 @@ const Navbar: React.FC = () => {
   return (
     <header
       className={cn(
-        "sticky top-0 z-50 w-full bg-white transition-colors duration-300",
-        scrolled ? "bg-white" : "bg-white"
+        "sticky top-0 z-50 w-full bg-white transition-colors duration-300"
       )}
     >
       <div className="container mx-auto flex bg-white bg-opacity-100 items-center justify-between py-4 px-6">
-        {/* Logo */}
         <a href="#Hero" className="flex items-center space-x-2">
           <Image
             src={LOGO}
@@ -86,7 +77,6 @@ const Navbar: React.FC = () => {
           />
         </a>
 
-        {/* Desktop Navigation Menu */}
         <nav className="hidden lg:flex space-x-6">
           <ul className="flex space-x-4">
             <li>
@@ -122,25 +112,24 @@ const Navbar: React.FC = () => {
           </ul>
         </nav>
 
-        {/* Mobile Menu Toggle */}
         <button
+          aria-label="Toggle menu"
           className="lg:hidden p-2 text-gray-600 hover:text-blue-600"
           onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
         >
           <List className="h-6 w-6" />
         </button>
 
-        {/* Desktop Call to Action Button */}
         <a
           href={link}
-          target="blank"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
         >
           {buttonText}
         </a>
       </div>
 
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div
           ref={menuRef}
@@ -149,63 +138,40 @@ const Navbar: React.FC = () => {
           <div className="p-4">
             <ul className="space-y-4">
               <li>
-                <a
-                  href="#hero"
-                  className="block hover:text-red-600"
-                  onClick={closeMobileMenu}
-                >
+                <a href="#hero" className="block hover:text-red-600" onClick={closeMobileMenu}>
                   Home
                 </a>
               </li>
               <li>
-                <a
-                  href="#mentor"
-                  className="block hover:text-red-600"
-                  onClick={closeMobileMenu}
-                >
+                <a href="#mentor" className="block hover:text-red-600" onClick={closeMobileMenu}>
                   About Us
                 </a>
               </li>
               <li>
-                <a
-                  href="#trainingcontent"
-                  className="block hover:text-red-600"
-                  onClick={closeMobileMenu}
-                >
+                <a href="#trainingcontent" className="block hover:text-red-600" onClick={closeMobileMenu}>
                   Training Content
                 </a>
               </li>
               <li>
-                <a
-                  href="#projects"
-                  className="block hover:text-red-600"
-                  onClick={closeMobileMenu}
-                >
+                <a href="#projects" className="block hover:text-red-600" onClick={closeMobileMenu}>
                   Projects
                 </a>
               </li>
               <li>
-                <a
-                  href="#placements"
-                  className="block hover:text-red-600"
-                  onClick={closeMobileMenu}
-                >
+                <a href="#placements" className="block hover:text-red-600" onClick={closeMobileMenu}>
                   Placements
                 </a>
               </li>
               <li>
-                <a
-                  href="#careertransformation"
-                  className="block hover:text-red-600"
-                  onClick={closeMobileMenu}
-                >
+                <a href="#careertransformation" className="block hover:text-red-600" onClick={closeMobileMenu}>
                   Career Transition
                 </a>
               </li>
             </ul>
-            {/* Mobile Call to Action Button */}
             <a
               href={link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="block mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 text-center"
               onClick={closeMobileMenu}
             >
