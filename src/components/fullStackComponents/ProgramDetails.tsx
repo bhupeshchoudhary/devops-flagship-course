@@ -60,7 +60,7 @@ export default function ProgramCohorts() {
 
                 {/* Desktop View */}
                 <div className="hidden sm:block">
-                  <div className="font-medium text-sm text-black">22nd Jan, 2025</div>
+                  <div className="font-medium text-sm text-black">23rd June, 2025</div>
                 </div>
                 <div className="hidden sm:block text-black text-sm">
                   <div>07:00 pm onwards (Tue - Fri)</div>
