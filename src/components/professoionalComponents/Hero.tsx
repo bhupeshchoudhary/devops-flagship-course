@@ -11,34 +11,7 @@ import { FaMoneyBillWave } from "react-icons/fa"
 import { TbCertificate } from "react-icons/tb"
 import { payment } from "@/data/paymentLink"
 
- 
-import { usePathname } from 'next/navigation';
-
-interface RouteConfig {
-  link: string;
-  buttonText: string;
-}
- 
-
-const ROUTE_CONFIG: Record<string, RouteConfig> = {
-  '/fullstack': {
-    link: payment.fullstackLink|| "", // Add this to your payment data
-    buttonText: 'Apply Now'
-  }
-};
-
-
 const Hero = () => {
-    const pathname = usePathname();
-
-      // Get route-specific configuration
-  const getRouteConfig = (currentPath: string): RouteConfig => {
-    return ROUTE_CONFIG[currentPath] || ROUTE_CONFIG.default;
-  };
-
-  const { link, buttonText } =  getRouteConfig(pathname);
-
-
     return (
       <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">
         {/* Gradient Background */}
@@ -89,7 +62,7 @@ const Hero = () => {
     <div className="bg-white rounded-lg p-4 shadow-lg max-w-6xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start gap-4"> {/* Changed items-center to items-start */}
         {/* Info Sections Container */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
           {/* Online Section */}
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
             <MdOnlinePrediction className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
@@ -134,23 +107,14 @@ const Hero = () => {
     </div>
   </div>
 </div>
-
-          {/* Guarantee Section */}
-          <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center"> {/* Changed items-center to items-start */}
-            <TbCertificate className="text-gray-700 text-3xl bg-gray-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" /> {/* Added mt-1 to align icon */}
-            {/* <div>
-              <span className="text-black text-xs font-medium">GUARANTEE</span>
-              <div className="font-bold text-xs">100% refund if not hired</div>
-            </div> */}
-          </div>
         </div>
 
         {/* Vertical Divider and Button Section */}
         <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Changed items-center to items-start */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
-         <a href={link} target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
+         <a href={payment.paymentLink} target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
          {/* <a href="https://forms.gle/6r8Qa7UR9TNTXXZG9" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6"> */}
-            {buttonText}
+            Apply Now
             </Button>
          </a>
           </div>

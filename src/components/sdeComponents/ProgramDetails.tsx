@@ -2,39 +2,10 @@
 
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { GraduationCap, Briefcase, Code,ShieldCheck,TicketSlash } from 'lucide-react'
+import { GraduationCap, Briefcase, Code, ShieldCheck } from 'lucide-react'
 import { payment } from "@/data/paymentLink"
-import { usePathname } from "next/navigation"
-import { useState, useEffect } from 'react'
-
-interface RouteConfig {
-  link: string,
-  buttonText: string,
-}
-
-const ROUTE_CONFIG: Record<string, RouteConfig> = {
-  '/students': {
-    link: payment.studentRouteLink,
-    buttonText: 'Apply Now'
-  },
-  'default': {
-    link: payment.paymentLink,
-    buttonText: 'Apply Now'
-  },
-  "/professionals": {
-    link: payment.professionRouteLink,
-    buttonText:"Apply Now"
-  }
-}
 
 export default function ProgramCohorts() {
-  const pathname = usePathname();
-  const [config, setConfig] = useState<RouteConfig>(ROUTE_CONFIG.default);
-
-  useEffect(() => {
-    setConfig(ROUTE_CONFIG[pathname] || ROUTE_CONFIG.default);
-  }, [pathname]);
-
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100 py-4" id="programcohorts">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
@@ -99,9 +70,9 @@ export default function ProgramCohorts() {
 
                 {/* Action Button */}
                 <div>
-                  <a href={config.link} target="blank">
+                  <a href={payment.paymentLink} target="blank">
                     <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-black hover:shadow-md hover:bg-[#ff0000]">
-                      {config.buttonText}
+                      Apply Now
                     </Button>
                   </a>
                 </div>
@@ -154,21 +125,13 @@ export default function ProgramCohorts() {
               <div className="flex gap-3">
                 <ShieldCheck className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                 Guaranteed Career Switch / Salary Hike. .
+                 Guaranteed Career Switch / Salary Hike.
                  </p>
-              </div>
-              <div className="flex gap-3">
-                <TicketSlash className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                {/* <p className="text-sm text-black">
-                100% refund if not hired.
-                </p> */}
               </div>
               <div className="flex gap-3">
                 <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
                 <p className="text-sm text-black">
                 An exclusive opportunity to learn from World Record Holder, Mr. Vimal Daga, and elevate your DevOps skills to excel and stand out in the competitive tech industry!
-
-
                 </p>
               </div>
             </div>

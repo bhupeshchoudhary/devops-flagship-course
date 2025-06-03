@@ -1,41 +1,13 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Button } from "@/components/ui/button";
 import Image from 'next/image';
 import careerguaranteeimage from "../../../../public/assets/placement-guaranteed-banner.jpg"
 import careerguranteemobileimage from "../../../../public/assets/placement-guaranteed-mobile.png"
 import { payment } from '@/data/paymentLink';
-import { usePathname } from 'next/navigation';
-
-interface RouteConfig {
-  link: string;
-  buttonText: string;
-}
-
-const ROUTE_CONFIG: Record<string, RouteConfig> = {
-  '/students': {
-    link: payment.studentRouteLink,
-    buttonText: 'Apply Now'
-  },
-  'default': {
-    link: payment.paymentLink,
-    buttonText: 'Apply Now'
-  },
-  "/professionals": { 
-    link: payment.professionRouteLink,
-    buttonText:"Apply Now"
-  }
-};
 
 const CareerGuarantee = () => {
-  const pathname = usePathname();
-  const [config, setConfig] = useState<RouteConfig>(ROUTE_CONFIG.default);
-
-  useEffect(() => {
-    setConfig(ROUTE_CONFIG[pathname] || ROUTE_CONFIG.default);
-  }, [pathname]);
-
   return (
     <div className="px-4 md:py-12 bg-gradient-to-br from-gray-50 via-black-50 to-gray-100">
       <div className="max-w-6xl mx-auto">
@@ -61,14 +33,14 @@ const CareerGuarantee = () => {
                   <span className="text-[#ff0000]"> #RightJobKiGuarantee</span>
                 </h2>
                 <a 
-                  href={config.link} 
+                  href={payment.paymentLink} 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
                   <Button 
                     className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
                   >
-                    {config.buttonText}
+                    Apply Now
                   </Button>
                 </a>
               </div>
@@ -94,14 +66,14 @@ const CareerGuarantee = () => {
                   <span className="text-[#ff0000]"> #RightJobKiGuarantee!</span>
                 </h2>
                 <a 
-                  href={config.link} 
+                  href={payment.paymentLink} 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
                   <Button 
                     className="bg-[#ff0000] hover:bg-red-600 text-white w-fit px-6 py-6 text-base font-medium rounded-md flex items-center gap-2"
                   >
-                    {config.buttonText}
+                    Apply Now
                   </Button>
                 </a>
               </div>

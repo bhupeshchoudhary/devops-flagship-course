@@ -4,41 +4,8 @@ import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { GraduationCap, Briefcase, Code,ShieldCheck,TicketSlash } from 'lucide-react'
 import { payment } from "@/data/paymentLink"
-import { usePathname } from "next/navigation"
-import { useState, useEffect } from 'react'
-
-interface RouteConfig {
-  link: string,
-  buttonText: string,
-}
-
-const ROUTE_CONFIG: Record<string, RouteConfig> = {
-  '/students': {
-    link: payment.studentRouteLink,
-    buttonText: 'Apply Now'
-  },
-  'default': {
-    link: payment.paymentLink,
-    buttonText: 'Apply Now'
-  },
-  "/professionals": {
-    link: payment.professionRouteLink,
-    buttonText:"Apply Now"
-  },
-    "/fullstack": {
-        link: payment.fullstackLink,
-        buttonText:"Apply Now"
-    }
-}
 
 export default function ProgramCohorts() {
-  const pathname = usePathname();
-  const [config, setConfig] = useState<RouteConfig>(ROUTE_CONFIG.default);
-
-  useEffect(() => {
-    setConfig(ROUTE_CONFIG[pathname] || ROUTE_CONFIG.default);
-  }, [pathname]);
-
   return (
     <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100 py-4" id="programcohorts">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
@@ -46,7 +13,7 @@ export default function ProgramCohorts() {
         <div className="space-y-2">
           <h1 className=" text-3xl font-semibold text-black text-center">
           Career Switch / Salary Hike Oriented
-            <span className="text-[#ff0000]">FullStack Development Globally Recognised Program</span>
+            <span className="text-[#ff0000]"> FullStack Development Globally Recognised Program</span>
           </h1>
           <h2 className="text-md sm:text-lg text-black text-center">
             Learn from the DevOps Guru, <span className="text-[#ff0000]"> Mr Vimal Daga</span> <br/> and secure a guaranteed career switch or salary hike with 
@@ -103,9 +70,9 @@ export default function ProgramCohorts() {
 
                 {/* Action Button */}
                 <div>
-                  <a href={config.link} target="blank">
+                  <a href={payment.paymentLink} target="blank">
                     <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-black hover:shadow-md hover:bg-[#ff0000]">
-                      {config.buttonText}
+                      Apply Now
                     </Button>
                   </a>
                 </div>

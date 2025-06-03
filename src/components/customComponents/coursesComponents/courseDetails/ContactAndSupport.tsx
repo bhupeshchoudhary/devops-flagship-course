@@ -1,10 +1,7 @@
-
-
 "use client";
 
 import { useState } from "react";
 import { Users, ArrowUpRight, Globe } from "lucide-react";
-import { usePathname } from 'next/navigation';
 
 interface FormData {
   fullName: string;
@@ -21,13 +18,6 @@ interface Errors {
 }
 
 export default function QueryForm() {
-  const pathname = usePathname();
-  
-  // Define gradient classes based on route
-  const gradientClass = pathname === '/professionals'
-    ? 'bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50' // Professional route gradient
-    : 'bg-gradient-to-br from-gray-50 via-black-50 to-red-50';  // Default gradient
-
   const [formData, setFormData] = useState<FormData>({
     fullName: "",
     email: "",
@@ -110,7 +100,7 @@ export default function QueryForm() {
   };
 
   return (
-    <div className={`mx-auto md:p-6 ${gradientClass}`} id="contactus">
+    <div className="mx-auto md:p-6 bg-gradient-to-br from-gray-50 via-black-50 to-red-50" id="contactus">
       <div className="flex max-w-5xl mx-auto flex-col lg:flex-row w-full gap-8 bg-gradient-to-r from-[#520000] via-[#710000] via-[#a50000] to-[#ce0000] p-8 md:rounded-lg">
         {/* Stats Section */}
         <div className="flex-1 space-y-8">

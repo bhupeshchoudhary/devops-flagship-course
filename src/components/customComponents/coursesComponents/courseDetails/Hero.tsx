@@ -9,38 +9,7 @@ import { FaMoneyBillWave } from "react-icons/fa"
 import { TbCertificate } from "react-icons/tb"
 import { payment } from "@/data/paymentLink"
 
- 
-import { usePathname } from 'next/navigation';
-
-interface RouteConfig {
-  link: string;
-  buttonText: string;
-}
- 
-
-const ROUTE_CONFIG: Record<string, RouteConfig> = {
-  '/students': {
-    link: payment.studentRouteLink, // Add this to your payment data
-    buttonText: 'Apply Now'
-  },
-  'default': {
-    link: payment.paymentLink,
-    buttonText: 'Apply Now'
-  }
-};
-
-
 const Hero = () => {
-    const pathname = usePathname();
-
-      // Get route-specific configuration
-  const getRouteConfig = (currentPath: string): RouteConfig => {
-    return ROUTE_CONFIG[currentPath] || ROUTE_CONFIG.default;
-  };
-
-  const { link, buttonText } = getRouteConfig(pathname);
-
-
     return (
       <div className="mx-auto pb-12 md:pb-0 h-full" id="hero">
         {/* Gradient Background */}
@@ -154,9 +123,9 @@ Next companies hiring in Apr - May offering  ₹4-8 LPA package.
         {/* Vertical Divider and Button Section */}
         <div className="flex items-start gap-4 lg:border-l lg:pl-4 w-full lg:w-auto pl-8"> {/* Changed items-center to items-start */}
           <div className="flex flex-col items-start sm:items-center lg:items-center w-full lg:w-auto">
-         <a href={link} target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
+         <a href={payment.paymentLink} target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6">
          {/* <a href="https://forms.gle/6r8Qa7UR9TNTXXZG9" target="blank">  <Button  className="bg-[#ff0000] md:mx-4 hover:bg-[#ff0000] hover:shadow-md hover:shadow-black w-full sm:w-auto text-sm py-6"> */}
-            {buttonText}
+            Apply Now
             </Button>
          </a>
           </div>
