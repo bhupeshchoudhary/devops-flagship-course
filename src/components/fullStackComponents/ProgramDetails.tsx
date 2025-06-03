@@ -40,7 +40,7 @@ export default function ProgramCohorts() {
               {/* Header row */}
               <div className="hidden sm:grid sm:grid-cols-4 text-sm text-black pb-2">
                 <div className="flex items-center text-sm text-black gap-2 font-bold">Starting On : </div>
-                <div className="flex text-black items-center gap-2 font-bold">Time</div>
+                {/* <div className="flex text-black items-center gap-2 font-bold">Time</div> */}
                 <div className="text-black text-sm font-bold">Mode</div>
                 <div className="text-black font-bold text-sm pl-6">Action</div>
               </div>
@@ -51,9 +51,9 @@ export default function ProgramCohorts() {
                   <div className="font-medium text-sm text-black font-semibold">Starting On :</div>
                   <div className=" text-sm mb-2 text-green-400 font-bold">23rd June,2025</div>
 
-                  <div className="font-medium text-sm text-black font-semibold">Time:</div>
+                  {/* <div className="font-medium text-sm text-black font-semibold">Time:</div>
                   <div className="text-black text-sm mb-2">07:00 pm onwards (Tue - Fri)</div>
-                  <div className="text-black text-sm mb-2">01:00 pm onwards (Sat - Sun)</div>
+                  <div className="text-black text-sm mb-2">01:00 pm onwards (Sat - Sun)</div> */}
 
                   <div className="font-medium font-semibold text-sm text-black">Mode:</div>
                   <div className="text-black text-sm mb-2">Online/Offline</div>
@@ -63,10 +63,10 @@ export default function ProgramCohorts() {
                 <div className="hidden sm:block">
                   <div className="font-bold text-sm text-green-400">23rd June,2025</div>
                 </div>
-                <div className="hidden sm:block text-black text-sm">
+                {/* <div className="hidden sm:block text-black text-sm">
                   <div>07:00 pm onwards (Tue - Fri)</div>
                   <div>01:00 pm onwards (Sat - Sun)</div>
-                </div>
+                </div> */}
                 <div className="hidden sm:block text-black text-sm text-blue-400">Online/Offline</div>
 
                 {/* Action Button */}

@@ -90,22 +90,22 @@ Next companies hiring in Aug - Oct offering  ₹4-8 LPA package.
           <div className="flex items-start gap-2 justify-start sm:justify-center lg:justify-center">
   <FaMoneyBillWave className="text-red-700 text-3xl bg-red-50 p-1 rounded-lg mt-1 md:mt-2 lg:mt-2" />
   <div>
-    {/* <span className="text-black text-xs font-medium">COURSE FEE</span> */}
-    <span className="text-black text-xs font-medium">JOB ROLE</span>
+    <span className="text-black text-xs font-medium">COURSE FEE</span>
+    {/* <span className="text-black text-xs font-medium">JOB ROLE</span> */}
     <div className="flex flex-col gap-1"> {/* Changed to flex-col for vertical stacking */}
       <div className="flex items-center gap-2"> {/* Price row */}
-        {/* <span className="font-bold text-xs flex-shrink-0">₹25,000 (+taxes)</span> */}
-        <span className="font-bold text-xs flex-shrink-0">FullStack Development</span>
-        {/* <span className="line-through text-gray-400 text-xs">₹35,000</span>
+        <span className="font-bold text-xs flex-shrink-0">₹25,000 (+taxes)</span>
+        {/* <span className="font-bold text-xs flex-shrink-0">FullStack Development</span> */}
+        <span className="line-through text-gray-400 text-xs">₹50,000</span>
         <span className="text-green-600 font-semibold border-green-600 text-[10px]">
-          Save <br/> ₹10,000/-
-        </span> */}
+          Save <br/> ₹25,000/-
+        </span>
       </div>
-      <div> {/* Badge row */}
-        {/* <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
+      {/* <div> Badge row
+        <Badge variant="outline" className="text-yellow-600 border-yellow-600 text-[10px]">
           Valid till 07 Jan
-        </Badge> */}
-      </div>
+        </Badge>
+      </div> */}
     </div>
   </div>
 </div>
