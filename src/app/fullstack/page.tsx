@@ -48,7 +48,7 @@ const CourseDetail = ()=>{
         <>
         <Navbar />
         <Hero />
-        <CareerTransformationFullStack />
+        {/* <CareerTransformationFullStack /> */}
         <RecentPlacedStudents></RecentPlacedStudents>
         <LeftRightAlumniCarousel/>
         <RequiredSkills/>
