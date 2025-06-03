@@ -50,6 +50,7 @@ export default function ProgramCohorts() {
                   Starting On :
                 </div>
                 <div className="text-black text-sm font-bold">Mode</div>
+                <div className="text-black text-sm font-bold">Job Role</div>
                 <div className="text-black font-bold text-sm pl-6">Action</div>
               </div>
 
@@ -79,6 +80,10 @@ export default function ProgramCohorts() {
                 </div>
                 <div className="hidden sm:block text-black text-sm text-blue-400">
                   Online/Offline
+                 
+                </div>
+                <div className="hidden sm:block text-black text-sm text-blue-400">
+                 Full Stack Developer
                 </div>
 
                 {/* Action Button */}
