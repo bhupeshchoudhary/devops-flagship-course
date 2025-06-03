@@ -26,7 +26,7 @@ const Hero = () => {
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-8 lg:justify-between lg:items-center mt-2 md:-mt-4 lg:-mt-4">
               <div className="max-w-5xl"> {/* Reduced from max-w-2xl */}
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-yellow-400 mb-2">
-               FullStack Development using MERN <span className="text-white">  with Guaranteed Placement</span>
+               Full Stack Development using MERN <span className="text-white">  with Guaranteed Placement</span>
                 </h1>
                 <h2 className="text-xl md:text-lg lg:text-md font-base text-white mb-4">
                 (Last Batch for Technical Students - 2024/2025 passouts)
