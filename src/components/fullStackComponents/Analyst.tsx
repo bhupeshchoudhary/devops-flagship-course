@@ -57,7 +57,7 @@ const Analyst: React.FC = () => {
            
           
             <div className="text-3xl sm:text-3xl  font-bold text-[#ff0000] text-center">
-              Rising Demand <span className="text-black"> for DevOps since 2020 </span>
+              Rising Demand <span className="text-black"> for Full Stack Development since 2020 </span>
             </div>
             
           
@@ -150,7 +150,7 @@ const Analyst: React.FC = () => {
                   <p className="text-gray-600">
                     Total jobs found online
                     <br />
-                    for <span className="font-medium">DevOps</span>
+                    for <span className="font-medium">Full Stack Development</span>
                   </p>
                 </div>
               </div>

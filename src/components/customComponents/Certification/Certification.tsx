@@ -10,7 +10,7 @@ export default function Certification() {
     <div className="container mx-auto px-4 py-8">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-12    text-center">
-        Industry Recognised & Approved <span className="text-[#ff0000]"> Job Oriented Specialisation </span> in DevOps Certificates
+        Industry Recognised & Approved <span className="text-[#ff0000]"> Job Oriented Specialisation </span> in Full Stack Development using MERN Certificates
         </h1>
 
         <div className="flex flex-col md:flex-row items-center justify-between gap-12">
@@ -27,7 +27,7 @@ export default function Certification() {
               </p>
               
               <Card className="overflow-hidden hover:shadow-xl transition-shadow duration-300 w-[300px] mx-auto">
-                <CardContent className="p-0">
+                <CardContent className="p-0"> 
                   <div className="relative group">
                     <div className="relative w-full h-[400px] w-[300px]">
                       <Image

@@ -2,22 +2,23 @@
 
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { GraduationCap, Briefcase, Code,ShieldCheck,TicketSlash } from 'lucide-react'
+import { GraduationCap, Briefcase, Code } from 'lucide-react'
 import { payment } from "@/data/paymentLink"
 
 export default function ProgramCohorts() {
   return (
-    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-gray-100 py-4" id="programcohorts">
+    <div className="bg-gradient-to-br from-gray-50 via-black-50 to-red-50 py-4" id="programcohorts">
       <div className="container max-w-6xl mx-auto px-4 sm:px-6 space-y-6">
         {/* Headers */}
         <div className="space-y-2">
           <h1 className=" text-3xl font-semibold text-black text-center">
-          Career Switch / Salary Hike Oriented
-            <span className="text-[#ff0000]"> FullStack Development Globally Recognised Program</span>
+            Job Oriented
+            <span className="text-[#ff0000]"> DevOps Globally Recognized Initiative</span>
           </h1>
           <h2 className="text-md sm:text-lg text-black text-center">
-            Learn from the DevOps Guru, <span className="text-[#ff0000]"> Mr Vimal Daga</span> <br/> and secure a guaranteed career switch or salary hike with 
-             {/* 100% refund if not hired */}
+            Chance to learn from DevOps Guru -
+            <span className="text-[#ff0000]"> Mr Vimal Daga</span>
+            &nbsp;& get Placement Guarantee
           </h2>
         </div>
 
@@ -26,8 +27,8 @@ export default function ProgramCohorts() {
           <div className="space-y-6">
             {/* Card Header */}
             <div className="flex flex-wrap items-center gap-3">
-              <h3 className="text-md pt-2 sm:text-lg text-black font-semibold">
-                LW Career Switch / Salary Hike Oriented FullStack Development Globally Recognized Initiative 2025
+              <h3 className="text-md sm:text-lg text-black font-semibold">
+                Full Stack Development using MERN Globally Recognized Initiative 2025
               </h3>
               <span className="px-3 py-1 bg-orange-100 text-orange-600 text-sm rounded-full">
                 Limited Seats available
@@ -38,7 +39,7 @@ export default function ProgramCohorts() {
             <div className="space-y-4">
               {/* Header row */}
               <div className="hidden sm:grid sm:grid-cols-4 text-sm text-black pb-2">
-                <div className="flex items-center text-sm text-black gap-2 font-bold">Starting on</div>
+                <div className="flex items-center text-sm text-black gap-2 font-bold">Starting On : </div>
                 <div className="flex text-black items-center gap-2 font-bold">Time</div>
                 <div className="text-black text-sm font-bold">Mode</div>
                 <div className="text-black font-bold text-sm pl-6">Action</div>
@@ -47,8 +48,8 @@ export default function ProgramCohorts() {
               <div className="flex flex-col sm:grid sm:grid-cols-4 text-sm border-b pb-4 gap-y-2 sm:gap-y-0">
                 {/* Mobile View */}
                 <div className="flex flex-col sm:hidden">
-                  <div className="font-medium text-sm text-black font-semibold">Starting on:</div>
-                  <div className="text-black text-sm mb-2">23rd June, 2025</div>
+                  <div className="font-medium text-sm text-black font-semibold">Starting On :</div>
+                  <div className=" text-sm mb-2 text-green-400 font-bold">23rd June,2025</div>
 
                   <div className="font-medium text-sm text-black font-semibold">Time:</div>
                   <div className="text-black text-sm mb-2">07:00 pm onwards (Tue - Fri)</div>
@@ -60,7 +61,7 @@ export default function ProgramCohorts() {
 
                 {/* Desktop View */}
                 <div className="hidden sm:block">
-                  <div className="font-medium text-sm text-black">23rd June, 2025</div>
+                  <div className="font-bold text-sm text-green-400">23rd June,2025</div>
                 </div>
                 <div className="hidden sm:block text-black text-sm">
                   <div>07:00 pm onwards (Tue - Fri)</div>
@@ -71,7 +72,7 @@ export default function ProgramCohorts() {
                 {/* Action Button */}
                 <div>
                   <a href={payment.paymentLink} target="blank">
-                    <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-black hover:shadow-md hover:bg-[#ff0000]">
+                    <Button className="w-full sm:w-auto bg-[#ff0000] hover:shadow-white hover:shadow-md hover:bg-[#ff0000]">
                       Apply Now
                     </Button>
                   </a>
@@ -90,60 +91,51 @@ export default function ProgramCohorts() {
             </h3>
             <div className="space-y-4">
               <div className="flex gap-3">
-                <GraduationCap className="w-5 h-5 text-gray-500 flex-shrink-0" />
+                <GraduationCap className="w-5 h-5 text-red-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                 Exclusively crafted for working IT professionals.
-                 </p>
-              </div>
-              <div className="flex gap-3">
-                <Briefcase className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                <p className="text-sm text-black">
-                  Ideal for those aiming for a career switch or a significant salary hike in the FullStack Development  domain.
+                  Open to all technical students pursuing B.Tech | BCA | MCA | M.Tech | B.Sc IT - 2024 & 2025 passouts
                 </p>
               </div>
               <div className="flex gap-3">
-                <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
+                <Briefcase className="w-5 h-5 text-red-500 flex-shrink-0" />
                 <p className="text-sm text-black">
-                  Perfect for professionals seeking to master FullStack Development skills and excel in this rapidly growing field.
+                  No prior knowledge required learn everything from Basics to Advanced levels.
                 </p>
               </div>
-              {/* <div className="flex gap-3">
-                <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
+              <div className="flex gap-3">
+                <Code className="w-5 h-5 text-red-500 flex-shrink-0" />
+                <p className="text-sm text-black">
+                  Ideal for those curious to learn new skills and work on industry-level projects.
+                </p>
+              </div>
+              <div className="flex gap-3">
+                <Code className="w-5 h-5 text-red-500 flex-shrink-0" />
                 <p className="text-sm text-black">
                   Minimum 90% attendance is mandatory to qualify for the placement.
                 </p>
-              </div> */}
+              </div>
             </div>
           </Card>
 
           {/* What You'll Receive */}
           <Card className="p-6 bg-white">
-            <h3 className="text-lg text-black font-medium mb-4 font-semibold">
+            <h3 className="text-lg font-medium mb-4 text-black font-semibold">
               What You&apos;ll Receive:
             </h3>
-            <div className="space-y-4">
-              <div className="flex gap-3">
-                <ShieldCheck className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                <p className="text-sm text-black">
-                 Guaranteed Career Switch / Salary Hike. .
-                 </p>
-              </div>
-              {/* <div className="flex gap-3">
-                <TicketSlash className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                <p className="text-sm text-black">
-                100% refund if not hired.
-                </p>
-              </div> */}
-              <div className="flex gap-3">
-                <Code className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                <p className="text-sm text-black">
-                An exclusive opportunity to learn from World Record Holder, Mr. Vimal Daga, and elevate your FullStack Development skills to excel and stand out in the competitive tech industry!
-
-
-                </p>
-              </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                "Guaranteed Placement. (100% refund if not hired)",
+                "Industrial Training Certificate from Linux World Informatics Pvt. Ltd.",
+                "Industry-Recognized Project Certificate signed by Mr. Vimal Daga.",
+                "6 Months Internship Certificate upon successful completion of the projects",
+                "The opportunity to learn from World Record Holder, Mr. Vimal Daga, and enhance your skills to stand out in the tech industry!"
+              ].map((role, index) => (
+                <div key={index} className="flex items-center gap-2">
+                  <div className="flex-shrink-0 w-2 h-2 mt-2 bg-red-500 rounded-full" />
+                  <span className="text-sm text-black">{role}</span>
+                </div>
+              ))}
             </div>
-        
           </Card>
         </div>
       </div>

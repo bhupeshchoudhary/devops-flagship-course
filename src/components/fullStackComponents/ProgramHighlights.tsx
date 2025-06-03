@@ -30,7 +30,7 @@ const ProgramHighlights = () => {
       <div className="py-6 lg:px-8 max-w-6xl mx-auto px-2">
         {/* Title */}
         <h2 className="text-gray-700 text-sm font-semibold mb-2 text-center">
-          Your Pathway To DevOps Career
+          Your Pathway To Full Stack Development Career
         </h2>
 
         {/* Heading */}
