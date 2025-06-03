@@ -114,11 +114,11 @@ const Navbar: React.FC = () => {
                 Placements
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#careertransformation" className="text-black hover:text-[#ff0000]">
                 Career Transition
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
@@ -132,7 +132,7 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Call to Action Button */}
         <a
-          href={link}
+          href="https://rzp.io/rzp/Vm0ufqh"
           target="blank"
           className="hidden lg:block bg-[#ff0000] text-white px-4 py-2 rounded-lg hover:shadow-black hover:shadow-md"
         >
@@ -205,7 +205,7 @@ const Navbar: React.FC = () => {
             </ul>
             {/* Mobile Call to Action Button */}
             <a
-              href={link}
+              href="https://rzp.io/rzp/Vm0ufqh"
               className="block mt-4 bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 text-center"
               onClick={closeMobileMenu}
             >
