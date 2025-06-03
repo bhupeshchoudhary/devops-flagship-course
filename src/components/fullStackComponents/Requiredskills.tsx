@@ -118,19 +118,19 @@ export default function RequiredSkills() {
 
             {/* Text Badge Skills - Improved spacing and wrapping */}
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {[ "HTML5", "CSS3", " JavaScript", "Tailwind CSS ", "Bootstrap", "Github"].map((skill) => (
+              {[ "HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Github"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
             
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {["React.js with Hooks", "Router", "Fetch API", "Redux Toolki", "frontend apps"].map((skill) => (
+              {["React.js with Hooks", "Router", "Fetch API", "Redux Toolki"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
 
             <div className="flex flex-wrap gap-2 sm:gap-3">
-              {[ "MongoDB",  "Mongoose", "JWT ", "MongoDB Atlas", "Postman"].map((skill) => (
+              {[ "MongoDB", "JWT ", "MongoDB Atlas", "Postman"].map((skill) => (
                 <SkillBadge key={skill} name={skill} />
               ))}
             </div>
