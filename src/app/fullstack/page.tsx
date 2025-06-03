@@ -42,8 +42,7 @@ import QueryForm from "@/components/customComponents/coursesComponents/courseDet
 
 import Footer from "@/components/customComponents/Footer";
 import TopCareerOptions from "@/components/fullStackComponents/Topcareerotpions";
-const FullStack = ()=>{
-    
+const CourseDetail = ()=>{
 
     return (
         <>
@@ -85,4 +84,4 @@ const FullStack = ()=>{
     )
 }
 
-export default FullStack;
+export default CourseDetail;
